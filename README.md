@@ -11,3 +11,7 @@ Fire glyph in center, 4 column glyphs facing towards center
 # Effect
 Shoots fire upwards
 ```
+
+## Planned Model
+https://huggingface.co/google/gemma-4-E2B
+https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-gemma-4
