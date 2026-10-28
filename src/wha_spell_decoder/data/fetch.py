@@ -41,6 +41,12 @@ def image_urls(endpoint: str, names: list[str]) -> dict[str, str]:
     return urls
 
 
+def inside(root: Path, name: str) -> Path:
+    path = (root / name).resolve()
+    assert path.parent == root.resolve(), f"unsafe wiki name: {name!r}"
+    return path
+
+
 def fetch_site(name: str, out: Path) -> None:
     endpoint, pages, category = SITES[name]
     if category:
@@ -50,13 +56,13 @@ def fetch_site(name: str, out: Path) -> None:
     index = {}
     for title in pages:
         parsed = api(endpoint, action="parse", page=title, prop="wikitext|images")["parse"]
-        path = site_dir / f"{title.replace('/', '_')}.wikitext"
+        path = inside(site_dir, f"{title.replace('/', '_')}.wikitext")
         path.write_text(parsed["wikitext"]["*"])
         index[title] = {"wikitext": path.name, "images": parsed["images"]}
         print(f"{name}: {title} ({len(parsed['images'])} images)")
     names = sorted({img for entry in index.values() for img in entry["images"]})
     for img, url in image_urls(endpoint, names).items():
-        dest = site_dir / "images" / img
+        dest = inside(site_dir / "images", img)
         if not dest.exists():
             dest.write_bytes(get(url))
     (site_dir / "index.json").write_text(json.dumps(index, indent=1))
