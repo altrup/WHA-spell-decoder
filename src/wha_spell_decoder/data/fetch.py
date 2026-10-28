@@ -10,7 +10,7 @@ UA = "wha-spell-decoder/0.1 (https://github.com/altrup/WHA-spell-decoder)"
 RAW = Path(__file__).parents[3] / "data" / "raw"
 assert (RAW.parents[1] / "pyproject.toml").exists(), RAW
 SITES = {
-    "telepedia": ("https://witchhatatelier.telepedia.net/api.php", ["Signs Explained"], None),
+    "telepedia": ("https://witchhatatelier.telepedia.net/api.php", ["Signs Explained", "Sigils Explained"], "Category:Spells"),
     "fandom": ("https://witch-hat-atelier.fandom.com/api.php", ["Spells"], "Category:Spells"),
 }
 
