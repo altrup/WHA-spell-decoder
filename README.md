@@ -1,7 +1,7 @@
 # WHA-spell-decoder
 A VLM spell decoder for WHA, going to hand write the relevant training code (everything else probably not)
 
-Plan is to have the model input the spell (size normalized to frame using the circle; maybe), then output a description of the spell, then the predicted effect
+Plan is to have the model input the spell, then output a description of the spell, then the predicted effect
 
 i.e.
 
