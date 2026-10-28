@@ -1,0 +1,28 @@
+{{Object Infobox
+|image1=[[File:Floating_Drops.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 16]]
+}}
+'''Floating drops''' is a mixed water/air-type spell that creates floating drops of water which form along the ring of the spell.
+
+==Description==
+This spell consists of a central air sigil with two water sigils to the side. On the outside edge of the spell are directional keystones situated in pairs, each pair consisting of one normal and one inverted sign, pointing towards one another. The spell creates water droplets that float in the air. Due to the counteracting pairs of directional keystones, the drops are only generated along the seal's outer ring.{{Ref|m|16|5}}
+
+==Usage==
+The spell was used by [[Qifrey]] to help ease a fever [[Coco|Coco]] was suffering from {{Ref|m|16|5}}  due to overwork.
+[[File:16 5 Floating Drops.png|thumb|250px|left|Qifrey using the floating drops spell]]
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Mixed Spells]]
+[[Category:Water Spells]]
+[[Category:Air Spells]]

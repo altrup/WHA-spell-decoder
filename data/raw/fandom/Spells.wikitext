@@ -1,0 +1,229 @@
+In Witch Hat Atelier, [[Magic|magic]] is performed via drawn spells. Each spell has a different effect, decided by the signs and sigils it contains. Spells typically fall into one of five main groups - fire, water, earth, wind, and light - depending on which sigil it possesses.
+
+Unfortunately, the designs of some glyphs have been somewhat inconsistent, so a few spells have different spell construction now than they did earlier on in the story. (This is especially prevalent in the [[Volume 1|first]] and [[Volume 2|second]] volumes). One example of this is how the earth breaker glyphs{{Ref|m|7}} early on in the manga have a levitation keystone in place of an earth sigil. Due to this and similar cases, if a glyph has different forms at different points in the story, the newer version of that glyph will take precedence and become the official form of that glyph.
+
+Each spell has its own page. If you would like to learn more about a specific spell, click on its name to be redirected to that spell's page.
+
+== Fire Spells ==
+Fire spells are spells that are based around a fire sigil.
+{| class="article-table"
+![[Phantasmal Fireball]]
+![[Pyreball Seal]]
+![[Snugstone Spell]]
+|-
+|[[File:Unburning Flame.png|center|thumb|110x110px]]
+|[[File:Kindle_Orb.png|thumb|110px|alt=|center]]
+|[[File:Snugstone.jpg|thumb|110px|alt=|center]]
+|}
+
+== Water Spells ==
+Water spells are spells that are based around a water sigil.
+{| class="article-table"
+![[Rainbringer Seal]]
+![[Rising Platform of Water]]
+![[Rising Wave]]
+![[Water Bolt]]
+![[Watershot Seal]]
+|-
+|[[File:Rainmaker's_Glyph.png|thumb|110px|centre]]
+|[[File:Surging Stage.png|centre|thumb|110x110px]]
+|[[File:Rising Wave.png|center|thumb|110x110px]]
+|[[File:24 9 Water Bolt.jpg|centre|thumb|122x122px]]
+|[[File:Water Shot.png|centre|thumb|110x110px]]
+|-
+![[Water Horse Spell]]
+![[Water Pen]]
+!
+!
+!
+!
+|-
+|[[File:Water_Horse_Spell.JPG|thumb|120x120px|centre]]
+|[[File:Water_Pen.png|thumb|100x100px|centre]]
+|
+|
+|
+|
+|}
+
+== Earth Spells ==
+[[Category:Earth Spells]]
+Earth spells are spells that are based around an earth sigil.
+{| class="article-table"
+![[Boulder Stretch Rope]]
+![[Integration]]
+![[Sand Bridge]]
+![[Sand Cage]]
+![[Serpent's Bed of Sand]]
+|-
+|[[File:Stone Weave Skein.png|centre|thumb|110x110px]]
+|[[File:Resintigration.png|centre|thumb|110x110px]]
+|[[File:12 27 Sand Bridge Glyph.png|center|thumb|110x110px]]
+|[[File:Sand Cage.png|center|thumb|110x110px]]
+|[[File:Dragon's Bed of Sand.png|centre|thumb|110x110px]]
+|-
+![[Wall Breaker Seal]]
+!
+!
+!
+!
+|-
+|[[File:Wall Breaker-0.png|centre|thumb|110x110px]]
+|
+|
+|
+|
+|}
+
+== Wind Spells ==
+Wind spells are spells based around one or more of the varieties of wind sigil.
+{| class="article-table"
+![[Flying Puppet of Diversion|Flying Puppet <br> of Diversion]]
+![[Grasping Wind|Grasping<br>Wind]]
+![[Skysoaring Seal|Skysoaring <br> Seal]]
+![[Sylph Shoes Seal|Sylph <br>Shoes Seal]]
+![[Wind Wall]]
+|-
+|[[File:Aireal_Lure.png|thumb|110px|centre]]
+|[[File:Gathering_Winds.jpg|thumb|110px|centre]]
+|[[File:Skysoar Seal.png|centre|thumb|124x124px]]
+|[[File:Sylph Shoes Seal.png|thumb|110x110px|centre]]
+|[[File:28 19 Wind Wall.jpg|thumb|110px|centre]]
+|-
+![[Pegasus Carriage Spell]]
+![[make air]]
+!
+!
+!
+|-
+|[[File:Pegasus Carriage Seal.png|thumb]]
+|[[File:Make air.png|thumb]]
+|
+|
+|
+|}
+
+== Light Spells ==
+Light spells are spells based around the light sigil. As stated by [[Olruggio]], light magic is technically a variant of fire magic,{{Ref|m|29|13}} but it is distinct enough in its usage and design to get its own category.
+{| class="article-table"
+![[Bird of Light Beacon]]
+![[Floatglow Lamp]]
+![[Light Beam]]
+![[Light Tracer]]
+|-
+|[[File:Phoenix Portent.png|centre|thumb|110x110px]]
+|[[File:Dancing Lights.png|centre|thumb|110x110px]]
+|[[File:Light Beam-0.png|centre|thumb|109x109px]]
+|[[File:46 19 Crystal Light Bangles Glyph.png|centre|thumb|120x120px]]
+|}
+
+== Mixed Spells ==
+Mixed spells are spells consisting of two or more separate sigils.
+{| class="article-table"
+![[Beast Repellent]]
+![[Cloak Spell]]
+![[Floating Drops]]
+![[Rainflinger|Rainflinger (Drying)]]
+![[Rainflinger|Rainflinger (Normal)]]
+|-
+|[[File:Beast_Repellent_Spell.JPG|centre|thumb|110x110px]]
+|[[File:Revised Cloak Spell.png|thumb|centre|110x110px]]
+|[[File:Floating Drops.png|center|thumb|110x110px]]
+|[[File:Dispel_Water_Acurate_Version.png|thumb|110px|centre]]
+|[[File:Dispel Water Old.png|centre|thumb|110x110px|pre chap 28|alt=]][[File:Dispel Water, Updated Version.png|centre|thumb|110x110px|post chap 28|alt=]]
+|}
+
+== Niche Spells ==
+Niche spells are spells that don't fit into any specific category, with sigils that aren't one of the main five (water, earth, fire, wind, light) and aren't forbidden.
+{| class="article-table"
+![[Billowing Collection|Billowing<br>Collection]]
+![[Capture Pennant Spell]]
+![[Crystal Ribbon]]
+![[Crystal Shard]]
+![[Floating Expansion]]
+|-
+|[[File:Billowing Collection.png|centre|thumb|110x110px]]
+|[[File:Capture Pennant Spell.png|thumb]]
+|[[File:Crystal Ribbon cropped.png|center|thumb|110px]]
+|[[File:18 12 Crystal Spell.png|centre|thumb|110x110px]]
+|[[File:Expansion Glyph From Volume 7 Limited Edition.jpg|centre|thumb|111x111px]]
+|-
+![[Gathering Shadows]]
+![[Inverted Scalewolf Curse]]
+![[Memory Erasure]]
+![[Mirror Spell]]
+![[Repetition Seal|Repetition<br>Seal]]
+|-
+|[[File:Gathering Shadows.png|centre|thumb|110x110px]]
+|[[File:28 22 Inverted Scalewolf.jpg|centre|thumb|110x110px]]
+|[[File:Qifrey memory erasure.jpg|thumb]]
+|[[File:Mirror.png|centre|thumb|110x110px]]
+|[[File:Repitition Seal.png|centre|thumb|110x110px]]
+|-
+![[Reverse Time|Reverse Time Spells]]
+![[Sealchair Glyph]]
+![[Spell of Reduction]]
+![[Windowway Spell]]
+!
+|-
+|[[File:Time reversal book page.png|centre|thumb|110px]]
+|[[File:Sealchair Glyph.jpg|center|thumb|110x110px]]
+|[[File:Spell of Reduction.png|thumb|110x110px|center]]
+|[[File:Windowway Spell.png|thumb|110x110px|center]]
+|
+|}
+
+== Unknown Spells ==
+Unknown spells are the spells that, for whatever reason, we don't know enough about to put in any category. Spells in this section typically don't have their glyph visible, are potentially forbidden, have glyphs that are incomplete or hard to make out, or simply do not fit well into other categories.
+{| class="article-table"
+![[Beldaruit's Smoke Sculpture|Beldaruit's<br>Smoke Sculpture]]
+![[Forbidden Flames]]
+![[Forbidden Glow]]
+![[Spike]]
+![[Tracking Spell]]
+|-
+|[[File:Beldaruit's smoke sculpture spell .png|center|thumb|110x110px]]
+|[[File:Forbiden Fire Glyph.jpg|thumb|110x110px|center]]
+|[[File:Forbidden Glow Spell.png|thumb]]
+|[[File:27 16 Spike.jpg|center|thumb|110x110px]]
+|[[File:Tracking Spell.jpg|centre|thumb|110x110px]]
+|-
+!Puppet Bag's Spell
+!
+!
+!
+!
+|-
+|[[File:Puppet Bag's Spell.jpg|center|thumb|110x110px]]
+|
+|
+|
+|
+|}
+
+== Forbidden Spells ==
+Forbidden Spells are spells that were outlawed by the [[Pointed Hat Witches]] and are used by the [[Brimmed Hat Group|Brimhats]]. Using them can result in getting your memory wiped by the [[Knights Moralis]].
+
+WARNING: This section contains a high quantity of spoilers. Proceed with caution.
+{| class="article-table"
+![[Anti Scalewolf Curse]]
+![[Illusory Labyrinth|Illusory<br>Labyrinth]]
+![[Petrification]]
+![[Scalewolf Curse|Scalewolf<br>Curse]]
+![[Twin Bottle's Spell|Twinned Bottles Spell]]
+|-
+|[[File:Anti Scalewolf Spell.png|thumb|center|110x110px]]
+|[[File:Illusory Labyrinth.png|thumb|center|110x110px]]
+|[[File:1 56 Coco's Mom Petrified.jpg|thumb|center|110x110px]]
+|[[File:Scalewolf Curse.png|center|thumb|110x110px]]
+|[[File:Twinned Bottles' Seal.png|thumb]]
+|-
+|}
+
+==References==
+{{Reflist}}
+[[Category:Magic]][[Category:Spells]]
+[[Category:Wind Spells]]
+[[Category:Fire Spells]]
+[[Category:Water Spells]][[Category: Light Spells]][[Category:Mixed Spells]]
+[[Category:Niche Spells]]

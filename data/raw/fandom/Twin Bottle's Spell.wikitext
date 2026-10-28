@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Capture d’écran 2021-08-14 203639.png|250px]]
+|kanji=
+|romaji =
+|type=[[Forbidden Magic|Forbidden Spell]]
+|users=[[Brimmed Hat Group]], [[Healing Witches of Old]] <small>(Formerly)</small>
+|creator= Healing Witches of Old
+|manga=[[Chapter 12]]
+}}
+The '''twin bottle spell''' is a lost [[Spells|spell]] able to teleport fluids from one place to another.
+
+==Description==
+The twin bottle spell is a lost spell with an unknown glyph construction due to the signs and sigils being too small to make out. The spell allows for the transfer liquids from one place to another, and according to [[Qifrey]], was used by the healing witches of old to transport medicines over long distances, before their use of magic on the body was decreed forbidden on the [[Day of the Pact]] and the knowledge of the twin bottle spell was subsequently lost with the erasure of their memories.
+
+==Usage==
+The spell was used by Iguin, who placed it on two tiny coins which were placed in ink bottles, one of which he possessed, and the other in the possession of Coco. Iguin used the spell to give Coco a forbidden, more powerful ink from a remote location without her knowledge, the ink implied to contain their own blood.{{Ref|m|12|30}}
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

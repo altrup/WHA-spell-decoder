@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1= [[File:Expansion Glyph From Volume 7 Limited Edition.jpg|250px]]
+|kanji=
+|romaji =
+|type=Spell
+|users= [[Qifrey]], [[Witches]]
+|creator=
+|manga=[[Chapter 37]]
+}}
+'''Floating expansion''' is a niche [[Spells|spell]] that makes the object it's drawn on levitate and grow.
+
+==Description==
+The spell contains a central window sigil, surrounded by enlarging signs. Float and column keystones are located in the gaps between the enlarging signs.{{Ref|m|37|28}} The spell causes whatever it's drawn on to grow to many times it's original size, as well as causing said object to levitate. (It having the window rune in its center likely implies that rune's effect is focusing the spell on only what that rune has contact with, different from the diamond which involves all in its radius. (courtesy of Enderking, User) ).
+
+==Usage==
+The spell was used by [[Qifrey]], who had it drawn inside a tiny magic book he owned. He used the spell to enlarge the book, and with Coco's help, they used the book as a vehicle to evade a [[The Guardian of the Tower of Tomes|guardian of the tower]] at the [[Tower of Tomes]].
+
+==Trivia==
+An object with this spell on it was included in the [[Volume 7]] limited edition.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

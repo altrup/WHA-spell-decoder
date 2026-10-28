@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:Sand Cage.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 28]]
+}}
+'''Sand cage''' is a earth-type [[Spells|spell]] that creates a cage of sand.
+
+==Description==
+Sand cage contains a central earth sigil with a pair of column signs at the eastern and western points, the two components of each pair pointing towards one another (one inverted and one normal). Unknown half circle signs are at the glyph's northern and southern points. Inverted crush signs are located along the north-south axis, sandwiched into the spaces between the half-circle signs and the central earth sigil. Lastly, signs which appear to be a fusion of one column and two directional signs, are located at each of the intercardinal (north-western, north-eastern, south-eastern, and south-western) points.{{Ref|m|28|17}}
+
+The spell creates a structure which can function as cage out of sand.{{Ref|m|28|17}}
+
+==Usage==
+Sand cage was used by [[Tetia]] to trap [[Euini|Scaled Wolf Eunie]] so the other members of the [[Qifrey's Atelier|atelier]] could attempt to turn him back to normal using the [[Spells|anti scaled wolf curse]].{{Ref|m|28|17}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category: Spells]]
+[[Category:Earth Spells]]

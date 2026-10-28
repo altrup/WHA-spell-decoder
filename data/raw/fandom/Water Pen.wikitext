@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:Water Pen.png|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users= [[Qifrey]], [[Witches]]
+|creator=
+|manga=[[Chapter 24]]
+}}
+'''Water pen''' <small>(Unofficial name)</small> is a water-type [[Spells|spell]] that makes water a dagger shaped glob of water.
+
+==Description==
+Water pen is a spell that consists of a central water sigil with an unknown triangle-like keystone below, unknown keystones shaped like parts of a circle's perimeter on each side, and a dispersion keystone with 2 column keystones protruding from the sides at the top of the glyph. It creates a dagger-shaped glob of water, which hovers below the glyph at an angle.{{Ref|m|24|3}} [[Conjuring Ink|conjuring ink]] can be poured into the dagger, which will saturate the water with ink.{{Ref|m|24|3}} This allows the user to utilize the dagger to draw very large glyphs in practically any surface.{{Ref|m|24|4-5}}{{Ref|m|24|8-9}} It is best utilized by drawing the glyph in a [[Palm Quire|palm quire]] and holding it within the hand.
+
+==Usage==
+Water pen was used by [[Qifrey]] during his battle with the [[Romonon|gilded people of Romonon]] in [[Serpentback Cave]]. Qifrey used it to draw one unidentified spell {{Ref|m|24|4-5}} and one [[Water Bolt|water bolt]] spell{{Ref|m|24|8-9}}.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]
+[[Fr:Dague d'eau]]

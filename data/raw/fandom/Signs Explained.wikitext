@@ -1,0 +1,141 @@
+
+__TOC__
+{| class="article-table"
+!Image
+!Name
+!Description
+|-
+|[[File:Column.png|centre]]
+|
+===='''Column'''====
+|'''Column''' causes the magic of its glyph to manifest in a column or beam above the glyph.  If the signs aren't balanced (radial symmetry doesn't affect this), the spell will manifest in the direction with the most signs{{Ref|m|3|16}}.  The shorter line on the sign typically faces outwards,{{Cite}} and while it is sometimes shown inverted, it is unclear how this changes the effect.
+|-
+|[[File:Dispersion.png|centre]]
+|
+===='''Dispersion'''====
+|'''Dispersion''' causes the magic of its glyph to pour or "disperse" out. It has many similarities to '''column''', with it essentially being a column that just leaks its magic out instead of shooting or beaming it in a certain direction. Both it's normal and inverted varations have been seen, with the difference in their effects being unclear.
+|-
+|[[File:Levitation.png|centre|70x70px|alt=]]
+|
+===='''Levitation'''====
+|'''Levitation '''causes the spell's magic to float above the glyph, or causes the movement of the object it is drawn on.  If the latter, the movement depends on which direction the signs point.  The pointed, arrow-like side of the sign typically faces inwards.
+|-
+|[[File:Pull.png|centre]]
+|
+==== '''Pull''' ====
+|'''Pull''' causes anything that is the same as its magic (water, air, fire, etc) to be pulled towards the glyph when the arrow portion of the sign is pointing inwards, and will also cause it to be pulled in in a twisting motion if the signs are angled.  It is likely that if the sign is inverted, it would result in a push rather than a pull.
+|-
+|[[File:Crush.png|centre]]
+|
+==== '''Crush''' ====
+|'''Crush''' will cause objects to [[Wall Breaker Seal|disintegrate]] or (when reverted) to come back [[Integration|together]], at least when paired with an earth sigil (though only temporarily).  As the sign has only been seen paired with earth, it is unknown what will happen if paired with another sigil.
+|-
+|[[File:Float.png|centre]]
+|
+==== '''Float''' ====
+|'''Float''' will make the object it is drawn on float in midair, regardless of gravity.  Some instances of the sign were [https://witch-hat-atelier.fandom.com/wiki/File:Flot_sign_Retcon.png replaced by levitation in the official version], but float is still used in some spells, such as [[Spells Explained|dancing lights]] and [[Floating Expansion|floating expansion]], with the sole function of making objects float rather than it's more varied ability before it was retconned.
+|-
+|[[File:Direction.png|center|alt=]]
+|
+==== '''Direction''' ====
+|'''Direction''' can influence the direction in which its magic manifests. For example, if all direction signs on a spell point forwards, [[Water Bolt|the magic will shoot forwards]].  If all of the signs point inwards, the magic will shoot up.  If all the signs point outwards, the magic will shoot outwards.
+Interestingly, if '''direction''' signs are arranged so that they are pointing towards one another, the magic will pour only from the space between the direction signs, such as in the [[Floating Drops|floating drops]] spell.
+|-
+|[[File:Convergence.png|centre]]
+|
+==== '''Convergence''' ====
+|'''Convergence '''causes the magic of its spell to become more focused, centered down to a single point. It can also make loose particles become more rigid, as explained by the disciples of [[Qifrey's Atelier]] when they were designing the [[Serpent's Bed of Sand|serpent's bed of sand]], saying that it would cause the sand the spell produced to become hard and compact.  One of the triangle's points is typically seen pointing inwards.
+|-
+|[[File:Diamond_(what_does_it_do).png|centre]]
+|
+==== '''Diamond'''====
+|'''Diamond''' has an unknown effect, and was seen in the bonus chapter for [[Volume 7]], where it was included in the shrinking box, used in the [[Spell of Reduction|spell of reduction]].  While it's exact function is unclear, it most likely causes its glyph to only effect nearby objects and not the object it was drawn on. This is evident in how within the spell of reduction, diamond acts as a direct substitute for window's role in [[Floating Expansion|floating expansion]], serving as the only difference between the two spells that could explain their differing effects.
+|-
+|[[File:Window.png|centre|70x70px|alt=]]
+|
+==== '''Window'''====
+|'''Window ''' has an unknown effect, and is seen in the center of the [[Floating Expansion|floating expansion]] spell{{Ref|m|37|28}}.  While it's exact function is unclear, it most likely causes its glyph to only effect the object it is drawn on, evident in how within [[Floating Expansion|floating expansion]], window acts as a direct substitute for diamond's role within the [[Spell of Reduction|spell of reduction]], serving as the only difference between the two spells that could explain their differing effects.
+|-
+|[[File:Collection.png|centre]]
+|
+==== '''Collection''' ====
+|'''Collection '''will [[Serpent's Bed of Sand|collect material]] (and possibly magic) located above and around the glyph, allowing it to be used by the spell.  The open side is typically seen facing inwards.
+|-
+|[[File:Crosshair_(idk).png|centre]]
+|
+==== '''Crosshair'''====
+|'''Crosshair''' is a component of the [[Rainflinger|rainflinger]] glyph.  It has 3 likely functions: either to cause things of the same magic aspect to disappear, to make it so magic only manifests inside of objects with the same magic aspect as it, or to create an area of effect within which its magic will manifest.
+|-
+|[[File:Radial.png|centre]]
+|
+==== '''Radial''' ====
+|'''Radial''' is a component of the [[Snugstone Spell|snugstone spell]].  While it's exact function is unclear, it likely serves to decrease the power of the spells it is used in, such as converting fire into heat.
+|-
+|[[File:Bolt.png|centre]]
+|
+==== '''Bolt''' ====
+|'''Bolt''' is a component of the [[Water Bolt|water bolt]] spell. It causes the magic of its spell's sigil to manifest in the form of bolts.  When paired with a directional sign (to control the direction) bolts can be shot with dangerous speed.
+|-
+|[[File:Billowing.png|centre]]
+|
+==== '''Billowing''' ====
+|'''Billowing '''converts material into a fluffy cloud that is apparently extremely comfortable to sit on{{Ref|m|6|23}}. '''Collection''' is needed to collect and convert certain materials into clouds, but there seem to be some materials that cannot be converted.  Similar to '''repetition''', '''billowing''' can take the place of a sigil within a spell. Its only appearance has been within the Dragon's Bed of Clouds, so the exact details of how it works aren't quite clear.
+|-
+|[[File:Eye.png|center|alt=]]
+|
+===='''Eye'''====
+|'''Eye''' is a sign that has only been seen twice, in [[Sasaran|Sasaran's]] cloak and in the [[Mirror Mantle|mirror mantle]] made by [[Euini]], with the glyphs on these objects being a [[Gathering Shadows|gathering shadows]] spell or a variant of it.  Currently, the effects of '''eye''' and '''bend''' are indistinguishable, due to lack of examples.  When paired with '''vision''' and '''bend''', it allows the object it is drawn on and anything covered by it to meld into the shadows. (might mean light) 
+|-
+|[[File:Bend.png|center|alt=]]
+|
+==== '''Bend''' ====
+|'''Bend''' is a sign that has been seen twice, in [[Sasaran|Sasaran's]] cloak and in the [[Mirror Mantle|mirror mantle]] made by [[Euini]], with the glyphs on these objects being a [[Gathering Shadows|gathering shadows]] spell, or a variant of it.  Currently, the effects of '''bend''' and '''eye''' are indistinguishable, due to lack of examples.  When paired with '''vision''' and '''eye''', it allows the object it is drawn on, and anything covered by it, to meld into the shadows.
+|-
+|[[File:Repetition.png|centre]]
+|
+==== '''Repetition''' ====
+|'''Repetition''' continually [[Repetition Seal|resets objects]] affected by the spell to their previous state, essentially rewinding time.  This can be used to [[Magic Cookpot|keep food from rotting]] and even to [[Washing Barrels|clean clothes]], not to mention many other uses it has.  Interestingly, this sign can often take the place of a sigil within a spell, and may even be one itself.
+|-
+|[[File:Vision.png|center|alt=]]
+|
+==== '''Vision''' ====
+| The '''vision''' sign, unofficially named, is only seen 3 times: in [[Sasaran|Sasaran's]] cloak, the [[Mirror Mantle|mirror mantle]], and if you look closely, [[Qifrey|Qifrey's]] glasses (in the chapter in which he takes them off).  While the exact nature of this spell isn't known, it seems to have something to do with the manipulation of light.  When paired with '''eye''' and an as of yet unidentified sign, this glyph can aid in making objects invisible.  This glyph doesn't need a sigil to function, and should be placed in the center of the spell.
+|-
+|[[File:Weave.png|centre]]
+|
+==== '''Weave''' ====
+|The '''weave''' sign (also known as '''ribbon''') can turn solid objects affected by the spell into long, flexible ribbons upon contact with the glyph. It was invented by [[Richeh]] and is used in her [[Boulder Stretch Rope|ribbon spells]].  This sign is supposed to surround the central sigil.
+|-
+|[[File:Enlarge.png|centre]]
+|
+==== '''Enlarge''' ====
+|'''Enlarge''' can either affect the object it is written on or an object nearby, seemingly controlled by the presence of either a '''diamond''' or a '''window '''sign.  It causes objects to either [[Floating Expansion|grow]] (corners point outwards) or [[Spell of Reduction|shrink]] (corners point inwards).  A sign may or may not be needed, but it would have to be placed in the center regardless.
+|-
+|[[File:Rain.png|centre]]
+|
+==== '''Rain''' ====
+|'''Rain''' generates the magic of its spell in a way similar to rainfall down within the range of its  immediate area.  It may be limited to only water, but it is likely that it would work for other magics too, like light (fireworks maybe) or fire, or even earth and fire (possible lava).  This sign is meant to surround the central sigil, which is placed in the empty space in its center.
+|-
+|[[File:Bird.png|centre]]
+|
+==== '''Bird''' ====
+|'''Bird '''causes a bird-like projection of the glyph's magic to be generated and fly around for a while.  It's only been seen once in the case of the [[Bird of Light Beacon|bird of light beacon]] spell{{Ref|m|11|8}}, and the front portion of the spell may or may not be a separate sign entirely.  The design was changed in [[chapter 28]]{{Ref|m|28|10}}.  The central sigil should be placed within this sign.
+|-
+|[[File:Dancing_Puppet.png|centre]]
+|
+==== '''Dancing Puppet''' ====
+|'''Dancing puppet '''causes objects touched by the glyph or the glyph itself{{Ref|m|6|8}} (not entirely clear) to dart around in the air when paired with a wind sigil.  What it would do with sigils other than wind is unknown, but it may allow them to dart around in materials other than air, like water or the ground.  The central sigil should be placed in the empty space in the glyph's center. The glyph can either be inside the circle of the spell or actually part of it, and the lines can either be present or absent.  It has been seen in the [[Flying Puppet of Diversion]] spell and the [[Cloak Spell]].
+|-
+|[[File:Animal Signs.jpg|thumb|centre]]
+|
+===='''Animal Signs'''====
+|The '''Animal Signs''' are a collection of different signs that mimic the appearance of animals from the Zozah Peninsula. These signs have no practical utility, so their general use as signs are in decline, since they are only used as a hobby or decoration.{{Ref|m|58|19}}
+|}
+
+==References==
+{{References}}
+{{-}}
+==Site Navigation==
+{{Items Navibox}}
+[[Category:Magic]]
+[[Category:Spells]]

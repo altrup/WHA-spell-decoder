@@ -1,0 +1,667 @@
+[[File:Official Sign Compilation.png|thumb]]
+Signs are a component of seals, special shapes drawn with [[Conjuring Ink|conjuring ink]] through which [[Magic|magic]] can be harnessed in the form of [[Spells|spells]]. Signs control what form a spell will take. They serve as modifiers, allowing the effect of a spell to be altered. Each sign has a unique effect with it can contribute to a spell.
+
+__TOC__
+
+==Sign Categories==
+Based on their design and behavior, signs can be broken down into four groups; directional signs, semi-directional signs, non-directional signs, and asymmetric signs. These groups are never mentioned, named, or explained within the source material. However, breaking signs into these categories is incredibly useful for understanding how different signs function, so they will be used within this article.
+
+===Directional Signs===
+[[File:Sign Length Demo.png|200px|thumb|right|Changing sign length to alter spell direction]]
+Directional signs can manifest their effect in a specific direction. Some examples of directional signs include [[Signs Explained#Columns|'''Columns''']] and [[Signs Explained#Pulling|'''Pulling''']]. All directional signs possess bilateral symmetry but lack radial symmetry. By changing the angle or length of directional signs, one can influence in which direction a spell will manifest. Spells which make use of this property include [[Skysoaring Seal]] and the [[Rising Platform of Water]].
+
+===Semi-Directional Signs===
+Semi-directional signs can be inverted yet lack a distinct direction for their effect. Some examples of semi-directional signs include [[Signs Explained#Crushing|'''Crushing''']] and [[Signs Explained#Empowerment|'''Empowerment''']]. Most semi-directional signs possess bilateral symmetry but lack radial symmetry, similar to directional signs. However, some do possess radial symmetry, like [[Signs Explained#Rain|'''Rain''']] or [[Signs Explained#Enlarge|'''Enlarge''']]. Changing their size will only alter the strength of their effect, not direction. The direction of the sign doesn't alter the direction of the spell, but if the sign is inverted (facing outwards), the effect of the sign will be the opposite of what it is usually. For semi-directional signs that have radial symmetry, the sign must be flipped inside-out in order for it to be inverted. A pair of spells that makes use of the inversion of semi-directional signs are [[Wall Breaker Seal|Wall Breaker]] and [[Integration]], with Wall Breaker using '''Crushing''' to pulverize while Integration inverts them to reform.
+
+===Non-Directional Signs===
+Non-directional signs lack a direction for their effect and act the same regardless of the direction they point. Examples of non-directional signs include [[Signs Explained#Stability and Level Planes|'''Stability and Level Planes''']] and [[Signs Explained#Crosshair|'''Crosshair''']]. Lacking bilateral symmetry but possessing radial symmetry, non-directional signs lack a distinct front, back, left, or right. As a result, it isn't possible to invert these signs, as there is no way to have them point inward, as they lack front with which to point.
+
+===Asymmetric Signs===
+Lacking symmetry of any kind, asymmetric signs are unpredictable and largely unknown. It is not known if inverting, mirroring, or angling them changes their behavior.
+
+__TOC__
+
+==Officially Named==
+===Columns===
+{{Magic Info
+|magicimage=[[File:Column.png|left]]
+|magicname=柱の矢, ''Hashira no Ya''; 力の矢, ''Chikara no Ya''
+|magicjp=矢, Arrow • の, of • 柱, Columns; 矢, Arrow • の, of • 力, Power
+|magictl=Sign of Columns;{{Ref|''Witch Hat Atelier'' [[Volume 1]] Extra Page: Introduction to Casting Seals}} Sign of Power{{Ref|m|82|21}} 
+|magicdesc=Official{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}}
+|magictype=Directional}}
+The '''Sign of Columns''' allows one to control the direction in which a target object proceeds.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}} It creates an area of effect in the shape of a column. The amount of signs will affect the range or quantity of magic generated for a spell. Increasing the length of the sign will apply additional pressure or power in a given direction.{{Ref|m|3|16}}{{Ref|m|63|24}} When inverted, '''Columns''' has been shown manifest horizontally as opposed to vertically, emitting its effect similar to '''Dispersion'''. 
+{{-}}'''Spells Using Columns'''</br>
+[[Advanced Beastwarding]] (Inverted) • [[Amplification Scroll]] • [[Beldaruit's Illusion Cloak Spell]] (Inverted) • [[Bubble Carriage Seal]] • [[Coco's Village Wash Spring]] (Inverted) • [[Crystal Shard]] (Inverted) • [[Dragon Smokesculpture]] • [[Earth Lift]] • [[Ever-Flowing Icepack]] • [[Flame Burst Spell]] • [[Flame Shot Seal]] • [[Floatglow Lamp Seal]] • [[Floating Drops]] • [[Forbidden Flames]] • [[Forbidden Glow]] • [[Frozen Path]] • [[Glowstone Path Seal]] • [[Guidance Seal]] ([[Fish Guidance]] • [[Pouch Guidance]]) • [[Icy Road]] (Inverted) • [[Light Beam]] • [[Looking Glass]] • [[Illusory Labyrinth|Seal of the Dragon's Labyrinth]] • [[Pegasus Carriage Spell]] • [[Petrification]] (Inverted) • [[Phantasmal Fireball]] • [[Raincleaver Spell]] • [[Repetition Seal]] ([[Serpent's Bed of Sand]] • [[Washbarrel Seal]]) • [[Rising Platform of Water]] • [[Rising Wave]] • [[River Ferry Seal]] • [[Rushing Wave]] • [[Sand Bridge]] • [[Sand Cage]] • [[Sasaran's Cloak Spell]] • [[Seal of Expansion and Levitation]] • [[Smoke Cloud]] (Inverted) • [[Smokesculpting Seal]] • [[Snugstone Spell]] (Inverted) • [[Spiraling Flame]] • [[Valance Leech of Light]] (Inverted) • [[Vapor Bubble Spell]] • [[Wall Breaker Seal]] • [[Washbarrel Seal]] • [[Water Cage]] • [[Qifrey's Water Dragon|Water Dragon]] • [[Water Horse Spell|Water Horse]] • [[Water Orb]] • [[Water Pen|Wand of Water]] • [[Watershot Seal]] • [[Wayward Whorlwind]] • [[Wind Wall]]
+{{-}}
+
+===Dispersion===
+{{Magic Info
+|magicimage=[[File:Dispersion.png|left]]
+|magicname=拡散の矢, ''Kakusan no Ya''
+|magicjp=矢, Arrow • の, of • 拡散, Diffusion
+|magictl=Sign of Dispersion{{Ref|m|3|10}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Dispersion''' causes the magic of its seal to pour or "disperse" outwards. It isn't known if this sign is directional or semi-directional. It has many similarities to '''Columns''', with it essentially being a column that leaks its magic outwards rather than shooting or beaming it in a certain direction. Both its normal and inverted variations have been seen, with the difference in their effects being unclear. Interestingly, the effect of inverted '''Columns''' very closely matches that of dispersion, as seen in the [[Snugstone Spell|snugstone seal]]. What differentiates the two is currently unknown.
+[[File:Dispersion Diagram.2.jpg|left|thumb|301x301px]]
+{{-}}'''Spells Using Dispersion'''</br>
+[[Bird of Light Beacon]] • [[Glowstone Path Seal]] • [[Petrification]] (Inverted) • [[Ring of Fire]] • [[Wand of Water]]
+{{-}}
+
+===Levitation===
+{{Magic Info
+|magicimage=[[File:Levitation.png|left]]
+|magicname=浮遊の矢, ''Fuyū no Ya''
+|magicjp=矢, Arrow• の, of • 浮遊, Levitation
+|magictl=Sign of Levitation{{Ref|''Witch Hat Atelier'' [[Volume 1]] Extra Page: Introduction to Casting Seals}} 
+|magicdesc=Official{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}}
+|magictype=Directional}}
+The '''Sign of Levitation''' floats a target object into the air, often shaping it into a sphere when '''Levitation''' is balanced.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}} Adjusting the length of the sign determines how far the target object can travel,{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}} the weight that the seal can carry{{Ref|m|8|10}}{{Ref|a|6}} or the speed of the target object.{{Ref|m|15}}{{Ref|a|9}} While this sign has been seen inverted, it is only shown to cancel out the effects of a spell with regular '''Levitation''' signs, making it unclear if the inversion would manifest differently on its own.{{Ref|m|28|13}} Spells that are known to use '''Levitation''' are occasionally drawn with '''Columns''' instead. This is often the case with [[Sylph Shoes Seal|Sylph Shoes]].
+
+[[File:Lev Diagram.png|thumb|left|250px]]
+{{-}}'''Spells Using Levitation'''</br>
+[[Carousel of Lights]] • [[Dragon Smokesculpture]] • [[Glowstone Path Seal]] • [[Pegasus Carriage Spell]] • [[Pyreball Seal]] • [[Rising Platform of Water]] • [[River Ferry Seal]] • [[Sylph Shoes Seal]] • [[Wall-Anchored Floatglow Lamp]] 
+{{-}}
+
+===Convergence===
+{{Magic Info
+|magicimage=[[File:Convergence.png|left]]
+|magicname=収束の矢, ''Shūsoku no Ya''
+|magicjp=矢, Arrow • の, of • 収束, Convergence
+|magictl=Sign of Convergence{{Ref|''Witch Hat Atelier'' [[Volume 1]] Extra Page: Introduction to Casting Seals}} 
+|magicdesc=Official{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}}
+|magictype=}}
+The '''Sign of Convergence''' causes the magic of its spell to "converge," centering down to single point. The sign could be semi-directional based on its behavior in the [[Wall of Wind|wall of wind]] spell. It is unclear exactly how '''convergence''' focuses magic, but the effect of spells such as [[Wall of Wind|wall of wind]] and the [[Floatglow Lamp Seal|wall anchored floatglow lamp]] suggest that it might make the magic manifest about or from a single point. The sign can also make loose particles pack tightly together and become somewhat rigid, as explained by the disciples of [[Qifrey's Atelier]] when they were designing the [[Serpent's Bed of Sand|serpent's bed of sand]].{{Ref|m|7|13}}  One of the triangle's points is typically seen pointing inwards.
+[[File:Converge Diagram.png|thumb|700px|left]]
+{{-}}'''Spells Using Convergence'''</br>
+[[Ancient Light Beacon]] • [[Light-Reducing Spell]] • [[Pouch of Calling]] • [[Raincleaver Spell]] • [[Repetition Seal]] ([[Magic Cookpot]] • [[Serpent's Bed of Sand]]) • [[Sylph Shoes Seal]] • [[Wall-Anchored Floatglow Lamp]] • [[Water Bolt]] • [[Qifrey's Water Dragon|Water Dragon]] • [[Wind Wall]] • [[Wayward Whorlwind]] • [[Wingcloak]]
+{{-}}
+
+===Dancing Puppets===
+{{Magic Info
+|magicimage=[[File:Dancing_Puppet.png|left]]
+|magicname=踊る人形の矢, ''Odoru Ningyō no Ya''
+|magicjp=矢, Arrow • の, of • 踊る, Dancing • 人形, Puppet
+|magictl=Sign of Dancing Puppets{{Ref|m|6|11}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Dancing Puppets''' likely allows for the conscious manipulation of a target object’s movement, which can differ visually. Tetia’s usage of the sign causes her cloak to move erratically with seemingly no direction,{{Ref|m|6|11-12}}{{Ref|m|4}} while Sasaran’s usage allows him to move his cloak with incredible accuracy and precision.{{Ref|m|27|22}}
+
+When '''Dancing Puppets''' is used alongside a sigil, the sigil can be placed in its center. When '''Dancing Puppets''' is paired with a '''Sigil of Wind''', it allows the target object to fly and be manipulated within the air. This sign may be semi-directional and has never been seen inverted. 
+
+The '''Dancing Puppets’''' ability appears similar to that of the '''Sign of Sights Set''', with the key difference seeming to be that '''Sights Set''' requires the caster to actively aim the spell or object in some way. Meanwhile, spells using '''Dancing Puppets''' are able to be manipulated at long distances.{{Ref|m|6|11-12}}{{Ref|m|4}}{{Ref|m|27|22}}
+
+Interestingly, there are spells with symbols that closely resemble that of '''Dancing Puppets''', namely [[Sealchair Spell]], [[Beldaruit's Illusion Cloak Spell]], [[Truth Spell]] and spells used by Engendale during his fight with Qifrey.{{Ref|m|68|12-13}} It is reasonable to assume this sign and '''Dancing Puppets''' are related.
+
+{{-}}'''Spells Using Dancing Puppets'''</br>
+[[Flying Puppet of Diversion]] • [[Sasaran's Cloak Spell]]
+{{-}}
+
+===Crushing===
+{{Magic Info
+|magicimage=[[File:Crush.png|left]]
+|magicname=破砕の矢, ''Hasai no Ya''
+|magicjp=矢, Arrow • の, of • 破砕, Crushing
+|magictl=Sign of Crushing{{Ref|m|11|17}}
+|magicdesc=Official{{Ref|''Witch Hat Atelier'' Anime: [[Episode 1]] – [[Writing/Translated Texts#Intro Book]]}}
+|magictype=Semi-directional}}
+The '''Sign of Crushing''' crushes a target object into pieces. When paired with a sigil, '''Crushing''' will cause objects targeted by the spell and [[Wall Breaker Seal|disintegrate]] them, breaking them into smaller and smaller parts until they reach a sand-like or powdered state (if solid). the bigger the sign, the smaller the pieces that the targeted object would get crushed into.
+If the sign is inverted and the spell is used on an already crushed substance, the crushed material will [[Integration|reform into its original shape]]. However, as soon as the spell wears off, or removed, the reformed object will return to its broken state.
+[[File:Crush Diagram.png|thumb|500px|left]]
+{{-}}'''Spells Using Crushing'''</br>
+[[Integration]] (Inverted) • [[Sand Cage]] (Inverted) • [[Serpent's Bed of Sand]] • [[Smokesculpting Seal]] (Inverted) • [[Wall Breaker Seal]] • [[Water Cage]] (Inverted)
+{{-}}
+
+===Repetition===
+{{Magic Info
+|magicimage=[[File:Repetition.png|left|70px]]
+|magicname=くりかえしの矢, ''Kurikaeshi no Ya''
+|magicjp=矢, Arrow • の, of • くりかえし, Repetition
+|magictl=Sign of Repetition{{Ref|m|7|17}}
+|magicdesc=
+|magictype=}}
+The '''Sign of Repetition''' has only been referred to as a sign when used in the [[Serpent's Bed of Sand]].{{Ref|m|7|17}} From [[Chapter 28]] onwards, it is referred to as a [[Sigils|sigil]].{{Ref|m|28|12}} See [[Sigils Explained#Repetition|Sigil of Repetition]] for a more in-depth description.
+{{-}}'''Spells Using Repetition'''</br>'''
+[[Capture Pennant Spell]] • [[Spring of Eternity|Coco's Village Wash Spring]] • [[Repetition Seal]] ([[Magic Cookpot]] • [[Serpent's Bed of Sand]] • [[Washbarrel Seal]]) • [[Spell of Reduction]]
+{{-}}
+
+===Pulling===
+{{Magic Info
+|magicimage=[[File:Pull.png|left]]
+|magicname=引き寄せの矢, ''Hikiyose no Ya''
+|magicjp=矢, Arrow • の, of • 引き寄せ, Pulling (Towards One)
+|magictl=Sign of Pulling{{Ref|m|14|5}}
+|magicdesc=Official
+|magictype=Directional}}
+The '''Sign of Pulling''' causes the target object to be pulled towards the seal when the arrow portion of the sign is pointing inwards. It is likely that, if inverted, the sign will instead push things away. When pointed inwards at an angle, the spell will have both a pulling and twisting effect, and it's likely that if rotated a full 90 degrees, the spell will just twist without pulling.
+[[File:Pull Diagram.png|thumb|500px|left]]
+{{-}}'''Spells Using Pulling'''</br>'''
+[[Flame Burst Spell]] • [[Grasping Wind]] • [[Wall Bend]] • [[Water Cage]]
+{{-}}
+
+===Stretch===
+{{Magic Info
+|magicimage=[[File:Weave.png|left]]
+|magicname=
+|magicjp= 
+|magictl=Sign of Stretch{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 6]]}}
+|magicdesc=Official{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 6]]}}
+|magictype=}}
+The '''Sign of Stretch''' can turn solid objects affected by the spell into long, flexible ribbons upon contact with the seal. It is most likely non-directional, but has never been seen inverted. This sign is supposed to surround the central sigil.
+{{-}}'''Spells Using Stretch'''</br>
+[[Boulder Stretch Rope]] • [[Light Tracer]]
+{{-}}
+
+===Coil===
+{{Magic Info
+|magicimage=[[File:Coil Sign.png|left|70px]]
+|magicname=
+|magicjp=
+|magictl=Sign of Coil{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 6]]}}
+|magicdesc=Official{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 6]]}}
+|magictype=}} The ''' Sign of Coil ''' softens a target object. The exact manner in which it works in unclear. It can only affect physical matter, therefore making it ineffective against liquids and gases. This Sign is likely non-directional and cannot be inverted.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 6]]}}
+{{-}}
+
+===Concealment===
+{{Magic Info
+|magicimage=[[File:Sign of concealment redraw.png|left]]
+|magicname=覆いの矢, ''Ōi no ya''
+|magicjp=矢, Arrow • の, of • 覆い, Shrouding
+|magictl=Sign of Concealment{{Ref|m|21|19}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Concealment''' hides a target object. It is first referred to by [[Euini]] when examining the [[Mirror Cloak of Borrowshade]]. Notably, in the Anime, the shot of the casting seal pans down to this sign when Euini is describing its function to conceal the wearer in shadow.{{Ref|a|12|17:33-17:40}}
+{{-}}'''Spells Using Concealment'''</br>
+[[Borrowshade]] • [[Looking Glass]] • [[Makeover Mask Spell]] • [[Mirror Cloak Spell]] • [[Sasaran's Cloak Spell]]
+{{-}}
+
+===Reflection===
+{{Magic Info
+|magicimage=[[File:Sign of reflection redraw.png|left]]
+|magicname=反射の矢, ''Hansha no Ya''
+|magicjp=矢, Arrow • の, of • 反射, Reflection
+|magictl=Sign of Reflection{{Ref|m|21|19}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Reflection''' likely functions to target a reflected image found on the object on which the casting seal is drawn. It is first referred to by Euini when examining the [[Mirror Cloak of Borrowshade]]. Notably, in the Anime, the shot of the casting seal pans to this sign when Euini is describing how the spell draws upon the reflection of a nearby beast in its scales.{{Ref|a|12|17:33-17:40}}
+{{-}}'''Spells Using Reflection'''</br>
+[[Mirror Cloak Spell]] • [[Mirror Spell]]
+{{-}}
+
+===Windows===
+{{Magic Info
+|magicimage=[[File:Sign of Windows Redraw.png|left]]
+|magicname=窓の矢, ''Mado no Ya''
+|magicjp=矢, Arrow • の, of • 窓, Windows
+|magictl=Sign of Windows{{Ref|m|29|24}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Windows''' likely allows the connection of two spaces that are not physically connected, essentially creating a portal from one location to another. They are first referenced by Richeh when she explains the components of her [[Windowway|Linked Windowway Seals]].{{Ref|m|29|24}} '''Windows''' is unlike conventional signs, instead lining the spell like an additional ring with several of the same, simple markings inside. There are many variants of these signs, as seen in the many different seals for Windowways.
+{{-}}'''Spells Using Windows'''</br>
+[[Doorknob-Determined Destination Doorway]] • [[Handheld Windowway]] • [[Sasaran's Cloak Spell]] • [[Windowway Spell]]
+{{-}}
+
+===Cooling===
+{{Magic Info
+|magicimage=[[File:Cooling.png|left]]
+|magicname=冷やす矢, ''Hiyasu ya''
+|magicjp=冷やす, Cooling • 矢, Arrow
+|magictl=Sign of Cooling<ref name="Vol12Extra"/>
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Cooling''' likely functions to cool things down.<ref name="Vol12Extra">''Witch Hat Atelier'' [[Volume 12]] Extra Page: The Contraptions and Seals of Witch Hat</ref> It is likely semi directional or non-directional, but has never been seen reversed.
+{{-}}'''Spells Using Cool'''</br>
+[[Vapor Bubble Spell]] 
+{{-}}
+
+===Gathering===
+{{Magic Info
+|magicimage=[[File:Gather.png|left]]
+|magicname=集める矢, ''Atsumeru Ya''
+|magicjp=集める, Collecting • 矢, Arrow
+|magictl=Sign of Gathering<ref name="Vol12Extra"/>
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Gathering''' seems to serve a very similar function and design to '''Collection''', letting a spell use material from its surroundings to construct its effect. How it differs is unclear, but ‘’’Gathering’’’ may be less passive than collection and actively draw material in rather than just collect things nearby. This, however, is unconfirmed. The sign is seen in the [[Vapor Bubble Spell|vapor bubble spell]].
+{{-}}'''Spells Using Gather'''</br>
+[[Raincleaver Spell]] • [[Vapor Bubble Spell]] • [[Wayward Whorlwind]]
+{{-}}
+
+===Stability and Level Planes===
+{{Magic Info
+|magicimage=[[File:Float.png|left]]
+|magicname=安定の矢 ''Antei no Ya''; 平行の矢, ''Heikō no Ya''
+|magicjp=矢, Arrow • の, of • 安定, Stability; 矢, Arrow • の, of • 平行, Parallelism
+|magictl= Sign of Stability; Sign of Level Planes;<ref name="Vol12Extra"/> Sign of Balance{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=Non-directional}}
+The '''Signs of Stability and Level Planes''' cause the target object to balance in a plane in air.
+
+This sign can also be explained as a floating object on water, it's able to rotate and move but always stays on top of the water. There is no known differences between the 2 and 3 lined versions of the sign.
+
+{{-}}'''Spells Using Stability and Level Planes'''</br>
+[[Earth Lift]] • [[Guidance Seal]] ([[Fish Guidance]] • [[Pouch Guidance]]) • [[Floatglow Lamp Seal]]  • [[Glowstone Path Seal]] • [[Pegasus Carriage Spell]] • [[Seal of Expansion and Levitation]] • [[Snowfending]] • [[Wayward Whorlwind]]
+{{-}}
+
+===Wind===
+{{Magic Info
+|magicimage=[[File:Sign of Wind.png|left]]
+|magicname=風の矢, ''Kaze no Ya''; 風を巻く矢, ''Kaze o Maku Ya''
+|magicjp=矢, Arrow • の, of • 風, Wind; 風, Wind • を巻く, Spiraling • 矢, Arrow 
+|magictl=Sign of Wind;<ref name="Vol12Extra"/> Sign of Spiraling Wind{{Ref|m|6|7}}{{Ref|a|4}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=Asymmetric}}
+The '''Sign of Wind''' a sign with a strange history. Prior to the [[Volume 12|volume 12]] bonus, it had only ever made an appearance in [[Chapter 1|chapter 1]]. In this chapter, the sign seemed to serve the same purpose as the wind sigil, serving as a sigil for both the [[Sylph Shoes Seal|sylph shoes seal]] and the [[Pegasus Carriage Spell|pegasus carriage spell]]. However, with the sign not appearing in any subsequent chapters and even being replaced within the sylph shoes, fans believed the sign to have been a retconned version of a wind sigil. However, with its inclusion in the pegasus carriage spell reaffirmed as of the volume 12 bonus, it is now clear that the sign is still canon. Its function, beyond its relation to wind, is unclear.
+{{-}}'''Spells Using Wind'''</br>
+[[Pegasus Carriage Spell]] • [[Spiraling Flame]]
+{{-}}
+
+===Aeriforms Defined===
+{{Magic Info
+|magicimage=[[File:Aeriforms Defined.png|left]]
+|magicname=気体の示す矢, ''Kitai o Shimesu Ya''; 気体の矢, ''Kitai no Ya''
+|magicjp=矢, Arrow • の, of • 示す, Making Apparent • 気体, Gases; 矢, Arrow • の, of • 気体, Gases
+|magictl=Sign of Aeriforms Defined;<ref name="Vol12Extra"/> Sign of Air{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Aeriforms Defined''' is somewhat confusing thanks to the conflicting nature of its name and design. There are two basic variants of the base wind sigil: wind and aeriforms. The wind sigil makes a spell move air, while aeriforms causes a spell to create air. Confusingly, '''aeriforms defined''' has the same design as the modifiers on the wind sigil, yet shares a name with the aeriforms sigil. This conflicting information makes it difficult to determine the function of the sign, though it is known that it can serve as a modifier to the wind underfoot sigil, as seen in the [[Pegasus Carriage Spell|pegasus carriage spell]]. The sign is most likely semi-directional and has never been seen inverted.
+{{-}}'''Spells Using Ariforms Defined'''</br>
+[[Carousel of Lights]] • [[Pegasus Carriage Spell]] • [[Wayward Whorlwind]]
+{{-}}
+
+===Regions===
+{{Magic Info
+|magicimage=[[File:Direction.png|left]]
+|magicname=領域の矢, ''Ryōiki no Ya''
+|magicjp=矢, Arrow • の, of • 領域, Regions
+|magictl=Sign of Regions;<ref name="Vol12Extra"/> Sign of Dominion{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=Directional}}
+The '''Sign of Regions''' determines where magic will manifest in relation to a seal. For instance, if the '''Regions''' signs within a seal point all to the same side of the spell, [[Water Bolt|the magic will shoot in that direction]]. Similarly, if all of the '''Regions''' signs within a spell point inwards, the magic will only manifest within the ring of the seal, and if they all point outwards, the magic will manifest outside the ring while not taking effect at all within the bounds of the seal. Interestingly, if '''region''' signs are arranged so that they are pointing towards one another, both towards the center and exterior of the seal in opposition to one another, the magic will only manifest directly on the ring of the seal, as can be seen in [[Floating Drops|floating drops]] spell.
+[[File:Region Sign Demo.webp|thumb|300px|left|How configurations of region signs manifest, with the spell emitting from the red regions and the arrows showing its direction.]]
+{{-}}'''Spells Using Regions'''</br>
+[[Bubble Carriage Seal]] • [[Doorknob-Determined Destination Doorway]] • [[Flame Shot Seal]] • [[Illusory Labyrinth|Seal of the Dragon's Labyrinth]] • [[Makeover Mask Spell]] • [[Rainwarding]] • [[Rising Wave]] • [[River Ferry Seal]] • [[Rushing Wave]] • [[Water Bolt]] • [[Water Cage]] • [[Water Horse Spell|Water Horse]]
+{{-}}
+
+===Strengthening===
+{{Magic Info
+|magicimage=[[File:Strengthen.png|left]]
+|magicname=強化の矢, ''Kyōka no Ya''
+|magicjp=矢, Arrow • の, of • 強化, Reinforcement
+|magictl=Sign of Strengthening;<ref name="Vol12Extra"/> Sign of Empowerment{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Strengthening''' presumably makes objects stronger, harder and more durable.<ref name="Vol12Extra"/>
+{{-}}'''Spells Using Strengthen'''</br>
+[[Capture Pennant Spell]] • [[Frozen Path]] • [[Raincleaver Spell]] • [[Sand Bridge]] • [[Water Bolt]] • [[Wayward Whorlwind]]
+{{-}}
+
+===Sights Set===
+{{Magic Info
+|magicimage=[[File:Sights Set.png|left]]
+|magicname=照準の矢, ''Shōjun no Ya''
+|magicjp=矢, Arrow • の, of • 照準, Aim
+|magictl=Sign of Sights Set;<ref name="Vol12Extra"/> Sign of Focus{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Sights Set''' is most likely a directional or semi-directional sign and has never been seen inverted. First seen in the [[Capture Pennant Spell|capture pennant spell]], it is highly peculiar. Aside from '''Dancing Puppets''', it appears to be the only sign that allows a spell to be controlled via one’s mind. Specifically, it seems to serve the function of aiming a spell at some point or target. For example, its inclusion on the aforementioned capture pennant spell is likely allows a [[Knights Moralis|knight]] to target a specific object or person for their [[Silver-White Capture Pennant|capture pennants]] to wrap around. 
+{{-}}'''Spells Using Sights Set'''</br>
+[[Capture Pennant Spell]] • [[Spiraling Flame]] • [[Water Bolt]] ({{Ref|m|27}}{{Ref|[[Archives of Witch Hat Atelier]], Page 149}})
+{{-}}
+
+===Entwining===
+{{Magic Info
+|magicimage=[[File:Entwine.png|left]]
+|magicname=巻きつきの矢, ''Makitsuki no Ya''
+|magicjp=矢, Arrow • の, of • 巻きつき, Twining (Around)
+|magictl=Sign of Entwining<ref name="Vol12Extra"/>
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Entwining''' first seen in the [[Capture Pennant Spell|capture pennant spell]], functions to somehow make an object it is drawn on (such as a ribbon) wrap or “entwine” itself around other objects. The mechanism through which this is achieved is unknown. It is most likely a semi-directional sign and has never been seen inverted.
+{{-}}'''Spells Using Entwine'''</br>
+[[Capture Pennant Spell]]
+{{-}}
+
+===Detection===
+{{Magic Info
+|magicimage=[[File:Detection_Redraw.png|left]]
+|magicname=気配の矢, ''Keihai no Ya''
+|magicjp=矢, Arrow • の, of • 気配, Sensation
+|magictl=Sign of Detection{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The function of '''Sign of Detection''' is currently unclear, but it is known it assists in the function of the [[Glowstone Path]]
+{{-}}'''Spells Using Detection'''</br>
+[[Glowstone Path Seal|Glowstone Path]]
+{{-}}
+
+===Partition===
+{{Magic Info
+|magicimage=[[File:Sign of Partiton.png|left]]
+|magicname=境界の矢, ''Kyōkai no Ya''
+|magicjp=矢, Arrow • の, of • 境界, Boundaries
+|magictl=Sign of Partition{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Partition''' is a directional sign that likely serves to outline the borders of an area of effect. The effect appears to extend both outwards and upwards in all directions. Additionally, the sign of partition can be elongated, likely to stretch/shape the defined borders. The effect that manifests within the area defined by Partition is determined by what symbols are present within.
+[[File:Partition diagram.jpeg|500px|thumb|left]]
+{{-}}'''Spells Using Partition'''</br>
+[[Rushing Wave]] • [[Sand Bridge]] • [[Coco's Village Wash Spring]]
+{{-}}
+
+===Refuse===
+{{Magic Info
+|magicimage=[[File:Sign of Refuse redraw.png|left]]
+|magicname=クズ集めの矢, ''Guzu Atsume no Ya''
+|magicjp=矢, Arrow • の, of • クズ, Waste • 集め, Collection
+|magictl=Sign of Refuse{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Refuse''' is a directional sign that collects unwanted material such as waste towards where it points.
+{{-}}'''Spells Using Refuse'''</br>
+[[Coco's Village Wash Spring]] • [[Purify]] • [[Raincleaver Spell]]
+{{-}}
+
+===Solidification===
+{{Magic Info
+|magicimage=[[File:Solidify.png|left|70px]]
+|magicname=凝固の矢, ''Gyōko no Ya''
+|magicjp=矢, Arrow • の, of • 凝固, Solidification
+|magictl=Sign of Solidification{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Solidification''' likely causes magic drawn within/connecting to it to become more solid. It appears that this sign can be written both on its own and with signs/sigils/seals written within one of its circles and warrant the same effect. A rule of thumb to discern it from linked seals: If the lines are straight, and it is linked to an empty seal, it's solidify!
+{{-}}'''Spells Using Solidify'''</br>
+[[Raincleaver Spell]] • [[Sand Bridge]]
+{{-}}
+
+===Binding===
+{{Magic Info
+|magicimage=[[File:Binding.png|left|70px]]
+|magicname=留める矢, ''Tomeru Ya''
+|magicjp=留める, Fastening (or Retention) • 矢, Arrow
+|magictl=Sign of Binding{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Binding''' may be used to halt the movement of the target material and bind it together, causing it to act and be moved as a single unit.
+{{-}}'''Spells Using Bind'''</br>
+[[Raincleaver Spell]] • [[Sand Bridge]]
+{{-}}
+
+===Envelopment===
+{{Magic Info
+|magicimage=[[File:Bend.png|left]]
+|magicname=衣まといの矢, ''Koromo Matoi no Ya''
+|magicjp=矢, Arrow • の, of • 衣, Coating • まとい, Consolidation
+|magictl=Sign of Envelopment{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Envelopment''' likely causes a magic effect to envelop/surround what it is targeting.
+{{-}}'''Spells Using Envelop'''</br>
+[[Beldaruit's Illusion Cloak Spell]] • [[Borrowshade]] • [[Mirror Cloak Spell]] • [[Petrification]] • [[Raincleaver Spell]] • [[Sasaran's Cloak Spell]]
+{{-}}
+
+===Immobility===
+{{Magic Info
+|magicimage=[[File:Sign of Immobility redraw.png|left]]
+|magicname=不動の矢, ''Fudoi no Ya''
+|magicjp=矢, Arrow • の, of • 不動, Immobility
+|magictl=Sign of Immobility{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Immobility''' likely functions to make the target object become immovable in relation to the seal, causing it to hold shape and act as if frozen, but allowing for it to be moved  while still in an immobile state. It is likely semi-directional but has never been seen inverted
+{{-}}'''Spells Using Immobility'''</br>
+[[Sand Bridge]]
+{{-}}
+
+===Holding===
+{{Magic Info
+|magicimage=[[File:Sign of Holding redraw.png|left]]
+|magicname=袋の矢, ''Fukuro no Ya''
+|magicjp=矢, Arrow • の, of • 袋, Pouches
+|magictl=Sign of Holding{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Holding''' is likely a non-directional sign that functions to hold the target object in the shape defined by the seal while still allowing for movement.
+{{-}}'''Spells Using Holding'''</br>
+[[Wand of Water]]
+{{-}}
+
+===Pointing===
+{{Magic Info
+|magicimage=[[File:Sign of Pointing redraw.png|left]]
+|magicname=尖りの矢, ''Togari no Ya''
+|magicjp=矢, Arrow • の, of • 尖り, Tapering
+|magictl=Sign of Pointing{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+|magicdesc=Official Name, Unofficial Description
+|magictype=}}
+The '''Sign of Pointing''' is likely a non-directional sign that causes the target object to manifest in a conical shape that can then be directed by signs such as column.
+{{-}}'''Spells Using Pointing'''</br>
+[[Loop Chalice]] • [[Wand of Water]]
+{{-}}
+
+===Piercing===
+{{Magic Info
+|magicimage=[[File:Bolt.png|left]]
+|magicname=槍の矢, ''Yari no Ya''
+|magicjp=矢, Arrow • の, of • 槍, Spears
+|magictl=Sign of Piercing{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+|magicdesc=Official
+|magictype=}}
+The '''Sign of Piercing''' is a non-directional sign that causes a target object to manifest as projectiles, or, more generally, offensive attacks. The number of '''Piercing''' signs affects the amount of projectiles created.{{Ref|m|24|9}}{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+{{-}}'''Spells Using Bolt'''</br>
+[[Sourcewater Strike]] • [[Water Bolt]]
+{{-}}
+
+===Mimicry===
+{{Magic Info
+|magicimage=[[File:Sign of Mimicry redraw.png|left]]
+|magicname=模倣の矢, ''Mohō no Ya''
+|magicjp=矢, Arrow • の, of • 模倣, Imitation
+|magictl=Sign of Mimicry{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+|magicdesc=Official
+|magictype=}}
+The '''Sign of Mimicry''' guides or imitates the movements of a target object. It has only been seen used alongside a decorative sigil, in which case it imitates the movements of what the decoarative sigil depicts. Interestingly enough, spells without the sign of mimicry have also been shown to mimic the behaviours of their respective deco sigils, but with less complicated movements.
+{{-}}'''Spells Using Mimicry'''</br>
+[[Water Horse Spell|Water Horse]]
+{{-}}
+
+===Glaives===
+{{Magic Info
+|magicimage=[[File:Glaives.png|left]]
+|magicname=爪, ''Tsume''
+|magicjp=爪, Claws
+|magictl=Glaives{{Ref|m|63|3}}
+|magicdesc=Official
+|magictype=}}
+'''Glaives''' determine how deeply magic will embed itself into the flesh.{{Ref|m|63|3}} They are most likely semi-directional and have never been seen inverted. Unlike any other known sign, glaives can be drawn outside of the ring as long as they are still connected to it. Interestingly enough, according to [[Engendale]], '''Glaives''' aren't even Technically signs, but a different ancient technique from an era predating the [[Day of the Pact]]. how exactly this is the case and what are the implications of this are still unknown.{{Ref|m|63|3}}
+{{-}}'''Spells Using Glaives'''</br>
+[[Memory Erasure]] • [[Petrification]] • [[Slime Rendering Seal]] • [[Truth Spell]]
+{{-}}
+
+==Decorative Signs==
+'''Decorative Signs''' are first introduced in [[Chapter 58]] as signs that give spells the rough shape of the creatures they're named after.{{Ref|m|58|22}} They are also referred to as '''Sculpting Signs''' (specifically Watersculpting Signs) in [[Chapter 62]].{{Ref|m|62|10}} From [[Chapter 78]] onwards, they are consistently referred to as [[Sigils|sigils]].{{Ref|m|78|17-19}} See [[Sigils Explained#Decorative Sigils|Decorative Sigils]] for a more in-depth description and a list of examples.
+{{-}}'''Spells Using Decorative Signs'''<br>
+[[Bird of Light Beacon]] • [[Fish Guidance]] • [[Flowers of Light]] • [[Glowing Owlcat]] • [[Valance Leech Counterclock]] • [[Valance Leech of Light]] • [[Watersculpture]] ([[Qifrey's Water Dragon|Water Dragon]] • [[Water Horse]] • [[Water Rose]])
+
+==Unofficially Named==
+===Collection===
+{{Magic Info
+|magicimage=[[File:Collection.png|left]]
+|magicname=Sign of Collection
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Collection''' will [[Serpent's Bed of Sand|collect material]] located above and around the seal, allowing it to be used by a spell. It is either directional or semi-directional and has never been seen inverted. The open side is typically seen facing inwards.
+{{-}}'''Spells Using Collection'''</br>
+[[Billow Cluster]] • [[Serpent's Bed of Sand]]
+{{-}}
+
+===Billow===
+{{Magic Info
+|magicimage=[[File:Billowing.png|left]]
+|magicname=Sign of Billow
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Billow''' is likely a non-directional sign that presumably allows a spell to turn available materials into a fluffy cloud that is said to be extremely comfortable to sit on{{Ref|m|6|23}}. Similar to '''Stability and Level Planes''', '''Billow''' can take the place of a sigil within a spell. Its only appearance has been within the Serpent’s Bed of Sand, so the exact details of how it works aren't quite clear.
+{{-}}'''Spells Using Billow'''</br>
+[[Billow Cluster]] • [[Serpent's Bed of Sand]]
+{{-}}
+
+===Diamond===
+{{Magic Info
+|magicimage=[[File:Diamond_(what_does_it_do).png|left]]
+|magicname=Sign of Diamond
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Diamond''' function is currently unknown. it is likely that diamond causes the spell to only affect objects within a container it is drawn on without affecting the container itself.
+{{-}}'''Spells Using Diamond'''</br>
+[[Spell of Reduction]] • [[Magic Cookpot]]
+{{-}}
+
+===Selection===
+{{Magic Info
+|magicimage=[[File:Window.png|left|70px]]
+|magicname=Sign of Selection
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Selection''' can be found at the center of the [[Seal of Expansion and Levitation]]{{Ref|m|37|28}}, which makes use of a '''Sign of Expansion''' to make the object it is drawn on grow in size. The sign is non-directional. By comparing this spell to the [[Spell of Reduction|spell of reduction]], which also contains an inverted '''Sign of Expansion''',  it is possible to isolate '''Selection's''' effect. '''Selection''' will likely cause a spell to only affect the object it is drawn on.
+{{-}}'''Spells Using Selection'''</br>
+[[Seal of Expansion and Levitation]]
+{{-}}
+
+===Expansion===
+{{Magic Info
+|magicimage=[[File:Enlarge.png|left]]
+|magicname=Sign of Expansion
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=Semi-directional}}
+The '''Sign of Expansion''' manipulates the size of a target object. It will causes the spell to [[Seal of Expansion and Levitation|grow]] (if the corners point outwards) or [[Spell of Reduction|shrink]] (if the corners point inwards).
+{{-}}'''Spells Using Expansion'''</br>
+[[Seal of Expansion and Levitation]] • [[Spell of Reduction]] (Inverted) • [[Qifrey's Water Dragon|Water Dragon]]
+{{-}}
+
+===Crosshair===
+{{Magic Info
+|magicimage=[[File:Crosshair_(idk).png|left]]
+|magicname=Sign of Crosshair
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=Directional}}
+The '''Sign of Crosshair''' causes magical effects of a seal to target whatever the shorter ends of the '''Sign of Crosshair''' are pointed at.
+[[File:Crosshair Diagram 2.png|thumb|500px|left]]
+{{-}}'''Spells Using Crosshair'''</br>
+[[Carousel of Lights]] • [[Fish Guidance]] • [[Rainflinger]] • [[Waterflinger]]
+{{-}}
+
+===Rain===
+{{Magic Info
+|magicimage=[[File:Rain.png|left]]
+|magicname=Sign of Rain
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=Semi-directional}}
+The '''Sign of Rain''' likely allows the summoning of a target object. The form in which a target object can be summoned can differ visually. Agott's usage of '''Rain''' has water abruptly fall from above while Euini's usage appears more like rainfall.{{Ref|a|12}} It is possible using more than the standard three lines on each side may contribute to this change in effect, as this is one of the ways Euini draws this sign to make up for his unsteadily drawn seals.{{Ref|a|13|6:24}}{{Ref|m|25|21-22}} When '''Rain''' is used alongside a sigil, the sigil can be placed in its center.  When inverted, '''Rain''' has been shown to create an area of effect in which a target object either cannot exist or is pushed away.{{Ref|m|82|2}}
+{{-}}'''Spells Using Rain'''</br>
+[[Rainbringer Seal]] • [[Rainwarding]] (Inverted)
+{{-}}
+
+===Orb===
+{{Magic Info
+|magicimage=[[File:Orb.png|left]]
+|magicname=Sign of Orb
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=Non-directional}}
+The '''Sign of Orb''' creates a spherical space above a seal within which the material the spell controls will collect. Material will only collect in this area if it is added in directly. Material will fill this space bottom to top, collecting at the bottom of the spherical region, still affected by gravity. When more material is added, it will gradually fill the space higher and higher in the same way you would see in a bucket or a cup. It is seen one time in a spell [[Qifrey]] uses to create a sphere of water, achieving this by pouring it into the spherical region of the spell directly.{{Ref|m|53|19}}
+[[File:Orb Diagram.png|thumb|left|250px]]
+{{-}}'''Spells Using Orb'''</br>
+[[Water Orb]] 
+{{-}}
+
+===Purification===
+{{Magic Info
+|magicimage=[[File:Purify Sign.png|left]]
+|magicname=Sign of Purification
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=Asymmetric}}
+The '''Sign of Purification''' likely separates waste from water, much like its counterpart the '''Sigil of Purification'''. When [[Coco]] uses this sign, she is specifically attempting to make a mini version of the Casting Seal of the [[Sewer Grate]], which uses the sigil as opposed to the sign.
+{{-}}'''Spells Using Purification'''</br>
+[[Purify]]
+{{-}}
+
+===Link===
+{{Magic Info
+|magicimage=[[File:Link Sign.png|left]]
+|magicname=Sign of Link
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Link''' is likely to be a semi-directional sign that identifies and creates a link between two target objects that were broken off, removed from, or made from the same source. This can be deduced from its use in one spell in which all of the other signs have a known function.{{Ref|m|46|19}}
+{{-}}'''Spells Using Link'''</br>
+[[Light Tracer]] 
+{{-}}
+
+===Stillness===
+{{Magic Info
+|magicimage=[[File:Stasis Sign.png|left|90px]]
+|magicname=Sign of Stillness
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Stillness''' is likely used to hold magic in place, based on its use in the [[Snowfending]] spell, and the translation of [[Episode 11]] textbooks.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 6]]}} '''Stillness''' likely has a magical effect remain static in a single location. This is likely used to hold heat over/on Coco's house in the [[Snowfending]] spell {{Ref|m|94|14}}
+{{-}}'''Spells Using Stillness'''</br>
+[[Snowfending]]
+{{-}}
+
+===Projection===
+{{Magic Info
+|magicimage=[[File:Sign of projection redraw.png|left]]
+|magicname=Sign of Projection
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Projection''' is likely used to project a given effect outwards. In the Anime, When Euini is examining the [[Mirror Cloak of Borrowshade]], the shot of the casting seal pans to this sign when Euini is describing how the spell projects the image of a beast reflected within its scales.{{Ref|a|12|17:33-17:40}} It is likely '''Projection''' is only capable of projecting images specified by the spell.
+{{-}}'''Spells Using Project'''</br>
+[[Mirror Cloak Spell]] • [[Mirror Spell]]
+{{-}}
+
+===Launch===
+{{Magic Info
+|magicimage=[[File:Sign of geyser redraw.png|left]]
+|magicname=Sign of Launch
+|magicjp=
+|magictl=
+|magicdesc=
+|magictype=}}
+The '''Sign of Launch''' likely causes the target object to generate in the direction it's pointing, in a powerful but short lived "burst". The effects of '''Launch''' can go far enough to reach above trees {{Ref|m|11|8}} but quickly runs out leaving behind anything else generated by the seal {{Ref|m|11|15}}. 
+{{-}}'''Spells Using Launch'''</br>
+[[Ancient Light Beacon]] • [[Bird of Light Beacon]]
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{Items Navibox}}
+{{World Navibox}}
+[[Category:Magic]]
+[[Category:Spells]]

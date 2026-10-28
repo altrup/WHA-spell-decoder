@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Rising Wave.png|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 27]]
+}}
+'''Rising wave''' is a water-type spell that creates a surge of water.
+
+==Description==
+Rising wave has a central water sigil surrounded by a ring of column keystones. On half of the glyph, directional keystones are located between the column keystones. This spell creates a surge of water that travels up diagonally, allowing the caster to propel themselves up into the air. The glyph was used by Qifrey in his battle with Sasaran.{{Ref|m|27}}
+
+==Usage==
+[[Qifrey]] used the glyph during his battle with [[Sasaran]] in the [[Serpentback Cave]].{{Ref|m|27}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

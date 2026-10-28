@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=[[File:Stone Weave Skein.png|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users= [[Richeh]], [[Witches]]
+|creator=[[Richeh]]
+|manga=[[Chapter 21]]
+}}
+'''Boulder Stretch Rope''' is a earth-type [[Spells|spell]] that shapes stone into a flexible ribbon.
+
+==Description==
+Boulder stretch contains a central earth sigil with a single weave keystone wrapped around it. This spell turns stone into a flexible ribbon that can be used for many purposes.
+
+==Usage==
+This spell was created and used by Richeh to cross a gap in the road of the [[Serpentback Cave|serpent-back cave]].{{Ref|m|21|94}}
+
+It was also used by [[Agott]], [[Coco]] and [[Tetia]] to capture [[Euini|Wolf Euini]].
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Earth Spells]]

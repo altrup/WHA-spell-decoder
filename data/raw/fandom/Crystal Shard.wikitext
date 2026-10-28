@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:18 12 Crystal Spell.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Riche]], [[Witches]]
+|creator=
+|manga=[[Chapter 18]]
+}}
+'''Crystal Shard''' is a niche [[Spells|spell]] that creates several crystal shards.
+
+==Description==
+Crystal shard contains a central crystal sigil surrounded by inverted column keystones. It causes causes several large, shard-like crystals to suddenly erupt from the glyph.{{Ref|m|18|12}}
+
+==Usage==
+[[Riche]] once used the spell during the height of an emotional outburst which occurred as a result of [[Qifrey]] suggesting she study magic other than her own.{{Ref|m|18|12}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

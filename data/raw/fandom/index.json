@@ -1,0 +1,454 @@
+{
+ "Spells": {
+  "wikitext": "Spells.wikitext",
+  "images": [
+   "Unburning_Flame.png",
+   "Kindle_Orb.png",
+   "Snugstone.jpg",
+   "Rainmaker's_Glyph.png",
+   "Surging_Stage.png",
+   "Rising_Wave.png",
+   "24_9_Water_Bolt.jpg",
+   "Water_Shot.png",
+   "Water_Horse_Spell.JPG",
+   "Water_Pen.png",
+   "Stone_Weave_Skein.png",
+   "Resintigration.png",
+   "Integration.png",
+   "12_27_Sand_Bridge_Glyph.png",
+   "Sand_Cage.png",
+   "Dragon's_Bed_of_Sand.png",
+   "Wall_Breaker-0.png",
+   "Aireal_Lure.png",
+   "Gathering_Winds.jpg",
+   "Skysoar_Seal.png",
+   "Sylph_Shoes_Seal.png",
+   "28_19_Wind_Wall.jpg",
+   "Pegasus_Carriage_Seal.png",
+   "Make_air.png",
+   "Phoenix_Portent.png",
+   "Dancing_Lights.png",
+   "Light_Beam-0.png",
+   "46_19_Crystal_Light_Bangles_Glyph.png",
+   "Beast_Repellent_Spell.JPG",
+   "Revised_Cloak_Spell.png",
+   "Floating_Drops.png",
+   "Dispel_Water_Acurate_Version.png",
+   "Dispel_Water_Old.png",
+   "Dispel_Water,_Updated_Version.png",
+   "Billowing_Collection.png",
+   "Capture_Pennant_Spell.png",
+   "Crystal_Ribbon_cropped.png",
+   "18_12_Crystal_Spell.png",
+   "Expansion_Glyph_From_Volume_7_Limited_Edition.jpg",
+   "Gathering_Shadows.png",
+   "28_22_Inverted_Scalewolf.jpg",
+   "Qifrey_memory_erasure.jpg",
+   "Mirror.png",
+   "Repitition_Seal.png",
+   "Time_reversal_book_page.png",
+   "Sealchair_Glyph.jpg",
+   "Spell_of_Reduction.png",
+   "Windowway_Spell.png",
+   "Beldaruit's_smoke_sculpture_spell_.png",
+   "Forbiden_Fire_Glyph.jpg",
+   "Forbidden_Glow_Spell.png",
+   "27_16_Spike.jpg",
+   "Tracking_Spell.jpg",
+   "Puppet_Bag's_Spell.jpg",
+   "Anti_Scalewolf_Spell.png",
+   "Illusory_Labyrinth.png",
+   "1_56_Coco's_Mom_Petrified.jpg",
+   "Scalewolf_Curse.png",
+   "Twinned_Bottles'_Seal.png"
+  ]
+ },
+ "Anti Scalewolf Curse": {
+  "wikitext": "Anti Scalewolf Curse.wikitext",
+  "images": [
+   "Anti_Scalewolf_Spell.png"
+  ]
+ },
+ "Beast Repellent": {
+  "wikitext": "Beast Repellent.wikitext",
+  "images": [
+   "Beast_Repellent_Spell.JPG"
+  ]
+ },
+ "Beldaruit's Smoke Sculpture": {
+  "wikitext": "Beldaruit's Smoke Sculpture.wikitext",
+  "images": [
+   "Beldaruit's_smoke_sculpture_spell_.png"
+  ]
+ },
+ "Billowing Collection": {
+  "wikitext": "Billowing Collection.wikitext",
+  "images": [
+   "Billowing_Collection.png"
+  ]
+ },
+ "Bird of Light Beacon": {
+  "wikitext": "Bird of Light Beacon.wikitext",
+  "images": [
+   "Phoenix_Portent.png"
+  ]
+ },
+ "Boulder Stretch Rope": {
+  "wikitext": "Boulder Stretch Rope.wikitext",
+  "images": [
+   "Stone_Weave_Skein.png"
+  ]
+ },
+ "Capture Pennant Spell": {
+  "wikitext": "Capture Pennant Spell.wikitext",
+  "images": [
+   "Knights_Moralis_Banner_Spell.jpg"
+  ]
+ },
+ "Cloak Spell": {
+  "wikitext": "Cloak Spell.wikitext",
+  "images": [
+   "Revised_Cloak_Spell.png"
+  ]
+ },
+ "Crystal Ribbon": {
+  "wikitext": "Crystal Ribbon.wikitext",
+  "images": [
+   "Crystal_Ribbon_cropped.png"
+  ]
+ },
+ "Crystal Shard": {
+  "wikitext": "Crystal Shard.wikitext",
+  "images": [
+   "18_12_Crystal_Spell.png"
+  ]
+ },
+ "Floatglow Lamp": {
+  "wikitext": "Floatglow Lamp.wikitext",
+  "images": [
+   "Dancing_Lights.png"
+  ]
+ },
+ "Floating Drops": {
+  "wikitext": "Floating Drops.wikitext",
+  "images": [
+   "Floating_Drops.png",
+   "16_5_Floating_Drops.png"
+  ]
+ },
+ "Floating Expansion": {
+  "wikitext": "Floating Expansion.wikitext",
+  "images": [
+   "Expansion_Glyph_From_Volume_7_Limited_Edition.jpg"
+  ]
+ },
+ "Flying Puppet of Diversion": {
+  "wikitext": "Flying Puppet of Diversion.wikitext",
+  "images": [
+   "Aireal_Lure.png",
+   "6_9_Flying_Puppet_of_Diversion.png"
+  ]
+ },
+ "Forbidden Flames": {
+  "wikitext": "Forbidden Flames.wikitext",
+  "images": [
+   "Forbiden_Fire_Glyph.jpg"
+  ]
+ },
+ "Forbidden Glow": {
+  "wikitext": "Forbidden Glow.wikitext",
+  "images": [
+   "Forbidden_Glow_Spell.png"
+  ]
+ },
+ "Forbidden Magic": {
+  "wikitext": "Forbidden Magic.wikitext",
+  "images": []
+ },
+ "Gathering Shadows": {
+  "wikitext": "Gathering Shadows.wikitext",
+  "images": [
+   "Gathering_Shadows.png"
+  ]
+ },
+ "Grasping Wind": {
+  "wikitext": "Grasping Wind.wikitext",
+  "images": [
+   "Gathering_Winds.jpg"
+  ]
+ },
+ "Illusory Labyrinth": {
+  "wikitext": "Illusory Labyrinth.wikitext",
+  "images": [
+   "Illusory_Labyrinth.png"
+  ]
+ },
+ "Integration": {
+  "wikitext": "Integration.wikitext",
+  "images": [
+   "Resintigration.png"
+  ]
+ },
+ "Inverted Scalewolf Curse": {
+  "wikitext": "Inverted Scalewolf Curse.wikitext",
+  "images": [
+   "28_22_Inverted_Scalewolf.jpg",
+   "27_11_Wolf_Eunie.jpg"
+  ]
+ },
+ "Light Beam": {
+  "wikitext": "Light Beam.wikitext",
+  "images": [
+   "Light_Beam-0.png"
+  ]
+ },
+ "Light Tracer": {
+  "wikitext": "Light Tracer.wikitext",
+  "images": [
+   "46_19_Crystal_Light_Bangles_Glyph.png"
+  ]
+ },
+ "Magic": {
+  "wikitext": "Magic.wikitext",
+  "images": [
+   "Qifrey's_Water_Magic.png",
+   "Sylph_Shoe_Seal.jpg",
+   "Fire_sigil.png",
+   "Water.png",
+   "Earth.png",
+   "Wind_(redirect).png",
+   "Light.png",
+   "Wind_Underfoot.png",
+   "Aeriforms_(Wind).png",
+   "Crystal.png",
+   "Keystone_Comp.png"
+  ]
+ },
+ "Memory Erasure": {
+  "wikitext": "Memory Erasure.wikitext",
+  "images": [
+   "Knights_moralis_memory_erasure.jpg",
+   "Memory_erasure_effect.jpg",
+   "Qifrey_memory_erasure.jpg"
+  ]
+ },
+ "Mirror Spell": {
+  "wikitext": "Mirror Spell.wikitext",
+  "images": [
+   "Mirror.png"
+  ]
+ },
+ "Pegasus Carriage Spell": {
+  "wikitext": "Pegasus Carriage Spell.wikitext",
+  "images": [
+   "Pegasus_Carriage_Seal.png",
+   "Pegasus_Carriage_Spell.jpg"
+  ]
+ },
+ "Petrification": {
+  "wikitext": "Petrification.wikitext",
+  "images": [
+   "1_56_Coco's_Mom_Petrified.jpg",
+   "Petrification_Spell_(Anime).png"
+  ]
+ },
+ "Phantasmal Fireball": {
+  "wikitext": "Phantasmal Fireball.wikitext",
+  "images": [
+   "Unburning_Flame.png"
+  ]
+ },
+ "Pyreball Seal": {
+  "wikitext": "Pyreball Seal.wikitext",
+  "images": [
+   "Kindle_Orb.png",
+   "Pyreball_seal_usage.png"
+  ]
+ },
+ "Rainbringer Seal": {
+  "wikitext": "Rainbringer Seal.wikitext",
+  "images": [
+   "Rainmaker's_Glyph.png"
+  ]
+ },
+ "Rainflinger": {
+  "wikitext": "Rainflinger.wikitext",
+  "images": [
+   "Dispel_Water,_Updated_Version.png",
+   "Dispel_Water_Old.png",
+   "Dispel_Water_Acurate_Version.png"
+  ]
+ },
+ "Repetition Seal": {
+  "wikitext": "Repetition Seal.wikitext",
+  "images": [
+   "Repitition_Seal.png"
+  ]
+ },
+ "Reverse Time": {
+  "wikitext": "Reverse Time.wikitext",
+  "images": [
+   "Time_reversal_book_page.png",
+   "ReverseTime_Dagda.PNG"
+  ]
+ },
+ "Rising Platform of Water": {
+  "wikitext": "Rising Platform of Water.wikitext",
+  "images": [
+   "Surging_Stage.png"
+  ]
+ },
+ "Rising Wave": {
+  "wikitext": "Rising Wave.wikitext",
+  "images": [
+   "Rising_Wave.png"
+  ]
+ },
+ "Sand Bridge": {
+  "wikitext": "Sand Bridge.wikitext",
+  "images": [
+   "12_27_Sand_Bridge_Glyph.png",
+   "12_26_Sand_Bridge.png"
+  ]
+ },
+ "Sand Cage": {
+  "wikitext": "Sand Cage.wikitext",
+  "images": [
+   "Sand_Cage.png"
+  ]
+ },
+ "Scalewolf Curse": {
+  "wikitext": "Scalewolf Curse.wikitext",
+  "images": [
+   "Scalewolf_Curse.png"
+  ]
+ },
+ "Sealchair Glyph": {
+  "wikitext": "Sealchair Glyph.wikitext",
+  "images": [
+   "Sealchair_Glyph.jpg"
+  ]
+ },
+ "Serpent's Bed of Sand": {
+  "wikitext": "Serpent's Bed of Sand.wikitext",
+  "images": [
+   "Dragon's_Bed_of_Sand.png"
+  ]
+ },
+ "Signs Explained": {
+  "wikitext": "Signs Explained.wikitext",
+  "images": [
+   "Column.png",
+   "Dispersion.png",
+   "Levitation.png",
+   "Pull.png",
+   "Crush.png",
+   "Float.png",
+   "Direction.png",
+   "Convergence.png",
+   "Diamond_(what_does_it_do).png",
+   "Window.png",
+   "Collection.png",
+   "Crosshair_(idk).png",
+   "Radial.png",
+   "Bolt.png",
+   "Billowing.png",
+   "Eye.png",
+   "Bend.png",
+   "Repetition.png",
+   "Vision.png",
+   "Weave.png",
+   "Enlarge.png",
+   "Rain.png",
+   "Bird.png",
+   "Dancing_Puppet.png",
+   "Animal_Signs.jpg"
+  ]
+ },
+ "Skysoaring Seal": {
+  "wikitext": "Skysoaring Seal.wikitext",
+  "images": [
+   "Skysoar_Seal.png",
+   "4_22-23_Fly.jpg"
+  ]
+ },
+ "Snugstone Spell": {
+  "wikitext": "Snugstone Spell.wikitext",
+  "images": [
+   "Snugstone.jpg"
+  ]
+ },
+ "Spell of Reduction": {
+  "wikitext": "Spell of Reduction.wikitext",
+  "images": [
+   "Spell_of_Reduction.png"
+  ]
+ },
+ "Spike": {
+  "wikitext": "Spike.wikitext",
+  "images": [
+   "27_16_Spike.jpg",
+   "27_16_Deflect.jpg"
+  ]
+ },
+ "Sylph Shoes Seal": {
+  "wikitext": "Sylph Shoes Seal.wikitext",
+  "images": [
+   "Sylph_Shoes_Seal.png"
+  ]
+ },
+ "Tracking Spell": {
+  "wikitext": "Tracking Spell.wikitext",
+  "images": [
+   "Tracking_Spell.jpg"
+  ]
+ },
+ "Twin Bottle's Spell": {
+  "wikitext": "Twin Bottle's Spell.wikitext",
+  "images": [
+   "Capture_d\u2019\u00e9cran_2021-08-14_203639.png"
+  ]
+ },
+ "Wall Breaker Seal": {
+  "wikitext": "Wall Breaker Seal.wikitext",
+  "images": [
+   "Wall_Breaker.png"
+  ]
+ },
+ "Water Bolt": {
+  "wikitext": "Water Bolt.wikitext",
+  "images": [
+   "24_9_Water_Bolt.jpg"
+  ]
+ },
+ "Water Horse Spell": {
+  "wikitext": "Water Horse Spell.wikitext",
+  "images": [
+   "Water_Horse_Spell.JPG"
+  ]
+ },
+ "Water Pen": {
+  "wikitext": "Water Pen.wikitext",
+  "images": [
+   "Water_Pen.png"
+  ]
+ },
+ "Watershot Seal": {
+  "wikitext": "Watershot Seal.wikitext",
+  "images": [
+   "Water_Shot.png"
+  ]
+ },
+ "Wind Wall": {
+  "wikitext": "Wind Wall.wikitext",
+  "images": [
+   "28_19_Wind_Wall.jpg"
+  ]
+ },
+ "Windowway Spell": {
+  "wikitext": "Windowway Spell.wikitext",
+  "images": [
+   "Windowway_Spell.png"
+  ]
+ }
+}

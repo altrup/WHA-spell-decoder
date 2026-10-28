@@ -1,0 +1,25 @@
+{{Object Infobox
+|type=[[Spells|Spell]]
+|users=[[Pointed Hat Witches]]<br>[[Brimmed Cap Group]]
+|manga=[[Chapter 45]], [[Chapter 55]]
+|image1=[[File:Time reversal book page.png]]
+}}
+
+'''Reverse Time''' is a family of niche-type spells. Distinct from [[Repetition Seal|repetition]] spells, as they do not use the repetition sigil.
+
+== Description ==
+Reverse Time spells have no identifiable sigil, but seem to be similar to the [[Repetition Seal|repitition]] spells, as there appear to be a number of intermediary spells between the two,{{Ref|m|46|12}} such as the ones on [[Ininia|Ininia's gloves]]. They are made of straight lines which form many geometric shapes in a six-sided star shape. Like the name implies, they are used to reverse time on what they are used on, mostly to undo wear and other types of damage.
+
+These spells have effect up to a maximum time of a day and are not permanent. Once the time frame expires, the glyph vanishes by itself and time takes effect on the target once more, putting it back in the state it was without the glyph.{{Ref|m|55}} The glyph can however be reapplied again to repeat the effect. According to [[Qifrey]], they are rather difficult spells to learn and, despite the law, their nature leads every witch to think about using them on a human body.
+
+== Usage ==
+[[Qifrey]] demonstrates the effects of time reversal on an ink pot Coco accidentally breaks.{{Ref|m|45}} This not only puts the pot back together, but the spilled ink goes back in it, allowing the pot to be emptied into another one to save the ink before the glyph expires.{{Ref|m|55}}
+
+[[Ininia]] uses a large time reversal glyph to prevent [[Dagda]] from dying from the wounds dealt to him, successfully rewinding him back to before he was wounded. This not only removes his wounds but resets his memories of the time affected, leaving him in a state of confusion. The glyph expires several times and has to be redrawn quickly after it vanishes so he does not die.
+[[File:ReverseTime Dagda.PNG|thumb|250x250px|The time reversal glyph on Dagda's chest in chapter 55.|alt=|left]]
+{{-}}
+== References ==
+[[Category:Magic]]
+[[Category:Spells]]
+[[Category:Niche Spells]]
+[[Fr:Remonter le temps]]

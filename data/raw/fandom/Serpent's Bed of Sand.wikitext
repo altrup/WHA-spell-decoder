@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:Dragon's Bed of Sand.png|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Tetia]], [[Witches]]
+|creator=[[Agott]], [[Coco]], [[Richeh]], [[Tetia]]
+|manga=[[Chapter 7]]
+}}
+The '''serpent's bed of sand''' is an earth spell created by the four apprentices of [[Qifrey's Atelier]] that creates a cloud  made of sand.
+
+== Description ==
+The serpent's bed of sand is an amalgamation of several spells. At it's center is a [[Billowing Collection|billowing collection]] spell, which contains a central billowing keystone surrounded by collection keystones. Arranged around that are several [[Wall Breaker Seal|wall breaker seals]], the seals containing an earth sigil paired with crush and column signs, all wrapped up in a [[Repetition Seal|repetition seal]] which contains repetition sigils, convergence signs, and column signs. It creates a large, fluffy cloud out of sand, and is strong enough to hold up a [[Dragon|dragon]].{{Ref|m|7}}
+
+== Usage ==
+The spell was created by the four apprentices of Qifrey's Atelier, [[Tetia]], [[Richeh]], [[Coco]], and [[Agott]]. It was then used to make the dragon guarding the [[Illusory Labyrinth|illusory labyrinth]] glyph fall asleep, allowing the girls to destroy it and escape.{{Ref|m|7}}
+
+== Referances ==
+{{Reflist}}
+
+== Site Navigation ==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Earth Spells]]
+[[Fr:Paillasse du Dragon]]

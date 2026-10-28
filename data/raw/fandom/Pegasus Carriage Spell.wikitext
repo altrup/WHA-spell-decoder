@@ -1,0 +1,30 @@
+{{Object Infobox
+|image1=[[File:Pegasus Carriage Seal.png|thumb]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 1]]
+}}
+The '''Pegasus Carriage Spell''' is a [[Spells|wind spell]] that allows the [[Pegasus Carriage]] to fly.
+
+==Description==
+The spell contains several sigils similar to the wind sigil, but not identical. The spell is the main component of the Pegasus Carriage, which uses the spell to keep it aloft while it is being pulled.{{Ref|m|1}}
+
+It is composed of two sigils of Whorling Wind, as well as two [[Sylph Shoes Seal|sigils of Wind Underfoot]]. Surrounding the sigils of Whorling Wind are three signs of columns. Surrounding the sigils of Wind Underfoot are four signs of levitation and four signs of aeriforms defined. Around the internal ring are various signs of columns and around the external ring are signs of wind. At the center of the seal are signs of Stability and Level Planes.<ref>[[Chapter 68]]</ref>.
+[[File:Pegasus Carriage Spell.jpg|alt=Qifrey drawing the Pegasus Carriage Seal, from Chapter 1|thumb|224x224px|Qifrey drawing the Pegasus Carriage Seal]]
+
+==Usage==
+The spell was first seen when a trio of wealthy women visited [[Coco's Village]] to browse the wares for sale at the shop of [[Coco's Mother]]. They came in a Pegasus Carriage, which was broken by two village boys. After this, [[Qifrey]] repaired the glyph, but was spied upon by [[Coco]], leading to her realizing that magic is drawn<ref>[[Chapter 1]]</ref>.
+
+A complete version of the seal was revealed in the bonus content for [[chapter 68]].
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Unknown Spells]]
+[[Fr:Carrosse ailé (sort)]]

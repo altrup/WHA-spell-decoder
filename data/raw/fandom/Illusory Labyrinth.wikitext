@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Illusory Labyrinth.png|250px]]
+|kanji=
+|romaji =
+|type=[[Forbidden Magic|Forbidden Spell]]
+|users=[[Brimmed Hat Group]]
+|creator=
+|manga=[[Chapter 6]]
+}}
+'''Illusory labyrinth''' is a forbidden [[Spells|spell]] that creates a labyrinthine area that loops infinitely, making it impossible to escape.
+
+==Description==
+The spell contains the same central sigil as the [[Scalewolf Curse|scalewolf curse]], with column and directional signs, the remaining signs and sigils all being unidentified. The spell creates a grand underground labyrinth within which even space is distorted, as if you walk to far you will show up right where you started.
+
+==Usage==
+The spell is responsible for the formation of the [[Draconic Labyrinth Arc|underground labyrinth]], which [[Iguin]] trapped all of [[Qifrey's Atelier|Qifrey's Apprentices]] inside of. The glyph was guarded by a [[Dragon|dragon]], which the apprentices had to get past using the [[Serpent's Bed of Sand|serpent's bed of sand]] spell, after which they destroyed the glyph and were extracted by [[Qifrey]] from the labyrinth just in time before it collapsed.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

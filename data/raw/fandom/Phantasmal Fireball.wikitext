@@ -1,0 +1,32 @@
+{{Object Infobox
+|image1=[[File:Unburning Flame.png|250px]]
+|kanji=
+|romaji
+|type= [[Spells|Spell]], [[Contraption]]
+|users=[[Olruggio]]
+|creator=[[Olruggio]]
+|manga=[[Chapter 43]]
+}}
+The '''phantasmal fireball spell''' is a fire-type spell invented by [[Olruggio]] that forms an artificial flame which doesn't produce heat.{{Ref|m|43}}
+
+==Description (Spell)==
+The spell consists of a fire sigil variant, and several never before seen keystones.{{Ref|m|43|8}} It produces a flame that generates no heat but still produces light and can be touched without any risk of injury, making it useful for the light it produces and it's ability to scare of beasts without the risk of injury.{{Ref|m|43|8}}   
+
+==Description (Contraption)==
+The contraption is incredibly simple, consisting of only an orb with the spell of the same name drawn upon it. The contraption is fully engulfed in the pahntasmal fire of the spell, allowing for it to be held and carried as a coinvent light source. The contraption is not approved for sale.
+
+==Usage and History==
+Olruggio attempted to submit a contraption by the same name, composed of the spell drawn on a sphere, for approval with the Pointed Hat authorities. However, the submission was rejected for use in sale due to concerns that children may end up believing that fire is harmless due to the spells unique effect, resulting in a risk of injury when they come in contact with real flame.{{Ref|m|43|10-12}}
+
+==Trivia==
+*Due to the spell being illegal to sell, it can be argued that Olruggio, the one who invented the spell, is the only actual user of unburning flame.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Contraptions]]
+[[Category:Fire Spells]]
+[[Category:Olruggio's Inventions]]

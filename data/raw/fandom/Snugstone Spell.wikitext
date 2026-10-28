@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:Snugstone.jpg|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=[[Olruggio]]
+|manga=[[Chapter 18]]
+}}
+The '''snugstone spell''' <small>(unofficial name)</small> is a fire-type spell invented by [[Olruggio]] which radiates warmth.
+
+==Description==
+The spell consists of a fire sigil, backwards column keystones, and a radial keystone. It radiates warmth outward without the need for a flame{{ref|m|18|20}} and is used on the [[snugstone]], an item used to keep you warm while you sleep.
+
+==Usage==
+This spell was first seen drawn on the snugstones that Olruggio gave to [[Qifrey]] and his aprentices so they could sleep better. {{Ref|m|18|21}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]
+[[Category:Olruggio's Inventions]]

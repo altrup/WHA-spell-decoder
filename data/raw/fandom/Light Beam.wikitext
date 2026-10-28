@@ -1,0 +1,23 @@
+{{Object Infobox
+|image1=[[File:Light_Beam-0.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Agott]], [[Witches]]
+|creator=
+|manga=
+}}
+'''Light Beam''' is a light-type spell that creates a beam of light.
+
+==Description==
+Light beam contains a central light sigil surrounded by column keystones. The spell generated beam of light pointing up from the glyph. The more precisely the glyphs are drawn, the more steady the beam will be. 
+
+==Usage==
+Light beam was seen being used by [[Agott]] during her magic drawing practice.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]][[Category: Light Spells]]

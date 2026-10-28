@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:Windowway Spell.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Witches]]
+|creator=
+|manga=[[Chapter 2]]
+}}
+The '''windowway spell''' is a niche [[Spells|spell]] used in the [[Windowway|windowway]] that opens a gateway between two distant locations.
+
+==Description==
+The base windowway spell contains an outer ring of lightning bolt-shaped signs, and an inner ring of signs which appear similar to directional, pointing in the opposite direction. Oftentimes, windowways will contain a symbol which seems to correspond to the location the windowway links up with, but it is unknown whether this symbol is simply an indicator or actually part of the spell. The spell is subject to a high degree of variability, as each windowway is unique as to avoid linking to the same place. The spells can't be used unless there is a pair.
+
+==Usage==
+The spell was first seen when [[Qifrey]] was showing a windowway to [[Coco]], and later that day for Qifrey to visit the [[Great Hall]], and Coco to visit the [[Dadah Range]] for [[Consent of the Crown|The Consent of the Crown]]. They are later used to transport the members of [[Qifrey's Atelier|Qifrey's atelier]] to the site of a [[Stairway River|bridge collapse]], to take [[The Sincerity of the Shield]], send [[Euini]] and [[Alaira]] to safety, visit the Great Hall again, and other uses.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]
+[[Fr:Fenêtre-portail (sort)]]

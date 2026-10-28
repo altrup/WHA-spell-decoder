@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:27 16 Spike.jpg|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Sasaran]]
+|creator=
+|manga=[[Chapter 27]]
+}}
+'''Spike''' is a [[Spells|spell]] of unknown type.
+
+==Description==
+Spike generates several large spikes directly from the glyph that are flung out at lethal speeds, and is a spell used for offensive purposes.{{Ref|m|27|16}} The construction of the spell is entirely unknown.
+
+==Usage==
+The spell was seen used by [[Sasaran]] during his fight with [[Qifrey]] within the [[Serpentback Cave]]. When Sasaran fired the spell at Qifrey, Qifrey managed to block it with a wall of earth.{{Ref|m|27|17}}
+[[File:27 16 Deflect.jpg|thumb|Qifrey deflecting the spike spell]]
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Unknown Spells]]

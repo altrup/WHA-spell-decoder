@@ -1,0 +1,28 @@
+{{Object Infobox
+|image1=[[File:28 22 Inverted Scalewolf.jpg|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=[[Agott]], [[Coco]], [[Tetia]]
+|manga=[[Chapter 28]]
+}}
+The '''inverted scalewolf curse''' is a niche-type [[Spells|spell]] which counteracts the mental effects of the [[Scalewolf Curse|scalewolf curse]].
+
+==Description==
+The spell supposedly contains the same signs and as the [[Scalewolf Curse|scalewolf curse]], just inverted.{{Ref|m|28|13-14}} When signs are inverted, the effect of a spell is reversed, allowing it to cancel out the normal version. This is the principle this spell was built off of. However, the spell was only partially able to reverse the effects of the scalewolf curse, only able to heal the mind of those afflicted.
+
+==Usage==
+The concept for the spell was invented in a joint discussion between [[Agott]], [[Coco]], and [[Tetia]] while they were in the [[Serpentback Cave]]. Coco proposed that by inverting the glyph used on Eunie, they would be able to undo the spell which turned him into a [[Scaled Wolf|scaled wolf]].{{Ref|m|28|13-14}} After immobilizing Euini, Agott drew the spell and applied it to the site of the seal, which failed to revert him back to a human, but did successfully heal his mind.{{Ref|m|28|23}}[[File:27 11 Wolf Eunie.jpg|thumb|Euinie before having his mind restored]]
+
+==Trivia==
+*As stated by Tetia and Agott, the spell is technically not forbidden, as it only undo's the effects of the spell, which has not been stated to be forbidden as of the time of the spell's creation{{Ref|m|28|15-16}}
+*Interestingly, despite the spell supposedly being an inverted version of the [[Scalewolf Curse|scalewolf curse]], the inverted scalewolf curse does not share many visual similarities with it's complimentary spell
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

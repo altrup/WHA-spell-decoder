@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Water_Horse_Spell.JPG|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Qifrey]], [[Witches]]
+|creator=
+|manga=[[Chapter 46]]
+}}
+The '''water horse spell''' is a water-type [[Spells|spell]] that creates a horse made from water.
+
+==Description==
+The spell consists of a central water sigil, with a horse-like sign located above it. An unknown signs is located to the left and right of the sigil, and an alternating collection of directional and line-shaped signs are situated below the sigil. The spell creates a horse made from water, which can be used to pull a vehicle, such as in the case of the [[Water Horse Carriage|water horse carriage]].
+
+==Usage==
+The spell was used by [[Qifrey]] to pull a water horse carriage which he and [[Qifrey's Atelier|his apprentices]] used to travel to the [[Silver Eve]].
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

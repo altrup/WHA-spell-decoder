@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:1 56 Coco's Mom Petrified.jpg|200px]]
+|kanji=
+|romaji =
+|type=[[Forbidden Magic]]
+|users=[[Brimmed Hat Group]], [[Coco]]
+|creator=
+|manga=[[Chapter 1]]
+}}
+[[File:Petrification Spell (Anime).png|thumb|The Petrification Spell, as seen in the anime, Episode 1. It appears in the picture book as Coco begins to trace it.]]
+'''Petrification''' is a forbidden [[Spells|spell]] that turns everything nearby, alive or inanimate, into a rock-like unknown material.
+
+==Description==
+Petrification has an unknown glyph construction. It has the ability to turn everyone and everything nearby to stone.
+
+==Usage==
+After discovering that [[Magic|magic]] is drawn rather than spoken, [[Coco]] copied several spells from the [[Magic Book|magic picture book]] sold to her by [[Iguin]] when she was a little girl. The last spell she drew was the petrification spell and, just as she finished drawing it, [[Qifrey]] snatched her up and whisked her out of her house, just before it and [[Coco's Mother|her mother]] were turned to stone.{{Ref|m|1|50-56}}
+
+
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

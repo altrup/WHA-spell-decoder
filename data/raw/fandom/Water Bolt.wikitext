@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:24 9 Water Bolt.jpg|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users= [[Qifrey]], [[Witches]]
+|creator=
+|manga=[[Chapter 24]]
+}}
+'''Water bolt''' <small>(unofficial name)</small> is a water-type [[Spells|spell]] that creates water arrows.
+
+==Description==
+Water bolt is a spell that consists of a water sigil near the bottom, with one horizontal row of bolt keystones going through the middle of the spell, perpendicular to the water sigil, and another and row of directional keystones running parallel to the row of bolt keystones.{{Ref|m|24|9}} The spell shoots bolts of water straight ahead, and is more effective when drawn big, needing to be drawn on the ground in order for there to be enough room for it to be effective.
+
+==Usage==
+Water bolt was used by [[Qifrey]] during his battle with the [[Romonon|gilded people of Romonon]] [[Serpentback Cave]]{{Ref|m|24|9}}. Qifrey drew the glyph using the [[Water Pen|water pen]] spell.{{Ref|m|24|8}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

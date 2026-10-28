@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=[[File:Kindle Orb.png|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 8]]
+}}
+'''Pyreball seal''' is a fire-type spell used to create a levitating ball of flame.
+
+==Description==
+Pyreball seal is a spell that contains a central fire sigil with [[Signs Explained#Levitation|levitation]] keystones arranged around it.{{Ref|m|8|10}} This spell produces a ball of fire that will levitate both itself and any object that isn't too heavy directly above the glyph.{{Ref|m|8|10}}
+
+==Usage==
+This spell was used during [[chapter 8]] by [[Coco]] under the instruction of [[Qifrey]] to cook [[Carapace Yam|carapace yams]]{{Ref|m|8|10}} for a picnic.{{Ref|m|8|16}}<gallery>
+File:Pyreball seal usage.png|The first time we see the pyreball seal being used.
+</gallery>
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]

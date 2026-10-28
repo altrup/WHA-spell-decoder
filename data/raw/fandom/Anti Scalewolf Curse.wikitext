@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1= [[File:Anti Scalewolf Spell.png|Iguin using the spell|250px]]
+|kanji=
+|romaji
+|type= [[Forbidden Magic|Forbidden Spell]]
+|users=[[Brimmed Hat Group|Brimmed Hat Witches]], [[Iguin]]
+|creator= 
+|manga= [[Chapter 29]]
+}}
+
+'''Anti Scalewolf Curse''' is a forbidden spells that nullifies the mental effects of the [[Scalewolf Curse]] spell
+
+==Description==
+The only thing known of this spell is that, contrary to the common belief that reverting the sigils from a spell reverts the effect, the Anti Scalewolf Curse is a completly diferent spell from it's [[Scalewolf Curse|counterpart]]. When used on someone affected by the [[Scalewolf Curse|scalewolf curse]], the afflicted individual will revert to a human completely.
+
+==Usage==
+At first, the [[Qifrey's Atelier|girls]] tried to a [[Inverted Scalewolf Curse|reversed drawing of the Scalewolf Curse]] to cure Euini from the spell, but this didn't work. [[Iguin]] explained that most forbidden spells can only be nullified by drawing a completly different spell {{Ref|m|28|29}}. To prove his point, Iguin makes a collar with this spell and demonstrates its ability to cure Euini, only to remove it, causing Eunie to revert back to a [[Scaled Wolf|scaled wolf]] and tries coercing [[Coco]] into joinng the [[Brimmed Hat Group|brimhats]], telling her in order to get the spell from him and save Eunie, she has to join him. However, the girls steal the collar with a [[Grasping Wind]] spell, thwarting Iguin's plan {{Ref|m|29|9}}.
+
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

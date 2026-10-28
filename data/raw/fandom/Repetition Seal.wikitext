@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:Repitition Seal.png|250x250px]]
+|caption=The variant used in the serpent's bed of sand
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 7]]
+}}
+The '''repetition seal''' family are a family of niche-type [[Spells|spells]] that reverts objects to their original form.
+
+==Description==
+Numerous different kinds of repetition seals exist, and each one is different, but they all feature a repetition sigil as their main basis. At their core, repetition spells function by causing the object they are used on to become "like new." For example, if you were to use the spell on rotten food, it would become fresh, such as in the [[Magic Cookpot|magic cookpot]]. Dirty clothes would become brand new (and as a result, clean), the principle behind the [[Washing Barrels|washing barrels]], and a handkerchief that was embroidered would lose it's embroidery if the spell was used on it.{{Ref|Sinocia Birthday Comic}}
+
+==Usage==
+The repetition seal was first seen during the [[Draconic Labyrinth Arc]], where [[Qifrey's Atelier|Qifrey's apprentices]] used the spell as a component of [[Serpent's Bed of Sand|serpent's bed of sand]]. The spell functioned to hold together the cloud that the dragon would sit on by forcing it to return to it's original form, preventing it from being crushed.{{Ref|m|7|2o}} The spell was seeing again shortly thereafter being used by [[Qifrey]] it the magic cookpot, which kept even extremely old food fresh, and also made a rotten potato brand new again. {{Ref|m|8|8-9}} The spell was seen again one more time by Qifrey's apprentices during [[Great Hall Arc|their stay in the Great Hall]], where [[Tetia]] explained to [[Coco]] that the washing barrel reverted clothes to being new and fresh.{{Ref|m|32|7}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

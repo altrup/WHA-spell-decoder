@@ -1,0 +1,30 @@
+{{Object Infobox
+|image1=[[File:Crystal Ribbon cropped.png|thumb]]
+|caption= Theoretical design of the glyph believed to be responsible for the spell.
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]], [[Richeh]]
+|creator=[[Richeh]]
+|manga=[[Chapter 18]]
+}}
+'''WARNING: The actual design of this glyph is never shown, with the image here being the theoretical design of the glyph, and should in no way be considered cannon. The image is intended act as an aid to understanding the spell's effect rather than as an actual representation of the spell itself.'''
+
+'''Crystal ribbon''' is a niche-type spell that creates a crystal ribbon.
+
+==Description==
+The glyph for crystal ribbon is never actually shown in the manga, but it's effects are nearly identical to that of the [[Boulder Stretch Rope|boulder stretch rope]], another spell made by [[Richeh]]. It creates a soft, flexible ribbon of crystal, and is a favorite spell of Richeh.
+
+As the only difference between the effects of the two spells is the material of the ribbon produced, the earth sigil in the image provided has been replaced with a crystal one. While this is not the canon spell design, as the actual glyph construction is not shown, crystal is used in the image to help aid in comprehension of the spell's effect, and should not be considered cannon.
+
+==Usage==
+The spell was used by Richeh on multiple occasions, but a notable use was when she used it to get the [[Myrphon|myrphons]] to follow her through the [[Serpentback Cave]].{{Ref|m|20}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]
+[[Fr:Rubans de Cristal]]

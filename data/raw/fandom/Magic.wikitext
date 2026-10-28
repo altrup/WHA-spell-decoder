@@ -1,0 +1,146 @@
+[[File:Qifrey's Water Magic.png|thumb|243x243px|Qifrey's Water Magic]]
+'''Magic''' is a supernatural force harnessed through the drawing of runes with a special [[Conjuring Ink|conjuring ink]]. The select few people trained in the use of magic and sworn to secrecy of its practice are called [[witches]]. 
+
+Due to widespread misuse of magic in the distant past such as eternal youth and creation of monsters, modern witches have tabooed the use of any magic on living beings, including healing magic. Such magic are collectively known as [[Forbidden Magic|forbidden magic]]. 
+==Basics==
+[[File:Sylph Shoe Seal.jpg|thumb|136x136px|A basic wind spell]]
+All magic is performed through spells. The magic activates when the spell becomes complete such as by closing off the ring of the spell or conjoining two separate halves of a complete spell such as in [[Sylph Shoes]].
+
+The quality of a spell depends on the size and neatness of its inscription. Larger seals are stronger than smaller ones, and neatly drawn seals last longer than messy ones. A basic glyph is composed of three components: a sigil, signs (keystones), and an enclosing ring.{{Ref|m|10|16}} {{Ref|m|29|24}}
+===Sigils===
+A sigil, located in the center of a glyph, reflects the element of the spell. For example, a fire spell like [[Pyreball Seal|pyreball seal]] will contain a fire sigil, while an earth spell like [[Wall Breaker Seal|wall breaker]] will contain an earth sigil.
+There are five main types of sigil: earth, air, water, fire, and light. Alongside these sigils, certain signs, such as vision, repetition, and billowing can serve the purpose of sigil within their respective spells, but fall outside the main sigils and as such are considered signs. The five main sigils are shown below.
+{| class="article-table"
+!Fire
+!Water
+!Earth
+!Wind (directs air)
+!Light
+|-
+|[[File:Fire sigil.png|center|100px]]
+|[[File:Water.png|center|100px]]
+|[[File:Earth.png|center|100px]]
+|[[File:Wind (redirect).png|center|100px]]
+|[[File:Light.png|center|100px]]
+|}
+Additionally, there are several variants of these sigils with slightly different effects, as well as a few niche and minor sigils that see a more limited usage. For example, the sigil of Aeriforms is used to maintain the mist clouds around the Great Hall.<ref>''Witch Hat Atelier'' Manga: Chapter 30</ref>
+{| class="article-table"
+! Wind Underfoot
+!Aeriforms (maintain air)
+! Crystal
+|-
+|[[File:Wind Underfoot.png|alt=|center|100x100px]]
+|[[File:Aeriforms (Wind).png|center|100x100px]]
+|[[File:Crystal.png|alt=|center|100x100px]]
+|}
+
+===Signs (Keystones)===
+[[File:Keystone Comp.png|thumb|235x235px|Some signs we have encountered so far]]
+
+Signs determine the form in which the element of the spell manifests. For example, if a dispersion sign is used with a water sigil, water will pour out on all sides of the spell, like an overflowing bucket. On the other hand, if a column sign is used, the water will shoot out as a column at high speed like from a high-power water hose.
+
+Signs are arranged around the central sigil, in either radial or bilateral symmetry, though asymmetrical signs still make valid spells, though sometimes unstable. Occasionally, signs can take the place of a sigil, occupying the center of the glyph such as in the [[Spells#Serpent's Bed of Sand|serpent's bed of sand]] spell{{Ref|m|7|17}} and the [[Repetition Seal|repetition seal]].
+
+''A compilation of all signs can be found at "[[Signs Explained]]".''
+===Ring===
+The ring is a circle that encloses the sigil and signs of a spell. A spell will only activate if its ring is complete. This makes it possible to prepare spells ahead of time by leaving a small gap in the ring which can be filled to activate it on the fly. Additionally, It is possible to wrap a spell inside another ring and fill the gap between them with a second spell, allowing one to combine the effects of the two,{{Ref|m|7|20}} even if the spells aren't drawn on the same object.{{Cite}}
+
+==Advanced Magic==
+Beyond the basics of spell construction, there exist concepts and phenomena  which expand the options available in spell function and design.
+
+===Linked spells===
+When two spells are connected by a line, their effects will link together, and if both spells are identical or similar, their power will increase. Due to this phenomenon, if several small, identical spells are linked together, it is possible to make the spells more powerful than a large spell that takes up the same amount of space, allowing for very powerful spells to be drawn on small areas, though drawing such small, intricate spells can be incredibly difficult.
+
+===Reversed Signs===
+If a sign is flipped around, it will produce an effect opposite to the one it produces normally. Good examples of this can be seen in the [[Floating Expansion|floating expansion]] and [[Spell of Reduction|spell of reduction]], which grow and shrink objects respectively, as well as between [[Wall Breaker Seal|wall breaker]] and [[Integration|integration]], which pulverize and de-pulverize items respectively. In addition to this, if two spells which are identical except that one is normal and one is reversed, the spells will cancel out one another’s effects, negating their magic.
+
+===Spell Toggling===
+As a spell will only activate when it’s ring is closed, it is possible to toggle spells on and off by completing and disconnecting their  ring. To do this, it is necessary to draw the spell in two different parts on two separate objects. When the two halves are touched together, the ring will be completed and the spell will turn on, turning off as soon as the halves are separated. This can be seen in contraptions such as the [[Glowstone Path|glowstone path]], which glows only when stepped on as the two halves of the spell are pressed together only when pressure is applied.
+
+===Nested Glyphs===
+It is possible to have spells enclosed within one another, allowing their effects to combine, as is seen in [[Serpent's Bed of Sand]] or in the [[cloak spell]], this method working for both spells drawn on the same object or spells on seperate objects entirely.{{Cite}} This technique can be used to boost the power of spells,{{cite}} quickly change part of a spell's effect without redrawing it entirely,{{cite}} or to create much more sophisticated and complex spells than otherwise possible. It isn't clear if spells that are nested inside one another have to be activated simultaneously or if they only activate once the outermost ring is complete.
+
+==List of Spells==
+''See main page: [[Spells]]''
+
+There are several spells which are in use by [[Witches|witches]] everywhere, by both [[Pointed Hat Witches]] and [[Brimmed Hat Group|Brimhats]].
+
+*[[Beast Repellent]]
+*[[Beldaruit's Smoke Sculpture]]
+*[[Billowing Collection]]
+*[[Bird of Light Beacon]]
+*[[Boulder Stretch Rope]]
+*[[Cloak Spell]]
+*[[Crystal Shard]]
+*[[Floatglow Lamp]]
+*[[Floating Drops]]
+*[[Floating Expansion]]
+*[[Forbidden Flames]]
+*[[Flying Puppet of Diversion]]
+*[[Gathering Shadows]]
+*[[Grasping Wind]]
+*[[Integration]]
+*[[Light Beam]]
+*[[Mirror Spell]]
+*[[make air]]
+*[[Phantasmal Fireball]]
+*[[Pyreball Seal]]
+*[[Rainbringer Seal]]
+*[[Rainflinger]]
+*[[Repetition Seal]]
+*[[Rising Platform of Water]]
+*[[Rising Wave]]
+*[[Sand Cage]]
+*[[Sealchair Glyph]]
+*[[Serpent's Bed of Sand]]
+*[[Skysoaring Seal]]
+*[[Snugstone Spell]]
+*[[Spell of Reduction]]
+*[[Sylph Shoes Seal]]
+*[[Wall Breaker Seal]]
+*[[Water Bolt]]
+*[[Watershot Seal]]
+*[[Water Horse Spell]]
+*[[Water Pen]]
+*[[Wind Wall]]
+
+==Forbidden Magic==
+''See main page: [[Forbidden Magic|Forbidden magic]]''
+
+Forbidden Magic refers to any magic that is deemed excessively dangerous, has an uncanny amount of power, warps reality itself, or is drawn on/affects the body (including healing magic). They were declared forbidden by the [[Pointed Hat Witches]] after the [[Day of the Pact]], and performing forbidden spells will result in expulsion from pointed hat witch society and/or the erasure of memories. The only permitted spell affecting the body is the memory erasure spell. 
+
+Forbidden Spells List:
+* [[Anti Scalewolf Curse]]
+* [[Scalewolf Curse]]
+* [[Illusory Labyrinth]]
+* [[Petrification]]
+* [[Twin Bottle's Spell]]
+
+''A description of each forbidden spell can be viewed by clicking that spell's link, or by visiting the page [[Spells]] page.''
+
+==Contraptions==
+
+Contraptions are tools created by drawing a glyph somewhere onto an item. This gives the item the capability to preform magic on it's own, making it a valuable tool for the user. Contraptions are the only way in which [[Unknowing|unknowings]] are able to use magic.
+
+[[List of Items|The contraptions]]: 
+*[[Glowstone Path]]
+*[[Guidance Orb]]
+*[[Link Rings]]
+*[[Magic Cookpot]]
+*[[Mirror Mantle]]
+*[[Palm Dragon Teacup]]
+*[[Raincleaver]]
+*[[Sealchair]]
+*[[Snugstone]]
+*[[Sylph Shoes]]
+*[[Toilet of the Void]]
+*[[Vapor Bubble]]
+*[[Washing Barrels]]
+*[[Windowway]]
+
+== References==
+{{References}}
+[[Category:Magic]]
+[[Category:Spells]]
+[[Category:Contraptions]]
+[[Fr:Magie:Fonctionnement]]

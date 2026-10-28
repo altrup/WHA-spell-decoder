@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Phoenix_Portent.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Agott]], [[Witches]]
+|creator=
+|manga=[[Chapter 11]]
+}}
+'''Bird of light beacon''' is a light-type spell used to create a flying bird of light.{{Ref|m|11}}
+
+==Description==
+Bird of light beacon contains a central light sigil with a dispersion keystone on one side, and a bird keystone on the other three. The spell produces a bird made from light that will fly around for some time, and can be used to either entertain, call for help, or distract.{{Ref|m|11}}
+
+==Usage==
+During the rescue at the river, [[Agott]] used this  spell to distract the [[Unknowing|unknowing]] in the area so [[Coco]] could preform magic to save [[Coustas]] without being seen, as well as to call for help.{{Ref|m|11}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

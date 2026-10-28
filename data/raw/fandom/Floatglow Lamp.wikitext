@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1= [[File:Dancing_Lights.png|Dancing_Lights.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]], [[Unknowing]] <small>(via [[Glowstone Path]])</small>
+|creator=[[Olruggio]]
+|manga=
+}}
+
+'''Floatglow lamp''' is a light-type spell invented by [[Olruggio]] that makes objects float and glow.
+
+==Description==
+Floatglow lamp consists of a central light sigil surrounded by alternating float and column signs. The spell causes the object it is drawn on to float and glow, and was invented by Olruggio for use in his contraption, the [[Glowstone Path|glowstone path]], which glows whenever stepped on.
+
+==Usage==
+This spell was first encountered by [[Coco]] when she was a young girl. After stepping on a glow tone path and seeing it glow, she “fell in love with magic.” Later, when she first entered Olruggio’s workshop, she recognized the contraption and fangirled about it for some time. Later on, Olruggio, [[Hieheart]], and [[Jujy]] were sent to the [[Cladd Territory]] for a job to change the color of the glowstone paths in the ballroom for [[Princess Mia|Princess Mia’s]] wedding.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+
+[[Category:Spells]][[Category: Light Spells]]

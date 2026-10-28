@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Tracking Spell.jpg|300px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Witches]]<br>[[Knights Moralis]]
+|creator=
+|manga=[[Chapter 46]]
+}}
+The '''Tracking Spell''' is a particular spell normally used by the [[Pointed Hat Witches]] to mark and track magical items.
+
+==Description==
+Nothing is know about the signs and keystones that make the Tracking spell up. More spells with the same signs and/or keystones are needed to speculate an effect for them.
+
+==Usage==
+The [[Pointed Hat Witches]] use this tracking spell on items that were given or sold to [[Unknowing]], so the [[Knights Moralis]] can locate those items that are sold in the black market, since most magical items are very expensive. [[Luluci]] explains this when she goes visit [[Coustas]] at [[Kalhn Medical Facility]] and he is no longer there{{Ref|m|46}}.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Unknown Spells]]

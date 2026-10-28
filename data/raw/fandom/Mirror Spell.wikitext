@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Mirror.png|250x250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 21]]
+}}
+'''Mirror''' is a niche [[Spells|spell]] that causes something looking at it to be reflected.
+
+==Description==
+The spell contains a main circle with 4 satellite circles. Each satellite circle contains only a single hourglass-shaped keystone, and an additional four of these keystones are placed in the main circle. Also within this circle are several keystones composed of partial circles and lines, with each one linking to two satellite circles. Lastly, 4 square bracket shaped keystones are nestled between the aforementioned circular keystones. One or potentially all of these keystones are called "signs of reflection," by [[Euini]].{{Ref|m|21|19}} When linked with gathering shadows, this spell lets the user "borrow" the appearance of any animal that gazes upon them, this combined spell being used in the [[Mirror Cloak of Borrowshade|mirror cloak of borrowshade]]. It isn't known, however, the effect that this spell has on it's own.
+
+==Usage==
+All the aprentices taking [[The Sincerity of the Shield]] are given a mirror cloak of borrowshade, which contains the mirror spell, for the test. The cloak is used to allow the aprentices to escort the [[Myrphon|myrphons]] they are tasked with overseeing through the [[Serpentback Cave]]. During his test, Euini crossed out the mirror spell within his cloak, leaving only the [[Gathering Shadows|gathering shadows]]. This made the cloak conceal him, allowing him to draw without being seen, bosting his confidence as he has difficulty drawing in front of others.{{Ref|m|21|22}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]
