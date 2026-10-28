@@ -8,8 +8,19 @@ i.e.
 ```md
 # Description
 Fire glyph in center, 4 column glyphs facing towards center
+# Reasoning
+Water sigil sets the element. Bolt signs project it as arrows. Directional signs set the heading.
 # Effect
 Shoots fire upwards
+```
+
+```md
+# Description
+A single sign of pulling, arrow pointing toward the center. No sigil, no seal circle.
+# Reasoning
+Without a sigil there is no element to act on. Alone, this sign only modifies a spell.
+# Effect
+Not a complete spell. As a modifier it pulls the target toward the seal.
 ```
 
 ## Planned Model
