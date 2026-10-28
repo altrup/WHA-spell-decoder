@@ -15,7 +15,7 @@ dependencies = [
 
 [project.scripts]
 wha-spell-decoder = "wha_spell_decoder:main"
-wha-spell-data = "wha_spell_decoder.data:main"
+wha-spell-fetch = "wha_spell_decoder.data.fetch:main"
 
 [build-system]
 requires = ["uv_build>=0.13.4,<0.14.0"]
