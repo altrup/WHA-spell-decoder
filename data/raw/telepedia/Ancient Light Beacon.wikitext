@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=
+[[File:Ancient Light Beacon Redraw.png|400px]]
+|type=[[Spells|Spell]], [[Spells#Light Spells|Light Spell]], [[Spells#Ancient Spells#Non-Forbidden|Unknown Spell]]
+|users=[[Witches]]
+|anime=[[Episode 11]]
+}}
+'''Ancient Light Beacon''' is a light-type [[Spells|spell]] that presumably creates a column of light.
+
+==Description==
+Ancient Light Beacon is, as the name entails, ancient, and most likely used before the [[Day of the Pact]]. Pretty much all of the signs and sigils, except the [[Signs Explained#Convergence|signs of convergence]] on the edges, are unknown. Alongside the signs of convergence are signs that look similar to [[Signs Explained#Stillness|signs of stillness]] or [[Signs Explained#Glaives|glaives]]. The inner ring is composed of what appear to be variations of [[Sigils Explained#Light|light sigils]] connected by what appear to be [[Signs Explained#Launch|launch signs]]. The sigil in the center is completely unknown.
+{{Ref|a|11}}
+
+==Usage==
+This spell is, as the textbook puts it, “from the ancient era”. This means it was most likely used as a light beacon before the [[Day of the Pact]]. However, the book says that “nowadays there is a simplified version”, referring to the more commonly used [[Sigils Explained#Light|light sigil]].
+{{Ref|[[Writing/Translated Texts#Primer Book 5]]}}
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

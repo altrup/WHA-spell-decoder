@@ -1,0 +1,33 @@
+''This article contains spoilers for witch hat atelier manga chapters 78-84''
+{{Object Infobox
+|image1  = 
+[[File:84 8 Valance Leech Counterclock New.png|250px]]
+|japanese = 
+|romaji  = 
+|type    = [[Spells|Spell]]
+|users   = [[Witches]]
+|creator = [[Agott]], [[Lagrah]], [[Beldaruit]], and others{{Ref|m|78|18-20}}
+|manga   = [[Chapter 78]] <small>Conceived</small><br>[[Chapter 84]] <small>Debut</small>
+}}
+The ''Valance Leech Counterclock Spell'' is a spell that applies the temporary time-reversing affects of counterclock to [[Valance Leech|valance leeches]].
+
+== Old Version ==
+[[File:84 8 Valance Leech Counterclock Old.png|120px|thumb|left|Retconed version of the spell]]
+The old version of the valance leech spell contained a valance leech decorative sigil in the center of a [[Counterclock|counterclock]] spell, specifically the pre-[[Volume 14|volume 14]] version of counterclock.{{Ref|m|84|8}} By using a valance leech sigil, the spell is able to rewind valance specifically to their physical sate 24 hour prior, only to, in theory, reset back to how they were at the time the spell was drawn 24 hours before. However, the [[Valance Leech (Monster)|notable  valance leech]] this spell was used to rewind did not recombine with the [[Illicit Contraption Seller|magically altered human it consumed]].{{Cite}} This is presumably because the two were separated by physical barriers that prevented their recombination.{{Cite}} It is possible that if these barriers eventually fail, the leech may recombine with the person it ate and reform into a monster, assuming it doesn't starve before that happens.
+{{-}}
+== New Version ==
+[[File:84 8 Valance Leech Counterclock New.png|120px|thumb|left|Current version of the spell]]
+Like all other counterclock spells seen in [[Volume 14]] and [[Volume 15|15]], the design for the valance leech spell was changed between the magazine and the volume release, with 3 of the 6 triangular sections of the inner triangular sections of the spell being removed.{{Ref|m|84|8}} However, the principle it operates under and its function have remained the same as before.{{-}}
+==Usage==
+This spell was utilized during the [[Silver Eve Arc]] to neutralize a massive monstrous valance leech that had formed by consuming the blood of someone with a spell drawn on their person, the ink in their body reacting with their blood to supercharge the leech and turn it into a [[Monster|monster]].{{Ref|m|63|13-14}} By drawing the spell on numerous [[Circular Floatform|circular floatforms]] strung together,{{Ref|m|78|27}} it was possible to create one massive spell that was able to fully enclose the leech, which at this point had grown to be nearly the size of the city of [[Ezrest]] itself thanks to the blood it had consumed.{{Ref|m|80|35}} This reset the leech to its pre-monstrous state and additionally vanished the wounds of anyone attacked.{{Ref|m|84|6}} 
+
+Additionally, the blood of the wounded may have been returned, though there is no canon that asserts this. It is thought that, as the "liquid" was merely shifted from one container to another (in the case of the inkbottle example for normal counterclock{{Ref|m|78|4}}), it hadn't technically been changed from the perspective of the spell, allowing it to remain in the bodies of the people the leech had drank from even after the spell had worn off.
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Time Spells]]

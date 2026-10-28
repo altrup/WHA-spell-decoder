@@ -1,0 +1,47 @@
+{{Object Infobox
+| image1 = [[File:32 14 Flipperfoal Watersculpture.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Qifrey]], [[Agott]]
+| creator =
+| manga = [[Chapter 32]]
+| anime =
+}}
+'''Watersculptures''' are a type of sculpting [[Spells|spell]] that creates a sculpture made up of water.
+
+==Description==
+Watersculptures can take on the appearance of flora and fauna. They appear to lack the accuracy or general utility that [[Smokesculpture|smokesculptures]] do, but serve better uses for combat and utility.{{Ref|a|5}}{{Ref|m|46|10-13}}
+
+There doesn’t appear to be a common seal for watersculptures. However, they have been described as using watersculpting signs, which, in context, refer to what is more commonly known as [[Decorative Sigils|decorative sigils]].{{Ref|m|62|10}}
+
+The foundational elements of magic used to create stone golems in the past can be found in smokesculpture and watersculpture magic in present day.<ref name="Shirahama's Episode 13 Live Commentary">Shirahama Kamome (June 29, 2026). [https://x.com/shirahamakamome/status/2071595570255536582?s=20 “The sigil for golems is a kind of combat magic used before the Day of the Pact. These days, its forgotten magic, but its foundational elements can be found beyond Smokesculpture and Watersculpture magic…”] (in Japanese) – via X.</ref>
+
+==Usage==
+Watersculptures are first mentioned in the [[Great Hall Arc]], when [[Qifrey]]’s apprentices come across a [[Flipperfoal|flipperfoal]] watersculpture in the [[Great Hall|baths]].{{Ref|m|32}} Another feat of watersculpting is the [[Palm Dragon Teacup|Palmdragon Teacup]] a contraption created by Qifrey which sculpts water into the shape of a resting dragon.{{Ref|m|35|6}}
+
+At the [[Silver Eve Procession]], Agott creates [[Flying Watersculptures|flying watersculptures]] of fish, birds and a [[Diadem Herb|diadem herb]] to help [[Coco]] earn more endorsements for her [[Portable Waste Purification Pot|contraption]].{{Ref|m|62|8-16}}
+
+Other instances of water spells using decorative sigils include [[Water Rose|Water Rose]], [[Water Horse Spell|Water Horse]] and [[Qifrey's Water Dragon|Water Dragon]]. It is likely that these are also watersculptures and just haven’t been named as such.{{Ref|a|5}}{{Ref|m|46|10-13}}{{Ref|m|3|11}}
+
+<gallery>
+File:Palm Dragon Teacup.png|<small>Palmdragon Teacup</small>
+File:46 8 Water Horse.png|<small>Water Horse</small>
+File:62 9 Agott Watersculptures (Cropped).png|<small>Flying Watersculptures</small>
+File:Watersculpture Diadem Herb.png|<small>Diadem Herb Watersculpture</small>
+</gallery>
+
+==Trivia==
+*It is possible that Qifrey’s [[Giant Water Puppet of Diversion]] is a watersculpture, seeing as it takes on the shape of [[The Guardian of the Tower of Tomes]] and is introduced in the [[Great Hall Arc]], a story arc in which sculpting spells are first introduced and brought up frequently.{{Ref|m|37|9-10}}
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

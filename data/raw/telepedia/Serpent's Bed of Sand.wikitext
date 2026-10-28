@@ -1,0 +1,50 @@
+{{Object Infobox
+|image1=[[File:Serpent's Bed of Sand Redraw.jpg|250px]]
+|japanese=竜の砂床
+|romaji=ryū no sunadoko
+|type=[[Spells|Spell]]
+|users=[[Tetia]], [[Witches]]
+|creator=[[Agott]], [[Coco]], [[Richeh]], [[Tetia]]
+|manga=[[Chapter 7]]
+|anime=[[Episode 5]]
+}}
+The '''Serpent's Bed of Sand''' is a mixed earth-time spell created by the four apprentices of [[Qifrey's Atelier]] that creates a fluffy cloud made of sand.
+
+== Description ==
+The serpent's bed of sand is an amalgamation of several spells. At its center is a [[Billow Cluster|billow cluster]] spell, which contains a central billowing sign surrounded by collection signs. (This gathers up surrounding material and turns it into a cloud.) Arranged around that are several [[Wall Breaker Seal|wall breaker seals]], the seals containing an earth sigil paired with crush and column signs; which crushes the ground into fine soft sand, which then gets pulled into the billow cluster spell. This is all wrapped up in a [[Repetition Seal|repetition seal]] which contains repetition sigils, convergence signs, and column signs, so that no matter what happens to the spell's cloud, it will always return to its original consistency. This all results in a large, fluffy cloud made out of sand, that is strong enough to hold up even a [[dragon]] and regain its shape once the weight is removed.{{Ref|m|7|17}}
+
+== Usage ==
+The spell was created by the four apprentices of Qifrey's Atelier: [[Tetia]], [[Richeh]], [[Coco]], and [[Agott]], after much thought and working together. Once perfected, it was then used to make the dragon guarding the [[Illusory Labyrinth]] so comfortable it fell asleep, allowing the girls to climb the center tower without being chased.{{Ref|m|7|18}}
+
+Much later, the Serpent's Bed of Sand was used twice as a temporary bed for [[Olruggio]]; in [[Chapter 81]] after he had fainted,{{Ref|m|81|2}} and in [[Chapter 53 (Witch Hat Atelier Kitchen)]] as a fun way to relax at the beach.{{Ref|k|53|3}}
+
+== History ==
+This spell was originally [[Tetia's]] creation. As a young child, she dreamed of napping on a cloud in the sky, and had spent years trying to make it happen, though it remained unperfected.{{Ref|m|6|23}} When Coco experienced this latest form of Tetia's spell, she remarked on how warm and comforting the cloud was —(it's unknown if the Serpent's Bed of Sand version of this spell retains this warmth factor) and came up with the idea to use it on the dragon. Part of the original spell's issue was that it needed to be soft and pliable to be comfortable and fluffy, but solid and tactile enough so that the user wouldn't fall through the cloud.{{Ref|m|7|7}} After deliberating on different types of materials, it was decided fine sand would be best, which made use of Richeh's skill in drawing small wall breaker seals.{{Ref|m|7|8}} The final hurdle was binding the cloud together so that it wouldn't fall apart in use, which Agott solved by using the repetition sigils, inspired by Coco's work ethic. 
+
+This spell in particular is important to Tetia because it also represents the first spell of hers that brought someone else joy.{{Ref|m|7|20}}
+
+==Image Gallery==
+<gallery>
+Serpent's Bed of Sand2.jpg|Another view of the spell with the different signs and sigils used{{Ref|m|7|17}}
+Agott Discarded Spell 07.jpg|Agott's discarded attempt at the spell before the final version was figured out.{{Ref|m|7|11}}
+Dragon Cloud Bed Example 07.jpg|An example of how the cloud will regain its shape even after a dragon sits on it
+Dragon Cloud Bed 07.jpg|The illusory labyrinth dragon really enjoying the Serpent's Bed of Sand in [[Chapter 7]]
+Olruggio Bed of Sand 81.jpg|Olruggio waking up on the Serpent's Bed of Sand in [[Chapter 81]]
+Olruggio bed of sand.jpg|Olruggio relaxing on the Serpent's Bed of Sand in [[Chapter 53 (Witch Hat Atelier Kitchen)]]
+</gallery>
+
+== Notes ==
+* [[Chapter 81]] and [[Chapter 53 (Witch Hat Atelier Kitchen)]] where Olruggio rests on the Serpent's Bed of Sand released during the same month coincidentally, and was a surprise to both [[Kamome Shirahama]] and [[Hiromi Sato]].<ref>Hiromi Sato commenting on the Olruggio sand bed coincidence: https://x.com/satohiromi2010/status/1839282231409521014</ref><ref>Kamome Shirahama confirming the coincidence: https://x.com/shirahamakamome/status/1839304866247880926</ref> Additionally, Shirahama joked on Twitter that maybe the spell should be renamed to Master Olruggio's appreciation cushion.<ref>Kamome Shirahama on Twitter joking about renaming the spell: https://x.com/shirahamakamome/status/1839312498643828775</ref>
+
+{{-}}
+== References ==
+{{Reflist}}
+
+== Site Navigation ==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Earth Spells]]
+[[Category:Time Spells]]
+[[Category:Mixed Spells]]
+[[Fr:Paillasse du Dragon]]

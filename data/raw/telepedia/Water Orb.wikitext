@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=[[File:Water Orb Seal Redraw.png|thumb|300px|center]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=[[Qifrey]]
+|manga=[[Chapter 53]]
+}}
+'''Water Orb'''{{Unofficial}} is water-type [[Spells|spell]] that creates an invisible spherical container for water
+
+==Description==
+Water Orb is a spell that consists of a inverted central water sigil, the inverted water sigil does not change its affect that we know of. The sigil is enclosed by two [[Signs Explained#Column|column signs]] on either side, and the central sigil is enclosed by four [[Signs Explained#Orb|orb signs]] one in each corner. This spell holds water in a invisible spherical container. {{Ref|m|53|19}}
+
+==Usage==
+[[Qifrey]] uses this spell when talking to [[Agott]] at [[Silver Eve]]
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

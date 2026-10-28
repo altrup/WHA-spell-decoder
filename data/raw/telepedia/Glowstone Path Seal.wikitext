@@ -1,0 +1,33 @@
+{{Object Infobox
+|image1=[[File:Glowstone Path Seal Redraw.png]]
+|japanese=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Olruggio]], [[Witches]]
+|creator=[[Olruggio]]
+|manga=[[Chapter 1]] <small>(Effect)</small>
+[[Chapter 9]] <small>(Obscured Seal)</small>
+
+[[Chapter 83]] <small>(Full Seal)</small>
+|anime=[[Episode 6]]
+}}
+'''Glowstone Path Seal''' is a light-type [[Spells|spell]] that causes a stone to emit light when stepped on.
+
+==Description==
+The Glowstone Path spell contains a light sigil in the middle, with dispersion signs on the left and right. The spell additionally contains an elongated X-shape, with unknown signs near the intersection point. Above the light sigil, there is a lone levitation sigil flanked by unknown sigils, which is presumably the reason the stones can be pressed down in the first place.
+
+==History==
+As a child, Coco became enamored with this spell at a castle festival, claiming that she must be a witch because the ground lit up underneath her. However, they also convinced her that she must not be a witch, as on the walk home she realized that it wasn't happening anymore.{{Ref|m|1|25}}
+
+==Usage==
+This spell appears to be broadly used in society, or at least used for special occasions, as they have been seen at festivals. Olruggio also has several in his room at Qifrey's atelier, and is best known for this specific contraption.{{Ref|m|1|25}}{{Ref|m|9|20}}
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

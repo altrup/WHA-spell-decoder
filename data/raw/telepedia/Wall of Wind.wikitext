@@ -1,0 +1,28 @@
+{{Object Infobox
+|image1=[[File:28 19 Wind Wall.jpg|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Alaira]], [[Tetia]], [[Witches]]
+|creator=[[Alaira]]{{Ref|m|28|19}}
+|manga=[[Chapter 28]]
+|anime=[[Episode 12]]
+}}
+'''Wall of Wind''' is a wind-type [[Spells|spell]] invented by [[Alaira]] that creates a circular wall of air that is difficult to pass thorough.
+
+==Description==
+Wall of wind contains a central air sigil with a cluster of inverted column signs in the front of the seal, and several convergence signs at the back, along with a semicircular sign with small details on it's edges located around the air sigil on the column half of the seal. This spell creates a circular wall of air, which is difficult for objects or people to penetrate, and can be used to contain people or animals.{{Ref|m|28|20}}
+
+==Usage==
+The spell was first seen used by [[Tetia]] to briefly hold the transformed [[Euini]] in place {{Ref|m|28|20}} so she could restrain him with [[Sand Cage|sand cage]].{{Ref|m|28|21}} This allowed [[Agott]] to carry out the next step in their plan to attempt and return Euini to back to normal.
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Wind Spells]]
+[[Fr:Bouclier de vent]]

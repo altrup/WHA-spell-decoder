@@ -1,0 +1,33 @@
+{{Object Infobox
+| image1 = [[File:Anime S1E11 Labyrinth Spell 2.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = Witches of Ancient Romonon, [[Pointed Cap Witches]]
+| creator = Witches of Ancient Romonon
+| manga = [[Chapter 19]]
+| anime = [[Episode 11]]
+}}
+The '''Ancient Labyrinth Spell''' is an ancient, [[Forbidden Magic|forbidden]] [[Spells|spell]] that turned the [[Serpentback Cave]] into the winding labyrinth it is today.
+
+==Description==
+The casting seal contains unknown symbols, reflective of its forbidden nature and how it has been lost to time. Gravity itself is manipulated by this spell, with the only place an individual can stand upright being that of the winding, serpentine path. It is implied that most, if not all, of the stone scales of the serpentine path had a casting seal drawn upon them at one point. Over time some of them have begun to crumble, thus losing their effect. Should an individual stray from the path or step on one of these broken stones, they will be sent flying back to the entrance of the cavern.{{Ref|m|20}}{{Ref|a|12}}
+
+==History and Usage==
+The Ancient Witches of Romonon created this spell to weed out those they deemed unworthy of seeking an audience with them. After the [[Romonon|nation]] collapsed under the weight of its bigotry, the Serpentback Cave was all that remained of [[Romonon]], its Labyrinth spell still mostly intact.{{Ref|m|20}}{{Ref|a|12}}
+
+[[Pointed Caps|The Pointed Cap Witches]] take responsibility for escorting migrating [[Myrphons|myrphons]] through the Serpentback Cave, who used this path prior to it being affected by forbidden magic. This act of escorting and protecting the birds from the forbidden magic of the ruins is the basis for the second test of the [[Pentacle of Proving]], the [[Sincerity of the Shield]].{{Ref|m|19}}{{Ref|a|11}}
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

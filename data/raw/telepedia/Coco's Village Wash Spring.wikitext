@@ -1,0 +1,86 @@
+{{Variable Infobox
+|image1=[[File:Spring of Eternity.png]]
+|header=Information
+|entry1title=Other Names
+|entry1=Magic Spring
+|entry2title=Japanese
+|entry2=魔法の泉
+|entry3title=Romaji
+|entry3=Mahō no Izumi
+|entry4title=Chinese
+|entry4=
+|entry5title=French
+|entry5=
+|entry6title=Spanish
+|entry6=
+|entry7title=German
+|entry7=
+|entry8title=Italian
+|entry8=
+|h1=Status & Relations
+|h1entry1=[[Spells|Spell]], [[Contraption]], Location 
+|h1entry1title=Type
+|h1entry2=[[Coco]], Local Wildlife
+|h1entry2title=Users
+|h1entry3=
+|h1entry3title=Creator
+|h1entry4=[[Coco's Village]]
+|h1entry4title=Located In
+|h2=Debut
+|h2entry1title=Manga
+|h2entry1=[[Chapter 1]]
+|h2entry2title=Anime
+|h2entry2=[[Episode 1]]
+}}
+
+'''Coco's Village Wash Spring''' (or simply Wash Spring) is a [[Contraption]] located near [[Coco's Village]].
+
+== Description ==
+[[File:Wash Spring Seal Redraw.png|left|thumb|120px|<small>A Redraw of the Casting Seal as seen in [[Archives of Witch Hat Atelier]].</small>]] 
+The [[Spells|Casting Seal]] contains a [[Sigils#Repetition|Sigil of Repetition]] connected to two [[Sigils#Purification|Sigils of Purification]]. Two [[Signs#Columns|Signs of Columns]] facing outwards are placed on either side of the Purification Sigil, making for a total of four. Two [[Signs#Partition|Signs of Partition]] point inwards, towards the Repetition Sigil, separating three [[Signs#Refuse|Signs of Refuse]] each, adding up to six of them total.{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+
+Upon activation, this spell will cause the spring to shine brightly and purify its waters of any waste or contaminants found inside, making for a clean and reliable source of water.{{Ref|a|1}}{{Ref|m|1|7-10}} It is unclear just how long this spell lasts, especially given there are no [[Witches|witches]] currently living in [[Coco]]'s village to maintain it.{{Ref|a|1}}{{Ref|m|1|19}}
+
+The spring is located in [[Naakiwan Downs]], specifically a forest nearby Coco's village. It is a small, shallow pool of water connected to two streams, with a small stone bridge placed above one of them. It is surrounded by lush vegetation and paved with small stepping stones.{{Ref|a|1}}{{Ref|m|1|7-10}} Carved onto these stepping stones are Casting Seals that activate upon being stepped on.{{Ref|[[Archives of Witch Hat Atelier]], Page 146}} Nearby wildlife include a female [[Trihorn Deer]] and a [[Blushing Bride|Blushing Bride Butterfly]].{{Cite}} In the manga, some clothes are seen set out to dry nearby the spring.{{Ref|m|1|10}}
+
+<gallery mode=packed heights="180px" style="text-align:center">
+File:1 9 Wash Spring Stepping Stone.png|<small>Coco stepping onto the stone with the Casting Seal.</small>
+File:Spring of Eternity shine.png|<small>The Spring's spell taking effect<br>(Manga)</small>
+File:Anime_S1E01_Wash_Spring_Effect.png|<small>The Spring's spell taking effect<br>(Anime)</small>
+</gallery>
+
+== History & Usage ==
+At an unknown point prior to the events of the story, a witch carves casting seals into the stones of a local spring near Coco's village.
+
+In [[Chapter 1]], Coco is seen using the Wash Spring to hand-wash her laundry. She pours soap into its waters and is observed by a trihorn deer. Once she is finished, she notices the deer and assures it that the water will go back to normal. Upon stepping out of the spring, the water does just that.{{Ref|a|1}}{{Ref|m|1|7-10}}
+
+In [[Chapter 61]], Coco presents her [[Portable Waste Purification Pot|Purification Pot]] for the [[Silver Eve Procession]]. Her motivation behind creating the spell and contraption is to provide easier access to clean water, recalling how she'd need to take multiple trips to the spring to dump out their dirty water and retrieve fresh, clean water.{{Ref|m|61|16}}
+
+<gallery mode=packed heights="150px" style="text-align:center">
+File:Anime_S1E01_Wash_Spring_Storybook.png|<small>Storybook Illustration of the Wash Spring</small>
+File:Anime_S1E01_Wash_Spring.png|<small>Coco visiting the Wash Spring</small>
+File:Spring of Eternity colored.png|<small>The Wash Spring, as seen in the Manga</small>
+</gallery>
+
+== Trivia ==
+*The Wash Spring serves as Coco and [[Coco's Mother|her mother's]] primary source of clean water. It is likely to be the entire village's as well.{{Ref|m|61|16}}
+*Contraptions are not found in great number in Coco's village. The Wash Spring is one of the few contraptions nearby.{{Ref|m|3|3}}<ref>''Witch Hat Atelier'' [[Volume 1]] Extra Page: The World of ''Witch Hat Atelier''</ref>
+*The activation method of the Wash Spring follows the same principle as the [[Glowstone Path]].{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+[[File:Anime_S1E01_Iguin_Introduces_Magic.png|250px|thumb|right|<small>Iguin introduces Magic to a young Coco.</small>]]
+*[[Iguin]] references the Wash Spring when introducing the concept of [[magic]] to Coco.{{Ref|a|1}}{{Ref|m|1|25}}
+**They describe it as "springs of pure water that last for all eternity..."
+{{-}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Location Navbox}}
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Locations]]
+[[Category:Spells]]
+[[Category:Contraptions]]
+[[Category:Coco's Village]]
+[[Category:Naakiwan Downs]]
+[[Category:Zozah Peninsula]]

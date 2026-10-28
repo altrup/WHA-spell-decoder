@@ -1,0 +1,35 @@
+{{Object Infobox
+|image1= File:River Ferry Seal Redraw.png
+|japanese = 
+|romaji = 
+|type=[[Spells|Spell]], [[Spells#Wind Spells|Wind Spell]]
+|users=[[Witches]], [[Kalhn River Ferry]]
+|manga=[[Chapter 17]]
+|anime=[[Episode 10]]
+}}
+'''River Ferry Seal''' is a wind-type spell that propels a water vehicle using air. It is used on the [[Kalhn River Ferry]].
+
+==Description==
+The seal has a central [[Sigils Explained#Wind|wind sigil]], and is surrounded by six [[Signs Explained#Levitation|levitation signs]], six unknown signs in the shape of an equal sign, and six [[Signs Explained#Column|column]] and [[Signs Explained#Region|region signs]] (which look similar to levitation when put together). It is possible that the column and region signs are meant to be levitation, but the ways it has been depicted are a bit inconsistent in regards to if the lines are connected or not.{{Ref|a|10|20:20, 20:45}}{{Ref|m|17|25}}
+The spell is placed at the rear end of the boat, facing forward. The spell creates a steady gust of wind, pushing the sail in front. The spell is toggled by a small separation in the seal which can be pushed to complete the circle.{{Ref|a|10|20:27}}
+
+==Usage==
+The river ferry spell is used to transport people and goods from the mainland to the island in Kalhn, since there are no bridges. However, most witches choose to fly between the two destination, so the ferry is mainly for witches without the ability to fly over (like [[Tartah]] and [[Nolnoa]]).{{Ref|m|17|25}} Outsiders are not allowed to cross over to the island.{{Ref|a|10|3:25}}{{Ref|m|16|8-9}}
+
+==Gallery==
+<gallery>
+Kahln ferry seal.png|The partially visible seal on the boat's bow{{Ref|m|17|25}}
+River Ferry Seal Contraption.jpg|The spell with the top section lifted to break the seal{{Ref|a|10}}
+River Ferry Seal Contraption2.jpg|The completed seal and its operator{{Ref|a|10}}
+</gallery>
+
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Wind Spells]]

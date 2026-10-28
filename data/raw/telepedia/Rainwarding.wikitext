@@ -1,0 +1,32 @@
+{{Stub}}
+{{Object Infobox
+| image1 = [[File:Rain Guard Redraw.png]]
+| japanese = 雨避け
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Coco]], [[Witches]]
+| creator = 
+| manga = [[Chapter 34]] <small>(Mentioned)</small>
+[[Chapter 82]]
+| anime =
+}}
+'''Rainwarding''', also known as '''Rain Guard''',{{Ref|m|82|3 (KManga Translation)}} is a [[Spells|spell]] that removes water within a given space.
+==Description==
+The [[Casting Seal]] contains a reversed [[Signs#Rain|Sign of Rain]] surrounded four evenly-spaced [[Signs#Regions|Signs of Regions]] pointing inwards. The other symbols are currently unknown.
+
+==History==
+''To be added.''
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

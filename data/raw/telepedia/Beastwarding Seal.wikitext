@@ -1,0 +1,34 @@
+{{Object Infobox
+|image1=[[File:Beastwarding Seal Redraw.png|250px]]
+|japanese= 獣避けの陣
+|romaji = ''kemonoyoke no jin''
+|type=[[Spells|Spell]]
+|users=Anyone
+|creator=
+|manga=[[Chapter 46]]
+}}
+'''Beastwarding''' is a mixed-type spell of light and an unknown sigil used to repel animals.
+
+==Description==
+The spell contains a currently unidentified central sigil, with light sigils to each side of it. An unidentified sign which can also be observed in the [[Tracking Spell|tracking spell]] is located above and below the central sigil. Column signs are located in the spaces between the light sigils and these unknown signs. As its name implies, its function is to repel animals. It is currently not clear how it repels animals (whether by smell, sound, or light), but it is likely that it repels them with light, as the spell contains light sigils.
+
+Witches put a copy of this spell within each [[Beastward Spire]], which are built around villages and along roadways. The contraption helps to repel beasts, making the area safer for [[outsiders]] and [[witches]] alike.{{Ref|m|46|5-7}}{{Ref|m|91|6}}
+
+==Usage==
+When the members of [[Qifrey's Atelier]] were traveling to the [[Silver Eve]] festival, [[Qifrey]] shows his [[Qifrey's Atelier|apprentices]] a [[Beastward Spire]] with an old beast warding spell inside, and advises Tetia as she draws a fresh one, then explains to them all the public service duties of [[Pointed Hat Witches|witches]] which can include repairing spells such as these.{{Ref|m|46|5-7}}
+
+During a flashback to Olruggio and Qifrey's youth and their misadventures in the outside world, Olruggio spots one of the Spires and realizes he can follow the road back to a village.{{Ref|m|91|6}}
+
+After Silver Eve when Olruggio brings the girls to nearby Outsider villages in the [[Naakiwan Downs]] to help them prepare for Snowfall, one of their tasks includes drawing the Beast Warding spells to protect their villages and food/supply storages.{{Ref|m|95|10}}
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+
+[[Category:Spells]]
+[[Category:Mixed Spells]]
+[[Category:Light Spells]]

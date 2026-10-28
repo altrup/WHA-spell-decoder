@@ -1,0 +1,32 @@
+{{Object Infobox
+|image1= [[File:Scalewolf Curse Redraw.png|250px]]
+|kanji =
+|romaji =
+|chinese =
+|french =
+|spanish =
+|german =
+|italian =
+|type= [[Spells|Spell]], [[Forbidden Magic]]
+|users= [[Brimmed Caps]], [[Sasaran]]
+|creator= 
+|manga= [[Chapter 23]] <small>(Curse Effects)</small><br>[[Chapter 29]] <small>(Seal Seen)</small>
+|anime= [[Episode 13]] <small>(Curse Effects)</small>
+}}
+
+'''Scalewolf Curse''' is a forbidden spell that permanently causes someone's body to be transformed. In the case of [[Euini]], he was turned into a [[Scalewolf]].
+
+==Description==
+The spell contains a sigil identical to one in the [[Illusory Labyrinth]] spell, this sigil being made up of three dots arranged in a triangle shape, but other than that, all of its sigils and signs are unknown. When it was used on Euini, the spell transformed him into a scalewolf. This happened as a result of the [[Mirror Cloak of Borrowshade]] he was wearing fusing with him, as the cloak contained the fur and scales of a Scalewolf.
+
+==Usage==
+The spell's first and only known use was by [[Sasaran]], a Brimmed Cap Witch, during the events at [[Serpentback Cave Arc|Serpentback Cave]]. [[Sasaran]] used the spell on Euini, forcibly fusing him with his cloak, resulting in his transforming into a scalewolf.
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

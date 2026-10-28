@@ -1,0 +1,30 @@
+{{Object Infobox
+| image1 = [[File:Smoke Cloud Seal.png|400px]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Olruggio]]
+| creator = 
+| manga = [[Chapter 91]]
+| anime = 
+}}
+'''Smoke Cloud'''{{unofficial}} is a [[Spells|spell]] that creates a large cloud of smoke.
+==Description==
+The casting seal contains a Sigil of [[Sigils#Smoke|Smoke]] surrounded evenly by eight inverted Signs of [[Signs#Columns|Columns]].
+
+==Usage==
+[[Olruggio]] once used this spell alongside [[Light Beam]] to intimidate a herd of [[Liongoat|liongoats]] chasing him and [[Qifrey]]. The combination of smoke and lights allow him to make an imposing shadow puppet to scare them off.{{Ref|m|91|4-5}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

@@ -1,0 +1,49 @@
+{{Object Infobox
+|image1=[[File:Repitition Seal.png|250x250px]]
+|caption=The variant used in the serpent's bed of sand
+|japanese = くり返し
+|romaji = Kurikaeshi
+|type=[[Spells|Spell]]
+|users=[[Agott]], [[Coco]], [[Tetia]], [[Richeh]], [[Qifrey]], [[Olruggio]], [[Sinocia]], [[Witches]]
+|creator=
+|manga=[[Chapter 7]]
+|anime=[[Episode 5]]
+}}
+'''Repetition Seals''' are a collection of [[Spells|spells]] that continuously reverts objects to a previous state after undergoing some type of change.
+
+==Description==
+Not all repetition seals look the same, but they all share the Sigil of [[Sigils#Repetition|Repetition]] in common. These seals function by causing a target object to become "like new." 
+<gallery mode=packed heights="100px" style="text-align:center">
+Repetition Seal Redraw.png|<small>Serpent's Bed of Sand</small>
+Magic Cookpot Seal Redraw.png|<small>Magic Cookpot</small>
+Washbarrel Seal Redraw Ch83.png|<small>Washbarrel</small>
+</gallery>
+==Usage==
+{{See|Serpent's Bed of Sand}}[[Qifrey's Atelier|Qifrey's apprentices]] use a repetition seal in the [[Serpent's Bed of Sand]]. This spell is meant to create a cloud of sand that can support a large [[dragon]]. They wrap the spell in repetition magic so that even if the cloud dissipates under the weight of the dragon, it will continuously return to its original form of a fluffy cloud.{{Ref|m|7|20}}{{Ref|a|5}}
+
+{{See|Magic Cookpot}}[[Qifrey]] uses a repetition seal on the lid of one of his cookpots. This allows it to continuously repeat the moment a cooked meal was freshly made, meaning food will not spoil so long as the seals are regularly redrawn. In the manga, it is shown to turn shriveled [[Carapace Yam|carapace yams]] into ripe ones.{{Ref|m|8|8-9}}{{Ref|a|6}}{{Ref|m|28|10}}
+
+{{See|Washbarrels}}The baths of the [[Great Hall]] have multiples [[Washbarrels]] using repetition seals. It returns clothes that have been damaged, dirtied or embroidered into their original state.{{Ref|m|32|7}}<ref>[[:File:Birthday Sinocia.jpg]] Sinocia's Birthday Comic from 2021, in which Ermile gives Sinocia an embroidered handkerchief and therefore Sinocia refuses to wash it</ref>
+
+{{See|Spirits Bubble}}Olruggio adapts a classic [[Vapor Bubble]] by using a repetition seal much like the Magic Cookpot, creating the contraption [[Spirits Bubble]]. It keeps whatever is inside to remain at peak flavor.{{Ref|k|10|5}}
+==Gallery==
+<gallery heights="100" class="left">
+File:Serpent's Bed of Sand2.jpg|<small>The repetition seal used in the Serpent's Bed of Sand</small>
+File:Magic Cookpot Lid.jpg|<small>The repetition seal on the [[Magic Cookpot]] lid</small>
+File:Washing Barrels.png|<small>The repetition seal on the Washbarrels</small>
+File:83 1 Washbarrel Seal.png|<small>The repetition seal for Washbarrels (Ch. 83)</small>
+</gallery>
+
+==Trivia==
+* When introduced in [[Chapter 7]], Repetition was labeled as being a sign (矢, ''ya''), which is kept in the [[Volume 2 (Bluebird Novel)|novelization of Volume 2]]. However in [[Chapter 32]] with the Washing Barrels, Repetition was referred to more generally as a seal (陣, ''jin'') as well as in Kitchen [[Chapter 25 (Witch Hat Atelier Kitchen)|Chapter 25]]. It changed again in the Volume 12 and [[Archives of Witch Hat Atelier]] breakdown of the [[Capture Pennant Spell]], where Repetition was labeled as a sigil (紋, ''mon'').
+* There are spells using the Repetition Sigil that have not been explicitly referred to as repetition seals, such as the [[Silverwhite Capture Pennant|Capture Pennants spell]].
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Time Spells]]

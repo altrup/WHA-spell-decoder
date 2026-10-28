@@ -1,0 +1,32 @@
+{{Object Infobox
+|image1=[[File:Rising Wave Effect 2.png|250px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Qifrey]]
+|creator=
+|manga=[[Chapter 27]]
+}}
+'''Rising Wave'''{{Unofficial}} is a water-type [[Spells|spell]] that creates a surge of water that can carry an individual.
+
+==Description==
+The casting seal contains a Sigil of [[Sigils#Water|Water]], Signs of [[Signs#Columns|Columns]] and Signs of [[Signs#Regions|Regions]]. The exact arrangement of these signs are currently unknown due to the way the manga panels cut off much of the seal. At least part of the seal has the Signs of Columns and Regions alternating in the outermost part of the seal.{{Ref|m|27|16-17}}
+<gallery mode=packed heights=150px>
+File:Rising Wave Sigil.png
+File:Rising Wave Seal.png
+</gallery>
+The spell creates water that rises high up into the air, carrying along any individual situated atop of the seal. It is possible there is another spell at work, given that there is a sheet of paper in Qifrey's hand that appears to be guiding the wave.{{Ref|m|27|18}}
+
+==Usage==
+[[File:Rising Wave Effect 1.png|thumb|right|200px]]
+[[Qifrey]] uses this spell during his battle with [[Sasaran]] in the [[Serpentback Cave]]. He casts it by spreading ink on the ground, drawing the casting seal with his shoes.{{Ref|m|27|16-17}} The large size of the seal contributes to the strength of its effect.{{Ref|[[Magic#Seals]]}}
+{{-}}
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

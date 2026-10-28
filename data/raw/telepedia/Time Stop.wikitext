@@ -1,0 +1,37 @@
+{{Object Infobox
+|image1=[[File:Time Stop.png]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=Unknown
+|manga=[[Chapter 45]]
+|anime=[[Episode 1]] in [[Petrification]]
+}}
+'''Time Stop'''{{Unofficial}} is a time-type [[Spells|spell]] that freezes time for anything it is targeting. 
+
+==Description==
+Time stop uses a number of geometric-like unknown signs, similar to [[Counterclock]], but includes a central dot like how the [[Sigils Explained#Repetition|repetition sigil]] does. {{Ref|m|46|15}} Time stop will freeze the motion of anything it is targeting, as if time were stopped for that thing. Like most spells, unless otherwise specified by a sign such as [[Signs Explained#Region|region]] time stop will only freeze things within the bounds of its ring. The central dot can be replaced with a [[Sigils Explained|Sigil]] to target a specific thing, like seen in the [[Warmth-Retention Seal]]. {{Ref|k|25|8}} 
+
+==Usage==
+{{Spoiler|m|45|
+It is assumed that after [[Dagda]] and [[Custas]] were ambushed, [[Ininia]] uses her [[Ininia's Gloves|gloves]], which feature time stop seals drawn on the palms, to stop [[Dagda]] from continuing to bleed out, before eventually making use of the [[Counterclock|Counterclock seal]] to revert his injuries. {{Ref|m|45|30}}
+[[File:Ininia Gloves.jpg|thumb|200px|left|Palm of Ininia's gloves]] {{-}}
+}}
+
+{{-}}
+In witch hat kitchen we see an altered use of time stop, to include a [[Sigils Explained#Fire|Fire sigil]], causing the time freezing effect to only affect fire/heat, keeping the shell of the [[Dragon Egg Crock]] at a consistent low temperature. {{Ref|k|25|8}}
+<gallery>
+Warmth-Retention Seal Redraw.png|Warmth Retention Seal
+Dragon Egg Crock.jpg|Dragon Egg Crock
+</gallery>
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Time Spells]]

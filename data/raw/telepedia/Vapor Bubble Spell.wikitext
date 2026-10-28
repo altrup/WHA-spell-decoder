@@ -1,0 +1,39 @@
+{{Object Infobox
+| image1 = [[File:Vapor Bubble Redraw.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Qifrey]], [[Tetia]], [[Coco]], [[Nolnoa]], [[Tartah]], [[Beldaruit]], [[Witches]], [[Outsiders]]
+| creator =
+| manga = [[Chapter 2]]
+| anime = [[Episode 2]]
+}}
+The '''Vapor Bubble''' seal is a [[Spells|spell]] that gathers moisture from the air and stores it as an orb of fresh water. It is used in the [[Vapor Bubble]] [[contraption]].
+
+==Description==
+The casting seal contains an additional ring, which is used to endow the primary spell with additional effects or stronger magic.{{Ref|[[Writing/Translated Texts#EUINI'S_BOOK_1]]}} In the case of this spell, it is likely for the former reason. 
+
+Within the innermost ring lies a [[Sigils Explained#Water|Water]].The outermost ring contains two Sigils of [[Sigils#Wind|Wind]], six Signs of [[Signs#Columns|Columns]] and four Signs of [[Signs#Cooling|Cooling]]. Two Signs of [[Signs#Gathering|Gathering]] are drawn intersecting the additional ring, flanking the top and bottom of the central sigil.
+
+==Usage==
+''See [[Vapor Bubble|Vapor Bubble (Contraption)]] for more in depth uses of the Vapor Bubble seal in the contraption''
+
+The Vapor Bubble seal is used in the contraption of the same name. It is inscribed on the inner faces of two shallow saucers. The spell activates upon separating the two saucers.
+
+Both the spell and contraption have seen great use in the current era as a practical method of accessing fresh water to drink and wash.{{Ref|m|58|8-9}} It can also be used to extract water from chemical solutions.{{Ref|m|5|17}}{{Ref|m|16|20-21}}{{Ref|a|4}}{{Ref|a|10}}
+
+The spell on its own has been used by [[Coco]] alongside [[Rain Guard]] and [[Agott]]’s spell to freeze water to create a frozen, hollow, dome of water for the two of them the hide in.{{Ref|m|82|2-4}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

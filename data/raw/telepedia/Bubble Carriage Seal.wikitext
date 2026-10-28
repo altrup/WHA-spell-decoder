@@ -1,0 +1,35 @@
+{{Object Infobox
+| image1 = [[File:BubbleCarriageSeal.jpg]]
+| japanese = 泡馬車
+| romaji = Awa Basha
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Witches]]
+| creator =
+| manga = [[Chapter 30]] <small>(Partial Seal)</small>
+[[Volume 12]] <small>(Full Seal)</small>
+| anime = 
+}}
+A '''Bubble Carriage Seal''' is a [[Spells|spell]] that creates breathable air. It is used in the [[Bubble Carriage]] [[contraption]].
+
+==Description==
+The Casting Seal contains a [[Sigils#Aeriforms|Sigil of Aeriforms]] surrounded evenly by twenty-four [[Signs#Columns|Signs of Columns]] and twenty-four [[Signs#Regions|Signs of Regions]]. The Region signs are pointing outwards, towards the ring. The sigil creates the supply of air and the signs have the generated air take on the rough shape of a bubble that persists underwater.
+
+==Usage==
+:''To see how this spell is used in relation to the contraption, see [[Bubble Carriage]]''
+The spell is first seen inscribed on the roof of a Bubble Carriage coach. Upon asking about the casting seal, [[Tetia]] explains to [[Coco]] the Sigil of Aeriforms and how it differs from the [[Sigils#Wind|Sigil of Wind]].{{Ref|m|30|26}}
+
+In [[Volume 12]], the casting seal is seen in full.{{Ref|[[Volume 12]] Extra Page: The Contraptions and Seals of Witch Hat}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

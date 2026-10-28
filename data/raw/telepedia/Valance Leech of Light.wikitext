@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=[[File:Valance Leech of Light Redraw.png]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Agott]]
+|creator=[[Agott]]
+|manga=[[Chapter 78]]
+}}
+'''Valance Leech of Light'''{{Unofficial}} is a light-type [[Spells|spell]] that creates a light sculpture of a valance leech.
+
+==Description==
+This spell is simple, only containing five column signs, the light sigil, and the decorative sigil for the valance leech. The five column signs are inverted, which has the effect of dispersing the drawn spell.
+
+==Usage==
+[[Agott]] drew this spell to prove her knowledge of the decorative sigil of a valance leech when the witches were devising a plan to use the [[Counterclock]] on it. When a witch asked her how she knew such an obscure sigil, she shyly explained that it was because she likes this type of magic. Eventually, this spell was used to create the [[Valance Leech Counterclock]] spell.
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

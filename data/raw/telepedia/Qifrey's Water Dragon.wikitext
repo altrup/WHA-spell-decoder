@@ -1,0 +1,37 @@
+{{Object Infobox
+|image1=[[File:Water Dragon Spell Redraw.png|250px]]
+|japanese=
+|romaji=
+|type= [[Spells]]
+|users=[[Qifrey]]
+|creator=[[Qifrey]]
+|manga=[[Chapter 7]]
+|anime=[[Episode 5]]
+}}
+The '''water dragon spell''' uses water from nearby clouds (and likely bodies of water) to produce a giant dragon made of water,{{ref|m|7|26}} which will subsequently turn into a water lily before the spell stops working.{{Ref|a|5}}
+
+==Description==
+The center of the seal contains a dragon sigil. This allows the spell to form a giant dragon. The modified flower seal around it, which has it's arch shaped portions swapped for water droplets, likely is what's responsible for allowing the water gathered by the spell to take the shape of a water lily once the dragon dissipates. The water is gathered thanks to the convergence signs, which in the case of the spell being used near clouds, will "converge" the water in them to a point thanks to the water sigils, allowing it to be incorporated into the spell. From there, enlarge signs make the dragon bigger, and column signs dictate its direction.
+
+==Usage==
+The spell is used by [[Qifrey]] to subdue the [[Dragon|dragon]] that was attacking Coco in the [[Illusory Labyrinth]].{{Ref|m|7|26}}
+
+==Image Gallery==
+<gallery>
+Novelization JP 02 TextPreview1.jpg|The [[Chapter 7]] manga page features a version of the spell in Japanese [[Volume 2]] printings from 2022 onwards, as well as in the [[Volume 2 (Bluebird Novel)|Novelization]]
+</gallery>
+
+==Trivia==
+* This spell is only ever seen at steep angles or an incomplete manner. Due to this, it was necessary to collect every instance in which it was visible and compare in order to figure out the full design.
+* This spell was never shown in the English release of [[Volume 2]], with the paper on which it was drawn instead being blank. It was, however, visible in newer editions of the Japanese version of the volume.
+* In the volumes were the spell is shown, its design is completely different to the one seen in the anime. The spell, however, has been entirely changed in the anime.
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+
+[[Category:Spells]]
+[[Category:Water Spells]]

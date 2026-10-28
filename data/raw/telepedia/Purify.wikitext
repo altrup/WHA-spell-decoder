@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=[[File:Purify_Seal_Redraw.png|300px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=[[Coco]]
+|manga=[[Chapter 61]]
+}}
+'''Purify'''{{Unofficial}} is a water-type [[Spells|spell]] that purifies water.
+
+==Description==
+Purify is a spell that consists of a central water sigil enclosed by two [[Signs Explained#Refuse|refuse signs]] on either side, and surrounded by [[Signs Explained#Purify|purify signs]] above and below. The seal purifies wastewater. {{Ref|m|61|99}}
+
+==Usage==
+[[Coco]] debuts this spell at the [[Silver Eve]] festival during the [[Silver Eve Procession]] drawn on the [[Portable Waste Purification Pot]]. [[Coco]] pours wastewater into the large pot and showcases how the pot purifies and cleans the water thanks to the seal to the crowd. {{Ref|m|61|98}}
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

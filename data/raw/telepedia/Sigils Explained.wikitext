@@ -1,0 +1,438 @@
+Sigils are an element of casting seals, special designs drawn with [[Conjuring Ink|conjuring ink]] through which [[Magic|magic]] can be harnessed in the form of [[Spells|spells]]. Sigils are typically placed in the center of a seal and control what type of spell will be cast. For instance, the [[Pyreball Seal|Pyreball seal]] contains a Sigil of Fire and creates a floating ball of fire. 
+
+The size of a sigil in relation to the ring determines the intensity and strength of the spell’s effect, with larger sigils creating more powerful effects compared to smaller ones.{{Ref|m|46|9-10}}{{Ref|a|6}} The placement of a sigil has not been stated or shown to have an effect on the spell, only serving as a way to more conveniently adjust and adapt typical spellcasting structure. It is possible for casting seals to make use of more than one sigil or lack a sigil altogether.
+__TOC__
+== Primary Tetrad ==
+The four basic and fundamental sigils of casting magic are known as the Primary Tetrad.<ref name="PT">''Witch Hat Atelier'' Manga: [[Chapter 5]], Page 1</ref> This includes the Sigil of Fire, Water, Earth and Wind. A sigil can fall within the domain of the Primary Tetrad yet have a distinct enough effect to be considered a sigil of its own. In terms of design, these variants appear to be derived from the corresponding base sigil of the Primary Tetrad, as they are close enough that one may draw it by mistake{{Ref|[[Writing/Translated_Texts#Agott's_Primer_book]]}} or confuse one for the other.{{Ref|m|30|27}}
+
+===<big>Fire</big>===
+{{Magic Info
+|magicimage=[[File:Fire sigil.png|left|100px]]
+|magicname=炎の紋, ''Honō no Mon''
+|magicjp=紋, Crest • の, of • 炎, Fire
+|magictl=Sigil of Fire<ref name="PT"/>
+|magicdesc=Official<ref name="PT"/>
+}}
+The '''Sigil of Fire''' works to create and manipulate flames or heat depending on the spell in question.
+{{-}}'''Spells Using Fire</br>
+[[Flame Burst Spell]] • [[Flame Shot Seal]] • [[Phantasmal Fireball]] • [[Pyreball Seal]] • [[Snugstone Spell]] • [[Rainflinger]] • [[Ring of Fire]] • [[Snowfending]] • [[Spiraling Flame]] • [[Warmth-Retention Seal]] • [[Waterflinger]]
+{{-}}
+
+====<big>Light</big>====
+{{Magic Info
+|magicimage=[[File:Light.png|left|100px]]
+|magicname=光の紋, ''Hikari no Mon''
+|magicjp=紋, Crest • の, of • 光, Light
+|magictl=Sigil of Light{{Ref|m|3|10}}
+|magicdesc=Official{{Ref|m|3|10}}
+}}
+The '''Sigil of Light''' allows for the creation and manipulation of light.{{Ref|m|3|10}}{{Ref|''Witch Hat Atelier'' Anime: [[Episode 6]] –[[Writing/Translated_Texts#Agott's_Primer_book]]}} It falls within the domain of fire magic{{Ref|m|29|13}} and is similar enough in design that one must be careful not to draw it by mistake.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 6]] –[[Writing/Translated_Texts#Agott's_Primer_book]]}} Light produced by this sigil will diminish over time.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 6]] –[[Writing/Translated_Texts#Agott's_Primer_book]]}}
+{{-}}'''Spells Using Light'''</br>
+[[Beast Repellent|Beastwarding]] • [[Bird of Light Beacon]] • [[Carousel of Lights]] • [[Floatglow Lamp Seal]] • [[Flowers of Light]] • [[Glowstone Path Seal]] • [[Light Beam]] • [[Light Tracer]] • [[Valance Leech of Light]] • [[Wall-Anchored Floatglow Lamp]]
+{{-}}
+
+===<big>Water</big>===
+{{Magic Info
+|magicimage=[[File:Water.png|left|100px]]
+|magicname=水の紋, ''Mizu no Mon''
+|magicjp=紋, Crest • の, of • 水, Water
+|magictl=Sigil of Water<ref name="PT"/>
+|magicdesc=Official<ref name="PT"/>
+}}
+The '''Sigil of Water''' works to manipulate, collect, and create water.<ref name="PT"/> It is worth noting that many water spells meant to be used over long periods collect water rather than create it. This suggests that creating water is more energetically costly than collecting it.{{Cite}}
+{{-}}'''Spells Using Water'''</br>
+[[Ever-Flowing Icepack]] • [[Floating Drops]] • [[Frozen Path]] • [[Purify]] • [[Rainbringer Seal]] • [[Raincleaver Spell]] • [[Rainflinger]] • [[Rising Platform of Water]] • [[Rising Wave]] • [[Sewer Grate]] • [[Vapor Bubble Spell]] • [[Water Bolt]] • [[Water Cage]] • [[Qifrey's Water Dragon|Water Dragon]] • [[Water Horse Spell|Water Horse]] • [[Water Orb]] • [[Water Pen|Wand of Water]] • [[Water Rose]] • [[Waterflinger]] • [[Watershot Seal]]
+{{-}}
+
+===<big>Earth</big>===
+{{Magic Info
+|magicimage=[[File:Earth.png|left|100px]]
+|magicname=地の紋, ''Chi no Mon''; 力の紋, ''Chikara no Mon''
+|magicjp=紋, Crest • の, of • 地, Earth; 紋, Crest • の, of • 力, Might
+|magictl=Sigil of Earth; Sigil of Might;<ref name="PT"/> Sigil of Ground{{Ref|''Witch Hat Atelier'' Anime: [[Episode 2]] – [[Writing/Translated_Texts#Primer Book 2]]}}
+|magicdesc=Official<ref name="PT"/>
+}}
+The '''Sigil of Earth''' allows for the manipulation of numerous solid substances, chiefly wood, stone, sand, and soil.{{Cite}} It has never been shown creating solid substances, unlike '''Water''' or '''Fire'''.
+{{-}}'''Spells Using Earth'''</br>
+[[Boulder Stretch Rope]] • [[Earth Lift]] • [[Integration]] • [[Petrification]] • [[Sand Cage]] • [[Serpent's Bed of Sand]] • [[Wall Bend]] • [[Wall Breaker Seal]]
+{{-}}
+
+===<big>Wind</big>===
+{{Magic Info
+|magicimage=[[File:Wind (redirect).png|left|100px]]
+|magicname=風の絞, ''Kaze no Mon''; 浮遊の紋, ''Fuyū no Mon''; 気体の絞, ''Kitai no Mon''
+|magicjp=紋, Crest • の, of • 風, Wind; 紋, Crest • の, of • 浮遊, Levitation; 紋, Crest • の, of • 気体, Gases
+|magictl=Sigil of Wind; Sigil of Levitation;<ref name="PT"/> Sigil of Air{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+|magicdesc=Official<ref name="PT"/>
+}}
+The '''Sigil of Wind''' allows for the movement and manipulation, but not the creation, of air.
+{{-}}'''Spells Using Wind'''</br>
+[[Floating Drops]] • [[Flying Puppet of Diversion]] • [[Grasping Wind]] • [[Rainflinger]] • [[River Ferry Seal]] • [[Sasaran's Cloak Spell]] • [[Skysoaring Seal]] • [[Vapor Bubble Spell]] • [[Wind Wall]]
+{{-}}
+
+====<big>Aeriforms</big>====
+{{Magic Info
+|magicimage=[[File:Aeriforms (Wind).png|left|100px]]
+|magicname=気体の紋, ''Kitai no Mon''
+|magicjp=紋, Crest • の, of • 気体, Gases
+|magictl=Sigil of Aeriforms{{Ref|m|30|24}}
+|magicdesc=Official{{Ref|m|30|24}}
+}}
+The '''Sigil of Aeriforms''' allows for the creation and manipulation (but not movement) of air. It likely falls within the domain of wind magic due to the similarities in effect and sigil designs.{{Ref|m|30|24}}
+{{-}}'''Spells Using Aeriforms'''</br>
+[[Bubble Carriage Seal|Bubble Carriage]]
+{{-}}
+
+====<big>Wind Underfoot</big>====
+{{Magic Info
+|magicimage=[[File:Wind Underfoot.png|left|100px]]
+|magicname=足場のある風の紋, ''Ashiba no aru kaze no Mon''; 風の絞, ''Kaze no Mon''
+|magicjp=紋, Crest • の, of • 足場のある風, Foothold-Having Wind; 紋, Crest • の, of • 風, Wind
+|magictl=Sigil of Wind Underfoot;<ref name="Vol1Intro">''Witch Hat Atelier'' [[Volume 1]] Extra Page: Introduction to Casting Seals</ref> Sigil of Wind{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+|magicdesc=Officially Named, Unofficial Description<ref name="Vol1Intro"/>
+}} The '''Sigil of Wind Underfoot's''' function is currently unclear. It has been used in spells shown to support solid objects suspended in air.{{Cite}} It likely falls within the domain of wind magic due to the similarities in effect and sigil designs.
+{{-}}'''Spells Using Wind Underfoot'''</br>
+[[Pegasus Carriage Spell]] • [[Sylph Shoes Seal]]
+{{-}}
+
+====<big>Whorling Wind</big>====
+{{Magic Info
+|magicimage=[[File:Whorling Winds.png|left|100px]]
+|magicname=つむじ風の紋, ''Tsumujikaze no Mon''
+|magicjp=紋, Crest • の, of • つむじ, Whirlwinds
+|magictl=Sigil of Whorling Wind;<ref name="Vol12">''Witch Hat Atelier'' [[Volume 12]] Extra Page: The Contraptions and Seals of Witch Hat</ref> Sigil of Vorticity{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+|magicdesc=Officially Named, Unofficial Description
+}}
+The '''Sigil of Whorling Wind''' likely helps to manipulate air through rotation. It likely falls within the domain of wind magic due to the similarities in effect and sigil designs (in the same way '''Light''' is similar to '''Fire''').
+{{-}}'''Spells Using Whorling Wind'''</br>
+[[Pegasus Carriage Spell]] • [[Wayward Whorlwind]]
+{{-}}
+
+==Time==
+Time sigils are responsible for magic which manipulates time. There is currently one known time sigil.
+===Repetition===
+{{Magic Info
+|magicimage=[[File:Repetition.png|left|100px]]
+|magicname=くり返しの紋, ''Kurikaeshi no Mon''
+|magicjp=紋, Crest • の, of • くり返し, Repetition
+|magictl=Sigil of Repetition<ref name="Vol12" />{{Ref|m|28|12}}
+|magicdesc=Official<ref name="Vol12" />{{Ref|m|28|12}}
+}}
+The '''Sigil of Repetition''' helps to prevent objects from changing by continuously resetting time for the objects it affects to the state they had when the spell first affected them. It is similar to a spring, restoring the object to its original state if that object is somehow changed. the “resetting” of the object also applies to its temperature, and not just its physical form. This can be used to make soft objects elastic, prevent things from rotting or to repair damaged objects. Repetition has been referred to a sign,{{Ref|m|7|17}} a seal,{{Ref|m|32|8}} and a sigil<ref name="Vol12"/>
+[[File: Repetition Diagram.png|thumb|500px|left]]
+{{-}}'''Spells Using Repetition'''</br>
+[[Capture Pennant Spell]] • [[Coco's Village Wash Spring]] • [[Repetition Seal]] ([[Magic Cookpot]] • [[Serpent's Bed of Sand]] • [[Washbarrel Seal]]) • [[Spell of Reduction]]
+{{-}}
+
+==Miscellaneous Sigils==
+Official sigils that do not belong to the Primary Tetrad or count as a decorative sigil.
+===Guidance===
+{{Magic Info
+|magicimage=[[File:Guidance Sigil Redraw.png|left|100px]]
+|magicname=誘導の紋, ''Yūdō no Mon''
+|magicjp=紋, Crest • の, of • 誘導, Guidance
+|magictl=Sigil of Guidance{{Ref|m|64|2}}
+|magicdesc=Officially Named, Unofficial Description{{Ref|m|64|2}}
+}}
+The '''Sigil of Guidance''' functions to attract objects to its location that match parameters set by the other signs and sigils within a spell.{{Ref|m|64|2}} For example, a guidance based spell that contains a [[Pouch of Calling|Pouch of Calling spell]] will attract all nearby Pouches of Calling.
+{{-}}'''Spells Using Guidance'''</br>
+[[Guidance Seal]] ([[Fish Guidance]] • [[Pouch Guidance]]) • [[Rushing Wave]]
+{{-}}
+
+===Calling===
+{{Magic Info
+|magicimage=[[File:Calling Sigil Redraw.png|left|100px]]
+|magicname=呼び声の紋, ''Yobigoe no Mon''
+|magicjp=紋, Crest • の, of • 呼び声, Calling
+|magictl=Sigil of Calling;{{Ref|m|81|7}} Sigil of Echo{{Cite}}
+|magicdesc=Official{{Ref|m|81|7}}
+}}
+The '''Sigil of Calling''' repeatedly echoes a recorded phrase. It is only explicitly referred to as a sigil in Japanese, while in English it is translated as a verb ("record some words").{{Ref|m|81|7}}
+{{-}}'''Spells Using Calling'''</br>
+[[Pouch of Calling]] • [[Pouch Guidance]]
+{{-}}
+
+===Purification===
+{{Magic Info
+|magicimage=[[File:Purification Sigil Redraw.png|left|100px]]
+|magicname=浄水の紋, ''Jousui no Mon''
+|magicjp=紋, Crest • の, of • 浄水, Purifying Water
+|magictl=Sigil of Purification{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+|magicdesc=Official{{Ref|[[Archives of Witch Hat Atelier]], Page 146}}
+}}
+The '''Sigil of Purification''' cleans and purifies water. The sigil can be split into a [[Signs#Purification|sign]] to be used on a smaller scale.{{Ref|m|61|13}}
+{{-}}'''Spells Using Purification'''</br>
+[[Coco's Village Wash Spring]] • [[Sewer Grate]]
+{{-}}
+
+===Sword===
+{{Magic Info
+|magicimage=[[File:Sword Sigil.png|left|100px]]
+|magicname=剣の紋, ''Tsurugi no Mon''
+|magicjp=紋, Crest • の, of • 剣, Sword
+|magictl=Sigil of Sword{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+|magicdesc=Official{{Ref|[[Archives of Witch Hat Atelier]], Page 147}}
+}}
+The '''Sigil of Sword's''' function is currently unknown.
+{{-}}'''Spells Using Sword'''</br>
+[[Raincleaver Spell]]
+{{-}}
+
+===Bridging===
+{{Magic Info
+|magicimage=[[File:Sigil of bridging redraw.png|left|100px]]
+|magicname=橋の紋, ''Hashi no Mon''
+|magicjp=紋, Crest • の, of • 橋, Bridges
+|magictl=Sigil of Bridging{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+|magicdesc=Official{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+}}The '''Sigil of Bridging''' causes the target object to manifest as a bridge with a flat walkable platform and arches.{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+{{-}}'''Spells Using Bridging'''</br>
+[[Sand Bridge]]
+{{-}}
+
+===Sand===
+{{Magic Info
+|magicimage=[[File:Sigil of sand redraw.png|100px|left]]
+|magicname=砂の紋, ''Suna no Mon''
+|magicjp=紋, Crest • の, of • 砂, Sand
+|magictl=Sigil of Sand{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+|magicdesc=Official{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+}}
+The '''Sigil of Sand''' allows for the manipulation, but not the generation, of sand.{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+{{-}}'''Spells Using Sand'''</br>
+[[Sand Bridge]]
+{{-}}
+
+===Undulation===
+{{Magic Info
+|magicimage=[[File:Sigil of Undulation.png|100px|left]]
+|magicname=波の紋, ''Nami no Mon''
+|magicjp=紋, Crest • の, of • 波, Waves
+|magictl=Sigil of Undulation{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+|magicdesc=Official{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+}}
+The '''Sigil of Undulation''' likely manipulates nearby material to take on a wave-like form. It has only been seen manipulating water.{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+{{-}}'''Spells Using Undulation'''</br>
+[[Rushing Wave]]
+{{-}}
+
+===Doorways===
+{{Magic Info
+|magicimage=[[File:Sigil of doorways redraw (2).png|100px|left]]
+|magicname=扉の紋, ''Tobira no Mon''
+|magicjp=紋, Crest • の, of • 扉, Doors
+|magictl=Sigil of Doorways{{Ref|m|29|24}}
+|magicdesc=Official{{Ref|m|29|24}}
+}}
+The '''Sigil of Doorways''' likely indicates different locations a spell can connect to. The only concrete example shown is in Richeh's Linked Windowway Seals, connecting the spell to the [[Ceyam Woods]].{{Ref|m|29|24}} It's possible there are many variants of this sigil, with each of them determining a different location.
+{{-}}'''Spells Using Doorways'''</br>
+[[Windowway]]
+{{-}}
+
+===Obliviation===
+[[File:Obliviation Sigil Redraw.png|left|100px]] The '''Sigil of Obliviation's'''{{Unofficial}} (忘却, ''bōkyaku'') function is currently unknown. It is first identified by Coco upon recognizing a [[Memory Erasure]] spell given to her by Qifrey.{{Ref|m|84|9}} It has only been seen in spells related to the erasure of memories, typically accompanied by Glaives.
+{{-}}'''Spells Using Obliviation'''</br>
+[[Memory Erasure]]
+{{-}}
+
+==Decorative Sigils==
+'''Decorative Sigils''' depict different kinds of flora and fauna. Using these, spells can be sculpted to take on the rough shape of its corresponding design, or target other spells shaped by the same sigil.{{Ref|m|58|22}}{{Ref|m|64|2}} They also allow spells to limit their effects to the physical counterparts of their respective designs.{{Ref|m|78|17-19}} '''Decorative Sigils''' take up a large amount of space inside a seal and lack practical utility, leading to most of them being lost to time or used in a witch's personal doodles.{{Ref|m|58|23}} '''Decorative Sigils''' were previously referred to as '''Decorative Signs''', up until this was retconned in Chapter 78.{{Ref|m|58|22}}{{Ref|m|62|10}} They are also referred to as '''Ornamental Sigils''' in the English translation of the World Guide.{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+
+===Bird===
+{{Magic Info
+|magicimage=[[File:Bird.png|left|100px]]
+|magicname=Bird
+|magicjp=
+|magictl=
+|magicdesc=Official Decorative Sigil{{Cite}}, Unofficial Name
+|magictype=}}
+'''Bird'''{{Unofficial}} depicts the shape of a bird, as seen in [[Bird of Light Beacon]]. Interestingly, this spell uses two sigils, but only creates one bird.{{Ref|m|11|8}}<ref>https://x.com/shirahamakamome/status/1783445489708601563</ref> The design was changed in [[Chapter 28]].{{Cite}}{{Ref|m|28|11}}
+{{-}}'''Spells Using Bird A'''</br>
+[[Bird of Light Beacon]]
+{{-}}
+
+===Dragon===
+{{Magic Info
+|magicimage=[[File:Dragon Sign.png|left|100px]]
+|magicname=巨鱗竜, Doragon
+|magicjp=巨, Giant • 鱗, Scaled • 竜, Dragon
+|magictl=Dragon{{Ref|m|58|18}}
+|magicdesc=Official{{Ref|m|58|18}}
+|magictype=}}
+'''Dragon''' depicts the shape of a [[Dragon|dragon]]. The exact dragon species is unknown, although the illustration accompanying it appears to be a [[Dragonpass Isles]] Wyrm.{{Ref|m|58|18}}
+{{-}}'''Spells Using Dragon'''</br>
+[[Qifrey's Water Dragon|Water Dragon]]
+{{-}}
+
+===Flower===
+{{Magic Info
+|magicimage=[[File:Flower Sigil.png|left|100px]]
+|magicname=Flower
+|magicjp=
+|magictl=
+|magicdesc=Official Decorative Sigil{{Ref|m|58|20}}, Unofficial Name
+|magictype=}}
+'''Flower'''{{Unofficial}} depicts various kinds of flowers.{{Ref|m|58|20}}{{Ref|a|5}} The type of flower (and possibly the amount) is determined by five, small, identical symbols that surround the sigil, acting as modifiers.
+{{-}}====Flower Modifiers====
+<gallery class=left heights=100px widths=100px>
+File:Flower Sigil Variant Water Dragon.png|[[Episode 5|<small>Ep. 5</small>]]
+File:Flower Sigil Variant Flowers of Light.png|[[Chapter 58|<small>Ch. 58</small>]]
+File:Flower Sigil Variant Water Rose.png|[[Chapter 3|<small>Ch. 3</small>]]{{Ref|https://tongari-anime.com/bd-cd/novelty/}}
+</gallery>
+{{-}}'''Spells Using Flower'''</br>
+[[Flowers of Light]] • [[Qifrey's Water Dragon|Water Dragon]] • [[Water Rose]]
+{{-}}
+
+===Horse===
+{{Magic Info
+|magicimage=[[File:Horse Sign.png|100px|left]]
+|magicname=馬の装飾紋, ''Uma no Sōshoku Mon''
+|magicjp=紋, Crest • 装飾, Decorative/Ornamental • の, of • 馬, Horse
+|magictl=Decorative Sigil of the Horse{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+|magicdesc=Official{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+|magictype=}}
+'''Horse''' depicts the shape of a horse.{{Ref|m|46|7}}{{Ref|m|83|1}}
+{{-}}'''Spells Using Horse'''</br>
+[[Water Horse Spell|Water Horse]]
+{{-}}
+
+===Owlcat===
+{{Magic Info
+|magicimage=[[File:Owlcat Sign.png|left|100px]]
+|magicname=猫梟, ''Neko Fukurō''
+|magicjp= 梟, Owl • 猫, Cat
+|magictl=Owlcat{{Ref|m|58|24}}
+|magicdesc=Official{{Ref|m|58|24}} 
+|magictype=}}
+'''Owlcat''' specifically depicts the shape of an [[Owlcat]] with its poofy winter plumage. It is round in shape, so much so that it may be that the sigil only depicts an Owlcat's head as opposed to its whole body.{{Ref|m|58|24}} 
+{{-}}'''Spells Using Owlcat Head'''</br>
+[[Glowing Owlcat]]
+{{-}}
+
+===Scalewolf===
+{{Magic Info
+|magicimage=[[File:Scalewolf Sign.png|100px|left]]
+|magicname=鱗狼, Uroko ōkami
+|magicjp=鱗, Scale • 狼, Wolf
+|magictl=Scalewolf{{Ref|m|58|18}}
+|magicdesc=Official{{Ref|m|58|18}}
+|magictype=}}
+'''Scalewolf''' depicts the shape of a [[Scalewolf|scalewolf]].{{Ref|m|58|18}}
+{{-}}
+
+===Torchstag===
+{{Magic Info
+|magicimage=[[File:Torchstag Sign.png|left|100px]]
+|magicname=松明鹿, ''Taimatsu Shika''
+|magicjp=松明, Torch • 鹿, Deer
+|magictl=Torchstag{{Ref|m|58|18}}
+|magicdesc=Official{{Ref|m|58|18}}
+|magictype=}}
+'''Torchstag''' depicts the shape of a [[Torchstag|torchstag]].{{Ref|m|58|18}}
+{{-}}
+
+===Liongoat===
+{{Magic Info
+|magicimage=[[File:Liongoat Sigil Redraw.png|left|100px]]
+|magicname=獅子山羊, ''Shishi Yagi''
+|magicjp=獅子, Lion • 山羊, Goat (Mountain Sheep)
+|magictl=Liongoat{{Ref|m|58|18}}
+|magicdesc=Official{{Ref|m|58|18}}
+|magictype=}}
+'''Liongoat''' depicts the shape of a [[Liongoat|liongoat]].{{Ref|m|58|18}}
+{{-}}
+
+===Fish===
+{{Magic Info
+|magicimage=[[File:Fish Sigil.png|left|100px]]
+|magicname=Fish
+|magicjp=
+|magictl=
+|magicdesc=Official Decorative Sigil, Unofficial Name
+|magictype=}}
+'''Fish'''{{Unofficial}} appears to depict the shape of a fish.{{Ref|m|64|2}}{{Ref|m|62|10}}
+{{-}}'''Spells Using Fish'''</br>
+[[Fish Guidance]]
+{{-}}
+
+===Valance Leech===
+{{Magic Info
+|magicimage=[[File:Valance Leech Sign.png|left|100px]]
+|magicname=帳蛭の装飾紋, ''Tobari Hiru no Shōshoku Mon''
+|magicjp=紋, Crest • 装飾, Decorative/Ornamental • の, of • 帳, Curtain • 蛭, Leech
+|magictl=Decorative Sigil for a Valance Leech{{Ref|m|78|20}}
+|magicdesc=Official{{Ref|m|78|20}}
+|magictype=}}
+'''Valance Leech''' depicts the shape of a [[Valance Leech (Species)|valance leech]].{{Ref|m|78|20}}
+{{-}}'''Spells Using Valance Leech'''</br>
+[[Valance Leech Counterclock]] • [[Valance Leech of Light]]
+{{-}}
+
+===Frillram===
+{{Magic Info
+|magicimage=[[File:Frillram Sigil.png|left|100px]]
+|magicname=Decorative Sigil of the Collar Sheep<ref name="Frillram">''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 5]]</ref> (襟巻羊の装飾紋, ''Erimakihitsuji no Sōshoku Mon'')
+|magicjp=紋, Crest • 装飾, Decorative/Ornamental • の, of • 襟巻, Collar/Scarf • 羊, Sheep
+|magictl=Decorative Sigil of the Frillram<ref name="Frillram"/>
+|magicdesc=Official<ref name="Frillram"/>
+|magictype=}}
+'''Frillram''' depicts the shape of a [[Frillram]].<ref name="Frillram"/>
+{{-}}
+
+===Gryphon===
+{{Magic Info
+|magicimage=
+|magicname=グリフォン, ''Gurifon''
+|magicjp=グリフォン, Gryphon
+|magictl=Gryphon{{Ref|m|78|19}}
+|magicdesc=Official{{Ref|m|78|19}}
+|magictype=}}
+'''Gryphon''' depicts the shape of a [[Gryphon]]. It is unknown what the sigil actually looks like as it has only been mentioned by name.{{Ref|m|78|19}}
+{{-}}
+
+===Pegasus===
+{{Magic Info
+|magicimage=
+|magicname=羽根馬, ''Hane Uma''
+|magicjp=羽根, Feathered • 馬, Horse
+|magictl=Pegasus{{Ref|m|78|21}}
+|magicdesc=Official{{Ref|m|78|21}}
+|magictype=}}
+'''Pegasus''' depicts the shape of a [[Pegasus]]. It is unknown what the sigil actually looks like as it has only been mentioned by name.{{Ref|m|78|21}}
+{{-}}
+
+==Unofficial Sigils== 
+===Crystalize===
+[[File:Ice_Sigil.jpg|alt=|left|100x100px]] '''Crystalize'''{{Unofficial}} causes things around such as air{{Ref|a|13|5:20}} or water, or otherwise specified by the seal, to crystalize. This can form crystal {{Ref|a|11|5:40}}{{Ref|m|18|8}}, or even ice.{{Ref|a|13|5:37}}{{Ref|a|13|6:25}}{{Ref|k|18|8}} It is unknown what dictates whether the sigil turns things to ice or crystal, and may be up to user intent
+{{-}}'''Spells Using Crystalize'''</br>
+[[Crystal Shard]] • [[Frozen Path]] • [[Icy Road]]
+{{-}}
+
+===Smoke===
+[[File:Smoke Sigil.png|left|100px]]'''Smoke'''{{Unofficial}} (煙, ''kemuri'') works to create and generate smoke. It has not been seen whether or not the sigil is also capable of manipulating smoke{{Ref|m|91|4}}
+{{-}}'''Spells Using Smoke'''</br>
+[[Smoke Cloud]]
+{{-}}
+
+===Flickering Light===
+[[File:Sigil of Flickering light redraw.png|left|100px]]
+'''Flickering Light's'''{{Unofficial}} function is currently unknown. It is only seen used in a poorly drawn Casting Seal, which results in a quick display of flickering lights.
+{{-}}'''Spells Using Flickering Light'''</br>
+[[Forbidden Glow]]
+{{-}}
+
+===Lightning===
+[[File:Lightning Sigil redraw3.png|left|100px]]
+'''Lightning's'''{{Unofficial}} function is currently unknown. It is likely to create and manipulate electricity given its design and use in a spell that creates bolts of lightning.{{Ref|m|68|13}} The existence of other lightning spells further supports the existence of this sigil.{{Ref|m|15|3}}{{Ref|m|37|29}}
+{{-}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{Items Navibox}}
+{{World Navibox}}
+[[Category:Magic]]
+[[Category:Spells]]

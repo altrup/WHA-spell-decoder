@@ -1,0 +1,40 @@
+{{Object Infobox
+ | image1 = [[File:Water Pen.png]]
+ | japanese = 水の杖
+ | romaji = Mizu no Tsue
+ | chinese =
+ | french =
+ | spanish =
+ | german =
+ | italian =
+ | type = [[Spells|Spell]]
+ | users = [[Qifrey]]
+ | creator =
+ | manga = [[Chapter 24]]
+ | anime =
+}}
+The '''Wand of Water''' (水の杖, ''Mizu no Tsue'') is a [[Spells|spell]] that shapes water into the shape of a large pen nib.
+
+==Description==
+[[File:Water Pen Seal Redraw.png|left|thumb|120px|<small>Wand of Water Seal Redraw (Ch. 24)</small>]]The Casting Seal contains a [[Sigils#Water|Sigil of Water]] within a [[Signs#Holding|Sign of Holding]]. Below the sigil is a [[Signs#Pointing|Sign of Pointing]] Above the sigil is one [[Signs#Dispersion|Sign of Dispersion]] pointing upwards and two [[Signs#Columns|Signs of Columns]] mirrored on either side of it.{{Ref|m|24|6-7}}{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+
+The [[Sigils#Water|Sigil of Water]] creates the water to be used for the spell. The [[Signs#Columns|Signs of Columns]] and [[Signs#Pointing|Pointing]] determine the shape that the water takes, with Columns defining the base of the 'nib' and Pointing causing the water to taper to a point. The 'wand' appears to hovers below the seal at an angle, which can be likely be attributed to the [[Signs#Dispersion|Sign of Dispersion]] causing spells to take effect outside of the confines of its ring. 
+
+[[Conjuring Ink|Conjuring ink]] can be poured inside to saturate the water with ink.{{Ref|m|24|5}} It can be used to draw large Casting Seals on stone, sand, or likely any flat, expansive area.{{Ref|m|24|6-7}}{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}{{Ref|m|24|11-12}}
+
+==History==
+[[Qifrey]] uses this spell while fending off [[the Ancients of Romonon]] in the [[Serpentback Cave]], using it to draw large Casting Seals in the ground,{{Ref|m|24|6-7}} one of which being a variation of [[Water Bolt]].{{Ref|m|24|11-12}}
+
+==Notes==
+[[File:Wand of Water Redraw (Archives).png|right|thumb|120px|<small>Wand of Water Seal Redraw (Archives)</small>]]
+*In [[Archives of Witch Hat Atelier]], The Wand of Water is depicted with a third Sign of Columns replacing the original Sign of Dispersion.{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+{{-}}
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]
+[[Fr:Dague d'eau]]

@@ -1,0 +1,33 @@
+{{Object Infobox
+|image1=[[File:Qifreys Lens Spell.jpg|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 36]]
+}}
+The '''Light-Reducing Spell''' is a vision [[Spells|spell]] that blocks out the brightest lights to protect one's eyesight.
+
+==Description==
+Has a diamond sigil in the center with a few markings inside of it, and has an overlapping circle drawn over each corner. A larger diamond encases it with convergence signs drawn at each corner, and a line drawn into the inner circles. There are additional branched lines drawn between each circle that extend to the outer diamond, with two lines forming a V-shape outside of it.{{Ref|m|36|30}}
+
+==Usage==
+When used on glasses, the spell will block out the harshest lighting. It is used to protect one's eyesight when their vision is going.
+
+
+<div class="mw-collapsible mw-collapsed">'''SPOILER WARNING'''<br><small>''This section contains spoilers for [[Chapter 36]]''</small>
+<div class="mw-collapsible-content">
+[[File:Qifreys Glasses spell.jpg|thumb|left|Light-Reducing Spell on Qifrey's glasses]] Currently, [[Qifrey]] is the only known user of this spell, although Olruggio recognizes it and its purpose when discovered so it may be used by others with vision problems as well. Qifrey uses Blushing Bride ink to keep the spell transparent on his lens,{{Ref|m|36|30}} and has been using the spell for the past few years.{{Ref|m|40|11}}
+</div>
+<br>'''End of spoilers.'''</div>
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Vision Spells]]

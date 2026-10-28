@@ -1,0 +1,37 @@
+{{Object Infobox
+ | image1 = [[File:Dispel_Water,_Updated_Version.png]]
+ | japanese = 水飛ばし
+ | romaji = Mizutobashi
+ | chinese =
+ | french =
+ | spanish =
+ | german =
+ | italian =
+ | type = [[Spells|Spell]]
+ | users = 
+ | creator =
+ | manga = [[Chapter 28]]
+ | anime = 
+}}
+'''Waterflinger''' is a mixed water-type and fire-type [[Spells|spell]].
+
+==Description==
+Waterflinger contains a central water sigil, with two smaller fire sigils located above and below it. It also includes two crosshair signs on either side of the water sigil. The spell’s effect had not been shown in the manga. It’s possible that the crosshair signs target water with heat to evaporate it.{{Ref|[[Signs_Explained#Crosshair]]}}
+
+==Usage==
+The Waterflinger spell has made multiple appearances in the form of its seal, but not in regards to its effect.{{Ref|m|28|11}}{{Ref|m|83|1}} It is first shown when [[Agott]], [[Tetia]], and [[Coco]] are brainstorming ways to save [[Euini]], identified as a spell that they are familiar with and one with the potential to help them reach their goal.{{Ref|m|28|11-12}}
+
+==Trivia==
+*The Waterflinger spell’s name and seal bear similarity to [[Rainflinger]].
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Mixed Spells]]
+[[Category:Fire Spells]]
+[[Category:Water Spells]]

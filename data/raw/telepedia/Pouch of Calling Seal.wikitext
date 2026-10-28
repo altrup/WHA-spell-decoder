@@ -1,0 +1,68 @@
+{{Object Infobox
+| image1 = [[File:Pouch of Calling.jpg]]
+| japanese = 呼び声の小袋 
+| romaji = Yobigoe no kobukuro
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Agott]], [[Beldaruit]], [[Olruggio]], [[Background Characters|Patchwork Brim]], [[Lagrah]], [[Witches]]
+| creator = [[Agott]] <small>(Variant)</small>
+| manga = [[Chapter 34]]
+| anime = 
+}}
+The '''Pouch of Calling''' seal is a [[Spells|spell]] that allows its target to repeatedly echo a recorded phrase while pursuing a target destination. It is used for the [[Pouch of Calling]] [[contraption]].
+
+==Description==
+Several variants of the casting seal exist, all of which contain a Sigil of [[Sigils#Calling|Calling]], which allows the recording and echoing of a phrase. 
+
+In [[Chapter 34]], the seal contains four Signs of [[Signs#Convergence|Convergence]] evenly surrounding the Sigil. There are two, opaque triangles at the top and bottom of the seal, as well as two straight vertical lines.
+
+The spell from [[Chapter 34]] is described as a layered spell with a Seal of Recorded Sound on the inside and a Seal of Pursuit on the outside. If this is at all similar to the layered spell that is the [[Mirror Cloak of Borrowshade]], it would suggest that these two seals are overlapping atop of each other.{{Ref|''Witch Hat Atelier'' Manga: [[Chapter 21]], Page 19: ''重ね, meaning layered''}}{{Ref|''Witch Hat Atelier'' Manga: [[Chapter 35]], Page 7: ''二重, meaning two-layered''}}
+
+In [[Chapter 81]], there are three different variants of the seal shown, all of which are clearly reminiscent of the Chapter 34 version. One variant forgoes the Convergence signs for [[Signs#Collection|Collection]] signs.{{Ref|m|81|6}} Another variant only retains the Calling sigil and Convergence signs.{{Ref|m|81|5}} All three of them do not include the opaque triangles.{{Ref|m|81|6}}{{Ref|m|81|5}}{{Ref|m|81|7}}
+
+==Usage==
+{{Quote
+|quote = This way!
+|source = Chapter 34
+|speaker = Agott’s Pouch of Calling
+}}
+[[Agott]] uses the Pouch of Calling seal to create the contraption of the same name, luring [[Beldaruit]] and several children of the [[Great Hall]] to the spot where [[Qifrey's Atelier|her fellow apprentices]] have prepared their spells to present to Beldaruit for their retake of the [[Sincerity of the Shield|second test]].{{Ref|m|34|17-23}}
+
+{{Quote
+|quote = Coco! Secret! Only you! Listen in secret! When it's nighttime... Come in secret!
+|source = Chapter 34
+|speaker = Beldaruit’s Pouch of Calling
+}}
+After their demonstration and while the girls are celebrating their passing of the test, Beldaruit repurposes Agott’s Pouch of Calling to lure Coco a distance away from her friends, discreetly requesting her to meet him later that night.{{Ref|m|34|31-32}}
+
+{{Quote
+|quote = Please! Someone help us! We’re all gonna die! Oh, no! It got me!
+|source = Chapter 81
+|speaker = Patchwork Brim’s Pouch of Calling
+}}
+Several witches, including [[Olruggio]], [[Lagrah]], [[Background Characters|Patchwork Brim]] and Qifrey’s apprentices, contribute to drawing several casting seals for Pouches of Calling and [[Snugstone|Snugstones]] to bait the [[Valance Leech (Monster)|Valance Leech]] into thinking there are fleeing humans it can feed off of.{{Ref|m|81|7-8}} The casting seal is also drawn within a [[Pouch Guidance|Guidance seal]] planted within range of the [[Valance Leech Counterclock|giant Counterclock spell]] they plan to use to rewind the leech. The Guidance seal targets and draws in objects with the matching seal, allowing for the Pouches to run into the fray and lure the Valance Leech.{{Ref|m|81|9}}
+<gallery style="text-align:center">
+File:Pouch_of_Calling_Seal_1.png|thumb|<small>Ch. 81 Seal Variant</small>
+File:Pouch_of_Calling_Seal_2.png|thumb|<small>Ch. 81 Seal Variant</small>
+File:Pouch_of_Calling_Seal_3.png|thumb|<small>Ch. 81 Seal Variant</small>
+File:Pouch Guidance Seal.png|thumb|<small>Pouch of Calling Seal nested in Guidance Seal</small>
+File:Pouch of Calling Redraw Ch34.png|thumb|<small>Ch. 34 Seal Redraw</small>
+File:Pouch of Calling Redraw Ch83.png|thumb|<small>Ch. 81 Seal Redraw</small>
+</gallery>
+==Trivia==
+*The Seal of Recorded Sound likely includes the Sigil of Calling given the similarities in names and effect. The Seal of Pursuit is likely to allow the pouches to pursue a specific location, serving a similar function to the Guidance seal in Chapter 81.
+**It is reasonable to assume that the seal variants in Chapter 81 are missing certain aspects of the variant in Chapter 34 due to the lack of need for a Seal of Pursuit. In other words, the symbols that are unique to the version of Chapter 34 are part of the Seal of Pursuit.
+*The layered spell for the Pouch of Calling is Agott’s invention.{{Ref|m|35|7}}{{Ref|m|34|23}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

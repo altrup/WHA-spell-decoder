@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:82 8 Ring of Fire Seal.jpg|400px]]
+|type=[[Spells|Spell]], [[Spells#Fire Spells|Fire Spell]]
+|users=[[Olruggio]]
+|manga=[[Chapter 82]]
+}}
+'''Ring of Fire'''{{Unofficial}} is a fire-type [[Spells|spell]] that produces fire in the shape of a ring.
+
+==Description==
+Ring of Fire contains a fire sigil surrounded by three dispersion signs. It's unclear if the signs being off-center is intentional, given that the spell would likely have the same effect otherwise.{{Ref|[[Signs_Explained#Dispersion]]}}
+
+==Usage==
+[[File:82 8 Ring of Fire Spell.png|thumb|Ring of Fire Effect]]
+[[Olruggio]] uses this spell during the [[Valance Leech Arc]] after [[Coco]] and [[Agott]] fly into the fray without warning. Unsure of their safety, Olruggio casts this spell with the resolve to burn down the forest and the offending Valance Leech.{{Ref|m|82|8}}
+
+He later merges this spell with [[Qifrey|Qifrey's]] [[Qifrey's Water Dragon|water dragon]], drastically increasing the water's temperature and resulting in the creation of [[Boilfire Dragon]].{{Ref|m|82|9-10}}
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]

@@ -1,0 +1,36 @@
+{{Object Infobox
+|image1=[[File:Phantasmal Fireball.jpg|250px]]
+|japanese= 幻炎玉
+|romaji= Gen'engyoku
+|type= [[Spells|Spell]], [[Contraption]]
+|users=[[Olruggio]]
+|creator=[[Olruggio]]
+|manga=[[Chapter 43]]
+}}
+The '''Phantasmal Fireball Spell''' is a fire-type spell invented by [[Olruggio]] that forms an artificial flame which doesn't produce heat, but looks and acts like a real flame.{{Ref|m|43|9}}
+
+==Description (Spell)==
+[[File:Unburning Flame.png|thumb|left|150x150px|Phantasmal Fireball spell]]
+The spell consists of a fire sigil variant, [[Sigils Explained#Unburning Flames|Unburning Flames]] and several never before seen signs.{{Ref|m|43|8}} It produces a flame that generates no heat but still produces light and can be touched without any risk of injury, making it useful for the light it produces and its ability to scare of beasts without the risk of injury.{{Ref|m|43|9}}
+
+==Description (Contraption)==
+The contraption is incredibly simple, consisting of only an orb with the spell of the same name drawn upon it. The contraption is fully engulfed in the phantasmal fire of the spell, allowing for it to look real but be held and carried as a convenient light source. However, because Olruggio felt it could possibly diminish society's healthy fear of fire, he chose to nix it.{{Ref|m|43|12}}
+
+==Usage and History==
+Olruggio created this contraption to have the benefits of real fire—to light the way and scare off beasts—but without any of the risks like getting burned, or the fire spreading. And without needing fuel, the phantasmal fire will never go out. However because it looks real but is otherwise harmless, he worried that children growing up with this fake fire might think that all fire was equally harmless, and mistakenly put themselves in danger. And where contradictory understandings of fire exist, there's no way to assure that all kids will grow up understanding the danger of fire. Therefore, he felt it was too irresponsible to sell, and considered it a failed contraption.{{Ref|m|43|11-12}} 
+
+Olruggio would later go on to create an [[Crystal Torch|updated contraption]] where the phantasmal flame is trapped inside crystal, so it has the benefit of the fake flames but preserves the idea that fire is too dangerous to touch.{{Ref|m|61|5-6}}
+
+==Trivia==
+*Due to the spell being irresponsible to sell, it can be argued that Olruggio, the one who invented the spell, is the only actual user of the Unburning Flame.
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Contraptions]]
+[[Category:Fire Spells]]
+[[Category:Olruggio's Inventions]]

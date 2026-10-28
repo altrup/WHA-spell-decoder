@@ -1,0 +1,45 @@
+{{Object Infobox
+|image1=[[File:Ever-Flowing Icepack Contraption.png|400px]]
+|japanese=流れる氷
+|romaji =''Nagareru kōri''
+|type=[[Spells|Spell]], [[Contraption]]
+|users=[[Qifrey]]
+|creator=[[Coco]]
+|manga=[[Chapter 32]] <small>(Conceptualized)</small>
+[[Chapter 36]] <small>(Debut)</small>
+}}
+The '''Ever-Flowing Icepack''' is a [[Contraption|contraption]] that functions as an icepack that always stays cold.
+
+==Description (Contraption)==
+[[Coco]]'s thought process behind making this contraption is to create an icepack that stays cool forever, taking inspiration from the cool, flowing water from rivers and streams.{{Ref|m|32|29}} The contraption's outward appearance isn't all that different from a typical icepack, apart from the way it moves and sounds as water sloshes around inside of it. Qifrey's first impression of it is that of "some manner of fidgeting icepack."{{Ref|m|36|9}}
+
+==Description (Casting Seal)==
+Coco's initial attempt at creating the Casting Seal for this contraption results in water rapidly and sporadically spinning above the seal. The seal is partially shown to include several angled Signs of [[Signs#Columns|Columns]]. The signs are presumably arranged in a circle and surrounding a central Sigil of [[Sigils#Water|Water]].
+
+When [[Olruggio]] steps in to lend a hand, he draws a singular, small Sign of Columns opposite to a standard Water Sigil. In doing so, the water stills into the shape of a thin disc floating above the seal. When Coco gives it another try, Olruggio advises her to keep the sign small, in the center and adjust it to get the flow right.{{Ref|m|32|29}}
+<gallery mode=packed heights="300px" style="text-align:center">
+File:Torrential Flow Effect.png|<small>Torrential Flow (Coco's First Attempt)</small>
+File:Ever-Flowing Icepack Seals.png|<small>Everflow (Olruggio's Fix)</small>
+</gallery>
+The final Casting Seal for this contraption is never shown. Assuming Coco listens to Olruggio's input, the seal would likely consist of one singular, slightly angled Sign of Columns so that the water would continuously flow in a circle.
+==Usage==
+Coco's intention behind the creation of the Ever-Flowing Icepack was to give it to [[Qifrey]], still bedridden in the [[Healing Spire]] at the [[Great Hall]] from the injuries sustained at the [[Serpentback Cave]].{{Ref|m|32|28}}
+
+After receiving Olruggio's input, the completed contraption is delivered to Qifrey, who wakes to find it in a bowl near him. At his confusion, Olruggio explains its origins, clarifying that its a work in progress and in need of polishing due to how it made Qifrey toss and turn in his sleep.{{Ref|m|36|9}}
+
+==Trivia==
+*In [[Chapter 36]], Qifrey's discomfort when Coco attempts to put the icepack on him is likely due to his dislike of water and getting wet.{{Ref|m|36|5-6}} 
+**Coco is aware of how he hates getting wet but does not know that the sound of it irks him as well.{{Ref|m|8}}{{Ref|m|92}}
+*Despite Olruggio's spell being the one to calm Coco's initial one, the seal he draws is shown on the table in front of Coco prior to him even arriving.{{Ref|m|32|37}}[[File:Ever-Flowing Icepack Seal Brainstorm.png|200px|thumb|<small>Olruggio's seal is on the table despite only just showing up.</small>]]
+*Coco learns about the force of rotation and its stabilizing effects when fashioning this contraption. She applies this knowledge in [[Chapter 82]], when she and [[Agott]] use Signs of Columns and rotational force to manipulate the [[Circular Floatform|Floatform Stages]] into the shape of a circle.{{Ref|m|82|22}}
+{{-}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]
+[[Category:Contraptions]]

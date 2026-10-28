@@ -1,0 +1,49 @@
+{{Object Infobox
+| image1 = [[File:Playland of Sand.png|400px]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = 
+| creator = [[Beldaruit]]
+[[Agott]] <small>(Indirectly)</small><br>
+[[Richeh]] <small>(Indirectly)</small><br>
+[[Tetia]] <small>(Indirectly)</small>
+| manga = [[Chapter 33]]
+}}
+The '''Playland of Sand''' is a [[Spells|spell]] that creates a lavish sandcastle.
+
+==Description==
+[[File:Playland of Sand Seal.png|200px|left|thumb|<small>Linked Seals for the Playland of Sand in Beldaruit's Notebook</small>]]
+The Casting Seal for this spell is partially visible in [[Beldaruit]]'s [[Magic Book|Notebook]]. It is not clear enough to decipher apart from the fact that it uses linked seals.{{Ref|m|33|11}}
+
+This spell combines the effects of [[Agott]]'s [[Sand Bridge]], Tetia's [[Flowers of Sand]] and [[Richeh]]'s [[Crystal Ribbon|Crystal Ribbons]]. Agott's spell contributes to the arches supporting the slides. [[Tetia]]'s spell surrounds the sandcastle with flowers. Richeh's spell tops the turrets of the sandcastle with crystal flags.{{Ref|m|33|12}}
+
+==Usage==
+[[Qifrey's Atelier|Qifrey's apprentices]] are presented with the opportunity to take the [[Sincerity of the Shield|second test]] of the [[Pentacle of Proving]], adapted and proctored by the, Lord Beldaruit of the [[Three Wise#Wise in Teachings|Three Wise]]. They are given three days to attempt to surprise him with their spells.{{Ref|m|31|8-11}}
+
+Agott creates a bridge of sand, Tetia creates flowers made out of sand and Richeh uses her sparkly, crystal ribbons. While impressed by their displays, Beldaruit is not surprised, and casts his own spell to turn what the girls have created into the Playland of Sand. His creation awes the girls and himself, but due to the final spell not being of their own making, they do not pass the [[Sincerity of the Shield]] on this first attempt.{{Ref|m|33|8-13}}
+
+[[File:Sand Bridge Effect Agott.png|left|375px|thumb|<small>Agott's Sand Bridge</small>]]
+[[File:33 11 Flowers of Sand.png|right|305px|thumb|<small>Tetia's Flowers of Sand</small>]]
+[[File:33 11 Sparkly Crystal Ribbons.png|right|305px|thumb|<small>Richeh's Sparkly Crystal Ribbons</small>]]
+{{-}}
+==Trivia==
+* Each of the spells the three girls contribute have been used prior to this chapter.
+** Agott is directly referencing the seal [[Olruggio]] used for the bridge of sand at the [[Staircase River]] in [[Chapter 12]].{{Ref|m|12|26-27}}
+** Tetia's flowers of sand were used to appeal to the [[The Ancients of Romonon]] in [[Chapter 24]].{{Ref|m|24|14}}
+** Richeh's crystal ribbons have been used consistently, starting back in [[Chapter 18]].{{Ref|m|18|18-20}}
+*Playland of Sand could be considered a [[Tandem Spell]], seeing as it is essentially four spells cast to create a joint effect. However, since tandem spells appear to have to be collaborative in nature and Beldaruit cast the spell with no input from the girls, it may not be considered one.{{Ref|m|85|4}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

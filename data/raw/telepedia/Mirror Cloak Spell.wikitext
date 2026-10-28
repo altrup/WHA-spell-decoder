@@ -1,0 +1,47 @@
+{{Object Infobox
+|image1=[[File:Mirror Cloak.png]]
+|kanji =
+|romaji =
+|chinese =
+|french =
+|spanish =
+|german =
+|italian =
+|type = [[Spells|Spell]]
+|users = [[Witches]]
+|creator =
+|manga= [[Chapter 21]]
+|anime= [[Episode 12]]
+}}
+The '''Mirror Cloak of Borrowshade Spell''' (or simply '''Borrowshade Mirror''') is a [[Spells|spell]] that conceals a target and creates an illusion based on the reflected image of a nearby beast. It is used for the [[Mirror Cloak of Borrowshade]] [[contraption]].
+
+==Description==
+: ''See [[Mirror Cloak of Borrowshade]] for a description of the contraption itself''
+This is a [[Layered Spell]], consisting of the casting seals for [[Borrowshade Cloak|Borrowshade]] and [[Mirror Spell]] overlapping over one another. It contains Signs of [[Signs#Envelopment|Envelopment]] and [[Signs#Concealment|Concealment]] from Borrowshade and Signs of [[Signs#Reflection|Reflection]] and [[Signs#Projection|Projection]] from Mirror Spell. When used in the contraption, Borrowshade will hide the wearer in shadow while Mirror Spell will project the reflected image of a nearby beast within the scales of the cloak.{{Ref|m|21|19}}{{Ref|m|21|22}}
+
+When the wearer transitions in or out of their illusory guise, either by donning, damaging or removing the cloak, the transitional effect appears similar to that of smoke or steam, accompanied by a hissing or sizzling noise.{{Ref|a|11}}
+
+==Usage==
+: ''See [[Mirror Cloak of Borrowshade]] for in-depth history and usage of the contraption itself''
+[[File:19 11 Mirror Cloak of Borrowshade Alaira.png|thumb|left|Alaira explaining the use of Mirror Cloaks as she arrives to proctor.]]
+
+This spell is used in Mirror Cloak of Borrowshade, drawn on the cloak's inner-lining. So long as the cloak is worn properly and undamaged, it will have the wearer appear as any animal in close enough proximity.{{Ref|a|11}}
+
+Several of these contraptions are provided and used annually for the [[Pentacle of Proving]]'s second test, the [[Sincerity of the Shield]]. Apprentices are required to guide migrating [[Myrphons|myrphons]] safely through the [[Serpentback Cave]] without causing them to flee.{{Ref|m|19|12-16}}{{Ref|a|11}} As such, they will take on the appearance of the nearby flock when under the effects of the spell. Other illusions created through the use of this spell and contraption include a [[Brushbuddy (Species)|brushbuddy]] and a [[scalewolf]].{{Ref|a|11}}{{Ref|m|19|10-11}}{{Ref|m|27|12}}{{Ref|m|28|19}}
+
+[[Euini]] creates the [[Cloak of Borrowshade]] by removing the layered Mirror Spell and leaving only Borrowshade to conceal his form within shadow.{{Ref|m|21|19}}{{Ref|m|21|22}}
+{{-}}
+
+==Trivia==
+* In the English translation of [[Chapter 20]], Euini refers to the casting seal as "the one for the Borrowshade Mirror." In Japanese, he uses the full name of the contraption.{{Ref|m|21|21}}
+* The size of the generated illusion appears to be inconsistent.
+** [[Alaira]] takes on the appearnace of a giant brushbuddy, despite the spell supposedly projecting the image of [[Coco]]'s regular-sized [[Brushbuddy (Character)|brushbuddy]].{{Ref|m|19|10-11}}{{Ref|a|11}}
+** [[Agott]] takes on the appearance of a regular scalewolf despite the spell supposedly projecting the image of Euini [[Scalewolf Curse|transformed]] into a scalewolf, who has significantly darker fur and is larger than average.{{Ref|m|27|12}}{{Ref|m|28|19}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

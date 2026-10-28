@@ -1,0 +1,36 @@
+{{Object Infobox
+| image1 = [[File:83 1 Washbarrel Seal.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Tetia]], [[Coco]], [[Sinocia]], [[Witches]]
+| creator = 
+| manga = [[Chapter 32]]
+| anime = 
+}}
+The '''Repetition Seal''' used on the [[Washbarrels|Washbarrel]] [[contraption]], otherwise known as the '''Washbarrel Seal'''{{unofficial}} is a [[Spells|spell]] that makes clothes as good as new.
+==Description==
+{{See|Repetition Seal}}The casting seal contains a Sigil of [[Sigils#Repetition|Repetition]], six Signs of [[Signs#Columns|Columns]] and two unknown signs that appear to look like large X's. Three Columns are seen above the sigil while three Columns are seen below. All six signs are angled, pointing in a counterclockwise direction. The unknown signs are to the left and right of the sigil. 
+
+The Repetition Sigil is what causes the spell to return clothes to a previous state while the angled Columns cause the clothes to spin within the barrel, much like they would in a washing machine. It is unclear if the clothes are required to spin or if this is simply to resemble the way a washing machine would work. It could be to ensure the repetition magic thouroughly affects all the clothes inside the barrel, but Repetition Seals haven't been shown to be short range or in need of this kind of precision.
+
+==Usage==
+{{See|Washbarrels}}This spell is used on the head of a wooden barrel, making up the Washbarrel contraption. These contraptions are used in the [[Great Hall]]'s baths. When [[Tetia]] introduces and explains the effects to [[Coco]], she claims it will get rid of stains and frayed edges. [[Qifrey's Atelier|The girls]] use the Washbarrels to clean their clothes that have been dirtied and worn after the events that occured in the [[Serpentback Cave]].{{Ref|m|32|8}}
+
+[[File:Washing Barrels.png|500px|center]]
+
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:_ Spells]]

@@ -1,0 +1,42 @@
+{{Object Infobox
+| image1 =
+[[File:64 2 Fish Guiding Seal.jpg]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Agott]], [[Jujy]], [[Witches]]
+| creator = [[Agott]] <small>(Fish Guidance)</small>
+| manga = [[Chapter 64]]
+| anime =
+}}
+'''Guidance Seal''' is a [[Spells|spell]] used to act as a final destination for a pursuing target object, based on the location of the seal.
+==Description==
+There are currently two different versions of a Guidance Seal, both of which include a [[Sigils_Explained#Guidance|Sigil of Guidance]], two Signs of [[Signs Explained#Level_Planes|Level Planes]] and two Signs of [[Signs Explained#Columns|Columns]]. 
+
+In [[Chapter 64]], the Guidance Seal shown included two [[Signs Explained#Crosshairs|Crosshairs]] and a few more unknown symbols, with at least one of them looking like an abstract depiction of a fish. Given that this seal was meant to direct [[Agott]]'s [[Flying Watersculptures]] to the nearest sewer outlet, it's likely that these are the decorative sigils she used to sculpt the water into the shapes she wanted.{{Ref|m|64|2}} Thus, by using them alongside Crosshairs, the spell will target the [[Watersculpture|Watersculptures]] and "guide" them to the Guidance Seal.
+
+In [[Chapter 81]], the Guidance Seal includes two nested seals for [[Pouch of Calling|Pouches of Calling]] and no Crosshairs. The Guidance Seal targets the Pouch of Calling Seal, causing the Pouches to flee towards the direction of the planted spell.{{Ref|m|81|9}}
+==Usage==
+During the [[Silver Eve Procession]], Agott pairs her Flying Watersculptures with a Guidance Seal to provide [[Coco|Coco's]] [[Portable Waste Purification Pot|contraption]] the convenience and spectacle it was previously missing, earning it more endorsements from the [[Outsiders|crowd]]. Agott instructs [[Jujy]] to take the seal, fly to a sewer outlet at the edge of town and close the ring, so that the Watersculptures will automatically be drawn to the seal.{{Ref|m|64|2}}{{Ref|m|62}}
+
+Later that same night, after devising a plan to deal with the [[Valance Leech (Monster)|Valance Leech]], another Guidance Seal is seen being used. This time, it is planted within a forest near the [[Ezrest]] Hillside, meant to guide Pouches of Callings warmed by [[Snugstone|Snugstones]] and wailing for their lives within the range of the giant [[Valance Leech Counterclock|Counterclock seal]].{{Ref|m|81|9}}
+
+<gallery>
+File:Fish guidance full seal.jpg|<small>Fish Guidance Seal</small>
+File:Pouch Guidance Seal.png|<small>Pouch Guidance Seal</small>
+File:Fish Guidance.png|<small>Fish Guidance Seal Redraw</small>
+File:Pouch Guidance Redraw.png|<small>Pouch Guidance Seal Redraw</small>
+</gallery>
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

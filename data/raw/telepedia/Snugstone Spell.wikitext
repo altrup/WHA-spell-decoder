@@ -1,0 +1,30 @@
+{{Object Infobox
+|image1=[[File:Snugstone_Seal_Redraw.png|250px]]
+|japanese=ほっか石
+|romaji=Hokkaishi
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=[[Olruggio]]
+|manga=[[Chapter 18]]
+|anime=[[Episode 11]]
+}}
+The '''Snugstone Spell''' is a fire-type spell invented by [[Olruggio]] which radiates warmth.
+
+==Description==
+The Casting Seal contains a [[Sigils Explained#Fire|Sigil of Fire]], flipped [[Signs Explained#Columns|Signs of Columns]] and an unknown symbol. It radiates warmth outward without the need for a flame{{ref|m|18|20}} and is used on the [[Snugstone]], an item used to keep you warm while you sleep. The spell is precisely balanced to the size of the seal so that it is warm to the touch but not hot enough to burn.{{Ref|m|24|24}}{{Ref|m|24|27}}
+
+==Usage==
+[[File:Snugstone.jpg|100x100px|left]]This spell was first seen drawn on the snugstones that Olruggio gave to [[Qifrey]] and his apprentices so they could sleep better.{{Ref|m|18|21}} 
+
+During the [[Serpentback Cave Arc|events at Serpentback Cave]], [[Coco]] gave her snugstone to the leader of the [[The Ancients of Romonon|Ancients of Romonon]], who placed it inside an [[Arcane Lens of Amplification]].{{Ref|m|24|25}} However the amplification unbalanced the spell and the heat became so great that it melted the golden ancients of Romonon.{{Ref|m|24|26}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]
+[[Category:Olruggio's Inventions]]

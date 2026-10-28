@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:Pouch Guidance Seal.png]]
+|japanese=
+|romaji=
+|type= [[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 81]]
+}}
+'''Pouch Guidance'''{{Unofficial}} is a type of [[Spells|spell]] that guides [[Pouch of Calling|Pouches of Calling]] to the location of the seal. It is referred to as a type of [[Guidance Seal]].
+
+==Description==
+The casting seal contains a Sigil of [[Sigils_Explained#Guidance|Guidance]], two Signs of [[Signs Explained#Level_Planes|Level Planes]] and two Signs of [[Signs Explained#Columns|Columns]]. It also includes two nested seals for [[Pouch of Calling|Pouches of Calling]] The spell targets objects with the Pouch of Calling Seal and causes them to flee towards the direction of the planted spell.{{Ref|m|81|9}}
+
+==Usage==
+The seal is planted within a forest near the [[Ezrest]] Hillside, meant to guide Pouches of Callings warmed by [[Snugstone|Snugstones]] and wailing for their lives within the range of the giant [[Valance Leech Counterclock|Counterclock seal]]. This is done to bait and lure the [[Valance Leech (Monster)|Valance Leech]] into the spell's radius.{{Ref|m|81|9}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

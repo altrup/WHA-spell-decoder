@@ -1,0 +1,32 @@
+{{Object Infobox
+|image1=[[File:Sand Cage Seal.png]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Tetia]], [[Coco]]
+|creator=[[Tetia]]
+|manga=[[Chapter 28]]
+}}
+'''Sand Cage'''{{Unofficial}} is a earth-type [[Spells|spell]] that creates a cage made from walls of sand.
+
+==Description==
+The casting seal for this spell contains the Sigil of [[Sigils Explained#Earth|Earth]], two Signs of [[Signs Explained#Columns|Columns]] and two Signs of [[Signs Explained#Crushing|Crushing]] that make up the [[Wall Breaker Seal]]. In addition to this, there are two inverted Columns and some unknown symbols. 
+
+Of the unknown symbols, two of them appear to look like the Sign of [[Signs#Binding|Binding]] with only one curved line. This sign is also present in [[Sand Bridge]]. The other four appear to look like a fusion of one Column Sign and two [[Signs#Regions|Region]] Signs pointing inwards.{{Ref|m|28|21}} It is unclear what these symbols contribute to the spell in relation to it's effect, and it's visual similarities to existing signs may not mean anything.
+
+The Wall Breaker seal crushes stone into sand, which is then manipulated into thick panels that rise in a spiral formation before hardening once again. Tetia describes the effect as "thick panels made the same way we turn sand into ''cloth!''"{{Ref|m|28|21}}
+
+==Usage==
+[[File:Sand_Cage_Effect_Tetia.png|left|thumb|Tetia casting Sand Cage|304x304px]]
+[[File:Sand_Cage_Effect_Agott.png|thumb|right|Agott and Brushbuddy at the top of the Sand Cage|206x206px]]
+[[File:Sand_Cage_Effect_Coco.png|245x245px|right|thumb|Coco casting Sand Cage]]
+Sand Cage is first seen used by [[Tetia]] to trap a transformed [[Euini]] inside, as part of the [[Qifrey's Atelier|girls']] plan to turn back Euini. [[Agott]] and [[Brushbuddy (Character)|Brushbuddy]] then jump down from the top of the cage to hold down Euini and draw the [[Inverted Scalewolf Curse|reversed casting seal]] on him.{{Ref|m|28|21}}
+[[Coco]] uses a spell visually similar to Sand Cage when confronting [[Ininia]], drawing the seal on the ground with raw [[Woodcruor]] staining her hands. Ininia, unfazed, simply [[Teleportation|teleports]] outside of the cage.{{Ref|m|87|9-10}}
+{{-}}
+==References==
+{{Reflist}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Earth Spells]]

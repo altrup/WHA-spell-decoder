@@ -1,0 +1,58 @@
+{{Object Infobox
+|image1=[[File:18 19 Crystal Ribbons.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+|type=[[Spells|Spell]]
+|users=[[Richeh]], [[Riliphin]], [[Coco]]
+|creator=[[Richeh]]
+|manga=[[Chapter 18]]
+|anime=[[Episode 11]]
+}}
+'''Crystal Ribbon'''{{Unofficial}} is a [[Spells|spell]] that softens crystal, allowing it to be stretched into long ribbons.
+
+==Description==
+The seal for Crystal Ribbon is never explicitly shown in the manga. The spell's effect is nearly identical to that of the [[Boulder Stretch Rope|boulder stretch rope]], another spell made by [[Richeh]]. The spell has never been shown to harden the way that Boulder Stretch Rope can, but after an indeterminate amount of time it loses it's malleable quality, as it can be used as a hairtie or a sling without losing its shape.{{Ref|[[Riliphin]]}}{{Ref|m|83|6}}
+
+==Usage==
+[[File:Anime S1E11 CocoRibbonSpell.png|alt=Coco and Richeh are inside Richeh's hideout, a grassy cave-like area. A single crystal ribbon hangs above Coco as she lays on the ground, and she reaches out to it with a happy expression. Richeh looks over to Coco from her chair with a surprised expression. The background has small rainbow refractions of light from the crystal.|thumb|Coco admires the crystal ribbons in Richeh's hideout]]
+
+During their early childhood, [[Riliphin]] observed [[Richeh]] creating the crystal ribbon, adoring how his sister's spells were "just like her".{{Ref|m|19|2-4}} At one point before his first apprenticeship, Richeh gave a crystal ribbon to her brother, who uses it to tie his hair.
+
+Richeh used the spell to complete an exercise given to her by her previous master, enveloping an ink bottle in a ribbon to keep it from breaking.{{Ref|m|25|12}}
+
+Richeh decorates her secret room in the [[Ceyam Woods]] with crystal ribbons hanging from above. She allows [[Coco]] to take one after she expresses her love for the spell.{{Ref|m|18}}{{Ref|a|11}}
+
+Richeh begins to find more practical uses for the spell starting with the [[The Sincerity of the Shield|second test]], using it to lure the [[Myrphon|myrphons]] in the [[Serpentback Cave]].{{Ref|m|20|18-20}}{{Ref|a|12}} Coco later attempts to track Richeh (and by extension, [[Agott]] and [[Euini]]) by using the ribbon given to her in a [[Guidance Orb|guidance orb]].{{Ref|m|26|16-17}}
+
+When given the opportunity to make up the second test by presenting a spell to [[Beldaruit]] and managing to surprise him, Richeh chooses to show off her sparkly crystal ribbons. They are adapted into Beldaruit's [[Playland of Sand]] alongside Agott's [[Sand Bridge]] and [[Tetia|Tetia's]] [[Flowers of Sand]].{{Ref|m|33|11-12}}
+
+Richeh likely uses this spell as a base for her [[Contraption|contraption]], the [[Split-Shard Bangles|Split Shard Bangle and Rings]], given that the effect of linking the jewellery together is only due to being stretched and split from the same crystal.{{Ref|m|46|20}} At the Evacuation Site in the Ezrest Hillside, Riliphin is able to recognize Richeh's magic from the effect of the Split Shard Bangle. He unties the crystal ribbon holding his braid together has it fly through the Hillside, leading him to his sister's side.{{Ref|m|70|16-21}}
+
+When Beldaruit injures his arm and is unable to use his [[Sealchair]], Tetia uses the [[Serpent's Bed of Sand]] to ensure he is comfortable and Richeh creates a makeshift sling with her ribbons.{{Ref|m|83|6}}
+
+<gallery>
+File:19 2 Crystal Ribbons.png|<small>Young Richeh and Riliphin as she creates a crystal ribbon</small>
+File:33 11 Sparkly Crystal Ribbons.png|<small>Richeh presenting crystal ribbons to Beldaruit</small>
+</gallery>
+
+==Trivia==
+*Crystal Ribbons are present in the contents of [[Volume 4]] and [[Volume 13]].
+*Richeh's [[Palm Quire]] has a small casting seal drawn on it when casting this spell for Beldaruit. Although it's too unclear to make out the seal, it appears to have a Sigil of Earth.{{Ref|m|33|11-12}}
+*It's likely that this spell only affects the consistency of the crystal and doesn't create the crystal itself.
+*In addition to small seals, Crystal Ribbon (or Crystal spells in general) are likely one of Richeh's specialties.
+**Riliphin is able to recognize Richeh's magic from her spells alone, claiming how "it sparkles like crystal and shines like the stars."{{Ref|m|70|16-21}}
+**Crystal Ribbon is Richeh's most consistenly used spell in the series.
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Crystal Spells]]
+[[Fr:Rubans de Cristal]]

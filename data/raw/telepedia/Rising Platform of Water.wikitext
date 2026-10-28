@@ -1,0 +1,26 @@
+{{Object Infobox
+|image1=[[File:Rising Platform of Water Redraw.png|250px]]
+|japanese=水の昇り台
+|romaji =Mizu no Noboridai
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=
+}}
+'''Rising Platform of Water''' is a water-type spell that creates an upwards surge of water.
+
+==Description==
+This spell consists of a central water sigil with horizontally facing levitation signs and outward-facing column signs surrounding it. When drawn on an object, the spell will generate a column of water that will lift said object straight up into the air.
+
+==Usage==
+Rising Platform of Water was shown to be the spell utilized by [[Richeh]]'s old master and his apprentices in order to traverse the floating mountains of [[Dadah Range]] in order to pass the [[Consent of the Crown]].{{Ref|m|25|16}} The spell design itself was shown later in a collage of other spells the girls already knew as they strategized a way to help [[Euini]] during the [[Second Pentagram Test Arc]].{{Ref|m|28|11}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

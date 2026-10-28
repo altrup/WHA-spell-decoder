@@ -1,0 +1,34 @@
+{{Object Infobox
+|image1  = [[File:Lockwax Seal.jpg]]
+|kanji   = 鍵封蠟
+|romaji  = Kagi Fūrō
+|type    = [[Spells|Spell]]
+|users   = [[Easthies]], [[Witches]]
+|creator = 
+|manga   = [[Chapter 50]]
+}}
+'''Lockwax''' is a [[Spells|spell]] that is used to bind scrolls.
+
+== Description ==
+Contains an unknown sigil in an inner circle with three lines dividing the outer circle into equal sections. Each section is identical with an arrow like sign with a triangle on the end pointing towards the center of each section. To the right of each arrow are two short lines with one bending at a right angle over the other.
+
+From [[Qifrey|Qifrey's]] reaction, it can be assumed that lockwax is not commonly used, or is only used for protecting powerful or important scrolls.{{Ref|m|50|2}} However, it's not clear on how lockwax works and what level of protection it offers or how to open a scroll bound with it.
+
+== Usage ==
+In [[Chapter 50]], [[Easthies]] gives Qifrey a scroll bound with Lockwax with no further explanation.{{Ref|m|50|2}}
+
+In [[Chapter 69]], it is revealed that Qifrey broke the seal and used the [[Amplification Scroll|contents inside]] to aid him in his battle against [[Engendale]].{{Ref|m|69|4}}
+
+== Trivia ==
+* The Limited Edition [[Limited Editions#Volume_9|Japanese volume 9]] and [[Limited Editions/France#Volume_10|French volume 10]] both came with a wax sealing kit containing a stamp with the lockwax seal.
+* Lockwax is seen on the [[:File:Illustration 2025-02-14 ValentinesDay.gif|Witch Hat Chocolate]] illustrations made by Kamome Shirahama for Valentine's Day in 2025. It is used to seal the packets of chocolate.{{Ref|Shirahama, Kamome (15 February 2025). [https://x.com/shirahamakamome/status/1890529896721449445 Witch Hat Chocolates for Valentine's Day 2025] – via X. Also republished in the [[Archives of Witch Hat Atelier]], Page 136}}
+
+{{-}}
+== References ==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

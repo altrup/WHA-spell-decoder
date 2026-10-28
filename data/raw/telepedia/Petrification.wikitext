@@ -1,0 +1,34 @@
+{{Object Infobox
+|image1=[[File:Petrification Seal WHA BTS Pt 10.jpeg]]
+|kanji=
+|romaji =
+|chinese =
+|french =
+|spanish =
+|german =
+|italian =
+|type=[[Spells|Spell]], [[Forbidden Magic]]
+|users=[[Brimmed Caps]], [[Coco]]
+|creator=
+|manga=[[Chapter 1]]
+|anime=[[Episode 1]]
+}}
+'''Petrification''' is a forbidden [[Spells|spell]] that turns everything nearby, alive or inanimate, into a rock-like unknown material.
+
+==Description==
+The seal consists of a large number of both known and unknown elements. Column, envelop, dispersion, and region signs, as well as an earth sigil and a [[Time Stop|time stop spell.]] However, the other aspects of its design remain a mystery.<ref>Witch Hat Atelier Anime Trailer, seconds 1:03 to 1:04 https://www.youtube.com/watch?v=hMmBSCQs1H4&ab_channel=Crunchyroll</ref> While the inclusion of earth signs indicate that the spell is indeed somehow turning things to stone, how this is achieved is unclear. The inclusion of the time stop spell suggests that time is frozen for whatever the spell petrifies. It is unclear why it is included.
+
+==Usage==
+[[File:1 56 Coco's Mom Petrified.jpg|thumb|Coco's mother after being turned to stone|120px]]
+After discovering that [[Magic|magic]] is drawn rather than spoken, [[Coco]] copied several spells from the [[Magic Book|magic picture book]] sold to her by [[Iguin]] when she was a little girl. The last spell she drew was the petrification spell and, just as she finished drawing it, [[Qifrey]] snatched her up and whisked her out of her house, just before it and [[Coco's Mother|her mother]] were turned to stone.{{Ref|m|1|50-56}}
+{{-}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

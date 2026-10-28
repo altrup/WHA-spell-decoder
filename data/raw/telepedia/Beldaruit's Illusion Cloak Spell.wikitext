@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:Beldaruit's Illusion Cloak Spell Redraw.png|250px]]
+|caption=
+|japanese = 
+|romaji = 
+|type=[[Spells|Spell]]
+|users=[[Beldaruit]]
+|creator=[[Beldaruit]]
+|manga=[[Chapter 78]]
+}}
+A highly specific [[Smokesculpture|smokesculpture]] [[Spells|spell]] that Beldaruit uses to create the illusion of an apprentice cloak and cap.
+
+==Description==
+The identifiable elements of the spell include a variant of wind sigil at the top, column signs facing outward, and envelop signs at the sides. The central sigil is similar to the dancing puppet sign, and the lower signs are unknown but are likely related to the vision and/or form of the smoke. It is likely related to Beldaruit's specialty of smoke sculpture/illusion spells.
+
+==Usage==
+The spell is used to make Coco briefly appear to be wearing her apprentice cap and cloak to illustrate Beldaruit's point about needing to wear proper garb.{{Ref|m|78}}[[File:Spell illusioncloak ch78.png|thumb|Beldaruit casts the illusion spell on coco|center|161x161px]]
+
+==References==
+{{Reflist|[[Chapter 78]]}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Vision Spells]]

@@ -1,0 +1,345 @@
+[[Magic]] is performed by drawing Casting Seals, otherwise known as spells. Spells are typically composed of one or more [[sigils]] and [[signs]], which control the spell's behaviour, as well as a surrounding ring, which once fully connected serves to activate the spell.<ref name=":0" /> Closing an empty spell ring with nothing inside results in a large shockwave, destroying the seal in the process.{{Ref|m|46|7}} These symbols must be drawn using [[Woodcruor]] of some kind.<ref name=":0">''Witch Hat Atelier'' Manga: [[Chapter 3]]</ref>
+
+Composition and accuracy plays a large part in the outcome of the spell,{{Ref|m|12|10}} with smaller or messier seals being weaker or shorter lived than larger or neater ones.{{Ref|m|1|48}} The same principle applies to the signs as well.<ref name=":0" /> Spells will have a fleeting effect or may even fail to activate completely if the ring is not circular enough.{{Ref|m|81|15-16}} 
+
+Many small seals can be linked together to replicate the strength a larger one, this can be useful in situations where drawing a large seal accurately would be impractical or impossible, or to conceal the spell for use in a [[contraption]].{{Ref|m|10|16}}
+
+Unfortunately, the designs of some seals have been somewhat inconsistent, so a few spells have different spell construction now than they did earlier on in the story. (This is especially prevalent in the [[Volume 1|first]] and [[Volume 2|second]] volume chapters). One example of this is how the Wall Breaker seals early on in the manga have a levitation sign in place of an earth sigil,{{Ref|m|7|17}} though it was somewhat fixed for the volume release. Due to this and similar cases, if a seal has different forms at different points in the story, the newer version of that seal will take precedence and become the official form of that seal.
+
+Spells are categorized by common sigils and/or effects. Each spell has its own page. If you would like to learn more about a specific spell, click on its name to be redirected to that spell's page.
+
+Note: Occasionally, the term sigil is used to refer to Casting Seals in their entirety, excluding the ring.{{Ref|m|35|6}}{{Ref|m|46|10}}{{Ref|a|6|18:12-18:18}} Differentiating between the two meanings requires looking at the source material contextually. When this discrepancy arises, it will be noted on the relevant pages.
+{{-}}
+
+
+
+==Fire Spells==
+{| style="width: stretch; border:2px solid #F78D36; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#F78D36; text-align: center; font-size: 130%; border:2px solid #F78D36; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Fire Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#F78D36">''Fire spells are spells that produce fire or heat. They are typically based around a [[Sigils Explained#Fire|Sigil of Fire]].''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Pyreball_Seal_Redraw.png|110px|[[Pyreball Seal]]
+File:Spiraling Flame Redraw.png|110px|[[Spiraling Flame]]
+File:Snugstone_Seal_Redraw.png|110px|[[Snugstone Spell]]
+File:Phantasmal_Fireball_Redraw.png|110px|[[Phantasmal Fireball]]
+File:Flameshot_Seal_Redraw.png|110px|[[Flame Shot Seal]]
+File:65 5 Flame Burst Spell.png|110px|[[Flame Burst Spell]]
+File:Ring of Fire Redraw.png|110px|[[Ring of Fire]]
+File:Snowfending Seal Redraw.png|110px|[[Snowfending]]
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Light Spells==
+{| style="width: stretch; border:2px solid #FFC654; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#FFC654; text-align: center; font-size: 130%; border:2px solid #FFC654; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Light Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#FFC654">''Light spells are spells that produce and manipulate light. They fall within the domain of Fire Magic, but are distinct enough to be categorized separately. They are typically based around the [[Sigils#Light|Sigil of Light]].''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Floatglow_Lamp_spell_redraw.png|110px|[[Floatglow Lamp Seal|Floatglow Lamp]]
+File:Wall Anchored Floatglow Lamp Redraw.png|110px|[[Floatglow Lamp Seal|Wall-Anchored Floatglow Lamp]]
+File:Light Beam Redraw.png|110px|[[Light Beacon]]
+File:Glowstone Path Seal Redraw.png|110px|[[Glowstone Path Seal]]
+File:Bird of Light Beacon Spell Redraw.png|110px|[[Bird of Light Beacon]]
+File:Ancient Light Beacon Redraw.png|110px|[[Ancient Light Beacon]]
+File:Light Tracer Redraw.png|110px|[[Light Tracer]]
+File:Flowers of Light Redraw.png|110px|[[Flowers of Light]]
+File:Valance Leech of Light Redraw.png|110px|[[Valance Leech of Light]]
+File:Carousel of Lights Redraw.png|110px|[[Carousel of Lights]]
+</gallery>
+</div>
+|-
+|}
+
+==Water Spells==
+{| style="width: stretch; border:2px solid #20BAE8; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#20BAE8; text-align: center; font-size: 130%; border:2px solid #20BAE8; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Water Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#20BAE8">''Water spells are spells that create or manipulate water. They are typically based around the [[Sigils#Water|Sigil of Water]] and its variants.''</span>
+
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Watershot_Seal_Redraw.png|110px|[[Watershot Seal]]
+File:Water Rose Redraw.png|110px|[[Water Rose]]
+File:Water Dragon Spell Redraw.png|110px|[[Qifrey's Water Dragon|Water Dragon]]
+File:Rainbringer Redraw.png|110px|[[Rainbringer Seal]]
+File:Water_Pen_Seal_Redraw.png|110px|[[Wand of Water]]<br><small>[[Chapter 24|Ch. 24]]</small>
+File:Wand of Water Redraw (Archives).png|[[Wand of Water]]<br><small>[[Archives of Witch Hat Atelier|Archives, Pg. 149]]</small>
+File:Water bolt spell redraw.png|110px|[[Water Bolt]]
+File:83 1 Spell (3).png|110px|[[Water Bolt]]<br><small>[[Chapter 83|Ch. 83]]</small>
+File:Water Bolt Seal Redraw (3).png|[[Water Bolt]]<br><small>[[Archives of Witch Hat Atelier|Archives, Pg. 149]]</small>
+File:Rising Platform of Water Redraw.png|110px|[[Rising Platform of Water]]
+File:Everflow Redraw.png|110px|[[Ever-Flowing Icepack|Everflow]]
+File:Torrential Flow Seal Redraw.png|110px|[[Ever-Flowing Icepack|Torrential Flow]]
+File:Water_Horse_Spell_Redraw.png|110px|[[Water Horse]]
+File:Water Orb Seal Redraw.png|110px|[[Water Orb]]
+File:Purify Seal Redraw.png|110px|[[Purify]]
+File:Saltwater Bolt Seal Redraw.png|110px|[[Sourcewater Strike]]
+File:Water cage spell redraw.png|110px|[[Water Cage]]
+File:Raincleaver Redraw Rotated.jpg|110px|[[Raincleaver Spell|Raincleaver]]
+File:Rising Wave Seal.png|110px|[[Rising Wave]]
+File:Giant Water Puppet of Diversion.png|110px|[[Giant Water Puppet of Diversion]]
+</gallery>
+</div>
+|-
+|}
+
+==Earth Spells==
+{| style="width: stretch; border:2px solid #C47A4F; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#C47A4F; text-align: center; font-size: 130%; border:2px solid #C47A4F; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Earth Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#C47A4F">''Earth spells are spells that manipulate earth, sand, stone or wood. They are typically based around an [[Sigils#Earth|Sigil of Earth]].''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Wall Breaker Redraw.png|110px|[[Wall Breaker Seal]]
+File:Integration Redraw.png|110px|[[Integration]]
+File:Wall_Bend_Seal_Redraw.png|110px|[[Wall Bend]]
+File:Boulder Stretch Rope Redraw.png|110px|[[Boulder Stretch Rope]]
+File:Sand Cage Redraw.png|110px|[[Sand Cage]]
+File:Earth Lift Redraw Ch.36.png|110px|[[Earth Lift]]<br><small>[[Chapter 36|Ch. 36]]</small>
+File:Earth Lift Redraw Ch.96.png|110px|[[Earth Lift]]<br><small>[[Chapter 96|Ch. 96]]</small>
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Wind Spells==
+{| style="width: stretch; border:2px solid #36C968; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#36C968; text-align: center; font-size: 130%; border:2px solid #36C968; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Wind Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#36C968">''Wind spells are spells that generate, manipulate or direct air. They are typically based around the [[Sigils#Wind|Sigil of Wind]] and its variants.''</span>
+</div>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Sylph Shoes Spell Redraw.png|110px|[[Sylph Shoes Seal]]
+File:Pegasus Carriage Seal WHA BTS Pt 10.jpeg|110px|[[Pegasus Carriage Spell]]
+File:Skysoaring Seal Redraw.png|110px|[[Skysoaring Seal]]
+File:Flying_Puppet_of_Diversion_Redraw.png|110px|[[Flying Puppet of Diversion]]
+File:Grasping Wind Redraw.png|110px|[[Grasping Wind]]
+File:River_Ferry_Seal_Redraw.png|110px|[[River Ferry Seal]]
+File:Wind Wall Redraw.png|110px|[[Wind Wall]]
+File:Bubble Carriage Redraw.png|110px|[[Bubble Carriage Seal]]
+File:Wayward Whorlwind Redraw.png|110px|[[Wayward Whorlwind]]
+</gallery>
+|-
+|}
+
+
+
+==Time Spells==
+{| style="width: stretch; border:2px solid #F73939; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#F73939; text-align: center; font-size: 130%; border:2px solid #F73939; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Time Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#F73939">''Time spells are spells used to manipulate the concept of time. They are primarily identified by their usage of signs, sigils or seals shown on a page of Coco's books in [[Chapter 46]].''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Repetition_Seal_Redraw.png|110px|[[Repetition Seal]]
+File:Capture Pennants Spell Redraw.png|110px|[[Capture Pennant Spell|Capture Pennants]]
+File:Magic Cookpot Seal Redraw.png|110px|[[Magic Cookpot]]
+File:Washbarrel Seal Redraw Ch83.png|110px|[[Washbarrel Seal]]
+File:Spell of Reduction Redraw.png|110px|[[Spell of Reduction]]
+File:Counterclock Redraw.png|110px|[[Counterclock]]
+File:Valance Leech Counterclock Spell Redraw.png|110px|[[Valance Leech Counterclock]]
+File:Time Stop Spell Redraw.png|110px|[[Time Stop]]
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Crystalize Spells==
+{| style="width: stretch; border:2px solid #64CBE8; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#64CBE8; text-align: center; font-size: 130%; border:2px solid #64CBE8; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Crystalize Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#64CBE8">''Crystalize spells are spells based around the creation and manipulation of crystalline materials, such as ice.''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Anime S1E11 Crystal Ribbon.png|110px|[[Crystal Ribbon]]
+File:Crystal Shard Seal Redraw.png|110px|[[Crystal Shard]]
+File:Icy Road Seal Redraw.png|110px|[[Icy Road]]
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Illusion Spells==
+{| style="width: stretch; border:2px solid #874BBD; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#874BBD; text-align: center; font-size: 130%; border:2px solid #874BBD; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Illusion Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#874BBD">''Illusion spells are spells used to deceive and conceal, generating images and illusions.''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Mirror Cloak of Borrowshade Seal Redraw.png|110px|[[Mirror Cloak Spell|Mirror Cloak of Borrowshade]]
+File:Borrowshade Seal Redraw.png|110px|[[Borrowshade]]
+File:Makeover Mask Spell Redraw.png|110px|[[Makeover Mask Spell]]
+File:Looking Glass Spell.png|110px|[[Looking Glass]]
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Sculpting Spells==
+{| style="width: stretch; border:2px solid #D47F00; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#D47F00; text-align: center; font-size: 130%; border:2px solid #D47F00; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Sculpting Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#D47F00">''Sculpting spells are spells that create sculptures out of a targeted material, such as smoke or water. Watersculptures, in particular, tend to use decorative sigils.''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Smokesculpting seal redraw.png|110px|[[Smokesculpting Seal]]
+File:Beldaruit's Illusion Cloak Spell Redraw.png|110px|[[Beldaruit's Illusion Cloak Spell|Beldaruit's Illusion Cloak]]
+File:36 32 Beldaruit Smokesculpture.png|110px|[[Smokesculpture]]
+File:Volume 13 Coco Illustration.jpg|110px|[[Sprite-Winged Smokesculpture]]
+File:Beldaruit's smoke sculpture spell .png|110px|[[Dragon Smokesculpture]]
+File:32 14 Flipperfoal Watersculpture.png|110px|[[Watersculpture]]
+File:62 9 Agott Watersculptures (Cropped).png|110px|[[Flying Watersculptures]]
+File:62.5 10 Torchstag Spell (2).png|110px|[[Torchstag Spell]]
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Spatial Spells==
+{| style="width: stretch; border:2px solid #2E0099; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#2E0099; text-align: center; font-size: 130%; border:2px solid #2E0099; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Spatial Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#2E0099">Spatial spells are spells that create a traversable link between two locations.</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Windowway Spell Redraw Ch. 28.png|110px|[[Windowway Seal]]
+File:Handheld Windowway Redraw.png|110px|[[Handheld Windowway]]
+File:Doorknob Seal Redraw.png|110px|[[Doorknob-Determined Destination Doorway|Doorknob Seal]]
+</gallery>
+</div>
+|-
+|}
+
+
+
+==Mixed Spells==
+{| style="width: stretch; border:2px solid #DE54CB; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#DE54CB; text-align: center; font-size: 130%; border:2px solid #DE54CB; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Mixed Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#DE54CB">''Mixed Spells include spells that use two or more sigils (excluding decorative sigils) or fit into more than one of the given categories.''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Wash Spring Seal Redraw.png|110px|[[Wash Spring]]
+File:Serpent's Bed of Sand Redraw.jpg|110px|[[Serpent's Bed of Sand]]
+File:Vapor Bubble Redraw.png|110px|[[Vapor Bubble Spell]]
+File:Rainflinger Drying Redraw.png|110px|[[Rainflinger]]
+File:Waterflinger Redraw.png|110px|[[Waterflinger]]
+File:Floating Drops Redraw.png|110px|[[Floating Drops]]
+File:Frozen Path Redraw.png|110px|[[Frozen Path]]
+File:Rushing Wave Redraw.png|110px|[[Rushing Wave]]
+File:Sasaran's Cloak Spell Redraw.png|110px|[[Sasaran's Cloak Spell]]
+File:Beastwarding Seal Redraw.png|110px|[[Beastwarding Seal]]
+File:Fish Guidance.png|110px|[[Fish Guidance]]
+File:Pouch Guidance Redraw.png|110px|[[Pouch Guidance]]
+File:Warmth-Retention Seal Redraw (Kitchen Ch 25).png|110px|[[Warmth-Retention Seal]]<br><small>[[Chapter 25 (Witch Hat Atelier Kitchen)|Kitchen, Ch. 25]]</small>
+File:Warmth-Retention Seal Redraw.png|110px|[[Warmth-Retention Seal]]<br><small>[[Archives of Witch Hat Atelier|Archives, Pg. 158]]</small>
+File:54 17 Sewer Grate.png|110px|[[Sewer Grate]]
+File:Boilfire Dragon.png|110px|[[Boilfire Dragon]]
+</gallery>
+</div>
+|-
+|}
+
+==Niche Spells==
+{| style="width: stretch; border:2px solid #8F8F8F; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#8F8F8F; text-align: center; font-size: 130%; border:2px solid #8F8F8F; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Niche Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#8F8F8F">''Niche spells are spells that do not fit well into any of the aforementioned categories of spells.''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Forbidden Glow Redraw.png|110px|[[Forbidden Glow]]
+File:Forbidden Flame Seal Redraw.png|110px|[[Forbidden Flames]]
+File:Billow Cluster Spell Redraw.png|110px|[[Billow Cluster]]
+File:Sand Bridge Seal Redraw.png|110px|[[Sand Bridge]]
+File:Mirror Spell Redraw.png|110px|[[Mirror Spell]]
+File:Pouch of Calling Redraw Ch34.png|110px|[[Pouch of Calling Seal|Pouch of Calling]]<br><small>[[Chapter 34|Ch. 34]]</small>
+File:Pouch of Calling Redraw Ch83.png|110px|[[Pouch of Calling Seal|Pouch of Calling]]<br><small>[[Chapter 81|Ch. 81]]</small>
+File:Light Reducing Spell Redraw.png|110px|[[Light-Reducing Spell]]
+File:Seal of Expansion and Levitation Redraw.png|110px|[[Seal of Expansion and Levitation]]
+File:Tracking Spell Redraw.jpg|110px|[[Tracking Spell]]
+File:Garmentglimpse Glasses Redraw.png|110px|[[Garmentglimpse Glasses|Garmentshred Glasses]]
+File:Lockwax Redraw.png|110px|[[Lockwax]]
+File:Glowing Owlcat Redraw.png|110px|[[Glowing Owlcat]]
+File:Amplification Scroll Redraw.png|110px|[[Amplification Scroll]]
+File:Advanced Beastwarding Redraw.png|110px|[[Advanced Beastwarding]]
+File:Smoke Cloud Seal Redraw.png|110px|[[Smoke Cloud]]
+File:Rain Guard Redraw.png|110px|[[Rainwarding Spell]]
+File:Loop chalice spell redraw.png|110px|[[Loop Chalice]]
+File:27 16 Sasaran Spike.jpg|110px|[[Spike]]
+File:28 22 Inverted Scalewolf.jpg|110px|[[Inverted Scalewolf Curse]]
+File:Wallwarding Effect.png|110px|[[Wallwarding Seal]]
+File:24 14 Flowers of Sand (2).png|110px|[[Flowers of Sand]]
+File:Playland of Sand.png|110px|[[Playland of Sand]]
+File:Sealchair Glyph.jpg|110px|[[Sealchair Spell]]
+File:Snow-walking Spell.png|110px|[[Snow-walking Spell]]
+File:Qifreys Glasses.jpg|110px|[[Qifrey's Glasses|Opacating Spell]]
+File:Levitation Spell Cropped.png|110px|[[Levitation Spell]]
+File:Lightning Spell Cropped.png|110px|[[Lightning Spell]]
+File:Replication Magic.png|110px|[[Replication Magic]]
+File:89 15 Mist Basin.png|110px|[[Mist Basin]]
+</gallery>
+</div>
+|-
+|}
+
+==Forbidden Spells==
+{| style="width: stretch; border:2px solid #3C2C4F; border-radius:0.8em; background:; margin-bottom:15px;"
+|<div class="roundtop" style="background:#3C2C4F; text-align: center; font-size: 130%; border:2px solid #3C2C4F; padding:5px; vertical-align:top; border-top-left-radius:0.6em; border-top-right-radius:0.6em;"><span style="color:#ffffff;" class="nounderlines"></span><span style="color:#ffffff;" class="nounderlines">'''Forbidden Spells'''</span></div>
+|-
+|<div align="center">
+<span style="color:#3C2C4F">''Forbidden spells violate the Pact put into place by the [[Pointed Cap Witches]] in the days of yore. They are meant to harm, heal or transform the human body or natural world. Unlike most spells categorized based on common sigils and effects, what makes a spell forbidden is determined by its potential for misuse according to the laws of Witch Society. This can differ based on one's interpretation of Pact, including those who actively enforce it.''</span>
+<gallery mode=packed  style="column-gap:25px; row-gap: 5px; padding: 25px; padding-bottom: 15px; align-items: center; text-align: center; font-size: 100%; color:white;">
+File:Petrification Seal WHA BTS Pt 10.jpeg|110px|[[Petrification]]
+File:Illusory labyrinth spell redraw complete.png|110px|[[Seal of the Dragon's Labyrinth]]
+File:Memory Erasure Spell Ininia2.jpg|110px|[[Memory Erasure]]
+File:Twinned Bottles Redraw.png|110px|[[Twinned Bottles]]
+File:Anime S1E09 Healingcraft.png|110px|[[Healingcraft]]
+File:Ancient Labyrinth Spell Redraw.png|110px|[[Ancient Labyrinth Spell]]
+File:Golem Cropped.png|110px|[[Golem]]
+File:Scalewolf Curse Redraw.png|110px|[[Scalewolf Curse]]
+File:Anti Scalewolf Spell.png|110px|[[Anti Scalewolf Curse]]
+File:63 3 Slime Rendering Seal.png|110px|[[Slime Rendering Seal]]
+File:Truth Spell Redraw.png|110px|[[Truth Spell]]
+</gallery>
+</div>
+|-
+|}
+{{-}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+
+[[Category:Magic]]
+[[Category:Spells]]
+[[Category:Wind Spells]]
+[[Category:Fire Spells]]
+[[Category:Water Spells]]
+[[Category:Light Spells]]
+[[Category:Crystal Spells]]
+[[Category:Vision Spells]]
+[[Category:Time Spells]]
+[[Category:Space Spells]]
+[[Category:Mixed Spells]]
+[[Category:Niche Spells]]

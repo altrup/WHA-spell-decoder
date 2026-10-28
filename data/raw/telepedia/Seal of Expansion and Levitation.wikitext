@@ -1,0 +1,35 @@
+{{Object Infobox
+|image1= [[File:Expansion Glyph From Volume 7 Limited Edition.jpg|250px]]
+|kanji=
+|romaji =
+|type=Spell
+|users=[[Qifrey]], 
+[[Richeh]], [[Lagrah]] <small>(Expansion Only)</small>
+|creator=
+|manga=[[Chapter 37]]
+}}
+A '''Seal of Expansion and Levitation''' is likely to be two [[Spells|spells]] drawn as one that causes a target object to grow in size and float.
+
+==Description==
+The Casting Seal contains a Sign of [[Signs#Selection|Selection]], surrounded by a Sign of [[Signs#Enlarge|Enlarge]]. Four Signs of [[Signs#Stability and Level Planes|Level Planes]] are located in the gaps of the Enlarge Signs and eight Signs of [[Signs#Columns|Columns]] take up the surrounding, empty space. The Enlarge Signs contribute to the expansion of the object while the Level Planes allow it to float. 
+
+It's implied there are two seals at work here (a Seal of Expansion and a separate Seal of Levitation), but since Selection and Columns cannot be confidently attributed to either effect, it can't be said for sure which is which.
+
+==Usage==
+The Casting Seal for this spell is first seen prepared in [[Qifrey]]'s Notebook, allowing it to grow in size and granting it the ability to float. He uses this book to support himself and others in situations requiring them to be airborne and easily evade enemies, such as when he and [[Coco]] are evading [[The Guardian of the Tower of Tomes]] or when he and [[Olruggio]] are working to distract, lure and attack the [[Valance Leech (Monster)|Valance Leech]].{{Ref|m|38|6-16}}{{Ref|m|82|10-13}}{{Ref|m|83|11-13}}
+
+[[Lagrah]]'s [[Ink Wand]] has a Casting Seal on its barrel, including the Selection Sign and Enlarge Sign that were seen on Qifrey's. The seal is too small to identify whether or not it is using Level Planes. This spell expands the size of his pen and allows Lagrah to cast on a bigger scale. Given that it's unlikely for him to need the pen to float, it is possible that he is only using a Seal of Expansion here.{{Ref|m|83|8}}
+
+While no seal is shown, [[Richeh]] uses expansion magic to grow the size of a walnut shell placed inside her secret room in the [[Ceyam Woods]]. She uses it as a chair.{{Ref|a|11}}<Ref> Shirahama Kamome (June 15, 2026). [https://x.com/shirahamakamome/status/2066523731187712056?s=20| The vase in Richeh’s room serves as a Windowway entrance to her secret hideout... The big walnut shell there was enlarged by using expansion magic.] (in Japanese) – via X.</Ref>
+
+==Trivia==
+*An object with this spell on it was included in the [[Volume 7]] limited edition.
+*Despite being named as a Seal of Levitation, this spell has no Signs of [[Signs#Levitation|Levitation]].
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

@@ -1,0 +1,299 @@
+'''Magic''' is a supernatural force that can be harnessed through the use of seals. Drawn with [[Conjuring Ink|conjuring ink]], seals generate magical effects known as spells. If someone possesses conjuring ink and a means to draw, they can cast magic. Those trained in the art of magic are called [[Witches|witches]].
+
+==Seals==
+[[File:Sylph Shoes Seal.png|thumb|136x136px]]
+To cast a spell, one must first draw a seal. The size and precision of a seal have a strong effect on the quality of a spell: larger seals are more powerful than smaller ones, and neatly drawn seals are more stable and long-lasting than messy ones.{{Ref|m|1}}{{Ref|m|27}}{{Ref|m|13}} Seals are made from three primary parts: sigils, signs, and rings.
+
+===Sigils===
+''See main page, [[Sigils Explained]], for information on the effect of each sigil''
+
+Sigils, typically placed in the center of a seal, control what type of spell a seal will generate, some special [[Decorative Sigils|Sigils]] directly correspond to a specific plant, animal or a manmade object. For instance, the [[Pyreball Seal|pyreball seal]], which creates a floating ball of flame, contains a fire sigil, the [[Watershot Seal|watershot seal]], which shoots a jet of water, contains a water sigil, and the [[Glowing Owlcat|Glowing Owlcat seal]], a spell that manifest an illusion of a small Owlcat, contains a version of the Owlcat sigil. While sigils are not required to create a functional spell, the vast majority contain at least one. The size of a sigil in relation to the ring determines the intensity and strength of the spell’s effect, with larger sigils creating more powerful effects compared to smaller ones.{{Ref|m|46}} Regardless of a sigil's location within a seal, it's behavior will be the same.
+
+The four, main elemental sigils are known as the Primary Tetrad. They include fire, water, earth, and wind.
+{| class="article-table"
+!Fire
+!Water
+!Earth
+!Wind
+|-
+|[[File:Fire sigil.png|center|100px]]
+|[[File:Water.png|center|100px]]
+|[[File:Earth.png|center|100px]]
+|[[File:Wind (redirect).png|center|100px]]
+|}
+Some other sigils are either variants of the Primary Tetrad or encompass different kinds of phenomena entirely, such as [[Sigils#Repetition|time]] or [[Sigils#Calling|sound]].
+{| class="article-table"
+!Light
+!Wind<br>Underfoot
+!Repetition
+!Calling
+|-
+|[[File:Light.png|center|100px]]
+|[[File:Wind Underfoot.png|alt=|center|100x100px]]
+|[[File:Repetition.png|alt=|center|100x100px]]
+|[[File:Calling Sigil Redraw.png|alt=|center|100x100px]]
+|}
+Decorative Sigils depict various types of flora and fauna. They can shape, limit and target the effects of a spell based on the sigil's design.
+{| class="article-table"
+!Dragon
+!Scalewolf
+!Torchstag
+!Liongoat
+|-
+|[[File:Dragon Sign.png|alt=|center|100x100px]]
+|[[File:Scalewolf Sign.png|alt=|center|100x100px]]
+|[[File:Torchstag Sign.png|alt=|center|100x100px]]
+|[[File:Liongoat Sigil Redraw.png|alt=|center|100x100px]]
+|}
+
+===Signs===
+''See main page, [[Signs Explained]], for information on the effect of each sign''
+
+While sigils determine spell type, signs control what form spells will take. They serve as modifiers, allowing the effect of a spell to be altered.
+</br>[[File:Official Sign Compilation.png|500px]]</br>
+Currently, 40 signs have been identified, with more yet to be deciphered. Each one has a unique effect which it can contribute to a spell.
+<br/> 
+Signs have significantly more complexity than sigils in how they can be used and modified. As such, visual aids will be used help demonstrate their use.
+====Different Signs====
+The seals pictured below both contain water sigils yet possess different signs. While the seal on the left uses levitation signs to form a "levitating" orb of water, the seal on the right uses column signs to shoot a "column" of water.
+<br/>[[File:Water Spell Graphic.png|500px]]<br/>
+
+====Sign Balance====
+While some signs will have fairly consistent effects regardless of their placement in a spell, there are a few signs that, depending on their size, placement, and rotation, will massively alter the direction in which a spell manifests.
+<br/>[[File:Sign Length Demo.png|500px]]<br/>
+When the signs within a spell are unbalanced, the spell will shoot off in unexpected  directions. This can be seen in the image above. The seal on the left has column signs which are all the same size, and as such, the same power. This results in a balanced spell that shoots straight up. Conversely, the seal on the right has one column sign which is far longer than the others. This longer sign has more power, causing uneven pressure which makes the spell shoot off to the side.
+Spells can be made balanced by ensuring they have a high degree of symmetry. Oftentimes, adding more signs to a spell can help to average them out, resulting in a more balanced result.{{Ref|m|17|7}} When making seals, it is generally best practice to maintain at least bilateral symmetry to maintain spell stability.
+<br/>[[File:17 7 Unballance Spell.jpg|300px]]<br/>
+
+====Sign rotation====
+By tilting the signs within a seal, it is possible to produce a spell that rotates. The more tilted the signs, the more spin but less reach the spell will have.
+<br/>[[File:Grasping Wind Graphic.png|275px]]<br/>
+
+===Ring===
+All sigils and signs in a spell must be drawn within or somehow connecting to a spell’s outer ring. If they are not, they won't contribute towards the effect of the spell. Spells will only activate if their ring is complete, making it possible to prepare spells ahead of time by leaving a small gap in the ring which can quickly be filled in later. A ring is the bare minimum required to produce a spell. If a ring is the only thing drawn, the spell generated will simply be a rapid discharge of energy, i.e. an explosion.{{Ref|m|46|7}}
+
+==Advanced concepts==
+Beyond the basics of spell construction, there exist concepts and phenomena which expand the options available in spell function and design.
+
+===Sign Inversion===
+If a sign is flipped around, it will produce an effect opposite to the one it produces normally.{{Ref|m|17|30}} Good examples of this can be seen in the [[Seal of Expansion and Levitation|Seal of Expansion]] and [[Spell of Reduction]], which grow and shrink objects respectively, as well as between [[Wall Breaker Seal]] and [[Integration]], which act to reduce items to dust or reform those items from dust. If there are two spells which are identical to one another but one has its signs inverted, the two spells will cancel out each other's effects, effectively negating their magic. Some forbidden spells seem to not be affected by this phenomenon, however, for reasons currently unknown.
+</br>[[File:28 12 Inverted Signs.png|300px]]</br>
+
+===Linked Spells===
+When two seals are connected by a line, the effect of their spells will link together and combine. Some seals, such as the [[Sealchair Spell]], make use of this to generate complex effects with a large number of unique seals linked together and interacting with one another. On the other hand, sometimes many identical seals will be linked together in order to boost their power. When several small, identical seals are linked together, their combined strength will often be more than would be possible for a single large spell that took up the same amount of space. This allows for very powerful spells to be drawn in small areas, as seen in the [[Raincleaver]]. However, drawing such small, intricate spells can be incredibly difficult, so they are difficult to come across.
+</br>[[File:Sealchair Glyph.jpg|150px]] [[File:29 24 Windowway Richeh.jpg|300px]]</br>
+
+===Nested Seals===
+It is possible to have seals enclosed within one another, allowing their effects to combine, as is seen in [[Serpent's Bed of Sand]] or in [[Sasaran’s Cloak Spell]], this method working for both spells drawn on the same object or spells on separate objects entirely.{{Ref|m|7|20}} This technique can be used to boost the power of spells,{{cite}} quickly change part of a spell's effect without redrawing it entirely,{{cite}} or to create much more sophisticated and complex spells than otherwise possible. In nested glyphs, the inner ring will only activate if the outer ring is completed, even if there is no gap in the inner ring. This suggests that seals can somehow tell whether or not they're surrounded by an incomplete ring, not activating if there isn't a ring surrounding it. If the ring surrounding it is completed, the spell activates. While this behavior is seen  in multiple spells, the exact mechanism behind it is unknown.
+</br>[[File:Dragon's Bed of Sand.png|180px]][[File:Revised Cloak Spell.png|150px]]</br>
+
+===Spell Toggling===
+As a spell will only activate when its ring is closed, it is possible to toggle spells on and off by breaking and completing their ring. To do this, it is necessary to divide the ring of the spell between two separate objects. When the two objects are brought together and properly aligned, the ring will be completed and the spell will turn on, turning off as soon as the halves are separated. This can be seen in contraptions such as the [[Glowstone Path]], which glows only when stepped on, with a person's weight allowing the two halves of the spell to come together.
+<br/>[[File:11 Spell Toggling Methods.mov]]<br/>
+
+===Glaives===
+Neither signs nor sigils, glaives are the claw-shaped protrusions seen on both the [[Memory Erasure|memory erasure]] and [[Slime Rendering Seal|slime rendering]] spells. Nearly forgotten since the [[Day of the Pact]], glaives determine how firmly a spell will imbed itself into one's body.{{Ref|m|63}} It is unclear if this refers to how deep the effect extends into the body or how thoroughly the effect lodges itself into the body.
+
+==Spells==
+''See main page: [[Spells]]''
+
+There are several spells which are in use by [[witches]] everywhere, by both [[Pointed Cap Witches]] and [[Brimmed Caps]].
+
+Spell List:
+
+*[[Advanced Beastwarding]]
+*[[Amplification Scroll]]
+*[[Ancient Light Beacon]]
+*[[Beast Repellent|Beastwarding]]
+*[[Billow Cluster]]
+*[[Bird of Light Beacon]]
+*[[Borrowshade Cloak]]
+*[[Boulder Stretch Rope]]
+*[[Bubble Carriage Seal|Bubble Carriage]]
+*[[Capture Pennant Spell|Capture Pennant]]
+*[[Carousel of Lights]]
+*[[Counterclock]]
+**[[Valance Leech Counterclock]]
+*[[Crystal Ribbon]]
+*[[Crystal Shard]]
+*[[Earth Lift]]
+*[[Doorknob-Determined Destination Doorway]]
+*[[Ever-Flowing Icepack]]
+*[[Flame Burst Spell]]
+*[[Flame Shot Seal]]
+*[[Floatglow Lamp Seal]]
+*[[Floating Drops]]
+*[[Flowers of Light]]
+*[[Flying Puppet of Diversion]]
+*[[Forbidden Flames]]
+*[[Forbidden Glow]]
+*[[Frozen Path]]
+*[[Garmentglimpse Glasses]]
+*[[Glowing Owlcat]]
+*[[Glowstone Path Seal]]
+*[[Grasping Wind]]
+*[[Guidance Seal]]
+**[[Fish Guidance]]
+**[[Pouch Guidance]]
+*[[Handheld Windowway]]
+*[[Icy Road]]
+*[[Integration]]
+*[[Inverted Scalewolf Curse]]
+*[[Light Beam]]
+*[[Light Tracer]]
+*[[Light-Reducing Spell]]
+*[[Lockwax]]
+*[[Looking Glass]]
+*[[Makeover Mask Spell]]
+*[[Memory Erasure]]
+*[[Mirror Cloak Spell]]
+*[[Mirror Spell]]
+*[[Pegasus Carriage Spell]]
+*[[Phantasmal Fireball]]
+*[[Pouch of Calling]]
+*[[Purify]]
+*[[Pyreball Seal]]
+*[[Rainwarding]]
+*[[Rainbringer Seal]]
+*[[Raincleaver Spell|Raincleaver]]
+*[[Rainflinger]]
+*[[Repetition Seal]]
+**[[Magic Cookpot]]
+**[[Washbarrel Seal]]
+*[[Ring of Fire]]
+*[[Rising Platform of Water]]
+*[[Rising Wave]]
+*[[River Ferry Seal]]
+*[[Sand Bridge]]
+*[[Sand Cage]]
+*[[Sasaran's Cloak Spell]]
+*[[Sealchair Spell]]
+*[[Seal of Expansion and Levitation]]
+*[[Serpent's Bed of Sand]]
+*[[Skysoaring Seal]]
+*[[Smoke Cloud]]
+*[[Smokesculpture|Smokesculptures]]
+**[[Beldaruit's Illusion Cloak Spell]]
+**[[Smokesculpting Seal]]
+**[[Dragon Smokesculpture]]
+**[[Sprite-Winged Smokesculpture]]
+*[[Snowfending]]
+*[[Snugstone Spell]]
+*[[Spell of Reduction]]
+*[[Spike]]
+*[[Spiraling Flame]]
+*[[Sylph Shoes Seal]]
+*[[Time Stop]]
+*[[Tracking Spell]]
+*[[Valance Leech of Light]]
+*[[Vapor Bubble Spell|Vapor Bubble]]
+*[[Wall Bend]]
+*[[Wall Breaker Seal]]
+*[[Wall-Anchored Floatglow Lamp]]
+*[[Warmth-Retention Seal]]
+*[[Water Bolt]]
+*[[Water Cage]]
+*[[Qifrey's Water Dragon|Water Dragon]]
+*[[Water Horse Spell|Water Horse]]
+*[[Water Orb]]
+*[[Wand of Water]]
+*[[Water Rose]]
+*[[Watersculpture]]
+**[[Watersculpture|Flipperfoal Watersculpture]]
+**[[Flying Watersculptures]]
+*[[Waterflinger]]
+*[[Watershot Seal]]
+*[[Wayward Whorlwind]]
+*[[Wind Wall]]
+*[[Windowway Spell]]
+
+''A description of each spell can be viewed by clicking that spell's link.''
+
+==Forbidden Magic==
+''See main page: [[Forbidden Magic|Forbidden magic]]''
+
+Forbidden Magic refers to any magic that is deemed excessively dangerous, has an uncanny amount of power, warps reality itself, or is drawn on/affects the body (including healing magic). They were declared forbidden by the [[Pointed Hat Witches]] after the [[Day of the Pact]], and performing forbidden spells will result in expulsion from pointed hat witch society and/or the erasure of memories. The only permitted spell affecting the body is the memory erasure spell. 
+
+Forbidden Spells List:
+* [[Anti Scalewolf Curse]]
+* [[Healingcraft]]
+** [[Twinned Bottles]]
+* [[Memory Erasure]]
+* [[Mystical Ruin|Mystical Ruins]]
+** [[Ancient Labyrinth Spell]]
+* [[Illusory Labyrinth|Seal of the Dragon's Labyrinth]]
+* [[Petrification]]
+* [[Scalewolf Curse]]
+* [[Slime Rendering Seal]]
+* [[Truth Spell]]
+
+''A description of each forbidden spell can be viewed by clicking that spell's link, or by visiting the page [[Spells]] page.''
+
+==Contraptions==
+
+Contraptions are tools created by drawing a seal somewhere onto an item. This gives the item the capability to preform magic on it's own, making it a valuable tool for the user. Contraptions are the only way in which [[Outsiders]] are able to use magic.
+
+[[List of Items|The contraptions]]:
+*[[Arcane Lens of Amplification]]
+*[[Beastward Spire]]
+*[[Bubble Carriage]]
+*[[Circular Floatform|Circular Floatform Stages]]
+*[[Cloak of Flight]]
+*[[Cloudcandy Contraption]]
+*[[Crystal Torch]]
+*[[Doorknob-Determined Destination Doorway]]
+*[[Dragon Egg Crock]]
+*[[Dustchomp Sweeper]]
+*[[Fluttergram]]
+*[[Garmentglimpse Glasses]]
+*[[Gloves of Curious Strength]] 
+*[[Glowstone Path]]
+*[[Guidance Orb]]
+*[[Ininia's Gloves]]
+*[[Link Rings]]
+*[[Lockwax]]
+*[[Looking Glass]]
+*[[Loop Chalice]]
+*[[Magic Cookpot]]
+*[[Magic Floating Dish]]
+*[[Makeover Mask]]
+*[[Mirror Cloak of Borrowshade]]
+*[[Palmdragon Teacup]]
+*[[Pegasus Carriage]]
+*[[Period Pieces]]
+*[[Phantasmal Fireball]]
+*[[Portable Waste Purification Pot]]
+*[[Pouch of Calling]]
+*[[Qifrey's Glasses]]
+*[[Raincleaver]]
+*[[Sandtent Staff]]
+*[[Silver-White Capture Pennant]]
+*[[Sealchair]]
+*[[Seal-Sight Spyglass]]
+*[[Snugstone]]
+*[[Spellscarf]]
+*[[Split-Shard Bangles]]
+*[[Stretcher Skiff]]
+*[[Sylph Shoes]]
+*[[Toilet of the Void]]
+*[[Vapor Bubble]]
+*[[Wall-Anchored Floatglow Lamp]]
+*[[Washbarrels]]
+*[[Windchime Dragonfly]]
+*[[Windowway]]
+*[[Wingcloak]]
+
+== References==
+{{Reflist}}
+
+== Site Navigation==
+{{Spells Navibox}}
+{{Items Navibox}}
+{{World Navibox}}
+
+[[Category:Magic]]
+[[Category:Spells]]
+[[Category:Contraptions]]
+[[Category:World]]
+[[Category:Zozah Peninsula]]
+[[Fr:Magie:Fonctionnement]]

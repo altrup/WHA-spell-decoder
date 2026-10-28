@@ -1,0 +1,40 @@
+{{Object Infobox
+|image1=
+[[File:65 17 Wall Bend.jpg]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+|type=[[Spells|Spell]], [[Spells#Earth Spells|Earth Spell]]
+|users=[[Qifrey]], [[Olruggio]], [[Coco]]
+|manga=[[Chapter 14]]<br>[[Chapter 65]] <small>(Casting Seal)</small>
+|anime=[[Episode 9]]
+}}
+'''Wall Bend'''{{Unofficial}} is an earth-type [[Spells|spell]] that allows the manipulation of earthen materials such as stone, soil and brickwork.
+
+==Description==
+The Casting Seal contains a [[Sigils#Earth|Sigil of Earth]] in the lower half of the seal and two downwards-facing [[Signs#Pulling|Signs of Pulling]] next to it. This allows for the spell to target nearby earth-related materials and pull them in a certain direction in relation to the seal. The signs above and below the sigil are currently unknown. It is possible that they contribute to the spell’s ability to [[Replication Magic|replicate]] or spread its targeted material.
+
+==History==
+[[File:27 16 Deflect.jpg|thumb|right|200px|Qifrey using Wall Bend to defend against Sasaran]]
+Wall Bend is seen being used for defensive purposes on multiple occasions, drawing out the ground beneath the user and hardening it into a rough, stone barrier that they can duck behind to evade damage or deflect an attack. [[Qifrey]] defends against [[Sasaran|Sasaran’s]] [[Spike]] using this spell.{{Ref|m|27|16}} Both [[Olruggio]] and Qifrey (accompanied by [[Coco]]) use it to defend themselves from the [[The Guardian of the Tower of Tomes]].{{Ref|m|37|25}}{{Ref|m|37|27}}
+
+Qifrey uses this spell to manipulate brick walls in the [[Qifrey's Atelier|atelier]], isolating himself and concealing his investigation into the [[Brimmed Hat Group|Brimmed Caps]].{{Ref|m|14|29}} He does this by first touching the sheet of paper with the seal drawn on the part of the wall he plans to extend and then dragging it off the wall and in the empty space he wants to close off. New brickwork generates instantly in relation to the seal.{{Ref|a|9|10:30}} When his efforts lead to him being discovered by Iguin and attacked by a lightning spell, he attempts to shield himself with the same spell.{{Ref|a|9|12:14}}{{Ref|m|15|5}}
+
+[[File:65 18 Wall Bend Effect.png|thumb|left|200px|Wall Bend Effect]]
+Qifrey once again uses this spell to give himself and Coco privacy while she confides in him within the streets of [[Ezrest]].{{Ref|m|65|16}}
+{{-}}
+==Trivia==
+*The Wall Bend seal has only been shown once in [[Chapter 65]], when Qifrey uses it to open up the space he had previously closed off with an unseen spell. It is currently unknown if the spell he uses to initially close off the space is also Wall Bend or a different spell entirely.
+**The effect bears similarity to the spell used by Qifrey in [[Chapter 14]], which in turn appears similar to other defensive spells in the series.
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Earth Spells]]

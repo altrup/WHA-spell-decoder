@@ -1,0 +1,40 @@
+{{Object Infobox
+| image1 = [[File:62 9 Agott Watersculptures (Cropped).png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Agott]], [[Coco]]
+| creator = [[Agott]]
+| manga = [[Chapter 62]]
+| anime =
+}}
+'''Flying Watersculptures'''{{unofficial}} is a sculpting [[Spells|spell]] that creates fish, birds and flowers made of water which will fly throughout the air. It is a type of [[watersculpture]].
+==Description==
+The casting seal for this spell is drawn on [[Coco|Coco's]] [[Portable Waste Purification Pot|Purification Pot]] and uses the [[Purify]] seal as a base. A watersculpting sign, or rather, a [[Decorative Sigils|Decorative Sigil]], is added to the seals on Coco’s [[Contraption|contraption]].{{Ref|m|62|10}} Despite this, the seals shown on the pots are too unclear to tell the difference.[[File:Agott_Watersculptures.png|thumb|400px|left]]It’s likely that at least one of the unknown signs seen on [[Agott|Agott's]] [[Fish Guidance|Guidance seal]] in [[Chapter 64]] is also present on this one, seeing as these two spells work in conjunction with each other.{{Ref|m|64|2}} Since there are multiple watersculptures of different shapes, it’s possible there are multiple seals at work as well.
+
+==Usage==
+[[File:62 8 Watersculptures.png|309x309px|thumb|right]]
+At the [[Silver Eve Procession]], when Coco’s [[Portable Waste Purification Pot]] earns no endorsements from the crowds, Agott quickly steps in to lend a hand. She instructs [[Jujy]] to place and close the ring of a Guidance seal at a sewer outlet, while she herself adjusts the casting seals on the pot to sculpt the purified water into the shape of fish, birds and a [[Diadem Herb|diadem herb]]. The watersculptures then fly straight to the sewers with the help of the planted Guidance seal. The newfound spectacle and added utility of the contraption earns Coco’s contraption more endorsements from the crowd.{{Ref|m|64|2}}{{Ref|m|62|}}
+{{-}}
+
+==Trivia==
+[[File:Watersculpture Diadem Herb.png|236x236px|thumb|right]]
+*It’s possible that the Signs of [[Signs Explained#Collection|Collection]] from the Purify seal were adjusted into the Decorative Sigils based on some shots of the contraption’s seal after Agott is done tampering with it.{{Ref|m|62|7}}
+*Once the spell takes effect, Coco references “the signs from last night,” alluding to the decorative sigils Agott shared with her in [[Chapter 58]].{{Ref|m|58|22-23}}
+**Prior to [[Chapter 78]], Decorative Sigils were known as Decorative Signs, which is why Coco and [[Qifrey]] both point out the ‘’signs’’ added to the pot.
+*The birds created by this spell appear to have two pairs of wings. It’s possible they’re shaped like [[Quadryphon|quadryphons]].
+*The diadem herb watersculpture is a callback to when Coco offered Agott one as proof she’d completed the [[Consent of the Crown]]. It is never shown being guided to the sewers.{{Ref|m|4|29-30}}{{Ref|a|3}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

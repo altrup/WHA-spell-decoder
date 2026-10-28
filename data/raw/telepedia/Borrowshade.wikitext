@@ -1,0 +1,35 @@
+{{Object Infobox
+|image1=[[File:Gathering Shadows.png|250px]]
+|kanji =
+|romaji =
+|chinese =
+|french =
+|spanish =
+|german =
+|italian =
+|type = [[Spells|Spell]]
+|users = [[Euini]], [[Witches]]
+|creator = 
+|manga = [[Chapter 21]]
+|anime = [[Episode 12]]
+}}
+'''Borrowshade''' is a [[Spells|spell]] that conceals a target's form.
+
+==Description==
+The Casting Seal contains a [[Signs#Concealment|Sign of Concealment]] and four [[Signs#Envelopment|Signs of Envelopment]] evenly arranged around it. The spell hides a target object from view. Euini describes it as "gathering shadows" and allowing him to "blend into the darkness."{{Ref|m|21|22}}
+
+==Usage==
+: ''See [[Mirror Cloak of Borrowshade]] or [[Cloak of Borrowshade]] for in-depth history and usage of related contraptions''
+Borrowshade is layered with [[Mirror Spell|Mirror]] to create [[Mirror Cloak Spell|Borrowshade Mirror]], which is used for the [[Mirror Cloak of Borrowshade]] [[contraption]]. [[Euini]] crosses out the Mirror part of the spell to create his [[Cloak of Borrowshade]].{{Ref|m|21|22}}{{Ref|a|12}}
+
+==Trivia==
+* [[Sasaran's Cloak Spell]] appears to have a similar spell to Borrowshade. The key differences are the 'eyes' of the Concealment Sign being detached from the lines and the Envelopment signs intersecting with the additional ring within the spell.{{Ref|m|27|22}}
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

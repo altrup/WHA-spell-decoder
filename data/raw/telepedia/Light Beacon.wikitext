@@ -1,0 +1,41 @@
+{{Object Infobox
+| image1 = [[File:Light_Beam-0.png|250px]]
+| japanese = 光の狼煙<ref name="game">Tongari Anime (14 October 2026). [https://tongari.terra-nova.co.jp/?utm_source=x&utm_medium=social&utm_campaign=koushiki&utm_content=account_koushiki "Escape from the Dragon-Lurking Magical Labyrinth"] (in Japanese).</ref>
+| romaji = Hikari no Noroshi<ref name="game" />
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Agott]], [[Olruggio]]
+| creator =
+| manga = [[Chapter 9]]
+| anime = [[Episode 6]]
+}}
+'''Light Beacon'''<ref name="game" /> is a light-type [[Spells|spell]] that creates a beam of light.
+
+==Description==
+The [[Casting Seal]] contains a [[Sigils#Light|Sigil of Light]] surrounded by [[Signs#Columns|Signs of Columns]]. The spell generates a stable, beam of light pointing up from the seal. 
+
+==Usage==
+[[Agott]] uses this spell to practice drawing seals without looking.{{Ref|m|9|24-25}}{{Ref|a|6}}
+
+[[Olruggio]] once used this spell alongside [[Smoke Cloud]] to intimidate a herd of [[liongoat]]s chasing him and [[Qifrey]].{{Ref|m|91|4-5}}
+
+==Gallery==
+<gallery>
+Smoke Cloud Seal.png|<small>Olruggio's Light Beacon and Smoke Cloud seals</small>
+</gallery>
+
+==Notes==
+* Light Beacon is likely a simplified version of the [[Ancient Light Beacon]] spell.{{Ref|''Witch Hat Atelier'' Anime: [[Episode 11]] – [[Writing/Translated Texts#Primer Book 5]]}}
+* Light Beacon is likely to serve as the base for [[Bird of Light Beacon]], another spell used by Agott with similarities in name and effect.
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

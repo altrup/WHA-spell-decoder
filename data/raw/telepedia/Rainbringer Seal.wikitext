@@ -1,0 +1,36 @@
+{{Object Infobox
+|image1=[[File:Rainmaker's Glyph.png|250px]]
+|japanese=雨生み
+|romaji=Ameumi
+|type=[[Spells|Spell]]
+|users=[[Agott]], [[Euini]], [[Witches]]
+|creator=
+|manga=[[Chapter 20]] <small>(Effect)</small> 
+[[Chapter 28]] <small>(Seal)</small>
+|anime=[[Episode 12]]
+}}
+'''Rainbringer''' is a [[Spells|spell]] that summons rain.
+
+==Description==
+The Casting Seal contains a Sigil of [[Sigils#Water|Water]] in the center of the Sign of [[Signs#Rain|Rain]]. The quality of the spell's ring is stated to play a significant role in the spell's effect.{{Ref|a|12}}{{Ref|[[Writing/Translated_Texts#EUINI'S_BOOK_1]]}}
+
+In the Anime, this spell is shown to manifest in different ways. When [[Agott]] uses Rainbringer, it forms an orb of water above her that abruptly falls to the ground.{{Cite}} When [[Euini]] uses Rainbringer, water falls to the ground gently and gradually, resembling rainfall.{{Cite}}{{Ref|a|12}}
+
+==Usage==
+Rainbringer is a spell in the ''Basics of Spellcasting Primer''. It said to have a wide range of uses, one of which being its effectiveness on farmland during dryer seasons.{{Ref|a|12}}{{Ref|[[Writing/Translated_Texts#EUINI'S_BOOK_1]]}}
+
+Agott uses this spell in the [[Serpentback Cave]] to determine which stones to avoid stepping onto on the serpentine path, justifying that water will still follow the laws of gravity and pool where it is safe to stand.{{Ref|a|12}}
+[[File:Anime_S1E12_Agott_Rainbringer_Seal.png|400px|thumb|<small>Agott casting Rainbringer within the Mirror Cloak of Borrowshade.</small>]]
+Euini prepares this spell prior to retaking the [[Sincerity of the Shield|second test]] and uses it in a panic when he runs into an obstacle he did not anticipate.{{Ref|a|12}}{{Ref|m|21|9}}
+
+When Agott, [[Tetia]], and [[Coco]] are brainstorming ways to save Euini, Rainbringer is seen in a mural of spells they had in their arsenal with the potential to help them reach their goal.{{Ref|m|28|11}}
+{{-}}
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

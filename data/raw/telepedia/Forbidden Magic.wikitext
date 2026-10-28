@@ -1,0 +1,99 @@
+{{Quote
+|quote = Magic's true potential was lost on the Day of the Pact, when the most useful spells were sealed away by the Pointed Caps. The power to fight... The power to transform… And most of all, the power to heal.
+|speaker = Ininia, [[Chapter 56]]
+}}'''''SPOILER WARNING:''''' ''This page contains spoilers for the main plot and the fates of certain characters in [[Witch Hat Atelier]]''
+
+'''Forbidden Magic''' is [[magic]] that violates the principles put into place on the [[Day of the Pact]]. All magic cast upon the body in forbidden, with the sole exception being the [[Memory Erasure|Seal of Obliviation]], a forbidden spell thought not to break the pact, but rather to uphold it.{{Ref|m|73|17}} 
+==Description== 
+{{Quote
+|quote = The forbidden spells are too numerous to count. But they can be summed up rather simply. Magic that directly affects the human body or mind... is not to be cast at any time. Transformation, spells of aging or de-aging... teleportation without the use of doors or vehicles... Spells to control others' minds or emotions... or those to harm or even heal the body. All such spells.
+|speaker = Qifrey, [[Chapter 2]]}}[[Spells]] that harm, heal or transform living creatures or the natural world are all considered forbidden magic.{{Ref|m|2|19-20}}{{Ref|m|12|12}} This includes spells permitted by the Pact that still manage to achieve these effects through other means, such as through the use of [[blood]] mixed with [[woodcruor]] or drawing spells upon the flesh.{{Ref|m|12|33}}{{Ref|[[Counterclock]]}} 
+
+Most forbidden magic is ancient, originating from the times of strife and war.{{Cite}} Many instances of forbidden magic are said to have permanent effects, such as [[Mystical Ruin|Mystical Ruins]] or seals tattooed onto the flesh.{{Cite}} The casting seals for these spells are highly detailed and near impossible to decipher, seeing as the knowledge behind these spells have been lost to time.{{Cite}} Even the [[Brimmed Caps]] have been shown to cast forbidden magic for the sake of experimentation.{{Ref|m|23|15}}{{Ref|m|87|22}}
+
+It is difficult to assess whether certain [[Contraption|contraptions]] are considered to be forbidden magic or not. While the use of magical tools are typically permitted,{{Ref|m|2|21}} it is still possible for these tools to affect the human body in such a way that they would be deemed as forbidden.{{Ref|m|79|6}}{{Ref|[[Twinned Bottles' Spell|Twinned Bottles]]}}
+
+==History==
+===Preceding the Day of the Pact===
+====Warfare and Combat Magic====
+{{Quote
+|quote = Since the Day of the Pact, it has been decreed that no witch shall abet war or quarrel.
+|speaker = Qifrey, [[Chapter 24]]}} When magic flowed freely and could be wielded by all, [[Witches|witches]] were under no restriction towards the fields they could pursue or allegiances they could maintain. As such, it was not uncommon for great monarchs to keep witches at their sides, so that they might lead their people with aid of sage advice, wisdom, and magic. Given that this was a time of strife and chaos, it stands to reason that magic would be wielded to craft spells suited for combat and war.{{Ref|m|39|25}}
+====Transformation====
+{{Quote
+|quote=As the transformation proceeds, it will eagerly fuse two into one. Touch separate sparks of life, and you will be left with something that is both yet neither.
+|speaker=Engendale, [[Chapter 68]]}} Spells wielded to refashion ordinary [[List of Plants|flora]] and [[List of Creatures|fauna]] into new, otherworldly and unnaturally occurring lifeforms fall under the grand scope of transformation magic. The creation of abundant, hybrid species such as [[Pegasus|pegasi]], [[eldroxen]] and [[frillrams]], as well as the origins of destructive beasts known as [[Monster|monsters]], are a result of these forbidden spells cast long ago.{{Ref|m|68|1-2}} 
+The interference of a separate lifeform during the transformation process will lead to a fusion of the original target and the newly introduced one. This is why the fur and scales on [[Euini|Euini’s]] [[Cloak of Borrowshade|cloak]] led to him transforming into a [[Scalewolf]], and why the [[Illicit Contraption Seller]] being bitten by a [[Valance Leech (Species)|valance leech]] in the midst of his [[Slime Rendering Seal|transformation into a slime]] created the [[Valance Leech (Monster)|Colossal Valance Leech]].{{Ref|m|23|15}}{{Ref|m|63|8-10}}
+====Mystical Ruins====
+{{See|Mystical Ruin}}{{Quote
+|quote=Forbidden spells drawn before the Day of the Pact... Yet remain in our world, like scars across the land.
+|speaker=Qifrey, [[Chapter 19]]}} Magic that alters the landscape itself is what leads to the creation of Mystical Ruins. Some examples include the floating mountains of the [[Dadah Range]], the [[Ancient Labyrinth Spell|winding labyrinth]] of the [[Serpentback Cave]] and the [[Forest of Thristas]], eternally shrouded in darkness.{{Ref|m|12|12}}{{Ref|m|20|1-2}}
+====Healingcraft====
+{{See|Healingcraft}}{{Quote
+|quote=As per the principles, all witches are forbidden from studying medicine.
+|speaker=Luluci, [[Chapter 30]]}} When medical arts and magic intertwine, it falls within the realm of [[Healingcraft]]. Those who practiced these forbidden spells wished to cure the sick, weak and injured, achieving great feats such as the creation of healing tonics and [[Twinned Bottles' Spell|ancient contraptions of medicine]]. Some witches grew ambitious, seeking to attain immortality or harness the power of [[Dark Witch of Thristas|necromancy]].{{Ref|m|20|1-2}} Despite their self-proclaimed noble intentions, they soon resorted to dabbling in human experimentation to achieve these goals, which ultimately led to war.{{Ref|m|30|20}} The righteous Witches of Healingcraft were the last to resist the [[Three Wise|Wise Ones’]] edict that magic should not be cast upon the body, deeming their goals and methods were far too dangerous to allow. Their minds were wiped alongside everyone else, and their marvels of medicine were lost to all but the Brimmed Caps.{{Ref|m|15|2}}{{Ref|m|30|20}}
+===Succeeding the Day of the Pact===
+{{See|Day of the Pact}}{{Quote
+|quote =[[Three Wise|They]] erased the memories of magic from the populace, and passed on knowledge of the art only to apprentices who could be trusted to guard the secret.
+|speaker =Qifrey, [[Chapter 2]]}} The [[Knights Moralis]] swear an oath to uphold principles set forth on the Day of the Pact, dutybound to wipe the minds of [[Outsiders|those]] who unearth the secret of magic and the minds of witches who dabble in forbidden spells. It is their responsibility to investigate forbidden magic.{{Ref|m|9|9}} [[Pointed Cap Witches]] are required by law to report any sightings of forbidden magic to the [[Great Hall]] and the Knights Moralis.{{Ref|m|7|34}}{{Ref|m|13|21}}
+
+Magically augmented weapons and combat magic became scarce following the Day of the Pact, but neither are completely eradicated. Foundational elements of what is now considered forbidden magic is still present in modern spells, such as [[Memory Erasure]] containing [[Magic#Glaives|Glaives]] or sculpting spells sharing elements with [[Golem|Golems]].{{Cite}}
+
+Seeking to restore the spells of yore, the Brimmed Caps are said to practice forbidden magic in the depths of Thristas, concealing the dark arts within shadow.{{Ref|m|36|17-18}} On occasion, they have been known to tattoo seals onto their own skin.{{Ref|m|12|20}} 
+
+In recent years, they begin to experiment with a new type of forbidden spell, one of which many of the details are still unknown. [[Qifrey]]’s right eye is taken from him for the sake of this plan when he is a child.{{Ref|m|40|12}} The [[Silverwood]] taking root inside him is also a result of the Brimmed Caps’ experimentation, as well as the periodic erasure of his memory whenever he succumbs to the tree’s growth.{{Ref|m|92|17}}
+
+Prior to [[Coco]] casting [[Petrification]], the most recent sighting of forbidden magic occurred four years ago.{{Ref|m|3|22}}
+==Casters==
+All known casters of forbidden magic, whether by accident or with the intention to cast.
+*Witches of Old
+**Witches of [[Healingcraft]]
+**Ancient Witches of [[Romonon]]
+**King of Dadah
+**[[Dark Witch of Thristas]]
+*The [[Brimmed Caps]]:
+**[[Iguin]]
+**[[Sasaran]]
+**[[Ininia]]
+**[[Custas]]
+**[[Restys]]
+*The [[Pointed Caps]]
+**[[Coco]]
+**[[Qifrey]]
+**[[Engendale]]
+**The [[Knights Moralis]]
+***[[Easthies]]
+**[[Tartah]]
+**[[Olruggio]]
+
+==Spells==
+All known forbidden magic:
+* [[Anti Scalewolf Curse]]
+* [[Monster|Creation of Monsters]]
+* [[Healingcraft]]
+* [[Illusory Labyrinth|Magic Maze]]
+* [[Memory Erasure]]
+* [[Mystical Ruin|Mystical Ruins]]
+** [[Ancient Labyrinth Spell]]
+* [[Petrification]]
+* [[Scalewolf Curse]]
+* [[Slime Rendering Seal]]
+* [[Truth Spell]]
+
+These spells have been used for forbidden magic despite being permitted by the Pact:
+* [[Counterclock]], by being cast upon the body
+* [[Twinned Bottles' Spell]], by being used for the sake of healing
+* [[Wall Breaker Seal|Wall Breaker]], by being cast with woodcruor mixed with blood
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+
+[[Category:Magic]]
+[[Category:Forbidden Spells]]
+[[Category:Spells]]
+[[Fr:Magie interdite]]

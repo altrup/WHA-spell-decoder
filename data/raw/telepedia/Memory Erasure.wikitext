@@ -1,0 +1,75 @@
+{{Stub}}
+{{Object Infobox
+|image1=[[File:Knights moralis memory erasure.jpg|250px]]
+|japanese = 記憶を消す<br>忘却の陣は
+|romaji = Kioku o Kesu<br>Bōkyaku no jin wa
+|chinese =
+|french =
+|spanish =
+|german =
+|italian =
+|type=[[Spells|Spell]], [[Forbidden Magic]]
+|users=[[Knights Moralis]]<br>[[Brimmed Caps]]<br>[[Qifrey]]
+|manga=</small>[[Chapter 11]]
+|anime=[[Episode 2]]
+}}
+'''Memory Erasure''', also known as the '''Seal of Obliviation''',{{Ref|m|73|19}} is a type of [[Spells|spell]] mostly used by the [[Knights Moralis]] to wipe the knowledge of [[Forbidden Magic|forbidden magic]] from their targets.
+
+==Description==
+Unlike most spells, the memory erasure seals are white on a black background instead of drawn with ink on a regular surface. Several variants of the spell have been seen, though all are incredibly similar with only minor additions such as additional signs that set them apart. The sigil at the center is made of concentric circles with a dot in the middle. Several [[Magic#Glaives|glaives]]{{Ref|m|63|3}} also protrude from the bottom of the spell, and the circle also contains dot-shaped signs along the outer edge and top.
+
+Regarding the spell variants, these effects have been seen and/or suggested:{{Ref|m|80|7}}
+* Total erasure of magic from the mind, and any memories connected to it.{{Ref|m|56|22}}{{Ref|m|57|7}}
+* Erasure from a specific period of time.{{Ref|m|49|26}}
+* Erasure of specific topics{{Ref|m|40|19}} or people,{{Ref|m|54|13}} regardless of time.
+
+[[File:Memory erasure effect.jpg|left|thumb|250px|The spell used by Easthies, almost erasing Coco's memory]]
+During the [[River Rescue Arc]], [[Easthies|Easthies']] spell can be seen growing short protrusions and reaching for [[Coco's]] face, almost as if it were alive.{{Ref|m|11|26}}
+
+Additional Images:
+<gallery>
+Memory Erasure Spell Ininia1.jpg|Knights Moralis spell from ch 56
+Memory Erasure Spell Ininia2.jpg|Knights Moralis spell from ch 56
+Memory Erasure Spell 40.jpg|A variant of the spell from ch 40
+</gallery>
+
+
+==Usage==
+Memory erasure spells are the only type of magic allowed to be used on the body. They are not qualified as forbidden magic as their use helps protect the secret of magic. This spell is mostly used by the [[Knights Moralis]]. It is highly likely that the Knights are the only people permitted to use the spell, which they utilize to wipe the memory of the witches they catch practicing [[Forbidden Magic|forbidden]] or illegal magic{{Ref|m|11|26}}, or who have committed serious crimes{{Ref|m|48|18-20}}. It is also used on outsiders who discover the secret truth of how magic works.{{Ref|m|12|20}} There are also instances of when the spell has been used by the [[Brimmed Caps]] on other witches.{{Ref|m|36|20}}{{Ref|m|56|22-23}} 
+
+When the full memory erasure spell is used, all memories relating to magic are wiped away. For witches who have lived their entire life surrounded by magic, this will result in memory gaps for even the most ordinary facets of life, including their own name and loved ones.{{Ref|m|57|7}}
+
+{{Spoiler|m|36|[[Qifrey]] is one such victim. As a child, he was found buried alive in the [[Forest of Thristas]] by [[Beldaruit]] and some members of the [[Knights Moralis]], after he had been used in an experiment by the Brimmed Caps and then had his memory wiped.{{Ref|m|36|20}} Although the Knights wanted to wipe Qifrey's memories again and return him to the [[Outsiders]] way of life, Beldaruit instead took him in as an apprentice. In a comic that [[Kamome Shirahama]] drew to celebrate Beldaruit's birthday, one of the childhood panels of Qifrey revealed that he didn't know what a birthday was.<ref>https://x.com/shirahamakamome/status/1355482213526110211</ref>
+}}
+
+{{Spoiler|m|56|[[Galga]] of the Knights Moralis is another victim of this spell, which happens during the Silver Eve celebrations. After discovering forbidden magic in the form of a spell drawn on [[Dagda]]'s chest, he mistakes him for a Brimmed Cap and attacks without warning. After [[Custas]] intervenes with an attack of his own that injuries and traps Galga, they make their escape and leave Galga behind. [[Ininia]], another Brimmed Cap, finds him and erases his full memory with his own spell quire so he cannot report what he's seen to the other Knights.{{Ref|m|56|22}} When he is found hours later, he remembers nothing of his life, including his own name and the faces of his lover and coworkers.{{Ref|m|57}}
+}}
+
+There are also more selective memory erasure spells, that can target specific types of memories, or a certain time period.{{Ref|m|40|19}}{{Ref|m|49|26}}
+
+{{Spoiler|m|40|[[File:Memory Erasure Spell 40.jpg|thumb|150px|Qifrey's version of the memory erasure spell that targets knowledge of his secrets|left]]
+When [[Olruggio]] discovers the secret of [[Qifrey's Glasses]] and confronts him about it later, Qifrey vaguely explains the truth to him, and then wipes his memory of it. Qifrey's spell is a modified version of the full erasure spell, with arrows along the side, lack of a ring of squares, a disconnected inner circle and more spaced out dots along the top half. The spell is hidden under the flap of his cap, and when activated he places the cap on Olruggio's head to erase his memories. The spell only targets Qifrey's secrets, and Olruggio falls asleep shortly after. When he wakes up some minutes later, he remembered that they were talking about something important, but not what.{{Ref|m|40|16-21}}
+
+Qifrey also previously used this spell on [[Nolnoa|Mr. Nolona]], to avoid him contacting the authorities after discovering the properties of Iguin's [[Twin Bottle's Spell]].{{Ref|m|13|23}}
+}}
+
+{{Spoiler|m|49|Before [[Luluci]] was a Knight, as a young witch she and a [[Eryenne|fellow apprentice]] were sent to a noble's castle to cast magic and while there were subject to sexual assault. In order to save her friend and escape, she unleashed a powerful spell which injured the lord and his castle. Her master, unwilling to see her side of it and demanding she apologize--which she vehemently refused--then took her to the Knights Moralis for the authority to have her memory of the latest incident wiped. Instead, the Knights sided with her and punished the master.{{Ref|m|49|26-27}}
+}}
+
+==Placement==
+The Knights Moralis keep their memory erasure spells in a [[Palm Quire]] that they keep on their person,{{Ref|m|56|21-22}} but can also attach any of their seals to their [[Silver-White Capture Pennant]] and turn it into the [[Sinsinger's Talons]].{{Ref|m|79|13-14}} By combing the flexibility and reach of the now-black capture pennants with the power of Memory Erasure, they can activate the effect of whatever memory erasure seal was used to erase the memories of anyone whose head they latch onto.{{Ref|m|80|5}} This is not one time use. There are few people who know of this ability of the capture pennants because those who learn are soon to forget.
+
+
+==Trivia==
+* In Japanese, the extending arms of Easthies' memory erasure spell make a キチ sound, which can be squeezing, grinding noise, or a light, metallic clinking noise, like something being set properly in place or the sound of a dagger being slowly unsheathed...{{Ref|m|11|26}}
+
+{{-}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

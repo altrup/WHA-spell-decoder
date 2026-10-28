@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:Flowers of Light Redraw.png
+.jpg]]
+|japanese=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Agott]]
+|creator=
+|manga=[[Chapter 58]]
+}}
+'''Flowers of Light''' is a light-type spell used to create glowing flowers.{{Ref|m|58|22-23}}
+
+==Description==
+This spell contains the decorative sigil for flowers, surrounded by unknown signs and a pentagon formation that also separates the sigils from each other.
+
+==Usage==
+Agott showed this spell to Coco while explaining decorative sigils. Coco mentioned its similarity to Qifrey's own flower of water that he made when she first came to the atelier.{{Ref|m|58|22-23}}
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

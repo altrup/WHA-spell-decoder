@@ -1,0 +1,28 @@
+{{Object Infobox
+|image1= [[File:Anti Scalewolf Spell.png|Iguin using the spell|250px]]
+|kanji=
+|romaji
+|type= [[Forbidden Magic|Forbidden Spell]]
+|users=[[Brimmed Caps]], [[Iguin]]
+|creator= 
+|manga= [[Chapter 29]]
+}}
+'''Anti Scalewolf Curse''' is a forbidden spell that nullifies the effects of the [[Scalewolf Curse]] spell.
+
+==Description==
+Unlike the [[Inverted Scalewolf Curse]], the Anti Scalewolf Curse is a completely different spell from its [[Scalewolf Curse|counterpart]]. When used on someone affected by the [[Scalewolf Curse]], the afflicted individual will revert to a human completely.
+
+==Usage==
+At first, [[Qifrey's Atelier|Qifrey's apprentices]] try to use an [[Inverted Scalewolf Curse|inverted drawing of the Scalewolf Curse]] to cure Euini from the spell, but this only helps to bring back his humanity/mental state, and does not affect his physical transformation. [[Iguin]] tells [[Coco]] that the spell can only be reversed with forbidden magic.{{Ref|m|28|29}} To prove their point, Iguin makes a collar with this spell and demonstrates its ability to cure Euini entirely, only to then remove it, causing Euini to revert back to a [[scalewolf]]. Iguin then tries to coerce the apprentices into drawing forbidden magic, telling them that in order to get the spell and save Euini, they must draw it themselves. However, Coco steals the collar from him with a [[Grasping Wind]] spell, thwarting Iguin's plan.{{Ref|m|29|9}}
+
+Euini would use the collar to transform into a human or a scalewolf at will.{{Ref|m|29|28}}{{Ref|m|68.5|9}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

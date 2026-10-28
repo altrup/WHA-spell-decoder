@@ -1,0 +1,28 @@
+{{Object Infobox
+|image1=[[File:Spell of Reduction.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users=[[Qifrey]], [[Witches]]
+|creator=
+|manga=[[Chapter 45.5]]
+}}
+The '''Spell of Reduction''' is a time [[Spells|spell]] that shrinks or reduces the size of an object.
+
+==Description==
+The casting seal contains a bisected [[Sigils|Sigil]], surrounded by inverted [[Signs Explained#Enlarge|Enlarge]] Signs, and 4 [[Signs Explained#Diamond|Diamond]] Signs in the gaps between. The Sigil appears to be [[Sigils Explained#Repetition|Repetition]], although it is hard to tell as it is only seen bisected. This spell works by shrinking anything within it's area of effect.
+
+==Usage==
+A Spell of Reduction is used on [[Qifrey]]'s Notebook. When the clasp is fastened, the book is pocket-sized. When the clasp is unfastened, the spell comes undone and the book returns to its original size.{{Ref|m|37|28}}
+
+The [[Great Hall]] uses this spell to preserve and store clothes from bygone eras through [[Period Pieces]]. The casting seal is placed upon two small, wooden panels at the back of the [[contraption]]. Pulling apart these panels breaks the seal and allows the clothes to return to their original size. [[Olruggio]], [[Qifrey]] and [[Qifrey's Atelier|his aprentices]], are seen going through the contents of several of the contraptions to look for outfits to wear for [[Silver Eve]].{{Ref|m|45.5}}
+
+Although the full seal isn't shown, [[Luluci]] uses a small piece of a cloth with what looks to be a Spell of Reduction to shrink the size of a recently returned [[Sealchair]] for convenient storage.{{Ref|m|46|6}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Time Spells]]

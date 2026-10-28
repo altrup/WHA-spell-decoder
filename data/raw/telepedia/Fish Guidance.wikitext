@@ -1,0 +1,24 @@
+{{Object Infobox
+|image1=[[File:64 2 Fish Guiding Seal.jpg]]
+|japanese=
+|romaji=
+|type= [[Spells|Spell]]
+|users=[[Agott]], [[Jujy]]
+|creator=[[Agott]]
+|manga=[[Chapter 64]]
+}}
+'''Fish Guidance'''{{Unofficial}} is a type of [[Spells|spell]] that guides [[Flying Watersculptures]] shaped as fish and birds to fly towards to the location of the seal. It is referred to as a type of [[Guidance Seal]].
+
+==Description==
+The casting seal contains a Sigil of [[Sigils_Explained#Guidance|Guidance]], two Signs of [[Signs Explained#Level_Planes|Level Planes]] and two Signs of [[Signs Explained#Columns|Columns]]. It also includes two Signs of [[Signs Explained#Crosshairs|Crosshairs]] and a few more unknown symbols, with at least one of them looking like an abstract depiction of a fish. Given that this seal is used to direct [[Agott]]'s Flying Watersculptures to the nearest sewer outlet, it's likely that these are the decorative sigils she used to sculpt the water into the shapes she wanted.{{Ref|m|62|10}} Thus, by using them alongside Crosshairs, the spell will target the [[Watersculpture|Watersculptures]] and "guide" them to the Guidance Seal.{{Ref|m|64|2}}
+
+==Usage==
+During the [[Silver Eve Procession]], Agott pairs her Flying Watersculptures with a Guidance Seal to provide [[Coco|Coco's]] [[Portable Waste Purification Pot]] the practicality and spectacle it was previously missing, earning it more endorsements from the [[Outsiders|crowd]]. Agott instructs [[Jujy]] to take the seal, fly to a sewer outlet at the edge of town and close the ring, so that the Watersculptures will automatically be drawn to the seal.{{Ref|m|64|2}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]

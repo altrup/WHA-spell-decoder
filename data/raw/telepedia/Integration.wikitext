@@ -1,0 +1,29 @@
+{{Object Infobox
+|image1=[[File:Integration Redraw.png]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Tartah]], [[Witches]]
+|creator= [[Coco]], [[Tartah]]
+|manga=[[Chapter 17]]
+|anime=[[Episode 10]]
+}}
+'''Integration'''{{Unofficial}} is an earth-type [[Spells|spell]] that puts powder back together into its source's original form.{{Ref|m|17}}
+
+==Description==
+Integration contains a central earth sigil surrounded by several inverted (backwards) Crushing signs. It can take the particles (powdered or smashed) of an object and temporarily rearrange them to mimic the shape of the object the particles originally came from, allowing for easy identification of an unknown powder.
+
+Because the crush signs are inverted, the effect is the inverse of what it [[Wall Breaker Seal|typically would be]]. The Integration spell will take any solid particles (powdered or smashed) within its range and temporarily rearrange them to mimic the shape of their original object.
+
+==Usage==
+Integration was first used by [[Tartah]] to identify powdered medical herbs when [[Coco]] was sick.{{Ref|m|17|9}} The herbs were in unlabeled vials, and as Tartah had [[Silverwash]] (a form of complete color blindness), he was unable to identify them by traditional means. He and Coco then worked together to create the spell, which allowed Tartah to correctly identify the correct herb to treat Coco's fever.{{Ref|m|17}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Earth Spells]]

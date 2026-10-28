@@ -1,0 +1,38 @@
+{{Object Infobox
+| image1 = [[File: 63 3 Slime Rendering Seal.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]], [[Forbidden Magic]]
+| users = [[Engendale]], [[Illicit Contraption Seller]]
+| creator =
+| manga = [[Chapter 63]]
+| anime =
+}}
+'''Slime Rendering Seal'''{{Unofficial}} is a [[Forbidden Magic|forbidden]] [[Spells|spell]] that transforms a target into slime.
+==Description==
+Slime Rendering Seal contains many unknown symbols apart from [[Magic#Glaives|glaives]], most of which are coming outside of the rings.{{Ref|m|63|5}}
+==Usage==
+Through the use of a [[Woodcruor]] Ring, [[Engendale]] draws this spell onto the body of his cellmate, the [[Illicit Contraption Seller]]. Engendale explains to him that it will transform him into a slime so that he may escape from their shared [[Ezrest]] prison cell. Due to the spellward of the [[Ezrest Castle]], the spell only activates after his cellmate thrusts his hand out the cell window, thus escaping the range of the spellward.{{Ref|m|63|7}}
+
+After getting bitten by a Valance Leech while the spell is taking effect, the spell begins to fuse the transforming cellmate and leech into one [[Valance Leech (Monster)|Colossal Valance Leech]], breaking apart the prison walls and wreaking havoc on Ezrest.{{Ref|m|63|8-10}}
+
+Later on, after the [[Valance Leech Counterclock|Counterclock]] spell cast on the Colossal Valance Leech wears off, the seal for this spell returns to the cellmate's body. Now separated from the original leech and contained in a magic bubble, he completes his transformation into a slime. He is found by [[Background Characters|Patchwork Brim]] (an undercover [[Brimmed Caps|Brimmed Cap]]) in this state, who determines that the original human has lost sentience after trying to communicate with him.{{Ref|m|88|15}}
+
+==Trivia==
+* Engendale learns the spell from Patchwork Brim.{{Ref|m|88|14}}
+* Engendale describes the spell as a transformation spell that eagerly fuses two lifeforms into a brand new one, likening it to the creation of the monsters of yore.{{Ref|m|68|16}}
+**It's possible that what he means by this is that once the leech came into contact with the transforming target, the spell no longer became that of turning a human to slime, but instead a spell that combines slime and leech into one.
+* The mixture of human [[Blood|blood]] and woodcruor is what leads to the spell's unpredictable result.{{Ref|m|63|13}}
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Forbidden Spells]]

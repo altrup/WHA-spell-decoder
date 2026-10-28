@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File: Snowfending Seal Redraw.png]]
+|japanese=
+|romaji=
+|type= [[Spells|Spell]]
+|users=[[Qifrey]]
+|creator=[[Qifrey]]
+|manga=[[Chapter 94]]
+}}
+The '''snowfending seal''' was a fire-type spell used by Qifrey that kept the snow off of Coco's petrified house and mother during the winter.
+
+==Description==
+Snowfending is a fire-type spell, and as such is situated around a central fire sigil. It contains float signs and three other unknown signs, one of which appears similar to the wind and aeriforms sigils sans their other details.
+
+==Usage==
+Qifrey used this spell on Coco's petrified house and mother to keep the winter snow off of it after Coco had expressed concern about her mother freezing. Qifrey, after casting the spell, thought to himself that it had no purpose due to the nature of transformative spells being similar to being put to sleep. He reconsidered this stance when Coco went and hugged him for having casted it, realizing the purpose was simply for Coco's peace of mind.{{Ref|m|94|13-15}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]

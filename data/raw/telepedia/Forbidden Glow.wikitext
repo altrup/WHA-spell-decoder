@@ -1,0 +1,16 @@
+{{Object Infobox|title=Forbidden Glow|image1=[[File:Forbidden Glow Spell.png|250px]]|type=[[Spells|Spell]]|users=[[Witches]],[[Coco]]|manga=[[Chapter 1]]}}'''Forbidden glow''' is a [[Spells|spell]] of unknown type which creates glowing sparkles of light.
+
+==Description==
+This spell is composed of a ring of column signs and a poorly drawn flickering light sigil. It's effect appears to create a colorful explosion of flickering lights (in a fashion similar to that of a small firework), but whether or not the spell is forbidden is unknown.
+
+==Usage==
+This spell was the first one [[Coco]] ever drew, copied from the [[Magic Book|picture book]] sold to her by [[Iguin]]. Other spells Coco is known to have copied include [[Forbidden Flames|forbidden flames]] and [[Petrification|petrification]].{{Ref|m|1|47}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Unknown Spells]]

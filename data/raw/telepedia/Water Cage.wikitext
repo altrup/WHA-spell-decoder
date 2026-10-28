@@ -1,0 +1,25 @@
+{{Object Infobox
+|image1=[[File:Water_Cage_Spell.jpg]]
+|japanese=
+|romaji=
+|type=[[Spells|Spell]]
+|users=[[Qifrey]]
+|creator=[[Qifrey]]
+|manga=[[Chapter 68]]
+}}
+'''Water Cage'''{{Unofficial}} is a water-type spell which creates a spherical "cage".
+
+==Description==
+This spell is composed up of two connected spells. The lesser of the two spells contains only a pull sign pointing towards the larger spell. The larger spell is comprised of region signs pointing towards crush signs, two region signs close together, and an unknown third sign. It is likely that the function of the smaller pull-spell was in order to force [[Engendale]] within the actual water cage easier.{{Ref|m|68|27}}
+
+==Usage==
+[[Qifrey]] used this spell against Engendale while protecting [[Coco]]. Because it was a water spell, all of Engendale's spells were set off at once while the ink was washed away.{{Ref|m|68|27-30}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

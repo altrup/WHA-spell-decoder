@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:Makeover Mask Spell Redraw.png|250px]]
+|caption=Spell used on [[Olruggio|Olruggio's]] [[Makeover Mask]]
+|japanese = 
+|romaji = 
+|type=[[Spells|Spell]]
+|users=[[Olruggio]]
+|creator=[[Olruggio]]
+|manga=[[Chapter 47]]
+}}
+The '''makeover mask spell''' is a spell featured on the [[Makeover Mask|makeover mask]] that makes the user's face appear clean and like their best self. Essentially, it's magic makeup.
+
+==Description==
+The seal contains a central Concealment sign, just like the [[Mirror Cloak of Borrowshade|mirror cloak]], with both spells being used to conceal the wearers original form in some way, but that is where the similarities end. The also contains two inward facing region sigils, and two unknown signs; one resembling an equals sign, and another that looks like a spiral on the bottom of the seal. It's not clear if the illusion effect will look the same for everyone, or if it'll change accordingly to the subject's own interpretation of beauty.
+
+==Usage==
+The spell is only seen used on [[Olruggio|Olruggio's]] makeover mask, which he used during the [[Silver Eve|Silver Eve Festival]].{{Ref|m|47|20}}
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Vision Spells]]

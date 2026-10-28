@@ -1,0 +1,43 @@
+{{Object Infobox
+| image1 = [[File:Anime S1E09 Twinned Bottles.png|250px]]
+| japanese = 双子瓶
+| romaji = Futago Bin
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]], [[Contraption]]
+| users = [[Iguin]]<br>[[Coco]]<br>[[Qifrey]]<br>[[Healingcraft|Witches of Healingcraft]] <small>(Formerly)</small>
+| creator = [[Healingcraft|Witches of Healingcraft]]
+| manga = [[Chapter 12]]
+| anime = [[Episode 8]]
+}}
+The '''Twinned Bottles''' is an ancient [[Spells|spell]] and [[contraption]] that evenly splits the contents of two separate vessels, regardless of distance. 
+
+==Description==
+[[File:Twinned Bottles' Seal.png|thumb|left|<small>The Casting Seal for the Twinned Bottles spell.</small>]] The Casting Seal for this contraption cannot be deciphered, as the names and functions of the [[Signs|signs]] and/or [[Sigils|sigils]] have been lost to time. It is inscribed upon two, small medallions which are then placed inside of two separate bottles. The spell allows for the contents of the two vessels to remain evenly split, no matter the distance between them. The spell activates as liquid runs along the shallow etchings of the seals.{{Ref|a|9}}{{Ref|m|15|2-3}}{{Ref|''Witch Hat Atelier'' [[Volume 12]] Extra Page: The Seals and Contraptions of Witch Hat}}
+<gallery mode=packed heights="150px" caption="The Twinned Bottles Contraption Setup">
+File:Anime S1E09 Healingcraft (2).png
+File:Anime S1E09 Healingcraft (1).png
+</gallery>
+
+==History & Usage==
+[[File:Twinned Bottles.png|thumb|right|240px]]
+The Witches of Healingcraft created this contraption as a way to share their potions amongst other healers, so that no one would be without an essential tonic at a time of need. Following the Day of the Pact, the witches that practised Healingcraft and the art of healing itself were thought lost to history, including that of the Twinned Bottles.{{Ref|a|9}}{{Ref|m|15|2}}
+
+As [[Qifrey]] later discovers, the [[Brimmed Caps]] have found a way to produce the spell once again. [[Iguin]] replicates the ancient contraption’s setup, creating a link between their bottle of [[Conjuring Ink|conjuring ink]] to an unsuspecting [[Coco]]’s.{{Ref|m|12|30}} Both Coco and Qifrey end up using this ink, unaware that mixed inside is Iguin's own [[Blood|blood]]. This leads to their spells having dangerously powerful results.{{Ref|a|7}}{{Ref|a|8}}{{Ref|m|11}}{{Ref|m|13}}
+
+Qifrey, hoping to use the small medallion to locate the Brimmed Caps, recklessly tries to extract it from Coco’s ink bottle in the cover of night. He is unsuccessful, suddenly struck by a lightning spell before he can pull it out. After incapacitating Qifrey, Iguin retrieves the contraption from right under his nose before teleporting away, lamenting that their plan didn’t work out as they had intended.{{Ref|a|9}}{{Ref|m|15}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Contraptions]]
+[[Category:Forbidden Spells]]
+[[Category:Space Spells]]

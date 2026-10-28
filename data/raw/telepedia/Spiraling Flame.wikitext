@@ -1,0 +1,38 @@
+{{Object Infobox
+|image1=[[File:Spiraling Flame Redraw.png|250px]]
+|japanese=炎のたつまき
+|romaji=Hono no Tatsumaki
+|chinese=
+|french=
+|spanish=
+|german=
+|italian=
+|type= [[Spells|Spell]]
+|users=[[Agott]], [[Witches]]
+|creator=
+|manga=[[Chapter 6]]
+|anime=[[Episode 4]]
+}}
+'''Spiraling Flame'''{{Unofficial}} is a fire-type spell that produces a single spiraling column of flame.
+
+==Description==
+The [[Casting Seal]] contains a [[Sigils#Fire|Sigil of Fire]] between two [[Signs#Columns|Signs of Columns]]. Directly above the sigil is a [[Signs#Sights Set|Sign of Sights Set]] between two [[Signs#Spiraling Winds|Signs of Spiraling Winds]].
+
+The Signs of Columns cause the fire to manifest in a beam that extends an average distance away from the seal. The Signs of Spiraling Winds manipulate the fire to move in a spiral. The Sign of Sights Set likely allows the spell's effect to be aimed in a certain direction.
+
+==Usage==
+Spiraling Flame is a spell included in Witch's Primers, meaning is it considered a basic spell and taught to apprentices early in their studies.{{Ref|a|13|6:24}}
+
+[[Agott]] uses this spell to attack the [[dragon]] pursuing her and her fellow apprentices in the [[Illusory Labyrinth]].{{Ref|a|4|16:17}}{{Ref|m|6|4}} It distracts and stalls the dragon long enough for them to escape.{{Ref|m|6|11}}
+
+When [[Euini]] is flipping through his [[Palm Quire|palm quire]], he skips past many primer spells that he'd prepared in advance, including Spiraling Flame.{{Ref|a|13|6:24}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]

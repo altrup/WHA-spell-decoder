@@ -1,0 +1,63 @@
+{{Object Infobox
+| image1 = [[File:Anime S1E09 Healingcraft.png]]
+| caption = 
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Forbidden Magic]]
+| users = Witches of Healingcraft, [[Dark Witch of Thristas]], [[Brimmed Caps]]
+| creator = Witches of Healingcraft
+| manga = [[Chapter 15]]
+| anime = [[Episode 9]]
+}}
+'''Healingcraft''' is a branch of [[Magic|magic]] that deals in healing the human body. It is considered [[Forbidden Magic]] to [[Pointed Cap Witches]] and has been lost since the [[Day of the Pact]].{{Ref|a|9}}{{Ref|m|15|2-3}}
+
+== Description ==
+Those that practiced Healingcraft are known as Witches of Healingcraft, or simply Healers. They held an understanding of medicine, apothecary and the human body, and sought to use their magic to help others by healing the sick, weak and injured. Due to Pact stipulating that magic should not be cast on the body, Healingcraft inherently violates the principles set out on the Day of the Pact.{{Ref|a|9}}{{Ref|m|15|2-3}}
+
+=== Healingcraft Magic ===
+'''Potions and Essential Tonics'''
+
+Concoctions of a medicinal and magical variety. Not much is known about them, apart from there being several different kinds, each brewed for the purpose of curing and healing others. They were also shared amongst healers through the [[Twinned Bottles]] [[contraption]].{{Ref|a|9}}{{Ref|m|15|2-3}}
+
+'''Twinned Bottles'''
+: ''See also: [[Twinned Bottles]]''
+An ancient contraption of medicine in which a small medallion etched with a [[Spells|Casting Seal]] would be placed inside two bottles. The spell allowed for the contents of the two vessels to remain evenly split, no matter the distance between them.{{Ref|a|9}}{{Ref|m|15|2-3}}
+
+'''Immortality and Necromancy'''
+
+Some witches sought to attain eternal life or raise the dead, and resorted to human experimentation in order to achieve this. Whether or not they succeeded remains unclear.{{Ref|m|30|19-20}}{{Ref|m|20|2}}
+<gallery mode=packed heights="250px" style="text-align:center">
+File:Anime S1E09 Healingcraft (2).png
+File:Anime S1E09 Healingcraft (1).png
+</gallery>
+
+== History ==
+[[File:Anime S1E09 Healingcraft Witches Resist Pact.png|240px|thumb|<small>The Righteous Witches of Healingcraft resist the Wise Ones' Pact</small>]]
+The Witches of Healingcraft were highly prevalent in the events leading up to the Day of the Pact. They were the last to resist the [[Three Wise|Wise Ones’]] edict that magic should not be cast upon the body.{{Ref|a|9}}{{Ref|m|15|2-3}} Despite their noble intentions, their goals and methodology were deemed far too dangerous to allow — especially that of those who resorted to vile experimentation on human subjects, actions that would ultimately lead to war.{{Ref|m|30|19-20}} Thus, when the memory of magic was wiped from the populace, so too were the feats of Healingcraft and the witches that practiced it lost to history.{{Ref|a|9}}{{Ref|m|15|2-3}}
+
+What remains of Healingcraft magic now primarily belongs to that of the [[Brimmed Caps]], though its influence and legacy still prevail to this day.{{Ref|a|9}}{{Ref|m|15|2-3}} The history of Healingcraft is a fundamental lesson taught to schoolchildren studying to become [[Witches|witches]]. Pointed Cap Witches are forbidden from studying medicine as a result of what happened among the witches practicing Healingcraft long ago. Additionally, those aiming to become [[Doctor|doctors]] must never learn magic, making it a profession restricted only to [[Outsiders|outsiders]].{{Ref|m|30|19-20}} This stipulation of the Pact is known to doctors as well, even if they may not know the origins behind this code.{{Ref|m|17|16-17}}{{Ref|m|59|9-11}}
+
+Witches of Healingcraft have been shown to wear a crest that bears similarity to the one doctors wear in the present. Doctors can be viewed as the successors to ancient healers, now that the domain of medicine falls to their shoulders. The King of Life, [[Deanreldy]] of [[Ezrest]] is the last direct descendant of an ancient and proud house known for its skill with Healingcraft.{{Ref|m|53|23}}
+<gallery mode="packed" heights="130px" style="text-align:center">
+File:Healingcraft Symbol.jpg|<small>Healingcraft Crest</small>
+File:Kalhn Uniform.jpg|<small>Doctor's Crest (Notably missing the ring)</small>
+</gallery>
+
+==Trivia==
+* Spells that restore the mind fall under the realm of Healingcraft.{{Ref|m|57|9}}
+* While not explicitly stated to be a witch specializing in Healingcraft, The [[Dark Witch of Thristas]] is known to have sought to have the dead walk once more. The art of necromancy belongs to Healingcraft.{{Ref|m|30|19-20}}{{Ref|m|20|2}}
+
+{{-}}
+== References ==
+{{Reflist}}
+
+== Site Navigation ==
+{{World Navibox}}
+{{Spells Navibox}}
+[[Category:Magic]]
+[[Category:Spells]]

@@ -1,0 +1,58 @@
+{{Object Infobox
+|image1=[[File:Sand Bridge Spell Anime.png|250px]]
+|japanese=砂の橋
+|romaji=Suna no hashi
+|chinese=
+|french=
+|spanish=
+|german=
+|italian=
+|type=[[Spells|Spell]]
+|users=[[Olruggio]], [[Agott]], [[Witches]]
+|creator=
+|manga=[[Chapter 12]]
+|anime=[[Episode 8]]
+}}
+'''Sand Bridge''' is a [[Spells|spell]] used to construct a bridge out of sand.
+
+==Description==
+The Casting Seal contains an additional ring, which is used to endow the primary spell with additional effects or stronger magic.{{Ref|a|8}}{{Ref|[[Writing/Translated Texts#EUINI'S_BOOK_1]]}} As with most spells, the effects are only temporary. While it is unknown exactly how long this spell lasts, it is presumably long enough to allow time for the manual construction of a new bridge in the meantime.{{Ref|m|12|26-27}} 
+
+Within the inner ring, there is a single [[Sigils#Sand|Sigil of Sand]]. At the top and bottom of the seal lies a [[Signs#Immobility|Sign of Immobility]] in the middle of two [[Signs#Solidification|Signs of Solidification]]. This grouping of signs is found between two [[Signs#Strengthening|Signs of Strengthening]] and two small [[Signs#Partition|Signs of Partition]] facing outwards. Finally, two [[Signs#Columns|Signs of Columns]], a [[Signs#Binding|Sign of Binding]] and a [[Sigils#Bridging|Sigil of Bridging]] on either side of the seal complete the arrangement of signs in the outermost ring.{{Ref|[[Archives of Witch Hat Atelier]], Page 148}}
+
+This spell manipulates abundant amounts of sand to rise and take shape as an arch bridge. It then hardens and remains in that shape until the magic wears off, now capable of supporting individuals' weights and any additional cargo they may be crossing with.
+
+In [[Episode 8]], [[Olruggio]]'s Sand Bridge appears to manifest one pillar at a time for each Casting Seal drawn. In [[Chapter 33]], [[Agott]] uses the same spell to erect an entire arch bridge in front of her, albeit on a smaller scale than Olruggio's.{{Ref|a|8}}{{Ref|m|33|8-13}}
+<gallery mode="packed" heights="200px" style="text-align:center">
+File:Anime S1E08 Sand Bridge Incomplete.png|<small>Olruggio's Sand Bridge (Incomplete)</small>
+File:Anime S1E08 Sand Bridge Complete.png|<small>Olruggio's Sand Bridge (Complete)</small>
+</gallery>
+
+== History ==
+[[File:12 26 Sand Bridge.png|thumb|<small>Coco in Awe of the Sand Bridge</small>]]
+This spell is first seen used by [[Olruggio]] after the [[Staircase River]] dries up and is reduced to nothing but sand. As the original bridge had collapsed, he creates a bridge of sand using magic as a temporary solution.{{Ref|m|12|26-27}}{{Ref|a|8}}
+
+[[Agott]], having paid close attention to Olruggio's Casting Seal,{{Ref|m|33|9}} uses this spell in the [[Argentgard]] in an attempt to surprise [[Beldaruit]] of the [[Three Wise|Wise]] and pass her retaking of the [[Pentacle of Proving|test]] for the [[Sincerity of the Shield]].{{Ref|[[Archives of Witch Hat Atelier]], Page 148}} She claims it is the most difficult spell she's learned to date. This attempt fails and Beldaruit later combines the effects of Agott and her fellow apprentices' spells to cast a spell of his own: The [[Playland of Sand]].{{Ref|m|33|8-13}}
+
+Beldaruit is not awed by the Agott's display because of the spell's practical use and necessity, thus making it a common spectacle he is already familiar with.{{Ref|m|33|10}} This suggests that this spell is well-known enough to be used often by [[witches]] helping [[outsiders]] in need.
+[[File:Sand Bridge Effect Agott.png|thumb|left|200px|<small>Agott's Sand Bridge in the Argentgard</small>]]
+[[File:Playland of Sand.png|thumb|right|200px|<small>Sand Bridge repurposed in the Playland of Sand</small>]]
+{{-}}
+==Trivia==
+[[File:12 27 Sand Bridge Glyph.png|300px|thumb|<small>Chapter 12 Casting Seal</small>]]
+* It is currently unclear why Agott's rendition of Sand Bridge manifests differently from Olruggio's.
+* [[Episode 8]] provides a clearer look at the Casting Seal that originally appears in [[Chapter 12]]. Some recognizable elements include...
+** A Sign of Columns in between two unknown signs. Based on the similarities in design and setup, this later becomes a Sign of Immoblity between two Signs of Solidification.
+** Four Signs of Partition
+** An additional ring
+* Olruggio uses a [[Searneedle Wand]] to etch the Casting Seal onto a flat stone.{{Ref|m|12|26-27}}
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Niche Spells]]
+[[Fr:Pont de sable]]

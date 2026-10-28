@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:Watershot_Seal_Redraw.png|300px]]
+|kanji=
+|romaji
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 3]]
+|anime=[[Episode 2]]
+}}
+'''Watershot seal'''{{Unofficial}} is a water-type [[Spells|spell]] that creates a stream of water.
+
+==Description==
+Watershot seal is a spell that consists of a central water sigil surrounded by column signs. Assuming all the signs are of equivalent length, it will shoot water straight up from the seal.{{Ref|m|3|16}}
+
+==Usage==
+Watershot seal was the first spell which [[Coco]] learned while at [[Qifrey's Atelier]].{{Ref|m|3|13}} When Coco completed the seal, it misfired and hit [[Agott]] in the face, soaking her and the page she was drawing on. To Coco's surprise, Agott wasn't mad, and she walked towards Coco and explained that the reason the spell shot off to the side rather than straight up was because Coco had drawn one of the column signs longer than the others, causing the spell to be unbalanced and shoot in the direction of that longer column sign.{{Ref|m|3|16}}. Coco [[Chapter 4|later used this same concept]] during the [[Consent of the Crown]] to make the [[Skysoaring Seal]], which she used to pass the test.{{Ref|m|4|21}}
+
+==References==
+{{Reflist}}
+
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

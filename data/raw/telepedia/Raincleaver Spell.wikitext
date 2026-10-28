@@ -1,0 +1,33 @@
+{{Object Infobox
+| image1 = [[File:Archives of Witch Hat Atelier Vol 01 English Sample6.jpg]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Qifrey]]
+| creator =
+| manga = [[Chapter 10]]
+| anime = [[Episode 7]]
+}}
+'''Raincleaver''' Spell is a water-type [[Spells|spell]] that allows an object to cut through and part water.
+==Description==
+The Raincleaver seal is used on the [[contraption]] of the [[Raincleaver|same name]]. The casting seal is etched onto the surface of a blade, covering the length of a sword in countless, tiny seals linked together.{{Ref|a|7}}{{Ref|m|10|16}} The Sigil of Water and Sigil of Sword are included in these seals, along with Signs of Binding, Solidification, Convergence, Empowerment, Gathering, Envelopment and a few more.{{Ref|[[Archives of Witch Hat Atelier]]: Raincleaver Sample Page}}
+
+With a seal of this complexity and a wide range of effects, it is difficult to ascertain the exact functions behind some of the signs. This spell is shown to coat the object the seal is drawn on in a thin layer of flowing water, as well as shape water into the hilt of a sword once unsheathed. The small, linked seals are numerous enough to amplify its effects to contend against that of a one, big seal and granting it the power to part through the sea itself.{{Ref|a|7}}{{Ref|m|10|16}}
+
+==Usage==
+[[Qifrey]] uses this spell and contraption to part and fight back against the flooding waters of the [[Staircase River]] while [[Olruggio]] rescues the stranded [[Outsiders|outsiders]] within.{{Ref|a|7}}{{Ref|m|10|11-14}} With the sword, Qifrey is able to strike with enough force to create a large column of water, which is then reported to the [[Knights Moralis]].{{Ref|m|10|32}}
+==Trivia==
+*Raincleaver serves as one of the inspirations behind [[Richeh]]'s [[Windowway|Linked Windowway Seals]].
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

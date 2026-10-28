@@ -1,0 +1,60 @@
+{{Object Infobox
+| image1 =
+[[File:36 32 Beldaruit Smokesculpture.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Beldaruit]], [[Qifrey]], [[Coco]]
+| creator =
+| manga = [[Chapter 30]]
+| anime =
+}}
+'''Smokesculptures''' are a type of sculpting [[Spells|spell]] that creates a sculpture made up of smoke.
+
+==Description==
+Smokesculptures can take on the appearance of an individual, a creature or an object with great accuracy or modifications if the user so chooses. They can move about and emit sound, with users being able to speak, see and cast spells through them.
+
+Smokesculptures need an appropriate amount of space to remain intact, as narrow openings or direct contact are able to break the illusion.{{Ref|m|34|23}} Wind can also break smokesculptures, albeit temporarily. Once the wind settles down, the smokesculptures will regain their original shape. It’s fairly common for this to happen with smokesculptures, with [[Beldaruit]] describing it as a rite of passage.{{Ref|m|73|7}}
+
+Some other limitations to smokesculptures is their range and implied strain on the user. Beldaruit is unable to cast spells through his smokesculpture outside of the [[Great Hall]].{{Ref|m|37|26}} [[Qifrey]] also shows worry for [[Coco]] exhausting herself through the use of a smokesculpture.{{Ref|m|69|33}}
+
+The foundational elements of magic used to create stone golems in the past can be found in smokesculpture and watersculpture magic in present day.<ref name="Shirahama's Episode 13 Live Commentary">Shirahama Kamome (June 29, 2026). [https://x.com/shirahamakamome/status/2071595570255536582?s=20 “The sigil for golems is a kind of combat magic used before the Day of the Pact. These days, its forgotten magic, but its foundational elements can be found beyond Smokesculpture and Watersculpture magic…”] (in Japanese) – via X.</ref>
+
+==Usage==
+Beldaruit often creates smokesculptures of himself to roam the Great Hall and [[Argentgard]] while his true form remains in his room.{{Ref|m|38|25}} He does this to counteract the limitations set upon him due to his health.{{Ref|m|69|25-26}} Beldaruit is seen casting spells to entertain young children and poofing into smoke at his own whim.{{Ref|m|33}}
+
+Beldaruit has an alternative smokesculpture of himself that is more obviously made up of smoke and smaller in size. He endearingly refers to it as his “Lil Beldy-Bel Form.” {{Ref|m|37|26}}{{Ref|m|69|30}} This is seen sat on [[Olruggio]]’s shoulder while Qifrey goes off to find Coco after she flees to the [[Tower of Tomes]].{{Ref|m|37}}
+
+Unbeknownst to [[Engendale]], Qifrey uses a smokesculpture of himself during their fight while his true form remains by Coco’s side. The smokesculpture is destroyed after Engendale pierces a hole through it using water.{{Ref|m|68|30}}
+
+When confined to the [[Western Medical Spire]], Coco insists on going with Qifrey to speak with [[Custas]]. After being told to stay put, Beldaruit advises her to create her own smokesculpture. [[Sprite-Winged Smokesculpture|Coco’s personal smokesculpture]] is a smaller version of herself with sparkly, sprite wings that allow her to fly.{{Ref|m|69|28}}
+
+Coco’s smokesculpture takes on her usual appearance and size once she’s able to speak with Custas. She casts a [[Grasping Wind]] spell through Qifrey’s [[Handheld Windowway]], accidentally causing her smokesculpture to dissipate temporarily in the wind and making her appear like a floating head.{{Ref|m|73|3-7}}
+
+<gallery>
+File:37 26 Beldaruit Smokesculpture.png|<small>Lil Beldy-Bel Form</small>
+File:68 30 Qifrey Smokesculpture.png|<small>Qifrey's Smokesculpture</small>
+File:Volume 13 Coco Illustration.jpg|<small>Coco's Sprite-Winged Smokesculpture</small>
+File:73 6 Coco Smokesculpture Head.png|<small>Coco's Smokesculpture dissipating due to Grasping Wind</small>
+</gallery>
+
+==Trivia==
+*Beldaruit taught both Qifrey and Coco how to create smokesculptures.
+*Smokesculptures are likely Beldaruit’s specialty.
+*It’s possible that casters need to manipulate the movements of a smokesculpture with their own body to a certain extent.
+**Coco is seen thrusting her hand into her Handheld Windowway to cast Grasping Wind. 
+*Apart from smokesculptures that take on the appearance of the caster and are explicitly stated to be smokesculptures, some others may include the [[Dragon Smokesculpture]] and [[Beldaruit's Illusion Cloak Spell|Beldaruit's Illusory Cloak]]. 
+**While the seals are not seen for more significant smokesculptures, they ''are'' seen in the aforementioned spells, with some shared aspects including 1) a Sigil of Wind with four tines on each side 2) A small symbol that looks similar to an asterisk and 3) Signs of Columns in a curved, semi-circle formation.
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]

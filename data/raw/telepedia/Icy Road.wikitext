@@ -1,0 +1,36 @@
+{{Object Infobox
+| image1 = [[File:Anime S1E13 Icy Road.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Agott]]
+| creator = [[Agott]], Possibly [[Alaira]]
+| manga = [[Chapter 22]]
+| anime = [[Episode 13]]
+}}
+'''Icy Road'''{{unofficial}} is a [[Spells|spell]] that freezes the air at long distance.
+==Description==
+The casting seal contains a [[Sigils Explained#Crystalize|Crystalize]] Sigil surrounded evenly by inverted [[Signs Explained#Columns|Columns]] Signs and an unknown sign. Crystalize is likely to be what is freezing the air while Columns is causing the spell’s effect to extend beyond the ring of the seal.
+
+There is a limit to the spell’s range, as [[Euini]] is required to use [[Frozen Path|a different spell]] to maintain the effect once they reach the end of the spell’s radius.{{Ref|m|22|17}}{{Ref|a|13|}}
+
+[[Agott]] references [[Alaira]]’s spell to freeze the air underneath her steps when casting this one. It is unclear if this is the same spell or simply inspired by Alaira's in the moment.{{Ref|m|22|15}}{{Ref|a|13}}
+==Usage==
+To escape [[Sasaran]]’s reach in the [[Serpentback Cave]] while taking on the [[Sincerity of the Shield]], Agott quickly draws this spell on the ground of the [[Serpentback Cave|Serpentback Road]]. After freezing over the road and its gaps, Richeh erects a stone ‘scale’ from the Serpentback Road and uses [[Boulder Stretch Rope]] to mold and shape stone into handles and a makeshift corral for the [[Myrphon|myrphons]]. Propelling them forward with Agott’s [[Sylph Shoes]], the three apprentices and myrphons slide down the now slippery expanse of the Serpentback Road, evading the effect of the [[Forbidden Magic]] cast upon the road.{{Ref|m|22|15-17}}{{Ref|a|13}}
+==Trivia==
+*Only part of the spell’s casting seal is shown in the manga, containing the Columns and unknown signs.{{Ref|m|22|15}}
+*The anime provides a clearer look of the seal, now revealing its sigil.{{Ref|a|13}}
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Crystal Spells]]

@@ -1,0 +1,46 @@
+{{Object Infobox
+ | image1 = [[File:24 9 Water Bolt.jpg]]
+ | japanese =
+ | romaji =
+ | chinese =
+ | french =
+ | spanish =
+ | german =
+ | italian =
+ | type = [[Spells|Spell]]
+ | users = [[Qifrey]]
+ | creator =
+ | manga = [[Chapter 24]]
+ | anime =
+}}
+'''Water Bolts''' are a collection of [[spells]] that create offensive projectiles or 'bolts' of water.
+
+==Description==
+The Casting Seal can be drawn differently depending on the circumstances it is used in. Of the three confirmed variations of the spell, they have all been shown to include a [[Sigils#Water|Sigil of Water]], [[Signs#Piercing|Signs of Piercing]] and [[Signs#Regions|Signs of Regions]]. The more Signs of Piercing are drawn, the more Water Bolts are produced.{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+===Variation 1===
+[[File:Water bolt spell redraw.png|left|thumb|130px|<small>Chapter 24, Page 9</small>]] In [[Chapter 24]], the Casting Seal contains one [[Sigils#Water|Sigil of Water]] and four [[Signs#Regions|Signs of Regions]] spread out and pointing in the same direction. Five [[Signs#Piercing|Signs of Piercing]] and lined up in a row in between the Signs of Regions. This spell creates five bolts of water that will surge forward at an upwards angle.{{Ref|m|24|9}}
+{{-}}
+===Variation 2===
+[[File:Water Bolt Seal Redraw (Ch 27).png|left|thumb|130px|<small>Chapter 83, Page 1</small>]] In [[Chapter 83]], the Casting Seal contains an additional ring. At the top of the seal, there are three [[Signs#Sights Set|Signs of Sights Set]] pointing towards a [[Sigils#Water|Sigil of Water]] and two [[Signs#Convergence|Signs of Convergence]] in between them. Two [[Signs#Strengthening|Signs of Strengthening]] are placed outside of this group of signs. Below the sigil is a singular [[Signs#Piercing|Sign of Piercing]] and two [[Signs#Regions|Signs of Regions]] on either side pointing towards the center of the seal.{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}{{Ref|m|83|1}}
+{{-}}
+===Variation 3===
+[[File:Water Bolt Seal Redraw (3).png|left|thumb|130px|<small>Archives of Witch Hat Atelier, Page 149</small>]] In [[Archives of Witch Hat Atelier]], one of the Water Bolt spells pictured is a variation of the one shown in [[Chapter 83]], the only difference being that it uses three [[Signs#Piercing|Signs of Piercing]] as opposed to just one.{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}
+{{-}}
+
+==History==
+[[Qifrey]] casts Water Bolt while fending off [[the Ancients of Romonon]] in the [[Serpentback Cave]].{{Ref|m|24|9}} He uses [[Wand of Water]] to draw the Casting Seal on the ground.{{Ref|m|24|8}} After venturing further into the cave, Qifrey catches sight of [[Sasaran]] and immediately pursues him. In the ensuing battle, he draws a different variation of Water Bolt on his [[Palm Quire|palm quire]] to attack him.{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}{{Ref|m|27|15}}
+
+==Notes==
+*The variation of Water Bolt shown in [[Chapter 83]] is also present in the [[Archives of Witch Hat Atelier]]. This is also where the spell's effect and usage is confirmed, as it is explicitly linked to the spell used by Qifrey in his fight against Sasaran back in [[Chapter 27]].{{Ref|[[Archives of Witch Hat Atelier]], Page 149}}{{Ref|m|27|15}}
+*In [[Chapter 67]], Qifrey uses [[Sourcewater Strike|a spell]] to pull water from the nearby ocean to attack his target. Based on the similarities in effect and casting seal, it is possible this is yet another variant of Water Bolt.{{Ref|m|67|20}}
+
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

@@ -1,0 +1,27 @@
+{{Object Infobox
+|image1=[[File:Aireal Lure.png|250px]]
+|japanese=空飛ぶ囮人形
+|romaji = soratobu otori ningyō
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 6]]
+|anime=[[Episode 4]]
+}}
+'''Flying puppet of diversion''' is a wind-type [[Spells|spell]] that will cause nearby objects to dart through the sky.
+
+==Description==
+Flying puppet of diversion contains a central wind sigil surrounded by the ring-like dancing puppet sign. When the seal is completed, it will cause any objects near it to dart into the sky and move around erratically, with enough strength to even carry some objects up into the sky with it.
+
+==Usage==
+Flying puppet of diversion was used by [[Tetia]] to distract the [[Dragon|dragon]] that was chasing her and the other [[Qifrey's Atelier|aprentices]] while they were inside the [[Illusory Labyrinth]].{{Ref|m|6|8}} Tetia used the spell on her cloak and hat so it would appear large enough to be noticeable to the dragon.{{Ref|m|6|9}}
+[[File:6 9 Flying Puppet of Diversion.png|thumb|Tetia using the the spell on her hat and robe.]]
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Wind Spells]]

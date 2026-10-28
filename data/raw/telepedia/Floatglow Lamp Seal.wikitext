@@ -1,0 +1,51 @@
+{{Object Infobox
+|image1=[[File:Anime_S1E02_Wall-Anchored Floatglow Lamp Seal.png|400px]]
+|japanese=ランプの浮き灯り
+|romaji=ranpu no ukiakari
+|chinese=
+|french=
+|spanish=
+|german=
+|italian=
+|type=[[Spells|Spell]]
+|users=[[Witches]]
+|creator=
+|manga=[[Chapter 28]] <small>(Floatglow Lamp)</small>
+[[Volume 12]] <small>(Wall-Anchored Floatglow Lamp)</small>
+|anime=[[Episode 1]] <small>(Wall-Anchored Floatglow Lamp)</small>
+}}
+'''Floatglow Lamp''' is a [[Spells|spell]] that produces a floating ball of light. It is used for the [[Floatglow Lamp]] [[contraption]].
+
+== Description ==
+There are currently two known seals for Floatglow Lamps. Both contain a [[Sigils#Light|Sigil of Light]].
+In [[Chapter 28]], the casting seal contains four [[Signs#Columns|Signs of Columns]] and four [[Signs#Stability and Level Planes|Signs of Level Planes]], evenly arranged to surround the sigil. This seal's effect is never shown, and it can only be attributed to the Floatglow Lamp due to its label in Chapter 28. Based on the signs, this seal would likely create a beam of light floating above the seal as opposed to a ball.{{Ref|m|28|10}}{{Ref|[[Signs Explained#Columns]]}}{{Ref|[[Signs Explained#Stability and Level Planes]]}}
+
+In [[Volume 12]] and [[Episode 2]] of the Anime, the casting seal is instead shown to replace the Signs of Columns with [[Signs#Convergence|Signs of Convergence]] and the Signs of Level Planes with [[Signs#Levitation|Signs of Levitation]]. It should be noted that this seal is specifically named after or shown used with Wall-Anchored Floatglow Lamps in particular. It creates a small, floating ball of light.{{Ref|[[Volume 12]] Extra Page: The Contraptions and Seals of Witch Hat}}{{Ref|a|2}}
+<gallery heights="200" mode=packed>
+File:Floatglow Lamp spell redraw.png|<small>Floatglow Lamp (Chapter 28)</small>
+File:Wall Anchored Floatglow Lamp Redraw.png|<small>Wall-Anchored Floatglow Lamp (Volume 12)</small>
+</gallery>
+
+== Usage ==
+:''To see how this spell is used with the contraption, See: [[Floatglow Lamp]]''
+Floatglow Lamp is a spell in the ''Basics of Spellcasting Primer'', specifically the Wall-Anchored version. It is one of the spells [[Euini]] prepares in advance prior to retaking the [[Sincerity of the Shield|second test]].{{Ref|a|12}}
+
+[[Coco]] practices this seal during her lessons with [[Qifrey]].{{Ref|a|11}}
+
+When [[Agott]], [[Tetia]], and Coco are brainstorming ways to save Euini, The Floatglow Lamp seal is proposed as a spell with the potential to help them reach their goal.{{Ref|m|28|10}}
+
+== Trivia ==
+* Given that the effect for Floatglow Lamp (Ch. 28) has never been shown and the seal for the Wall-Anchored Floatglow Lamp (Vol. 12 Extra Page) has been used for contraptions that are not exclusively anchored to the wall, it is possible that the original Floatglow Lamp (Ch. 28) has been retconned, much like the original Pyreball seal.{{Cite}}
+** Pyreball also used Signs of Level Planes before being changed to Signs of Levitation.{{Cite}}
+** Floatglow Lamps that are used like lanterns have not had their casting seals shown. It’s possible that these lantern variants are the ones using the Chapter 28 casting seal, and the Signs of Level Planes are functioning to float the lamp’s top, bottom ''and'' the ball of light.{{Cite}}
+** There are still Floatglow Lamps that are technically anchored to the wall and have a floating tray.{{Ref|m|14|25-26}}
+{{-}}
+
+== References ==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Light Spells]]

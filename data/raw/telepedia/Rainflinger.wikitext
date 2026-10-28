@@ -1,0 +1,45 @@
+{{Object Infobox
+ | image1 = [[File:Dispel_Water_Acurate_Version.png]]
+ | japanese =雨飛ばし
+ | romaji = Ametobashi
+ | chinese =
+ | french =
+ | spanish =
+ | german =
+ | italian =
+ | type = [[Spells|Spell]]
+ | users = [[Olruggio]], [[Coco]]
+ | creator =
+ | manga = [[Chapter 9]]
+ | anime = [[Episode 6]]
+}}
+'''Rainflinger''' is a mixed wind-type and fire-type [[Spells|spell]] that evaporates moisture.{{Ref|m|10|8}}
+==Description==
+Rainflinger contains a central wind sigil, with two smaller fire sigils on either side. It also includes two crosshair signs located above and below the wind sigil. The crosshair signs likely target the air with heat, resulting in the warm winds that dry objects within its radius.
+
+==Usage==
+The effect of Rainflinger has been shown to differ visually, but has consistently been described as a spell that dries and keeps things dry.{{Ref|m|23.5}}{{Ref|m|89|17}}
+
+It is first seen on [[Olruggio|Olruggio's]] [[Link Rings|Link Rings]], which he uses to dry off both [[Brushbuddy (Character)|Brushbuddy]] and [[Coco]] after getting caught in the rain.{{Ref|m|9|17-18}} The same [[Contraption|contraption]] is used by [[Qifrey|Qifrey’s]] [[Qifrey's Atelier|apprentices]] to help the victims of the [[Staircase River]] incident dry off.{{Ref|m|10|18}} Coco also uses them to dry off her [[Components|components]] in particular when they’re rendered unusable due to being soaked from the river.{{Ref|m|11|3}}{{Ref|a|6}}
+
+Coco draws this spell on a piece of paper and offers it to some [[Hallowhare|hallowhares]], instructing them to stay atop it to stay warm and dry from the rain.{{Ref|m|23.5}} Coco’s version of the spell bears visual similarities with the spell Qifrey uses to shield the girls from the rain in order to have a picnic.{{Ref|m|8|19}}{{Ref|a|6}} Both spells visually appear as a bubble devoid of water.
+
+Olruggio used this spell to save Qifrey after he nearly drowns in the ocean just outside the [[Great Hall]], leading to him coughing up the water in his lungs.{{Ref|m|89|16-17}}
+
+==Trivia==
+*The Rainflinger spell’s name and seal bear similarity to [[Waterflinger]].
+[[File:Small Rain Protection Spell.jpg|thumb|75px|Old Rainflinger]]
+*The fire sigils used in Rainflinger are modified. Instead of the typical triangle with three tines on each side, Rainflinger’s variants only have two tines, with the innermost tine being absent.
+*An older version of Rainflinger had the fire sigils inverted and the two tines connected to create a ‘V’ shape.
+*Rainflinger is shown on a piece of official merch (a coaster) with [[Brushbuddy (Character)|Brushbuddy]] lying on top of it.{{Ref|https://web.archive.org/web/20220930184445/https://store.re-shazam.com/items/29529439 |とんがり帽子のアトリエ〉ストーンコースター RE:SHAZAM (archived Sep. 30, 2022)}}
+
+==References==
+{{Reflist}}
+{{-}}
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Mixed Spells]]
+[[Category:Water Spells]]
+[[Category:Wind Spells]]

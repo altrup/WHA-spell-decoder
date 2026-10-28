@@ -1,0 +1,35 @@
+{{Object Infobox
+| image1 = [[File:Water Flower.png]]
+| japanese =
+| romaji =
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type = [[Spells|Spell]]
+| users = [[Qifrey]]
+| creator = [[Qifrey]]
+| manga = [[Chapter 3]]
+| anime =
+}}
+'''Water Rose'''{{unofficial}} is a [[Spells|spell]] that creates a flower made of water.
+==Description==
+The casting seal contains a [[Sigils Explained#Water|Water]] Sigil within a [[Sigils Explained#Flower|Flower]] Sigil. There are five unknown symbols between the extended lines of the Flower Sigil, acting as modifiers to shape the spell into a specific kind of flower. The flower created by this spell appears similar to a rose.{{Ref|https://tongari-anime.com/bd-cd/novelty/}}
+
+==Usage==
+[[Qifrey]] uses this spell to demonstrate to [[Coco]] the possibilities of [[magic]].{{Ref|m|3|14}} Coco later recalls this spell when [[Agott]] shows her a [[Flowers of Light|similar one]].{{Ref|m|58|23-24}}
+
+==Trivia==
+*This spell is likely to be a [[Watersculpture]], give its use of water and a [[Decorative Sigils|Decorative Sigil]].
+*The casting seal for this spell is not shown in the manga. It <i>is</i> shown on a piece of official merch.{{Ref|https://tongari-anime.com/bd-cd/novelty/}}
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]

@@ -1,0 +1,51 @@
+{{Object Infobox
+| image1=[[File:Anime S1E05 Coco Pyreball.png]]
+| japanese=焚火球
+| romaji=Takibidama
+| chinese =
+| french =
+| spanish =
+| german =
+| italian =
+| type=[[Spells|Spell]]
+| users= [[Qifrey]], [[Coco]], [[Nolnoa]], [[Olruggio]], [[Witches]]
+| creator = 
+| manga=[[Chapter 1]]
+| anime=[[Episode 1]]
+}}
+'''Pyreball Seal''' is a fire-type [[Spells|spell]] used to create a levitating ball of flame. It has also been referred to as a Levitation Seal.{{Ref|m|11|9}}
+==Description==
+The casting seal contains a [[Sigils Explained#Fire|Fire]] Sigil surrounded evenly by [[Signs Explained#Levitation|Levitation]] Signs, which can vary in number.{{Ref|m|8|10}} The Fire Sigil produces the flame for this spell while the Levitation Signs will float the flame and any object that isn't too heavy directly above the seal.{{Ref|m|8|10}}{{Ref|a|6}}
+
+Pyreballs are occasionally shown using Signs of [[Signs Explained#Columns|Columns]] despite this method being stated to cause the surface upon which the casting seal is drawn to be lit aflame alongside it.{{Ref|[[Writing/Translated_Texts#Primer_Book_2]]}}
+==Usage==
+The Pyreball seal is first seen used by [[Qifrey]], acting as a campfire at his rest stop for the night.{{Ref|m|1|49}}{{Ref|a|1}} This is a common use for the Pyreball spell.{{Ref|a|12}}{{Ref|m|20|4-5, 11}}{{Ref|m|46|17-18}}{{Ref|m|36|}} It is also shown being used as a burner by [[Nolnoa]] when extracting [[Woodcruor]].{{Ref|a|4}}{{Ref|m|5|16}}
+
+[[Coco]] is first introduced to the Pyreball spell to practice Levitation magic. She struggles to balance the flame and keeps setting the paper on fire.{{Ref|a|4}}{{Ref|m|5|2-3}} This appears to be a common starting point for apprentices, as it is also written in some spellcasting primers.{{Ref|[[Writing/Translated_Texts#Primer_Book_2]]}} She is able to successfully cast the spell for the first time in the [[Illusory Labyrinth]].{{Ref|m|7|14}}{{Ref|a|5}}
+
+Under the instruction of Qifrey, Coco uses [[magic]] to prepare lunch for the first time, Notably using various Pyreball seals to cook [[Carapace Yam|carapace yams]] and melt some cheese onto bread buns.{{Ref|m|8|10}}{{Ref|a|6}} The use of Pyreball spells in cooking is fairly common as well, as seen in how it is used to cook fish and toast marshmallows over a fire.{{Ref|a|12}}{{Ref|m|20|4-5, 11}}{{Ref|m|46|17-18}}
+
+When [[Agott]], [[Tetia]], and Coco are brainstorming ways to save [[Euini]], A Pyreball spell is proposed as a spell with the potential to help them reach their goal.{{Ref|m|28|10}}
+While studying as apprentices at the [[Great Hall]], [[Olruggio]] provides Qifrey with several spells he’ll need to get through the [[Zozah Peninsula|outside world]], one of them including the Pyreball.{{Ref|m|90|20}}
+
+{{Spoiler|m|92|Olruggio casts a Pyreball seal that continues to burn well into the night while he takes on the [[Tower of Tomes]]. He instructs Qifrey to keep his eyes on it at all times, encouraging him to stay conscious until Olruggio returns.{{Ref|m|92|21-23}}
+}}
+
+==Gallery==
+<gallery>
+File:Pyreball seal usage.png|<small>Coco using a Pyreball to cook a carapace yam</small>
+File:Anime S1E02 Pyreball Seal.png|<small>Pyreball Seal</small>
+File:Anime S1E12 Pyreball Cooking.png|<small>Roasting fish with a Pyreball campire</small>
+File:Volume 16 Spell Illustration.png|<small>Olruggio's Pyreball (depicted with Columns)</small>
+File:Pyreball Seal Redraw.png|<small>Pyreball Seal Redraw</small>
+</gallery>
+
+==References==
+{{Reflist}}
+{{-}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Fire Spells]]

@@ -1,0 +1,34 @@
+{{Object Infobox
+|image1=[[File:Floating_Drops_Redraw.png|250px]]
+|kanji=
+|romaji=
+|chinese =
+|french =
+|spanish =
+|german =
+|italian =
+|type=[[Spells|Spell]]
+|users=[[Qifrey]]
+|creator=
+|manga=[[Chapter 16]]
+|anime=[[Episode 10]]
+}}
+'''Floating Drops''' is a mixed water/wind-type spell that creates floating drops of water which form along the ring of the spell.
+
+==Description==
+This spell consists of a central [[Sigils#Wind|Sigil of Wind]] with two [[Sigils#Water|Sigils of Water to the side. On the outside edge of the spell are [[Signs#Regions|Signs of Regions]] situated in pairs, each pair consisting of one normal and one inverted sign, pointing towards one another. The spell creates water droplets that float in the air. Due to the counteracting pairs of directional signs, the drops are only generated along the seal's outer ring.{{Ref|m|16|5}}
+
+==History==
+[[Qifrey]] uses this spell to help ease [[Coco|Coco]]'s fever.{{Ref|m|16|5}}  
+[[File:16 5 Floating Drops.png|thumb|250px|left|Qifrey using the floating drops spell]]
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Mixed Spells]]
+[[Category:Water Spells]]
+[[Category:Wind Spells]]

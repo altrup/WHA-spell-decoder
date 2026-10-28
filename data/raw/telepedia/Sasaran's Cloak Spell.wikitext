@@ -1,0 +1,31 @@
+{{Object Infobox
+|image1=[[File:Sasaran's Cloak Spell Redraw.png|250px]]
+|kanji=
+|romaji =
+|type=[[Spells|Spell]]
+|users= [[Sasaran]], [[Witches]]
+|creator=
+|manga=[[Chapter 27]]
+}}
+'''Sasaran's Cloak Spell'''{{Unofficial}} is a mixed wind/vision/space-type spell [[Spells|spell]] that allows the user to perform magic remotely through the cloak, and control the cloak's movement from afar.
+
+==Description==
+The casting seal contains a central body and a windowway ring that loops around the spell. The spell's main body contains a central concealment sign, with 1 wind sigils on each of its 4 sides. Along the ring of the seal, 4 envelop and 4 puppet signs are placed.{{Ref|m|27|22}}
+
+This spell was used by Sasaran on his cloak, and it functioned to allow him to control the cloak remotely while performing spells through it, hiding his main body elsewhere.{{Ref|m|17|33}} The cloak spell is a fusion of the [[Gathering Shadows|Borrowshade]] spell, which drapes the object in shadow, the [[Flying Puppet of Diversion|flying puppet of diversion]] spell, which makes the object fly through the air, and the [[Windowway Spell|windowway spell]], which allows objects to pass through it from one location to another.
+
+==Usage==
+The spell is used by [[Sasaran]], who has it written on the inside of his cloak. He was seen using the cloak while in the [[Serpentback Cave]] while [[Qifrey|Qifrey's]] [[Qifrey's Atelier|students]] were taking [[The Sincerity of the Shield]] test, and was employed heavily during his fight with Qifrey.{{Ref|m|27|22}}
+
+{{-}}
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Mixed Spells]]
+[[Category:Wind Spells]]
+[[Category:Vision Spells]]
+[[Category:Space Spells]]

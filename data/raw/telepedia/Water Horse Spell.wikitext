@@ -1,0 +1,46 @@
+{{Object Infobox
+ | image1 = [[File:Water Horse Spell.JPG]]
+ | japanese =
+ | romaji =
+ | chinese =
+ | french =
+ | spanish =
+ | german =
+ | italian =
+ | type = [[Spells|Spell]]
+ | users = [[Qifrey]]
+ | creator =
+ | manga = [[Chapter 27]] <small>(Effect)</small><br>[[Chapter 46]] <small>(Casting Seal)</small>
+ | anime =
+}}
+'''Water Horse''' is a [[Spells|spell]] that creates a horse out of water. It is used in the [[contraption]] [[Water Horse Carriage]].
+
+==Description==
+: ''See [[Water Horse Carriage]] for a Description of the Contraption''
+[[File:Water Horse Spell Redraw.png|left|120px|thumb|<small>Redraw of Water Horse Casting Seal</small>]] The Casting Seal contains a [[Sigils#Water|Sigil of Water]] in its center and a [[Sigils#Horse|Decorative Sigil of the Horse]] above it. [[Signs#Mimicry|Signs of Mimicry]] sit on either side of the [[Sigils#Water|central sigil]] while two [[Signs#Columns|Signs of Columns]] pointing in opposite directions are placed on either side of the [[Sigils#Horse|decorative sigil]]. Underneath the [[Sigils#Water|Sigil of Water]] is an alternating pattern of three unknown symbols and two [[Signs#Regions|Signs of Regions]] pointing downwards.{{Ref|m|46|10}}{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+
+This spell is likely to be a sculpting spell, specifically a [[watersculpture]], given its use of a [[Decorative Sigils|decorative sigil]]. The two sigils allow for the creation of water that takes the shape of a horse while the [[Signs#Mimicry|Signs of Mimicry]] guide its movements. The Water Horse can be mounted, guided and controlled by its caster, much like a regular horse.{{Ref|[[Archives of Witch Hat Atelier]], Page 150}}
+
+==History==
+: ''See [[Water Horse Carriage]] for the History of the Contraption''
+While searching for [[Richeh]], [[Agott]] and [[Euini]] in the [[Serpentback Cave]], [[Qifrey]] catches sight of [[Sasaran]] and immediately pursues him by casting and mounting Water Horse using a [[Seal Scroll|seal scroll]].{{Ref|m|27|4-5}}
+
+The Water Horse seal can be seen on the [[Water Horse Carriage]] [[contraption]]. It is located on the breastplate of the carriage's harness and allows for the conjured Water Horse to draw the carriage forward. While travelling to [[Ezrest|Ezrest City]] with [[Qifrey's Atelier|his apprentices]] for [[Silver Eve]], Qifrey controls the Water Horse's movements using a long, wooden staff with a scroll of paper hanging off the other end. After lowering the scroll to the ground and detaching it from the staff, the spell stops taking effect.{{Ref|m|46|11-13}}
+
+<gallery mode="packed" heights="200">
+File:27 4 Water Horse.png|<small>Qifrey mounting Water Horse</small>
+File:46 8 Water Horse.png|<small>Qifrey driving Water Horse Carriage</small>
+File:Chapter 083 Cover.jpg|<small>Water Horse on Chapter 83 Cover (Middle-Left)</small>
+</gallery>
+
+==Notes==
+*The Water Horse spell is pictured in the [[Chapter 83]] Cover. The [[Signs#Regions|Signs of Regions]] are shown pointing upwards as opposed to downwards in this version.{{Ref|m|83|1}}
+
+==References==
+{{Reflist}}
+
+==Site Navigation==
+{{Spells Navibox}}
+{{World Navibox}}
+[[Category:Spells]]
+[[Category:Water Spells]]
