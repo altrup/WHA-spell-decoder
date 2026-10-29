@@ -118,44 +118,47 @@ def note(g: dict, a: dict[str, dict]) -> str:
 def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
     """Random layout. Angles are degrees clockwise from north; radii and scales are fractions of the ring radius."""
     names = {k: [n for n, v in a.items() if v["kind"] == k] for k in ("sign", "sigil", "unknown")}
-    novel = rng.random() < 0.2  # one seal in five may carry glyphs that are not in the books
 
-    def pick(known: list[str]) -> dict:
-        if novel and rng.random() < 0.5:
-            return mutant(rng.choice(known), a, rng) if not names["unknown"] or rng.random() < 0.5 else {"name": rng.choice(names["unknown"])}
-        return {"name": rng.choice(known)}
+    def novel_glyph(base: str) -> dict:
+        return mutant(base, a, rng) if not names["unknown"] or rng.random() < 0.5 else {"name": rng.choice(names["unknown"])}
 
-    centre = lambda: pick(names["sigil"]) if rng.random() < 0.7 else pick(names["sign"])
-    base = rng.choice([0.0, 0.0, 0.2, 0.5, 0.8])  # seal-wide neatness; each glyph strays from it
+    centre = lambda: {"name": rng.choice(names["sigil"] if rng.random() < 0.7 else names["sign"])}
+    base = rng.choices([0.0, 0.2, 0.5, 0.8], [55, 25, 13, 7])[0]  # seal-wide neatness; each glyph strays from it
     messy = lambda: round(min(1, max(0, base + rng.gauss(0, 0.2))), 2)
     layout = {"ring": "open" if rng.random() < 0.15 else "closed", "ring_messy": messy(), "double": depth == 0 and rng.random() < 0.2,
               "sigils": [], "signs": [], "subseals": []}
-    n_sigils = rng.choices([0, 1, 2], [5, 80, 15])[0] if depth == 0 else 1
+    n_sigils = rng.choices([0, 1, 2], [5, 85, 10])[0] if depth == 0 else 1
     top = {0: 0.55, 1: 0.55, 2: 0.32}[n_sigils] if depth == 0 else 0.6  # two centre glyphs must not overlap
     layout["sigils"] = [{**centre(), "scale": round(rng.uniform(0.2 if depth == 0 else 0.4, top), 2), "messy": messy()} for _ in range(n_sigils)]
     if depth == 0 and rng.random() < 0.2:
-        count, radius = rng.choice([1, 2, 3, 4]), rng.choice([0.6, 1.35])
+        count, radius = rng.choice([1, 2, 3]), rng.choice([0.5 if layout["double"] else 0.55, 1.45])
         start = rng.uniform(0, 360)
         if radius < 1:
             for s in layout["sigils"]:
                 s["scale"] = min(s["scale"], 0.3)
         for i in range(count):
             layout["subseals"].append({"angle": round((start + 360 * i / count) % 360, 1), "radius": radius,
-                                       "scale": 0.26 if radius < 1 else 0.36, "seal": seal(rng, a, 1)})
-    want = rng.randint(2, 8) if depth == 0 else 0  # sub-seals hold one centre glyph only
+                                       "scale": 0.22 if radius < 1 else 0.36, "seal": seal(rng, a, 1)})
+    inner = any(o["radius"] < 1 for o in layout["subseals"])
+    # most seals repeat one or two kinds of sign in symmetric groups, as in the manga; a few are anything-goes
+    n_kinds = rng.choices([1, 2, 3, 0], [30, 35, 20, 15])[0]
+    kinds = rng.sample(names["sign"], min(n_kinds, 2) if inner and n_kinds else n_kinds) if n_kinds else None
+    want = rng.randint(3, 8) if depth == 0 else 0  # sub-seals hold one centre glyph only
     for _ in range(40):  # placement attempts; a crowded ring simply ends with fewer signs
         if len(layout["signs"]) >= want:
             break
-        g = pick(names["sign"])
-        kind = a[g.get("base", g["name"])]["type"]
+        g = {"name": rng.choice(kinds or names["sign"])}
+        kind = a[g["name"]]["type"]
         facing = rng.choice(["center", "ring"]) if kind in ("Directional", "Semi") or rng.random() < 0.85 else "any"
         inverted = kind == "Semi" and rng.random() < 0.3
-        count = rng.choice([2, 3, 4, 6]) if rng.random() < 0.5 and depth == 0 else 1
+        count = rng.choices([1, 2, 3, 4, 6], [15, 20, 20, 30, 15])[0] if depth == 0 and kinds else 1
         start, scale = rng.uniform(0, 360), rng.uniform(0.15, 0.3) if depth == 0 else 0.3
-        inner = any(o["radius"] < 1 for o in layout["subseals"])
-        radius = 0.91 if layout["double"] and rng.random() < 0.5 else rng.uniform(0.85 if inner else 0.55, 0.72 if layout["double"] else 0.9) if depth == 0 else 0.72
-        if radius == 0.91:
-            scale = min(scale, 0.13)  # the band between the rings is narrow
+        band = layout["double"] and layout["ring_messy"] < 0.25 and rng.random() < 0.5  # a wobbling band would swallow its signs
+        radius = 0.89 if band else 0.9 if inner else rng.uniform(0.55, 0.68 if layout["double"] else 0.92) if depth == 0 else 0.72
+        if radius == 0.89:
+            scale = min(scale, 0.14)  # the band between the rings is narrow
+        elif inner:
+            scale = min(scale, 0.16)  # the outer band left by inner sub-seals is narrow too
         elif count >= 4:
             scale = min(scale, 0.22)
         radius = min(radius, 0.97 - scale / 2 - 0.12 * layout["ring_messy"])  # stay inside the ring, even where it wobbles inward
@@ -167,6 +170,10 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
             layout["signs"].append({**g, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
                                     "facing": facing, "inverted": inverted, "scale": round(scale, 2), "messy": messy(),
                                     "rotation": round(rng.uniform(0, 360), 1) if facing == "any" else 0})
+    if depth == 0:  # a few glyphs that are not in the books, swapped in after placement
+        slots = layout["signs"] + layout["sigils"]
+        for g in rng.sample(slots, min(rng.choices([0, 1, 2, 3], [80, 12, 6, 2])[0], len(slots))):
+            g.update(novel_glyph(g["name"]))
     return layout
 
 
@@ -196,9 +203,8 @@ def place(canvas: Image.Image, m: Image.Image, cx: float, cy: float, height: flo
     canvas.paste(0, (int(cx - m.width / 2), int(cy - m.height / 2)), m)
 
 
-def ring_points(cx: float, cy: float, r: float, messy: float, rng: random.Random, start: float = 0, sweep: float = 360) -> list[tuple[float, float]]:
-    """A circle whose radius wobbles smoothly: a few random sinusoids scaled by messiness."""
-    waves = [(rng.randint(2, 6), rng.uniform(0, 2 * math.pi), rng.uniform(0.3, 1)) for _ in range(3)]
+def ring_points(cx: float, cy: float, r: float, messy: float, waves: list[tuple[int, float, float]], start: float = 0, sweep: float = 360) -> list[tuple[float, float]]:
+    """A circle whose radius wobbles smoothly: a few sinusoids scaled by messiness."""
     pts = []
     for i in range(int(sweep) + 1):
         t = math.radians(start + i)
@@ -215,11 +221,12 @@ def draw(layout: dict, a: dict[str, dict], size: int = 512, cx: float | None = N
     cx, cy, radius = cx or size / 2, cy or size / 2, radius or size * 0.46 / reach
     d = ImageDraw.Draw(canvas)
     width = max(int(radius * 0.025), 2)
-    rings = [radius, radius * 0.82] if layout["double"] else [radius]
+    rings = [radius, radius * 0.78] if layout["double"] else [radius]
     ring_messy = layout.get("ring_messy", 0)
+    waves = [(rng.randint(2, 6), rng.uniform(0, 2 * math.pi), rng.uniform(0.3, 1)) for _ in range(3)]  # shared, so a double ring stays concentric
     for r in rings:
         gap, start = (rng.uniform(20 if r > 120 else 45, 70), rng.uniform(0, 360)) if layout["ring"] == "open" else (0, 0)
-        d.line(ring_points(cx, cy, r, ring_messy, rng, start + gap, 360 - gap), fill=0, width=width, joint="curve")
+        d.line(ring_points(cx, cy, r, ring_messy, waves, start + gap, 360 - gap), fill=0, width=width, joint="curve")
     for i, s in enumerate(layout["sigils"]):
         off = (i - (len(layout["sigils"]) - 1) / 2) * radius * 0.5
         place(canvas, glyph(s, a), cx + off, cy, s["scale"] * radius, messy=s.get("messy", 0), rng=rng)
@@ -253,7 +260,7 @@ def describe(layout: dict, a: dict[str, dict] | None = None, indent: str = "") -
     neat = lambda v: "drawn neatly" if v < 0.3 else "a little rough" if v < 0.6 else "drawn roughly"
     lines = [f"{indent}The ring {layout['ring']}, {neat(layout.get('ring_messy', 0))}" + (", with a second ring just inside it" if layout["double"] else "") + "."]
     for s in layout["sigils"]:
-        lines.append(f"{indent}Center: {label(s)}, {int(s['scale'] * 100)}% of the ring radius, {neat(s.get('messy', 0))}.")
+        lines.append(f"{indent}Center: {label(s)}, {int(s['scale'] * 100)}% of the ring radius, upright, {neat(s.get('messy', 0))}.")
     if not layout["sigils"]:
         lines.append(f"{indent}Center: empty.")
     for s in layout["signs"]:
