@@ -46,17 +46,93 @@ def compass(angle: float) -> str:
     return POINTS[round(angle / 22.5) % 16]
 
 
+OPS = ("dot", "stroke", "erase", "merge", "stretch", "mirror")
+SIDES = ("top", "bottom", "left", "right")
+
+
+def mutant(base: str, a: dict[str, dict], rng: random.Random) -> dict:
+    """A novel glyph made from a known one. The spec is enough to redraw it and to say what was changed."""
+    op = rng.choice(OPS)
+    spec = {"name": f"{base}+{op}", "base": base, "op": op, "side": rng.choice(SIDES), "pos": round(rng.uniform(0.2, 0.8), 2)}
+    if op == "merge":
+        spec["other"] = rng.choice([n for n, v in a.items() if v["kind"] != "unknown" and n != base])
+    return spec
+
+
+def glyph(g: dict, a: dict[str, dict]) -> Image.Image:
+    """The mask for a layout entry: a plain atom, or a mutant rebuilt from its spec."""
+    if "op" not in g:
+        return a[g["name"]]["mask"]
+    m = a[g["base"]]["mask"].copy()
+    w, h = m.size
+    side, pos = g["side"], g["pos"]
+    edge = {"top": (int(w * pos), 0), "bottom": (int(w * pos), h), "left": (0, int(h * pos)), "right": (w, int(h * pos))}[side]
+    pad = int(max(w, h) * 0.3)
+    out = Image.new("L", (w + 2 * pad, h + 2 * pad), 0)
+    out.paste(m, (pad, pad))
+    d = ImageDraw.Draw(out)
+    x, y = edge[0] + pad, edge[1] + pad
+    t = max(int(max(w, h) * 0.06), 2)
+    if g["op"] == "dot":
+        r = max(w, h) * 0.08
+        d.ellipse((x - r, y - r, x + r, y + r), fill=255)
+    elif g["op"] == "stroke":
+        dx, dy = {"top": (0, -1), "bottom": (0, 1), "left": (-1, 0), "right": (1, 0)}[side]
+        d.line((x, y, x + dx * pad * 0.8, y + dy * pad * 0.8), fill=255, width=t)
+    elif g["op"] == "erase":
+        f = 0.35
+        box = {"top": (0, 0, out.width, pad + h * f), "bottom": (0, pad + h * (1 - f), out.width, out.height),
+               "left": (0, 0, pad + w * f, out.height), "right": (pad + w * (1 - f), 0, out.width, out.height)}[side]
+        d.rectangle(box, fill=0)
+    elif g["op"] == "merge":
+        o = a[g["other"]]["mask"]
+        k = max(w, h) * 0.5 / max(o.size)
+        o = o.resize((max(int(o.width * k), 1), max(int(o.height * k), 1)))
+        out.paste(255, (int(x - o.width / 2), int(y - o.height / 2)), o)
+    elif g["op"] == "stretch":
+        out = out.resize((int(out.width * (1.6 if side in ("left", "right") else 1)), int(out.height * (1.6 if side in ("top", "bottom") else 1))))
+    elif g["op"] == "mirror":
+        if side in ("left", "right"):
+            half = out.crop((0, 0, out.width // 2, out.height)) if side == "left" else out.crop((out.width // 2, 0, out.width, out.height))
+            flipped = half.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+            out.paste(half if side == "left" else flipped, (0, 0))
+            out.paste(flipped if side == "left" else half, (out.width // 2, 0))
+        else:
+            half = out.crop((0, 0, out.width, out.height // 2)) if side == "top" else out.crop((0, out.height // 2, out.width, out.height))
+            flipped = half.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
+            out.paste(half if side == "top" else flipped, (0, 0))
+            out.paste(flipped if side == "top" else half, (0, out.height // 2))
+    return out.crop(out.getbbox() or (0, 0, 1, 1))
+
+
+def note(g: dict, a: dict[str, dict]) -> str:
+    if "op" not in g:
+        return a[g["name"]]["note"]
+    base, side = g["base"], g["side"]
+    return {"dot": f"{base} with an extra dot on its {side} side", "stroke": f"{base} with an extra stroke from its {side} edge",
+            "erase": f"{base} with its {side} part missing", "merge": f"{base} with a small {g.get('other')} attached at the {side}",
+            "stretch": f"{base} stretched {'wide' if side in ('left', 'right') else 'tall'}",
+            "mirror": f"{base} with its {side} half mirrored onto the other"}[g["op"]]
+
+
 def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
     """Random layout. Angles are degrees clockwise from north; radii and scales are fractions of the ring radius."""
     names = {k: [n for n, v in a.items() if v["kind"] == k] for k in ("sign", "sigil", "unknown")}
-    centre = lambda: rng.choice(names["sigil"]) if rng.random() < 0.7 else rng.choice(names["sign"] + names["unknown"])
+    novel = rng.random() < 0.2  # one seal in five may carry glyphs that are not in the books
+
+    def pick(known: list[str]) -> dict:
+        if novel and rng.random() < 0.5:
+            return mutant(rng.choice(known), a, rng) if not names["unknown"] or rng.random() < 0.5 else {"name": rng.choice(names["unknown"])}
+        return {"name": rng.choice(known)}
+
+    centre = lambda: pick(names["sigil"]) if rng.random() < 0.7 else pick(names["sign"])
     base = rng.choice([0.0, 0.0, 0.2, 0.5, 0.8])  # seal-wide neatness; each glyph strays from it
     messy = lambda: round(min(1, max(0, base + rng.gauss(0, 0.2))), 2)
     layout = {"ring": "open" if rng.random() < 0.15 else "closed", "ring_messy": messy(), "double": depth == 0 and rng.random() < 0.2,
               "sigils": [], "signs": [], "subseals": []}
     n_sigils = rng.choices([0, 1, 2], [5, 80, 15])[0] if depth == 0 else 1
     top = {0: 0.55, 1: 0.55, 2: 0.32}[n_sigils] if depth == 0 else 0.6  # two centre glyphs must not overlap
-    layout["sigils"] = [{"name": centre(), "scale": round(rng.uniform(0.2, top), 2), "messy": messy()} for _ in range(n_sigils)]
+    layout["sigils"] = [{**centre(), "scale": round(rng.uniform(0.2, top), 2), "messy": messy()} for _ in range(n_sigils)]
     if depth == 0 and rng.random() < 0.2:
         count, radius = rng.choice([1, 2, 3, 4]), rng.choice([0.6, 1.35])
         start = rng.uniform(0, 360)
@@ -66,13 +142,12 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
         for i in range(count):
             layout["subseals"].append({"angle": round((start + 360 * i / count) % 360, 1), "radius": radius,
                                        "scale": 0.26 if radius < 1 else 0.36, "seal": seal(rng, a, 1)})
-    pool = names["sign"] + names["unknown"]
     want = rng.randint(2, 8) if depth == 0 else 0  # sub-seals hold one centre glyph only
     for _ in range(40):  # placement attempts; a crowded ring simply ends with fewer signs
         if len(layout["signs"]) >= want:
             break
-        name = rng.choice(pool)
-        kind = a[name]["type"]
+        g = pick(names["sign"])
+        kind = a[g.get("base", g["name"])]["type"]
         facing = rng.choice(["center", "ring"]) if kind in ("Directional", "Semi") or rng.random() < 0.85 else "any"
         inverted = kind == "Semi" and rng.random() < 0.3
         count = rng.choice([2, 3, 4, 6]) if rng.random() < 0.5 and depth == 0 else 1
@@ -88,7 +163,7 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
             taken = layout["signs"] + [o for o in layout["subseals"] if o["radius"] < 1]
             if any(abs((angle - o["angle"] + 180) % 360 - 180) < (36 if "name" in o else 45) and abs(radius - o["radius"]) < 0.25 for o in taken):
                 continue  # too close to a sign or inner sub-seal already placed
-            layout["signs"].append({"name": name, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
+            layout["signs"].append({**g, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
                                     "facing": facing, "inverted": inverted, "scale": round(scale, 2), "messy": messy(),
                                     "rotation": round(rng.uniform(0, 360), 1) if facing == "any" else 0})
     return layout
@@ -146,12 +221,12 @@ def draw(layout: dict, a: dict[str, dict], size: int = 512, cx: float | None = N
         d.line(ring_points(cx, cy, r, ring_messy, rng, start + gap, 360 - gap), fill=0, width=width, joint="curve")
     for i, s in enumerate(layout["sigils"]):
         off = (i - (len(layout["sigils"]) - 1) / 2) * radius * 0.5
-        place(canvas, a[s["name"]]["mask"], cx + off, cy, s["scale"] * radius, messy=s.get("messy", 0), rng=rng)
+        place(canvas, glyph(s, a), cx + off, cy, s["scale"] * radius, messy=s.get("messy", 0), rng=rng)
     for s in layout["signs"]:
         t = math.radians(s["angle"])
         x, y = cx + s["radius"] * radius * math.sin(t), cy - s["radius"] * radius * math.cos(t)
         rot = {"center": 180 - s["angle"], "ring": -s["angle"], "any": s.get("rotation", 0)}[s["facing"]]
-        place(canvas, a[s["name"]]["mask"], x, y, s["scale"] * radius, rot, s["inverted"], s.get("messy", 0), rng)
+        place(canvas, glyph(s, a), x, y, s["scale"] * radius, rot, s["inverted"], s.get("messy", 0), rng)
     for sub in layout["subseals"]:
         t = math.radians(sub["angle"])
         x, y = cx + sub["radius"] * radius * math.sin(t), cy - sub["radius"] * radius * math.cos(t)
@@ -169,17 +244,21 @@ def finish(img: Image.Image, rng: random.Random) -> Image.Image:
 
 def describe(layout: dict, a: dict[str, dict] | None = None, indent: str = "") -> str:
     a = a or {}
-    label = lambda n: f'unnamed glyph "{n}"' + (f" (note: {a[n]['note']})" if a.get(n, {}).get("note") else "") if a.get(n, {}).get("kind") == "unknown" else n
+    def label(g: dict) -> str:
+        if "op" not in g and a.get(g["name"], {}).get("kind") != "unknown":
+            return g["name"]
+        n = note(g, a) if a else g["name"]
+        return "unnamed glyph" + (f" (note: {n})" if n else f' "{g["name"]}"')
     neat = lambda v: "drawn neatly" if v < 0.3 else "a little rough" if v < 0.6 else "drawn roughly"
     lines = [f"{indent}The ring {layout['ring']}, {neat(layout.get('ring_messy', 0))}" + (", with a second ring just inside it" if layout["double"] else "") + "."]
     for s in layout["sigils"]:
-        lines.append(f"{indent}Center: {label(s['name'])}, {int(s['scale'] * 100)}% of the ring radius, {neat(s.get('messy', 0))}.")
+        lines.append(f"{indent}Center: {label(s)}, {int(s['scale'] * 100)}% of the ring radius, {neat(s.get('messy', 0))}.")
     if not layout["sigils"]:
         lines.append(f"{indent}Center: empty.")
     for s in layout["signs"]:
         where = f"{compass(s['angle'])} ({s['angle']:.0f} degrees), {int(s['radius'] * 100)}% out from the center"
         face = {"center": "top of the glyph toward the center", "ring": "top of the glyph toward the ring", "any": f"rotated {s.get('rotation', 0):.0f} degrees"}[s["facing"]]
-        lines.append(f"{indent}Sign: {label(s['name'])} at {where}, {face}" + (", inverted" if s["inverted"] else "") + f", {neat(s.get('messy', 0))}.")
+        lines.append(f"{indent}Sign: {label(s)} at {where}, {face}" + (", inverted" if s["inverted"] else "") + f", {neat(s.get('messy', 0))}.")
     for sub in layout["subseals"]:
         side = "outside the ring, joined to it by a line" if sub["radius"] > 1 else "inside the ring"
         lines.append(f"{indent}Sub-seal at {compass(sub['angle'])}, {side}, {int(sub['scale'] * 100)}% of the ring radius:")

@@ -66,3 +66,23 @@ def test_mask_treats_transparent_as_background(tmp_path):
     im.save(tmp_path / "t.png")
     m = synth.mask(tmp_path / "t.png")
     assert abs(m.width / m.height - 2.5) < 0.1
+
+
+def test_mutants_are_reproducible_and_described():
+    a = synth.atoms()
+    rng = random.Random(5)
+    spec = synth.mutant("Fire", a, rng)
+    assert spec["base"] == "Fire" and spec["op"] in synth.OPS
+    m1, m2 = synth.glyph(spec, a), synth.glyph(spec, a)
+    assert m1.tobytes() == m2.tobytes() and m1.tobytes() != a["Fire"]["mask"].resize(m1.size).tobytes()
+    layout = {"ring": "closed", "ring_messy": 0, "double": False, "sigils": [{**spec, "scale": 0.4, "messy": 0}], "signs": [], "subseals": []}
+    text = synth.describe(layout, a)
+    assert "unnamed glyph" in text and "Fire" in text
+    assert synth.draw(layout, a, 128).size == (128, 128)
+
+
+def test_novel_glyphs_appear_in_a_minority_of_seals():
+    a = synth.atoms()
+    novel = sum(any("op" in g or a[g["name"]]["kind"] == "unknown" for g in l["signs"] + l["sigils"])
+                for l in (synth.seal(random.Random(i), a) for i in range(200)))
+    assert 15 <= novel <= 70
