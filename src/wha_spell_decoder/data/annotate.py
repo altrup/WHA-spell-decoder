@@ -10,12 +10,14 @@ from typing import Literal
 
 import anthropic
 from dotenv import load_dotenv
+from PIL import Image
 from pydantic import BaseModel
 
 from .fetch import RAW, inside
 
 RECORDS = RAW.parent / "processed" / "records.jsonl"
 EXAMPLES = RECORDS.with_name("examples.jsonl")
+CROPS = RECORDS.with_name("crops.json")  # seals cut out of multi-seal pages
 SIGNS_PAGE = RAW / "telepedia" / "Signs Explained.wikitext"
 SIGILS = {"Fire": "Fire_sigil.png", "Water": "Water.png", "Earth": "Earth.png", "Wind": "Wind_(redirect).png", "Light": "Light.png"}
 NOT_SPELLS = {"Spells", "Magic", "Forbidden Magic", "Signs Explained", "Sigils Explained"}
@@ -73,10 +75,33 @@ def spell_text(wikitext: str) -> str:
     return re.split(r"^==\s*(Usage|History|Gallery|Trivia|References|Site Navigation)\s*==", wikitext, flags=re.M)[0].strip()
 
 
+def crop_list() -> list[dict]:
+    return json.loads(CROPS.read_text()) if CROPS.exists() else []
+
+
+def cut(c: dict) -> None:
+    dest = inside(RAW / "telepedia" / "images", c["out"])
+    if not dest.exists():
+        Image.open(inside(RAW / "telepedia" / "images", c["src"].split("/")[-1])).crop(c["box"]).save(dest)
+
+
+def crops() -> list[dict[str, str]]:
+    """Cut each listed seal out of its page image (once) and ground it on its own spell page."""
+    index = json.loads((RAW / "telepedia" / "index.json").read_text())
+    out = []
+    for c in crop_list():
+        cut(c)
+        page = index[c["page"]]["wikitext"]
+        out.append({"id": f"telepedia/images/{c['out']}", "kind": "spell", "name": c["page"], "source": f"telepedia/{page}",
+                    "text": spell_text((RAW / "telepedia" / page).read_text())})
+    return out
+
+
 def targets() -> list[dict[str, str]]:
     out = [{"id": f"telepedia/images/{s['image']}", "kind": "sign", "name": name,
             "source": f"telepedia/Signs Explained.wikitext#{name}", "text": s["text"]}
            for name, s in sign_sections().items()]
+    cut = {c["src"] for c in crop_list()}
     for site in ("telepedia", "fandom"):
         index = json.loads((RAW / site / "index.json").read_text())
         for title, entry in index.items():
@@ -84,7 +109,8 @@ def targets() -> list[dict[str, str]]:
                 continue
             text = spell_text((RAW / site / entry["wikitext"]).read_text())
             out += [{"id": f"{site}/images/{img}", "kind": "spell", "name": title, "source": f"{site}/{entry['wikitext']}", "text": text}
-                    for img in entry["images"]]
+                    for img in entry["images"] if f"{site}/images/{img}" not in cut]
+    out += crops()
     seen: set[str] = set()  # an image shared by several pages is grounded on the first page that lists it
     return [t for t in out if not (t["id"] in seen or seen.add(t["id"]))]
 

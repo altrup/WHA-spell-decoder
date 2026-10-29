@@ -1,0 +1,105 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>WHA crop</title>
+<style>
+  body { font: 15px system-ui; margin: 0; display: grid; grid-template-columns: 2fr 1fr; height: 100vh; }
+  #left { overflow: auto; background: #222; }
+  #stage { position: relative; display: inline-block; cursor: crosshair; }
+  #stage img { display: block; }
+  .box { position: absolute; border: 2px solid #f33; background: rgba(255,50,50,.15); color: #f33; font-size: 12px; pointer-events: none; }
+  .box.sel { border-color: #3c3; background: rgba(50,255,50,.15); color: #3c3; }
+  #right { padding: 12px; overflow: auto; }
+  nav { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: 2px; }
+  td input[type=number] { width: 4.5em; }
+  td input[type=text] { width: 100%; }
+  tr.sel { background: #dfd; }
+  #preview { max-width: 100%; border: 1px solid #ccc; margin-top: 8px; }
+</style>
+
+<div id="left"><div id="stage"><img id="img"></div></div>
+<div id="right">
+  <nav>
+    <input id="src" list="images" placeholder="telepedia/images/..." style="flex: 1">
+    <datalist id="images"></datalist>
+    <button id="save">save</button><span id="status"></span>
+  </nav>
+  <p>Drag on the image to add a box. Click a row to select; edit numbers to nudge.</p>
+  <table id="rows"></table>
+  <canvas id="preview"></canvas>
+</div>
+
+<script>
+  const $ = id => document.getElementById(id);
+  let crops = [], pages = [], sel = -1, drag = null;
+  const here = () => crops.map((c, i) => [c, i]).filter(([c]) => c.src === $("src").value);
+
+  async function load() {
+    const d = await (await fetch("/crops")).json();
+    crops = d.crops; pages = d.pages;
+    $("images").replaceChildren(...d.images.map(s => Object.assign(document.createElement("option"), { value: s })));
+    $("src").value = crops[0]?.src ?? "";
+    show();
+  }
+
+  function show() {
+    $("img").src = $("src").value ? "/raw/" + $("src").value : "";
+    $("stage").querySelectorAll(".box").forEach(b => b.remove());
+    $("rows").replaceChildren();
+    for (const [c, i] of here()) {
+      const [x0, y0, x1, y1] = c.box;
+      const b = document.createElement("div");
+      b.className = "box" + (i === sel ? " sel" : "");
+      Object.assign(b.style, { left: x0 + "px", top: y0 + "px", width: x1 - x0 + "px", height: y1 - y0 + "px" });
+      b.textContent = c.page;
+      $("stage").appendChild(b);
+      const tr = document.createElement("tr");
+      tr.className = i === sel ? "sel" : "";
+      tr.onclick = e => { if (e.target.tagName !== "INPUT" && e.target.tagName !== "SELECT" && e.target.tagName !== "BUTTON") { sel = i; show(); } };
+      const page = document.createElement("select");
+      page.replaceChildren(...pages.map(p => Object.assign(document.createElement("option"), { value: p, textContent: p, selected: p === c.page })));
+      page.onchange = () => { c.page = page.value; show(); };
+      const out = Object.assign(document.createElement("input"), { type: "text", value: c.out });
+      out.onchange = () => c.out = out.value;
+      const nums = c.box.map((v, k) => {
+        const n = Object.assign(document.createElement("input"), { type: "number", value: v });
+        n.oninput = () => { c.box[k] = +n.value; sel = i; show(); };
+        return n;
+      });
+      const del = Object.assign(document.createElement("button"), { textContent: "x" });
+      del.onclick = () => { crops.splice(i, 1); sel = -1; show(); };
+      for (const el of [page, out, ...nums, del]) { const td = document.createElement("td"); td.append(el); tr.append(td); }
+      $("rows").append(tr);
+    }
+    preview();
+  }
+
+  function preview() {
+    const c = crops[sel], cv = $("preview");
+    if (!c || c.src !== $("src").value) { cv.width = cv.height = 0; return; }
+    const [x0, y0, x1, y1] = c.box;
+    cv.width = x1 - x0; cv.height = y1 - y0;
+    cv.getContext("2d").drawImage($("img"), x0, y0, cv.width, cv.height, 0, 0, cv.width, cv.height);
+  }
+
+  const pos = e => { const r = $("img").getBoundingClientRect(); return [Math.round(e.clientX - r.left), Math.round(e.clientY - r.top)]; };
+  $("stage").onmousedown = e => { drag = pos(e); e.preventDefault(); };
+  $("stage").onmouseup = e => {
+    if (!drag) return;
+    const [x, y] = pos(e), box = [Math.min(drag[0], x), Math.min(drag[1], y), Math.max(drag[0], x), Math.max(drag[1], y)];
+    drag = null;
+    if (box[2] - box[0] < 10 || box[3] - box[1] < 10) return;
+    crops.push({ src: $("src").value, box, out: "", page: pages[0] });
+    sel = crops.length - 1;
+    show();
+  };
+
+  $("save").onclick = async () => {
+    const res = await fetch("/crops", { method: "POST", body: JSON.stringify(crops) });
+    $("status").textContent = res.ok ? "saved" : "error " + res.status;
+  };
+  $("src").onchange = () => { sel = -1; show(); };
+  $("img").onload = preview;
+  load();
+</script>

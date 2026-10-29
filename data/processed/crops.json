@@ -1,0 +1,90 @@
+[
+ {
+  "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
+  "box": [
+   370,
+   451,
+   665,
+   725
+  ],
+  "out": "Volume_12_Extra_Seals_floatglow.png",
+  "page": "Floatglow Lamp Seal"
+ },
+ {
+  "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
+  "box": [
+   964,
+   453,
+   1255,
+   730
+  ],
+  "out": "Volume_12_Extra_Seals_vapor_bubble.png",
+  "page": "Vapor Bubble Spell"
+ },
+ {
+  "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
+  "box": [
+   357,
+   938,
+   656,
+   1223
+  ],
+  "out": "Volume_12_Extra_Seals_pegasus_carriage.png",
+  "page": "Pegasus Carriage Spell"
+ },
+ {
+  "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
+  "box": [
+   959,
+   972,
+   1255,
+   1258
+  ],
+  "out": "Volume_12_Extra_Seals_bubble_carriage.png",
+  "page": "Bubble Carriage Seal"
+ },
+ {
+  "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
+  "box": [
+   366,
+   1573,
+   649,
+   1851
+  ],
+  "out": "Volume_12_Extra_Seals_twinned_bottles.png",
+  "page": "Twinned Bottles"
+ },
+ {
+  "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
+  "box": [
+   971,
+   1525,
+   1255,
+   1805
+  ],
+  "out": "Volume_12_Extra_Seals_capture_pennant.png",
+  "page": "Capture Pennant Spell"
+ },
+ {
+  "src": "telepedia/images/Archives_of_Witch_Hat_Atelier_Vol_01_English_Sample6.jpg",
+  "box": [
+   105,
+   160,
+   365,
+   420
+  ],
+  "out": "Archives_Vol_01_Sample6_capture_pennant.png",
+  "page": "Capture Pennant Spell"
+ },
+ {
+  "src": "telepedia/images/Archives_of_Witch_Hat_Atelier_Vol_01_English_Sample6.jpg",
+  "box": [
+   160,
+   495,
+   320,
+   1125
+  ],
+  "out": "Archives_Vol_01_Sample6_raincleaver.png",
+  "page": "Raincleaver Spell"
+ }
+]

@@ -1,3 +1,5 @@
+from PIL import Image
+
 from wha_spell_decoder.data import annotate
 
 
@@ -31,3 +33,20 @@ def test_spell_text_keeps_lead_and_description_only():
     out = annotate.spell_text(text)
     assert "Sigil and signs." in out and "is a spell" in out
     assert "Chapter 3" not in out and "References" not in out
+
+
+def test_crops_replace_their_source_pages_in_targets():
+    targets = {t["id"]: t for t in annotate.targets()}
+    crops = {c["out"] for c in annotate.crop_list()}
+    assert crops and all(f"telepedia/images/{c}" in targets for c in crops)
+    assert not any(t["id"].endswith(c["src"].split("/")[-1]) for t in targets.values() for c in annotate.crop_list())
+    assert targets["telepedia/images/Archives_Vol_01_Sample6_raincleaver.png"]["name"] == "Raincleaver Spell"
+
+
+def test_cut_writes_box_sized_file(tmp_path, monkeypatch):
+    images = tmp_path / "telepedia" / "images"
+    images.mkdir(parents=True)
+    Image.new("RGB", (50, 40)).save(images / "page.png")
+    monkeypatch.setattr(annotate, "RAW", tmp_path)
+    annotate.cut({"src": "telepedia/images/page.png", "box": [10, 5, 30, 25], "out": "seal.png"})
+    assert Image.open(images / "seal.png").size == (20, 20)

@@ -6,7 +6,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from .annotate import EXAMPLES, RECORDS, SIGILS, load, sign_sections, targets
+from .annotate import CROPS, EXAMPLES, NOT_SPELLS, RECORDS, SIGILS, crop_list, cut, load, sign_sections, targets
 from .fetch import RAW
 
 FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS}  # todo = unannotated targets, saved into records
@@ -14,6 +14,7 @@ HOST, PORT = "127.0.0.1", 8765
 ORIGIN = f"http://{HOST}:{PORT}"
 
 PAGE = Path(__file__).with_name("review.html")
+CROP_PAGE = PAGE.with_name("crop.html")
 
 
 def file_name(query: str) -> str:
@@ -29,6 +30,21 @@ def listing(name: str) -> list[dict]:
         done = load(EXAMPLES).keys() | load(RECORDS).keys()
         return [t for t in targets() if t["id"] not in done]
     return [{**r, "text": text.get(r["id"], "")} for r in load(FILES[name]).values()]
+
+
+def crop_state() -> dict:
+    index = json.loads((RAW / "telepedia" / "index.json").read_text())
+    return {"crops": crop_list(), "pages": sorted(set(index) - NOT_SPELLS),
+            "images": sorted(f"telepedia/images/{p.name}" for p in (RAW / "telepedia" / "images").iterdir())}
+
+
+def save_crops(crops: list[dict]) -> None:
+    """Rewrite crops.json and recut every listed seal, dropping files for boxes that changed or went away."""
+    for c in crop_list():
+        (RAW / "telepedia" / "images" / c["out"]).unlink(missing_ok=True)
+    CROPS.write_text(json.dumps(crops, indent=1) + "\n")
+    for c in crops:
+        cut(c)
 
 
 def signs() -> list[dict[str, str]]:
@@ -61,6 +77,10 @@ class Handler(BaseHTTPRequestHandler):
             self.reply(json.dumps(listing(file_name(url.query))).encode())
         elif url.path == "/signs":
             self.reply(json.dumps(signs()).encode())
+        elif url.path == "/crop":
+            self.reply(CROP_PAGE.read_bytes(), "text/html")
+        elif url.path == "/crops":
+            self.reply(json.dumps(crop_state()).encode())
         elif url.path.startswith("/raw/"):
             f = (RAW / url.path[5:]).resolve()
             if RAW in f.parents and f.is_file():
@@ -74,10 +94,14 @@ class Handler(BaseHTTPRequestHandler):
         if not self.local():
             return
         url = urlparse(self.path)
+        body = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
+        if url.path == "/crops":
+            save_crops(body)
+            return self.reply(b"{}")
         if url.path != "/save":
             return self.reply(b"not found", "text/plain", 404)
         p = FILES[file_name(url.query)]
-        new = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
+        new = body
         new.pop("text", None)
         rows = list(load(p).values())
         if any(r["id"] == new["id"] for r in rows):
