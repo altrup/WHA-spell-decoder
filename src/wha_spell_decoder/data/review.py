@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from .annotate import CROPS, EXAMPLES, NOT_SPELLS, RECORDS, SIGILS, crop_list, cut, load, sign_sections, targets
-from .fetch import RAW
+from .fetch import RAW, inside
 
 FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS}  # todo = unannotated targets, saved into records
 HOST, PORT = "127.0.0.1", 8765
@@ -40,8 +40,12 @@ def crop_state() -> dict:
 
 def save_crops(crops: list[dict]) -> None:
     """Rewrite crops.json and recut every listed seal, dropping files for boxes that changed or went away."""
+    images = RAW / "telepedia" / "images"
+    for c in crops:  # reject any escaping path before touching the disk
+        inside(images, c["out"])
+        inside(images, c["src"].split("/")[-1])
     for c in crop_list():
-        (RAW / "telepedia" / "images" / c["out"]).unlink(missing_ok=True)
+        inside(images, c["out"]).unlink(missing_ok=True)
     CROPS.write_text(json.dumps(crops, indent=1) + "\n")
     for c in crops:
         cut(c)

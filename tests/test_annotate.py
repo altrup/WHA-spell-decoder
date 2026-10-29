@@ -50,3 +50,15 @@ def test_cut_writes_box_sized_file(tmp_path, monkeypatch):
     monkeypatch.setattr(annotate, "RAW", tmp_path)
     annotate.cut({"src": "telepedia/images/page.png", "box": [10, 5, 30, 25], "out": "seal.png"})
     assert Image.open(images / "seal.png").size == (20, 20)
+
+
+def test_save_crops_rejects_paths_outside_images(tmp_path, monkeypatch):
+    import pytest
+
+    from wha_spell_decoder.data import review
+
+    monkeypatch.setattr(review, "CROPS", tmp_path / "crops.json")
+    monkeypatch.setattr(review, "crop_list", lambda: [])
+    with pytest.raises(AssertionError):
+        review.save_crops([{"src": "telepedia/images/a.png", "box": [0, 0, 1, 1], "out": "../../evil.png", "page": "x"}])
+    assert not (tmp_path / "crops.json").exists()
