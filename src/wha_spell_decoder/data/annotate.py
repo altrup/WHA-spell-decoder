@@ -21,22 +21,23 @@ SIGILS = {"Fire": "Fire_sigil.png", "Water": "Water.png", "Earth": "Earth.png", 
 NOT_SPELLS = {"Spells", "Magic", "Forbidden Magic", "Signs Explained", "Sigils Explained"}
 REFERENCE_PAGES = ["telepedia/Signs Explained.wikitext", "telepedia/Sigils Explained.wikitext", "fandom/Signs Explained.wikitext"]
 
-RULES = """You annotate images from the manga Witch Hat Atelier for a wiki project.
+RULES = """You are rewording wiki articles for the manga Witch Hat Atelier, for a new article on interpreting spells.
 A seal is a ring containing one element sigil (fire, water, earth, wind, light) plus signs that modify the effect.
 A spell activates only when its ring is closed, so say "ring open" or "ring closed" for that, and "fully visible" or "partly visible" for framing. Never say "complete".
 
 For each target image you get the image and the wiki text about it. Produce:
 - usable: clean (complete, legible glyph), partial (glyph cut off or only partly visible), occluded (glyph present but obscured by art, ink, hands), no_glyph (no seal or sign visible).
 - description: ONLY what is visible in the image. Name signs using the reference names when you can match them; say where they sit (center, north, east, inverted, ...) and how many. Say what is cut off or hidden. Never describe things the wiki text mentions that you cannot see.
-- reasoning: how the visible signs and sigil combine, citing the sign rules. If nothing is legible, say there is nothing to decode.
-- effect: what the spell does, taken from the wiki text. For a lone sign, state it is a component and give its modifier effect. If the glyph is not visible or not readable, say the effect cannot be determined from the image. Never infer the effect from surrounding panel art. If the visible part suggests a symmetric seal, you may assume the hidden part mirrors it, but say that you assume it.
+- justification: how the visible signs and sigil combine, citing the sign rules. If nothing is legible, say there is nothing to decode.
+- effect: what the spell does, taken from the wiki text. For a lone sign, state it is a component and give its modifier effect. If the glyph is not visible or not readable, say the effect cannot be determined from the image. Never infer the effect from surrounding panel art. Describe what the spell does, never who used it, where, or in which chapter. If the visible part suggests a symmetric seal, you may assume the hidden part mirrors it, but say that you assume it.
+Never mention the wiki, the reference material, or any source in the output; state things as known facts.
 Write plain prose. Length matches the image: a full seal gets a few sentences per field, a lone sign or an image without a glyph gets one or two."""
 
 
 class Record(BaseModel):
     usable: Literal["clean", "partial", "occluded", "no_glyph"]
     description: str
-    reasoning: str
+    justification: str
     effect: str
 
 
@@ -67,6 +68,11 @@ def sign_sections() -> dict[str, dict[str, str]]:
     return signs
 
 
+def spell_text(wikitext: str) -> str:
+    """Lead and Description only: usage history and navigation invite story context into the effect."""
+    return re.split(r"^==\s*(Usage|History|Gallery|Trivia|References|Site Navigation)\s*==", wikitext, flags=re.M)[0].strip()
+
+
 def targets() -> list[dict[str, str]]:
     out = [{"id": f"telepedia/images/{s['image']}", "kind": "sign", "name": name,
             "source": f"telepedia/Signs Explained.wikitext#{name}", "text": s["text"]}
@@ -76,7 +82,7 @@ def targets() -> list[dict[str, str]]:
         for title, entry in index.items():
             if title in NOT_SPELLS:
                 continue
-            text = (RAW / site / entry["wikitext"]).read_text()
+            text = spell_text((RAW / site / entry["wikitext"]).read_text())
             out += [{"id": f"{site}/images/{img}", "kind": "spell", "name": title, "source": f"{site}/{entry['wikitext']}", "text": text}
                     for img in entry["images"]]
     seen: set[str] = set()  # an image shared by several pages is grounded on the first page that lists it

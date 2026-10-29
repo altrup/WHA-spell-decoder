@@ -24,3 +24,10 @@ def test_targets_cover_both_sites_and_skip_non_spell_pages():
     assert not names & annotate.NOT_SPELLS
     assert {t["id"].split("/")[0] for t in targets if t["kind"] == "spell"} == {"telepedia", "fandom"}
     assert len({t["id"] for t in targets}) == len(targets)
+
+
+def test_spell_text_keeps_lead_and_description_only():
+    text = "{{Infobox}}\nX is a spell.\n\n==Description==\nSigil and signs.\n\n==Usage==\nUsed by Coco in Chapter 3.\n\n==References==\n"
+    out = annotate.spell_text(text)
+    assert "Sigil and signs." in out and "is a spell" in out
+    assert "Chapter 3" not in out and "References" not in out
