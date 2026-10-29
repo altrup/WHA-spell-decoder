@@ -277,7 +277,7 @@ def synth_targets() -> list[dict[str, str]]:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Generate synthetic seals into data/synth/")
     ap.add_argument("count", type=int)
-    ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--size", type=int, default=512)
     args = ap.parse_args()
     a = atoms()
