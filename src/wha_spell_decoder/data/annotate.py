@@ -22,7 +22,7 @@ NOT_SPELLS = {"Spells", "Magic", "Forbidden Magic", "Signs Explained", "Sigils E
 REFERENCE_PAGES = ["telepedia/Signs Explained.wikitext", "telepedia/Sigils Explained.wikitext", "fandom/Signs Explained.wikitext"]
 
 RULES = """You are rewording wiki articles for the manga Witch Hat Atelier, for a new article on interpreting spells.
-A seal is a ring containing one element sigil (fire, water, earth, wind, light) plus signs that modify the effect.
+A seal is a ring containing a sigil plus signs. The sigil is the element glyph at the center (fire, water, earth, wind, light, or a variant) and sets what kind of magic the spell is; its size relative to the ring sets intensity. Signs are modifiers around it that set how the magic behaves. A few signs, such as Repetition and Billow, can sit in the center in place of a sigil; they are still signs. A seal may have several sigils or none.
 A spell activates only when its ring is closed, so say "ring open" or "ring closed" for that, and "fully visible" or "partly visible" for framing. Never say "complete".
 
 For each target image you get the image and the wiki text about it. Produce:
