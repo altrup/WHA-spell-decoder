@@ -2,8 +2,10 @@
 
 import argparse
 import base64
+import itertools
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor
 from typing import Literal
 
 import anthropic
@@ -19,7 +21,7 @@ SIGILS = {"Fire": "Fire_sigil.png", "Water": "Water.png", "Earth": "Earth.png", 
 NOT_SPELLS = {"Spells", "Magic", "Forbidden Magic", "Signs Explained", "Sigils Explained"}
 REFERENCE_PAGES = ["telepedia/Signs Explained.wikitext", "telepedia/Sigils Explained.wikitext", "fandom/Signs Explained.wikitext"]
 
-RULES = """You annotate images from the manga Witch Hat Atelier.
+RULES = """You annotate images from the manga Witch Hat Atelier for a wiki project.
 A seal is a ring containing one element sigil (fire, water, earth, wind, light) plus signs that modify the effect.
 A spell activates only when its ring is closed, so say "ring open" or "ring closed" for that, and "fully visible" or "partly visible" for framing. Never say "complete".
 
@@ -101,36 +103,43 @@ def reference_blocks(examples: dict[str, dict]) -> list[dict]:
     return blocks
 
 
-def annotate(client: anthropic.Anthropic, prefix: list[dict], t: dict[str, str]) -> tuple[Record, str]:
+def annotate(client: anthropic.Anthropic, prefix: list[dict], t: dict[str, str]) -> tuple[Record, str, str]:
     content = prefix + [{"type": "text", "text": f"Target ({t['kind']}: {t['name']}). Wiki text:\n{t['text']}"}, image_block(t["id"])]
     resp = client.beta.messages.parse(model="claude-opus-5-5", max_tokens=4000, system=RULES,
                                       output_config={"effort": "high"}, messages=[{"role": "user", "content": content}],
                                       output_format=Record, betas=["server-side-fallback-2026-07-01"], fallbacks="default")
     if resp.stop_reason == "refusal":
-        raise RuntimeError(f"refused: {t['id']} {resp.stop_details}")
-    return resp.parsed_output, resp.model
+        raise RuntimeError(f"refused: {resp.stop_details.category}")
+    u = resp.usage
+    usage = f"in={u.input_tokens} cache_write={u.cache_creation_input_tokens} cache_read={u.cache_read_input_tokens} out={u.output_tokens}"
+    return resp.parsed_output, resp.model, usage
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Annotate raw wiki images into data/processed/records.jsonl")
     ap.add_argument("limit", nargs="?", type=int, default=None, help="stop after this many new records")
     ap.add_argument("--only", help="annotate only targets whose id or name contains this text")
+    ap.add_argument("--workers", type=int, default=8)
     args = ap.parse_args()
-    limit = args.limit
     load_dotenv(RAW.parents[1] / ".env")
     examples = load(EXAMPLES)
     done = load(RECORDS).keys() | examples.keys()
     client = anthropic.Anthropic()
     prefix = reference_blocks(examples)
-    with RECORDS.open("a") as f:
-        for t in targets():
-            if t["id"] in done or (args.only and args.only not in t["id"] + t["name"]):
-                continue
-            rec, model = annotate(client, prefix, t)
-            row = {"id": t["id"], "kind": t["kind"], "name": t["name"], "source": t["source"], "model": model, **rec.model_dump()}
-            f.write(json.dumps(row) + "\n")
-            f.flush()
-            print(f"{t['id']}: {rec.usable} ({model})")
-            limit = None if limit is None else limit - 1
-            if limit == 0:
-                break
+    todo = [t for t in targets() if t["id"] not in done and not (args.only and args.only not in t["id"] + t["name"])]
+    todo = todo[:args.limit]
+
+    def run(t: dict[str, str]) -> tuple[dict[str, str], dict | None, str]:
+        try:
+            rec, model, usage = annotate(client, prefix, t)
+        except RuntimeError as e:  # refusal: skipped, picked up again by a later run
+            return t, None, str(e)
+        return t, {"model": model, **rec.model_dump()}, f"{rec.usable} ({model}; {usage})"
+
+    with RECORDS.open("a") as f, ThreadPoolExecutor(args.workers) as pool:
+        # first call alone so the cached prefix is written once, then the rest in parallel
+        for t, rec, note in itertools.chain([run(todo[0])], pool.map(run, todo[1:])) if todo else []:
+            print(f"{t['id']}: {note}")
+            if rec:
+                f.write(json.dumps({"id": t["id"], "kind": t["kind"], "name": t["name"], "source": t["source"], **rec}) + "\n")
+                f.flush()
