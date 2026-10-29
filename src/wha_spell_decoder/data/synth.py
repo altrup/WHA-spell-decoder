@@ -81,7 +81,10 @@ def rough(m: Image.Image, messy: float, rng: random.Random) -> Image.Image:
     """Skew the glyph's corners and vary its stroke weight in proportion to messiness."""
     if messy < 0.05:
         return m
-    w, h = m.size
+    pad = int(max(m.size) * 0.3 * messy) + 1
+    padded = Image.new("L", (m.width + 2 * pad, m.height + 2 * pad), 0)
+    padded.paste(m, (pad, pad))  # room for the skew, so strokes are not clipped
+    m, (w, h) = padded, padded.size
     j = lambda v: v + rng.uniform(-messy, messy) * 0.3 * max(w, h)
     m = m.transform((w, h), Image.Transform.QUAD, (j(0), j(0), j(0), j(h), j(w), j(h), j(w), j(0)), Image.Resampling.BILINEAR)
     if rng.random() < messy * 0.5:
