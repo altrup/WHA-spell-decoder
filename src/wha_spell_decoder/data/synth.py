@@ -132,7 +132,7 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
               "sigils": [], "signs": [], "subseals": []}
     n_sigils = rng.choices([0, 1, 2], [5, 80, 15])[0] if depth == 0 else 1
     top = {0: 0.55, 1: 0.55, 2: 0.32}[n_sigils] if depth == 0 else 0.6  # two centre glyphs must not overlap
-    layout["sigils"] = [{**centre(), "scale": round(rng.uniform(0.2, top), 2), "messy": messy()} for _ in range(n_sigils)]
+    layout["sigils"] = [{**centre(), "scale": round(rng.uniform(0.2 if depth == 0 else 0.4, top), 2), "messy": messy()} for _ in range(n_sigils)]
     if depth == 0 and rng.random() < 0.2:
         count, radius = rng.choice([1, 2, 3, 4]), rng.choice([0.6, 1.35])
         start = rng.uniform(0, 360)
@@ -152,16 +152,17 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
         inverted = kind == "Semi" and rng.random() < 0.3
         count = rng.choice([2, 3, 4, 6]) if rng.random() < 0.5 and depth == 0 else 1
         start, scale = rng.uniform(0, 360), rng.uniform(0.15, 0.3) if depth == 0 else 0.3
-        radius = 0.91 if layout["double"] and rng.random() < 0.5 else rng.uniform(0.55, 0.72 if layout["double"] else 0.85) if depth == 0 else 0.72
+        inner = any(o["radius"] < 1 for o in layout["subseals"])
+        radius = 0.91 if layout["double"] and rng.random() < 0.5 else rng.uniform(0.85 if inner else 0.55, 0.72 if layout["double"] else 0.9) if depth == 0 else 0.72
         if radius == 0.91:
             scale = min(scale, 0.13)  # the band between the rings is narrow
         elif count >= 4:
             scale = min(scale, 0.22)
-        radius = min(radius, 0.97 - scale / 2)  # stay inside the ring
+        radius = min(radius, 0.97 - scale / 2 - 0.12 * layout["ring_messy"])  # stay inside the ring, even where it wobbles inward
         for i in range(count):
             angle = (start + 360 * i / count + rng.uniform(-4, 4)) % 360
             taken = layout["signs"] + [o for o in layout["subseals"] if o["radius"] < 1]
-            if any(abs((angle - o["angle"] + 180) % 360 - 180) < (36 if "name" in o else 45) and abs(radius - o["radius"]) < 0.25 for o in taken):
+            if any(abs((angle - o["angle"] + 180) % 360 - 180) < (36 if "name" in o else 30) and abs(radius - o["radius"]) < (0.25 if "name" in o else 0.2) for o in taken):
                 continue  # too close to a sign or inner sub-seal already placed
             layout["signs"].append({**g, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
                                     "facing": facing, "inverted": inverted, "scale": round(scale, 2), "messy": messy(),
