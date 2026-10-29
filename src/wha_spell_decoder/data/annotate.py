@@ -30,7 +30,7 @@ For each target image you get the image and the wiki text about it. Produce:
 - description: ONLY what is visible in the image. Name signs using the reference names when you can match them; say where they sit (center, north, east, inverted, ...) and how many. Say what is cut off or hidden. Never describe things the wiki text mentions that you cannot see.
 - justification: how the visible signs and sigil combine, citing the sign rules. If nothing is legible, say there is nothing to decode.
 - effect: what the spell does, taken from the wiki text. For a lone sign, state it is a component and give its modifier effect. If the glyph is not visible or not readable, say the effect cannot be determined from the image. Never infer the effect from surrounding panel art. Describe what the spell does, never who used it, where, or in which chapter. If the visible part suggests a symmetric seal, you may assume the hidden part mirrors it, but say that you assume it.
-Never mention the wiki, the reference material, or any source in the output; state things as known facts.
+Never mention the wiki, the reference material, or any source in the output; state things as known facts. Never comment on the image's origin or status, such as it being a redraw, a reconstruction, a fan illustration, or a glyph never shown in the manga. Treat every image as a seal to read.
 Write plain prose. Length matches the image: a full seal gets a few sentences per field, a lone sign or an image without a glyph gets one or two."""
 
 
