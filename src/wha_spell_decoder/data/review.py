@@ -10,6 +10,8 @@ from .fetch import RAW
 
 PROCESSED = RAW.parent / "processed"
 FILES = ("examples", "records")
+HOST, PORT = "127.0.0.1", 8765
+ORIGIN = f"http://{HOST}:{PORT}"
 
 PAGE = Path(__file__).with_name("review.html")
 
@@ -28,7 +30,17 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def local(self) -> bool:
+        """Reject DNS-rebinding and cross-site requests: only the page we serve may talk to us."""
+        host_ok = self.headers.get("Host") in (f"{HOST}:{PORT}", f"localhost:{PORT}")
+        origin_ok = self.command == "GET" or self.headers.get("Origin") == ORIGIN
+        if not (host_ok and origin_ok):
+            self.reply(b"forbidden", "text/plain", 403)
+        return host_ok and origin_ok
+
     def do_GET(self) -> None:
+        if not self.local():
+            return
         url = urlparse(self.path)
         if url.path == "/":
             self.reply(PAGE.read_bytes(), "text/html")
@@ -45,6 +57,8 @@ class Handler(BaseHTTPRequestHandler):
             self.reply(b"not found", "text/plain", 404)
 
     def do_POST(self) -> None:
+        if not self.local():
+            return
         url = urlparse(self.path)
         if url.path != "/save":
             return self.reply(b"not found", "text/plain", 404)
@@ -57,7 +71,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main() -> None:
-    server = HTTPServer(("127.0.0.1", 8765), Handler)
-    print("http://127.0.0.1:8765  (Ctrl-C to stop)")
-    webbrowser.open("http://127.0.0.1:8765")
+    server = HTTPServer((HOST, PORT), Handler)
+    print(f"{ORIGIN}  (Ctrl-C to stop)")
+    webbrowser.open(ORIGIN)
     server.serve_forever()

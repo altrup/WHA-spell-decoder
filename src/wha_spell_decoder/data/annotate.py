@@ -10,7 +10,7 @@ import anthropic
 from dotenv import load_dotenv
 from pydantic import BaseModel
 
-from .fetch import RAW
+from .fetch import RAW, inside
 
 RECORDS = RAW.parent / "processed" / "records.jsonl"
 EXAMPLES = RECORDS.with_name("examples.jsonl")
@@ -49,7 +49,8 @@ def media_type(data: bytes) -> str:
 
 
 def image_block(rel: str) -> dict:
-    data = (RAW / rel).read_bytes()
+    site, _, name = rel.split("/")
+    data = inside(RAW / site / "images", name).read_bytes()
     return {"type": "image", "source": {"type": "base64", "media_type": media_type(data), "data": base64.b64encode(data).decode()}}
 
 
