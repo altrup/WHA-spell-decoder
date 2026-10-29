@@ -24,7 +24,12 @@ def mask(path: Path) -> Image.Image:
     flat = Image.new("RGBA", im.size, "white")
     flat.alpha_composite(im)  # transparent pixels are background, not strokes
     m = flat.convert("L").point(lambda v: 255 if v < 128 else 0)
-    return m.crop(m.getbbox() or (0, 0, 1, 1))
+    m = m.crop(m.getbbox() or (0, 0, 1, 1))
+    if max(m.size) < 240:  # wiki atoms are 70 px; upscale and re-threshold so large placements are not blocky
+        k = 240 / max(m.size)
+        m = m.resize((int(m.width * k) or 1, int(m.height * k) or 1), Image.Resampling.LANCZOS).filter(ImageFilter.GaussianBlur(1.5))
+        m = m.point(lambda v: 255 if v > 110 else 0)
+    return m
 
 
 def atoms() -> dict[str, dict]:
@@ -48,23 +53,10 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
     base = rng.choice([0.0, 0.0, 0.2, 0.5, 0.8])  # seal-wide neatness; each glyph strays from it
     messy = lambda: round(min(1, max(0, base + rng.gauss(0, 0.2))), 2)
     layout = {"ring": "open" if rng.random() < 0.15 else "closed", "ring_messy": messy(), "double": depth == 0 and rng.random() < 0.2,
-              "sigils": [{"name": centre(), "scale": round(rng.uniform(0.2, 0.55), 2), "messy": messy()} for _ in range(rng.choices([0, 1, 2], [5, 80, 15])[0])],
-              "signs": [], "subseals": []}
-    pool = names["sign"] + names["unknown"]
-    while len(layout["signs"]) < rng.randint(2, 8):
-        name = rng.choice(pool)
-        kind = a[name]["type"]
-        facing = rng.choice(["center", "ring"]) if kind in ("Directional", "Semi") or rng.random() < 0.85 else "any"
-        inverted = kind == "Semi" and rng.random() < 0.3
-        count = rng.choice([2, 3, 4, 6]) if rng.random() < 0.5 else 1
-        start, radius, scale = rng.uniform(0, 360), rng.uniform(0.55, 0.85 if not layout["double"] else 1.05), rng.uniform(0.15, 0.3)
-        for i in range(count):
-            angle = (start + 360 * i / count + rng.uniform(-4, 4)) % 360
-            if any(abs((angle - o["angle"] + 180) % 360 - 180) < 28 and abs(radius - o["radius"]) < 0.2 for o in layout["signs"]):
-                continue  # too close to a sign already placed
-            layout["signs"].append({"name": name, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
-                                    "facing": facing, "inverted": inverted, "scale": round(scale, 2), "messy": messy(),
-                                    "rotation": round(rng.uniform(0, 360), 1) if facing == "any" else 0})
+              "sigils": [], "signs": [], "subseals": []}
+    n_sigils = rng.choices([0, 1, 2], [5, 80, 15])[0] if depth == 0 else 1
+    top = {0: 0.55, 1: 0.55, 2: 0.32}[n_sigils] if depth == 0 else 0.6  # two centre glyphs must not overlap
+    layout["sigils"] = [{"name": centre(), "scale": round(rng.uniform(0.2, top), 2), "messy": messy()} for _ in range(n_sigils)]
     if depth == 0 and rng.random() < 0.2:
         count, radius = rng.choice([1, 2, 3, 4]), rng.choice([0.6, 1.35])
         start = rng.uniform(0, 360)
@@ -73,7 +65,32 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
                 s["scale"] = min(s["scale"], 0.3)
         for i in range(count):
             layout["subseals"].append({"angle": round((start + 360 * i / count) % 360, 1), "radius": radius,
-                                       "scale": 0.22 if radius < 1 else 0.3, "seal": seal(rng, a, 1)})
+                                       "scale": 0.26 if radius < 1 else 0.36, "seal": seal(rng, a, 1)})
+    pool = names["sign"] + names["unknown"]
+    want = rng.randint(2, 8) if depth == 0 else 0  # sub-seals hold one centre glyph only
+    for _ in range(40):  # placement attempts; a crowded ring simply ends with fewer signs
+        if len(layout["signs"]) >= want:
+            break
+        name = rng.choice(pool)
+        kind = a[name]["type"]
+        facing = rng.choice(["center", "ring"]) if kind in ("Directional", "Semi") or rng.random() < 0.85 else "any"
+        inverted = kind == "Semi" and rng.random() < 0.3
+        count = rng.choice([2, 3, 4, 6]) if rng.random() < 0.5 and depth == 0 else 1
+        start, scale = rng.uniform(0, 360), rng.uniform(0.15, 0.3) if depth == 0 else 0.3
+        radius = 0.91 if layout["double"] and rng.random() < 0.5 else rng.uniform(0.55, 0.72 if layout["double"] else 0.85) if depth == 0 else 0.72
+        if radius == 0.91:
+            scale = min(scale, 0.13)  # the band between the rings is narrow
+        elif count >= 4:
+            scale = min(scale, 0.22)
+        radius = min(radius, 0.97 - scale / 2)  # stay inside the ring
+        for i in range(count):
+            angle = (start + 360 * i / count + rng.uniform(-4, 4)) % 360
+            taken = layout["signs"] + [o for o in layout["subseals"] if o["radius"] < 1]
+            if any(abs((angle - o["angle"] + 180) % 360 - 180) < (36 if "name" in o else 45) and abs(radius - o["radius"]) < 0.25 for o in taken):
+                continue  # too close to a sign or inner sub-seal already placed
+            layout["signs"].append({"name": name, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
+                                    "facing": facing, "inverted": inverted, "scale": round(scale, 2), "messy": messy(),
+                                    "rotation": round(rng.uniform(0, 360), 1) if facing == "any" else 0})
     return layout
 
 
@@ -81,25 +98,25 @@ def rough(m: Image.Image, messy: float, rng: random.Random) -> Image.Image:
     """Skew the glyph's corners and vary its stroke weight in proportion to messiness."""
     if messy < 0.05:
         return m
-    pad = int(max(m.size) * 0.3 * messy) + 1
+    pad = int(max(m.size) * 0.12 * messy) + 1
     padded = Image.new("L", (m.width + 2 * pad, m.height + 2 * pad), 0)
     padded.paste(m, (pad, pad))  # room for the skew, so strokes are not clipped
     m, (w, h) = padded, padded.size
-    j = lambda v: v + rng.uniform(-messy, messy) * 0.3 * max(w, h)
-    m = m.transform((w, h), Image.Transform.QUAD, (j(0), j(0), j(0), j(h), j(w), j(h), j(w), j(0)), Image.Resampling.BILINEAR)
-    if rng.random() < messy * 0.5:
-        m = m.filter(ImageFilter.MaxFilter(3))
-    return m
+    j = lambda v: v + rng.uniform(-messy, messy) * 0.12 * max(w, h)
+    return m.transform((w, h), Image.Transform.QUAD, (j(0), j(0), j(0), j(h), j(w), j(h), j(w), j(0)), Image.Resampling.BILINEAR)
 
 
 def place(canvas: Image.Image, m: Image.Image, cx: float, cy: float, height: float, rotation: float = 0, flip: bool = False,
           messy: float = 0, rng: random.Random | None = None) -> None:
-    h = max(int(height), 2)
+    h = max(int(height * min(1, 1.4 * m.height / m.width)), 2)  # wide glyphs are sized by width, not height
     m = m.resize((max(int(m.width * h / m.height), 1), h))
     if flip:
         m = m.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
-    m = rough(m, messy, rng or random.Random(0))
-    m = m.rotate(rotation, expand=True, resample=Image.Resampling.BILINEAR)
+    rng = rng or random.Random(0)
+    m = rough(m, messy, rng)
+    m = m.rotate(rotation, expand=True, resample=Image.Resampling.BICUBIC)
+    if rng.random() < messy * 0.5:
+        m = m.filter(ImageFilter.MaxFilter(3))
     canvas.paste(0, (int(cx - m.width / 2), int(cy - m.height / 2)), m)
 
 

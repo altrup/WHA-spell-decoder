@@ -25,7 +25,7 @@ def test_seal_layout_and_drawing_agree():
     for _ in range(20):
         layout = synth.seal(rng, a)
         assert layout["ring"] in ("closed", "open")
-        assert 2 <= len(layout["signs"]) <= 12
+        assert 1 <= len(layout["signs"]) <= 12
         img = synth.draw(layout, a, 256)
         assert img.size == (256, 256) and img.mode == "L"
 
@@ -62,6 +62,7 @@ def test_messiness_is_per_element_and_described():
 
 def test_mask_treats_transparent_as_background(tmp_path):
     im = Image.new("RGBA", (20, 20), (0, 0, 0, 0))
-    im.putpixel((10, 10), (0, 0, 0, 255))
+    im.paste((0, 0, 0, 255), (5, 8, 15, 12))  # a 10x4 stroke; transparent pixels must not count as ink
     im.save(tmp_path / "t.png")
-    assert synth.mask(tmp_path / "t.png").size == (1, 1)
+    m = synth.mask(tmp_path / "t.png")
+    assert abs(m.width / m.height - 2.5) < 0.1
