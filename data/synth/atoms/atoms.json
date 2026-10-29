@@ -1,9 +1,9 @@
 {
- "columns_circle_base.png": {"kind": "unknown", "type": "Directional", "note": "Columns sign with a small circle at the base of the stem"},
+ "columns_circle_base.png": {"kind": "unknown", "type": "Directional", "note": "Columns with a circle at the foot of the stem, between Columns and Solidification"},
  "gathering_circle_stem.png": {"kind": "unknown", "type": "Directional", "note": "Gathering sign with a small circle on the stem"},
- "fire_circle_corner.png": {"kind": "unknown", "note": "fire sigil shape with a circle in its lower-left corner"},
- "asterisk_six.png": {"kind": "unknown", "note": "six-spoke asterisk, matches no known sign"},
- "aeriforms_dots.png": {"kind": "unknown", "note": "Aeriforms sigil with dots around it instead of fans of lines"},
- "octagon_cross.png": {"kind": "unknown", "note": "octagon with an X inside, Diamond-like but eight-sided"},
- "lone_arc.png": {"kind": "unknown", "type": "Semi", "note": "a single wide arc, like Binding with one line"}
+ "fire_circle_corner.png": {"kind": "unknown", "note": "right-angled triangle with a circle at its lower-left corner, loosely fire-like"},
+ "asterisk_six.png": {"kind": "unknown", "note": "six crossing spokes, closest to Concealment without its eye marks"},
+ "aeriforms_dots.png": {"kind": "unknown", "note": "an S inside a circle, ringed by dots, a Wind-family sigil variant"},
+ "octagon_cross.png": {"kind": "unknown", "note": "octagon with an X inside, closest to Selection"},
+ "lone_arc.png": {"kind": "unknown", "note": "a single wide arc, like Binding with one line"}
 }
