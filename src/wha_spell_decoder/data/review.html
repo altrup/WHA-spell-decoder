@@ -31,13 +31,13 @@
     <select id="usable"><option>clean</option><option>partial</option><option>occluded</option><option>no_glyph</option></select>
   </label>
   <label>description</label><textarea id="description"></textarea>
-  <label>reasoning</label><textarea id="reasoning"></textarea>
+  <label>justification</label><textarea id="justification"></textarea>
   <label>effect</label><textarea id="effect"></textarea>
 </div>
 
 <script>
   const $ = id => document.getElementById(id);
-  const FIELDS = ["usable", "description", "reasoning", "effect"];
+  const FIELDS = ["usable", "description", "justification", "effect"];
   let recs = [], i = 0;
 
   async function load() {
