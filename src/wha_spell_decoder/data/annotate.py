@@ -32,8 +32,8 @@ A spell activates only when its ring is closed, so say "ring open" or "ring clos
 For each target image you get the image and the wiki text about it. Produce:
 - usable: clean (complete, legible glyph), partial (glyph cut off or only partly visible), occluded (glyph present but obscured by art, ink, hands), no_glyph (no seal or sign visible).
 - description: ONLY what is visible in the image. Name signs using the reference names when you can match them; say where they sit (center, north, east, inverted, ...) and how many. Say what is cut off or hidden. Never describe things the wiki text mentions that you cannot see.
-- justification: how the visible signs and sigil combine, citing the sign rules. If a glyph matches no known sign, name the closest sign, say it is a guess, and still derive an effect from that reading. Say nothing can be decoded only when the glyph is hidden or cut off.
-- effect: what the spell does, taken from the wiki text. If the ring is open, say the spell does not activate, then what it would do if the ring were closed. For a lone sign, state it is a component and give its modifier effect. If the glyph is not visible or not readable, say the effect cannot be determined from the image. Never infer the effect from surrounding panel art. Describe what the spell does, never who used it, where, or in which chapter. If the visible part suggests a symmetric seal, you may assume the hidden part mirrors it, but say that you assume it.
+- justification: how the visible signs and sigil combine, citing the sign rules. If a glyph matches no known sign, name the closest sign, say it is a guess, and still derive an effect from that reading. Say nothing can be decoded only when the glyph is hidden or cut off. If signs directly contradict each other, or a seal stacks more than three unrelated kinds of modifier, say which parts dominate and that the result is likely unstable; otherwise do not call a seal unstable.
+- effect: what the spell does, as a wiki would state it, in one to three sentences. Outcome only: never name signs, the ring, or reasons, those belong in justification. For a lone sign, state it is a component and give its modifier effect. If the glyph is not visible or not readable, say the effect cannot be determined from the image. Never infer the effect from surrounding panel art. Describe what the spell does, never who used it, where, or in which chapter. If the visible part suggests a symmetric seal, you may assume the hidden part mirrors it, but say that you assume it. If the ring is open, say it does not activate and then what it would do if closed. If the seal is weak, unstable, or unpredictable, show it in the behavior: say what wavers, misfires, collapses early, or happens unevenly, as part of describing the effect. Never append it as a bare label.
 Never mention the wiki, the reference material, or any source in the output; state things as known facts. Never comment on the image's origin or status, such as it being a redraw, a reconstruction, a fan illustration, or a glyph never shown in the manga. Treat every image as a seal to read.
 Write plain prose. Length matches the image: a full seal gets a few sentences per field, a lone sign or an image without a glyph gets one or two."""
 
@@ -171,7 +171,8 @@ def main() -> None:
     examples = load(EXAMPLES)
     if args.synth:
         from .synth import SYNTH, synth_targets
-        records, pool, examples = SYNTH / "records.jsonl", synth_targets(), {**examples, **exemplars()}
+        # synthetic examples go last, nearest the target, after real exemplars set the register
+        records, pool, examples = SYNTH / "records.jsonl", synth_targets(), {**examples, **exemplars(), **load(SYNTH / "examples.jsonl")}
     else:
         records, pool = RECORDS, targets()
     done = load(records).keys() | examples.keys()

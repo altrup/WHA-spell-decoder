@@ -10,7 +10,7 @@ from .annotate import CROPS, EXAMPLES, NOT_SPELLS, RECORDS, SIGILS, crop_list, c
 from .synth import SYNTH, synth_targets
 from .fetch import RAW, inside
 
-FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS, "synth": SYNTH / "records.jsonl"}  # todo = unannotated targets, saved into records
+FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS, "synth": SYNTH / "records.jsonl", "synth examples": SYNTH / "examples.jsonl"}  # todo = unannotated targets, saved into records
 HOST, PORT = "127.0.0.1", 8765
 ORIGIN = f"http://{HOST}:{PORT}"
 
@@ -26,7 +26,7 @@ def file_name(query: str) -> str:
 
 
 def listing(name: str) -> list[dict]:
-    text = {t["id"]: t["text"] for t in (synth_targets() if name == "synth" else targets())}
+    text = {t["id"]: t["text"] for t in (synth_targets() if name.startswith("synth") else targets())}
     if name == "todo":
         done = load(EXAMPLES).keys() | load(RECORDS).keys()
         return [t for t in targets() if t["id"] not in done]
