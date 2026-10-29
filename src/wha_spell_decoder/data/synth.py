@@ -41,9 +41,9 @@ def compass(angle: float) -> str:
 def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
     """Random layout. Angles are degrees clockwise from north; radii and scales are fractions of the ring radius."""
     names = {k: [n for n, v in a.items() if v["kind"] == k] for k in ("sign", "sigil", "unknown")}
-    centre = names["sigil"] + names["unknown"] + ["Repetition", "Billow"]
+    centre = lambda: rng.choice(names["sigil"]) if rng.random() < 0.7 else rng.choice(names["sign"] + names["unknown"])
     layout = {"ring": "open" if rng.random() < 0.15 else "closed", "double": depth == 0 and rng.random() < 0.2,
-              "sigils": [{"name": rng.choice(centre), "scale": round(rng.uniform(0.2, 0.55), 2)} for _ in range(rng.choice([0, 1, 1, 1, 2]))],
+              "sigils": [{"name": centre(), "scale": round(rng.uniform(0.2, 0.55), 2)} for _ in range(rng.choices([0, 1, 2], [5, 80, 15])[0])],
               "signs": [], "subseals": []}
     pool = names["sign"] + names["unknown"]
     while len(layout["signs"]) < rng.randint(2, 8):
