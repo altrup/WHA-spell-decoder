@@ -1,0 +1,70 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>WHA review</title>
+<style>
+  body { font: 15px system-ui; margin: 0; display: grid; grid-template-columns: 1fr 1fr; height: 100vh; }
+  #left { display: flex; flex-direction: column; align-items: center; justify-content: center; background: #222; }
+  img { max-width: 95%; max-height: 85vh; background: #fff; }
+  #meta { color: #ccc; margin-top: 8px; }
+  #right { padding: 16px; overflow: auto; }
+  textarea { width: 100%; height: 7em; font: inherit; }
+  label { display: block; margin-top: 10px; font-weight: 600; }
+  nav { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+</style>
+
+<div id="left"><img id="img"><div id="meta"></div></div>
+<div id="right">
+  <nav>
+    <select id="file"><option>examples</option><option>records</option></select>
+    <button id="prev">&larr;</button><span id="pos"></span><button id="next">&rarr;</button>
+    <button id="save">save</button><span id="status"></span>
+  </nav>
+  <label>usable
+    <select id="usable"><option>clean</option><option>partial</option><option>occluded</option><option>no_glyph</option></select>
+  </label>
+  <label>description</label><textarea id="description"></textarea>
+  <label>reasoning</label><textarea id="reasoning"></textarea>
+  <label>effect</label><textarea id="effect"></textarea>
+</div>
+
+<script>
+  const $ = id => document.getElementById(id);
+  const FIELDS = ["usable", "description", "reasoning", "effect"];
+  let recs = [], i = 0;
+
+  async function load() {
+    recs = await (await fetch("/records?file=" + $("file").value)).json();
+    i = 0;
+    show();
+  }
+
+  function show() {
+    const r = recs[i] || {};
+    $("img").src = r.id ? "/raw/" + r.id : "";
+    $("meta").textContent = r.id ? `${r.kind}: ${r.name}  (${r.id})` : "";
+    $("pos").textContent = r.id ? `${i + 1}/${recs.length}` : "empty";
+    FIELDS.forEach(f => $(f).value = r[f] ?? "");
+    $("status").textContent = "";
+  }
+
+  async function save() {
+    const r = recs[i];
+    if (!r) return;
+    FIELDS.forEach(f => r[f] = $(f).value);
+    const res = await fetch("/save?file=" + $("file").value, { method: "POST", body: JSON.stringify(r) });
+    $("status").textContent = res.ok ? "saved" : "error " + res.status;
+  }
+
+  $("file").onchange = load;
+  $("prev").onclick = () => { i = Math.max(0, i - 1); show(); };
+  $("next").onclick = () => { i = Math.min(recs.length - 1, i + 1); show(); };
+  $("save").onclick = save;
+  document.onkeydown = e => {
+    if (e.target.tagName !== "TEXTAREA") {
+      if (e.key === "ArrowLeft") $("prev").click();
+      if (e.key === "ArrowRight") $("next").click();
+    }
+    if (e.key === "s" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); save(); }
+  };
+  load();
+</script>
