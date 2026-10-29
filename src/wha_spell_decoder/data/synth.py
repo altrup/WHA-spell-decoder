@@ -20,7 +20,10 @@ POINTS = ["north", "north-northeast", "northeast", "east-northeast", "east", "ea
 
 def mask(path: Path) -> Image.Image:
     """Black strokes become opaque on an L mask, trimmed to the glyph."""
-    m = Image.open(path).convert("L").point(lambda v: 255 if v < 128 else 0)
+    im = Image.open(path).convert("RGBA")
+    flat = Image.new("RGBA", im.size, "white")
+    flat.alpha_composite(im)  # transparent pixels are background, not strokes
+    m = flat.convert("L").point(lambda v: 255 if v < 128 else 0)
     return m.crop(m.getbbox() or (0, 0, 1, 1))
 
 
@@ -42,8 +45,10 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
     """Random layout. Angles are degrees clockwise from north; radii and scales are fractions of the ring radius."""
     names = {k: [n for n, v in a.items() if v["kind"] == k] for k in ("sign", "sigil", "unknown")}
     centre = lambda: rng.choice(names["sigil"]) if rng.random() < 0.7 else rng.choice(names["sign"] + names["unknown"])
-    layout = {"ring": "open" if rng.random() < 0.15 else "closed", "double": depth == 0 and rng.random() < 0.2,
-              "sigils": [{"name": centre(), "scale": round(rng.uniform(0.2, 0.55), 2)} for _ in range(rng.choices([0, 1, 2], [5, 80, 15])[0])],
+    base = rng.choice([0.0, 0.0, 0.2, 0.5, 0.8])  # seal-wide neatness; each glyph strays from it
+    messy = lambda: round(min(1, max(0, base + rng.gauss(0, 0.2))), 2)
+    layout = {"ring": "open" if rng.random() < 0.15 else "closed", "ring_messy": messy(), "double": depth == 0 and rng.random() < 0.2,
+              "sigils": [{"name": centre(), "scale": round(rng.uniform(0.2, 0.55), 2), "messy": messy()} for _ in range(rng.choices([0, 1, 2], [5, 80, 15])[0])],
               "signs": [], "subseals": []}
     pool = names["sign"] + names["unknown"]
     while len(layout["signs"]) < rng.randint(2, 8):
@@ -58,7 +63,7 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
             if any(abs((angle - o["angle"] + 180) % 360 - 180) < 28 and abs(radius - o["radius"]) < 0.2 for o in layout["signs"]):
                 continue  # too close to a sign already placed
             layout["signs"].append({"name": name, "angle": round(angle, 1), "radius": round(radius + rng.uniform(-0.03, 0.03), 2),
-                                    "facing": facing, "inverted": inverted, "scale": round(scale, 2),
+                                    "facing": facing, "inverted": inverted, "scale": round(scale, 2), "messy": messy(),
                                     "rotation": round(rng.uniform(0, 360), 1) if facing == "any" else 0})
     if depth == 0 and rng.random() < 0.2:
         count, radius = rng.choice([1, 2, 3, 4]), rng.choice([0.6, 1.35])
@@ -72,13 +77,38 @@ def seal(rng: random.Random, a: dict[str, dict], depth: int = 0) -> dict:
     return layout
 
 
-def place(canvas: Image.Image, m: Image.Image, cx: float, cy: float, height: float, rotation: float = 0, flip: bool = False) -> None:
+def rough(m: Image.Image, messy: float, rng: random.Random) -> Image.Image:
+    """Skew the glyph's corners and vary its stroke weight in proportion to messiness."""
+    if messy < 0.05:
+        return m
+    w, h = m.size
+    j = lambda v: v + rng.uniform(-messy, messy) * 0.3 * max(w, h)
+    m = m.transform((w, h), Image.Transform.QUAD, (j(0), j(0), j(0), j(h), j(w), j(h), j(w), j(0)), Image.Resampling.BILINEAR)
+    if rng.random() < messy * 0.5:
+        m = m.filter(ImageFilter.MaxFilter(3))
+    return m
+
+
+def place(canvas: Image.Image, m: Image.Image, cx: float, cy: float, height: float, rotation: float = 0, flip: bool = False,
+          messy: float = 0, rng: random.Random | None = None) -> None:
     h = max(int(height), 2)
     m = m.resize((max(int(m.width * h / m.height), 1), h))
     if flip:
         m = m.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
+    m = rough(m, messy, rng or random.Random(0))
     m = m.rotate(rotation, expand=True, resample=Image.Resampling.BILINEAR)
     canvas.paste(0, (int(cx - m.width / 2), int(cy - m.height / 2)), m)
+
+
+def ring_points(cx: float, cy: float, r: float, messy: float, rng: random.Random, start: float = 0, sweep: float = 360) -> list[tuple[float, float]]:
+    """A circle whose radius wobbles smoothly: a few random sinusoids scaled by messiness."""
+    waves = [(rng.randint(2, 6), rng.uniform(0, 2 * math.pi), rng.uniform(0.3, 1)) for _ in range(3)]
+    pts = []
+    for i in range(int(sweep) + 1):
+        t = math.radians(start + i)
+        rr = r * (1 + messy * 0.12 * sum(amp * math.sin(k * t + ph) for k, ph, amp in waves) / 3)
+        pts.append((cx + rr * math.cos(t), cy + rr * math.sin(t)))
+    return pts
 
 
 def draw(layout: dict, a: dict[str, dict], size: int = 512, cx: float | None = None, cy: float | None = None,
@@ -90,22 +120,18 @@ def draw(layout: dict, a: dict[str, dict], size: int = 512, cx: float | None = N
     d = ImageDraw.Draw(canvas)
     width = max(int(radius * 0.025), 1)
     rings = [radius, radius * 0.82] if layout["double"] else [radius]
+    ring_messy = layout.get("ring_messy", 0)
     for r in rings:
-        box = (cx - r, cy - r, cx + r, cy + r)
-        if layout["ring"] == "open":
-            gap = rng.uniform(20, 70)
-            start = rng.uniform(0, 360)
-            d.arc(box, start + gap, start + 360, fill=0, width=width)
-        else:
-            d.ellipse(box, outline=0, width=width)
+        gap, start = (rng.uniform(20, 70), rng.uniform(0, 360)) if layout["ring"] == "open" else (0, 0)
+        d.line(ring_points(cx, cy, r, ring_messy, rng, start + gap, 360 - gap), fill=0, width=width, joint="curve")
     for i, s in enumerate(layout["sigils"]):
         off = (i - (len(layout["sigils"]) - 1) / 2) * radius * 0.5
-        place(canvas, a[s["name"]]["mask"], cx + off, cy, s["scale"] * radius)
+        place(canvas, a[s["name"]]["mask"], cx + off, cy, s["scale"] * radius, messy=s.get("messy", 0), rng=rng)
     for s in layout["signs"]:
         t = math.radians(s["angle"])
         x, y = cx + s["radius"] * radius * math.sin(t), cy - s["radius"] * radius * math.cos(t)
         rot = {"center": 180 - s["angle"], "ring": -s["angle"], "any": s.get("rotation", 0)}[s["facing"]]
-        place(canvas, a[s["name"]]["mask"], x, y, s["scale"] * radius, rot, s["inverted"])
+        place(canvas, a[s["name"]]["mask"], x, y, s["scale"] * radius, rot, s["inverted"], s.get("messy", 0), rng)
     for sub in layout["subseals"]:
         t = math.radians(sub["angle"])
         x, y = cx + sub["radius"] * radius * math.sin(t), cy - sub["radius"] * radius * math.cos(t)
@@ -117,24 +143,23 @@ def draw(layout: dict, a: dict[str, dict], size: int = 512, cx: float | None = N
 
 
 def finish(img: Image.Image, rng: random.Random) -> Image.Image:
-    """Vary stroke weight and sharpness so no two renders are pixel-identical."""
-    if rng.random() < 0.4:
-        img = img.filter(ImageFilter.MinFilter(3))
+    """Vary sharpness so no two renders are pixel-identical."""
     return img.filter(ImageFilter.GaussianBlur(rng.uniform(0, 0.8)))
 
 
 def describe(layout: dict, a: dict[str, dict] | None = None, indent: str = "") -> str:
     a = a or {}
     label = lambda n: f'unnamed glyph "{n}"' + (f" (note: {a[n]['note']})" if a.get(n, {}).get("note") else "") if a.get(n, {}).get("kind") == "unknown" else n
-    lines = [f"{indent}The ring {layout['ring']}" + (", with a second ring just inside it" if layout["double"] else "") + "."]
+    neat = lambda v: "drawn neatly" if v < 0.3 else "a little rough" if v < 0.6 else "drawn roughly"
+    lines = [f"{indent}The ring {layout['ring']}, {neat(layout.get('ring_messy', 0))}" + (", with a second ring just inside it" if layout["double"] else "") + "."]
     for s in layout["sigils"]:
-        lines.append(f"{indent}Center: {label(s['name'])}, {int(s['scale'] * 100)}% of the ring radius.")
+        lines.append(f"{indent}Center: {label(s['name'])}, {int(s['scale'] * 100)}% of the ring radius, {neat(s.get('messy', 0))}.")
     if not layout["sigils"]:
         lines.append(f"{indent}Center: empty.")
     for s in layout["signs"]:
         where = f"{compass(s['angle'])} ({s['angle']:.0f} degrees), {int(s['radius'] * 100)}% out from the center"
         face = {"center": "top of the glyph toward the center", "ring": "top of the glyph toward the ring", "any": f"rotated {s.get('rotation', 0):.0f} degrees"}[s["facing"]]
-        lines.append(f"{indent}Sign: {label(s['name'])} at {where}, {face}" + (", inverted" if s["inverted"] else "") + ".")
+        lines.append(f"{indent}Sign: {label(s['name'])} at {where}, {face}" + (", inverted" if s["inverted"] else "") + f", {neat(s.get('messy', 0))}.")
     for sub in layout["subseals"]:
         side = "outside the ring, joined to it by a line" if sub["radius"] > 1 else "inside the ring"
         lines.append(f"{indent}Sub-seal at {compass(sub['angle'])}, {side}, {int(sub['scale'] * 100)}% of the ring radius:")

@@ -48,3 +48,20 @@ def test_synth_targets_carry_exact_layout_text(tmp_path, monkeypatch):
     monkeypatch.setattr(synth, "LAYOUTS", tmp_path / "layouts.jsonl")
     t = synth.synth_targets()
     assert t[0]["kind"] == "synth" and "Columns" in t[0]["text"] and "north" in t[0]["text"]
+
+
+def test_messiness_is_per_element_and_described():
+    a = synth.atoms()
+    layouts = [synth.seal(random.Random(i), a) for i in range(30)]
+    assert all(0 <= s["messy"] <= 1 for l in layouts for s in l["signs"] + l["sigils"]) and all(0 <= l["ring_messy"] <= 1 for l in layouts)
+    assert any(len({s["messy"] > 0.5 for s in l["signs"]}) == 2 for l in layouts)  # mixed neat and rough in one seal
+    layout = {"ring": "closed", "ring_messy": 0.9, "double": False, "sigils": [], "subseals": [],
+              "signs": [{"name": "Columns", "angle": 0, "radius": 0.7, "facing": "ring", "inverted": False, "scale": 0.2, "messy": 0.9}]}
+    assert "roughly" in synth.describe(layout)
+
+
+def test_mask_treats_transparent_as_background(tmp_path):
+    im = Image.new("RGBA", (20, 20), (0, 0, 0, 0))
+    im.putpixel((10, 10), (0, 0, 0, 255))
+    im.save(tmp_path / "t.png")
+    assert synth.mask(tmp_path / "t.png").size == (1, 1)
