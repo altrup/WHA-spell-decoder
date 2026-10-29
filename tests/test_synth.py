@@ -86,3 +86,11 @@ def test_novel_glyphs_appear_in_a_minority_of_seals():
     novel = sum(any("op" in g or a[g["name"]]["kind"] == "unknown" for g in l["signs"] + l["sigils"])
                 for l in (synth.seal(random.Random(i), a) for i in range(200)))
     assert 15 <= novel <= 70
+
+
+def test_describe_states_balance():
+    sign = lambda ang: {"name": "Columns", "angle": ang, "radius": 0.7, "facing": "ring", "inverted": False, "scale": 0.2, "messy": 0}
+    base = {"ring": "closed", "ring_messy": 0, "double": False, "sigils": [], "subseals": []}
+    assert "balanced" in synth.describe({**base, "signs": [sign(0), sign(120), sign(240)]})
+    text = synth.describe({**base, "signs": [sign(80), sign(100), sign(0)]})
+    assert "lean" in text and "east" in text

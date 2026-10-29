@@ -214,11 +214,11 @@ def draw(layout: dict, a: dict[str, dict], size: int = 512, cx: float | None = N
     reach = max([1.0] + [sub["radius"] + sub["scale"] for sub in layout["subseals"]])  # satellites must fit on the canvas
     cx, cy, radius = cx or size / 2, cy or size / 2, radius or size * 0.46 / reach
     d = ImageDraw.Draw(canvas)
-    width = max(int(radius * 0.025), 1)
+    width = max(int(radius * 0.025), 2)
     rings = [radius, radius * 0.82] if layout["double"] else [radius]
     ring_messy = layout.get("ring_messy", 0)
     for r in rings:
-        gap, start = (rng.uniform(20, 70), rng.uniform(0, 360)) if layout["ring"] == "open" else (0, 0)
+        gap, start = (rng.uniform(20 if r > 120 else 45, 70), rng.uniform(0, 360)) if layout["ring"] == "open" else (0, 0)
         d.line(ring_points(cx, cy, r, ring_messy, rng, start + gap, 360 - gap), fill=0, width=width, joint="curve")
     for i, s in enumerate(layout["sigils"]):
         off = (i - (len(layout["sigils"]) - 1) / 2) * radius * 0.5
@@ -260,6 +260,12 @@ def describe(layout: dict, a: dict[str, dict] | None = None, indent: str = "") -
         where = f"{compass(s['angle'])} ({s['angle']:.0f} degrees), {int(s['radius'] * 100)}% out from the center"
         face = {"center": "top of the glyph toward the center", "ring": "top of the glyph toward the ring", "any": f"rotated {s.get('rotation', 0):.0f} degrees"}[s["facing"]]
         lines.append(f"{indent}Sign: {label(s)} at {where}, {face}" + (", inverted" if s["inverted"] else "") + f", {neat(s.get('messy', 0))}.")
+    if len(layout["signs"]) > 1:
+        x = sum(math.sin(math.radians(s["angle"])) for s in layout["signs"]) / len(layout["signs"])
+        y = sum(math.cos(math.radians(s["angle"])) for s in layout["signs"]) / len(layout["signs"])
+        lean = math.hypot(x, y)
+        lines.append(f"{indent}Signs are balanced around the ring." if lean < 0.2 else
+                     f"{indent}Signs are unbalanced and lean toward the {compass(math.degrees(math.atan2(x, y)) % 360)}.")
     for sub in layout["subseals"]:
         side = "outside the ring, joined to it by a line" if sub["radius"] > 1 else "inside the ring"
         lines.append(f"{indent}Sub-seal at {compass(sub['angle'])}, {side}, {int(sub['scale'] * 100)}% of the ring radius:")
