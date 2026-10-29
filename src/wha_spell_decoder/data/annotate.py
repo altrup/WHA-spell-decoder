@@ -19,7 +19,7 @@ SIGILS = {"Fire": "Fire_sigil.png", "Water": "Water.png", "Earth": "Earth.png", 
 NOT_SPELLS = {"Spells", "Magic", "Forbidden Magic", "Signs Explained", "Sigils Explained"}
 REFERENCE_PAGES = ["telepedia/Signs Explained.wikitext", "telepedia/Sigils Explained.wikitext", "fandom/Signs Explained.wikitext"]
 
-RULES = """You annotate images from the manga Witch Hat Atelier for a dataset that teaches a small model to read magic seals.
+RULES = """You annotate images from the manga Witch Hat Atelier.
 A seal is a ring containing one element sigil (fire, water, earth, wind, light) plus signs that modify the effect.
 A spell activates only when its ring is closed, so say "ring open" or "ring closed" for that, and "fully visible" or "partly visible" for framing. Never say "complete".
 
