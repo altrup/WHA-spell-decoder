@@ -4,8 +4,10 @@ import argparse
 import base64
 import itertools
 import json
+import random
 import re
 from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
 from typing import Literal
 
 import anthropic
@@ -53,9 +55,13 @@ def media_type(data: bytes) -> str:
     raise ValueError("unknown image format")
 
 
+def site_dir(site: str) -> Path:
+    return RAW.parent / site if site == "synth" else RAW / site
+
+
 def image_block(rel: str) -> dict:
     site, _, name = rel.split("/")
-    data = inside(RAW / site / "images", name).read_bytes()
+    data = inside(site_dir(site) / "images", name).read_bytes()
     return {"type": "image", "source": {"type": "base64", "media_type": media_type(data), "data": base64.b64encode(data).decode()}}
 
 
@@ -115,6 +121,13 @@ def targets() -> list[dict[str, str]]:
     return [t for t in out if not (t["id"] in seen or seen.add(t["id"]))]
 
 
+def exemplars(n: int = 20) -> dict[str, dict]:
+    """Real clean seals shown to the annotator before synthetic ones, so effects stay in the manga's register."""
+    rows = [r for r in load(RECORDS).values() if r["usable"] == "clean" and r["kind"] == "spell"]
+    rows = list({r["name"]: r for r in rows}.values())
+    return {r["id"]: r for r in random.Random(0).sample(rows, min(n, len(rows)))}
+
+
 def load(path) -> dict[str, dict]:
     return {r["id"]: r for r in map(json.loads, path.read_text().splitlines())} if path.exists() else {}
 
@@ -152,13 +165,19 @@ def main() -> None:
     ap.add_argument("limit", nargs="?", type=int, default=None, help="stop after this many new records")
     ap.add_argument("--only", help="annotate only targets whose id or name contains this text")
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--synth", action="store_true", help="annotate data/synth images into data/synth/records.jsonl")
     args = ap.parse_args()
     load_dotenv(RAW.parents[1] / ".env")
     examples = load(EXAMPLES)
-    done = load(RECORDS).keys() | examples.keys()
+    if args.synth:
+        from .synth import SYNTH, synth_targets
+        records, pool, examples = SYNTH / "records.jsonl", synth_targets(), {**examples, **exemplars()}
+    else:
+        records, pool = RECORDS, targets()
+    done = load(records).keys() | examples.keys()
     client = anthropic.Anthropic()
     prefix = reference_blocks(examples)
-    todo = [t for t in targets() if t["id"] not in done and not (args.only and args.only not in t["id"] + t["name"])]
+    todo = [t for t in pool if t["id"] not in done and not (args.only and args.only not in t["id"] + t["name"])]
     todo = todo[:args.limit]
 
     def run(t: dict[str, str]) -> tuple[dict[str, str], dict | None, str]:
@@ -168,7 +187,7 @@ def main() -> None:
             return t, None, str(e)
         return t, {"model": model, **rec.model_dump()}, f"{rec.usable} ({model}; {usage})"
 
-    with RECORDS.open("a") as f, ThreadPoolExecutor(args.workers) as pool:
+    with records.open("a") as f, ThreadPoolExecutor(args.workers) as pool:
         # first call alone so the cached prefix is written once, then the rest in parallel
         for t, rec, note in itertools.chain([run(todo[0])], pool.map(run, todo[1:])) if todo else []:
             print(f"{t['id']}: {note}")

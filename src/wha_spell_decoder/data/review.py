@@ -6,10 +6,11 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from .annotate import CROPS, EXAMPLES, NOT_SPELLS, RECORDS, SIGILS, crop_list, cut, load, sign_sections, targets
+from .annotate import CROPS, EXAMPLES, NOT_SPELLS, RECORDS, SIGILS, crop_list, cut, load, sign_sections, site_dir, targets
+from .synth import SYNTH, synth_targets
 from .fetch import RAW, inside
 
-FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS}  # todo = unannotated targets, saved into records
+FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS, "synth": SYNTH / "records.jsonl"}  # todo = unannotated targets, saved into records
 HOST, PORT = "127.0.0.1", 8765
 ORIGIN = f"http://{HOST}:{PORT}"
 
@@ -25,7 +26,7 @@ def file_name(query: str) -> str:
 
 
 def listing(name: str) -> list[dict]:
-    text = {t["id"]: t["text"] for t in targets()}
+    text = {t["id"]: t["text"] for t in (synth_targets() if name == "synth" else targets())}
     if name == "todo":
         done = load(EXAMPLES).keys() | load(RECORDS).keys()
         return [t for t in targets() if t["id"] not in done]
@@ -86,8 +87,9 @@ class Handler(BaseHTTPRequestHandler):
         elif url.path == "/crops":
             self.reply(json.dumps(crop_state()).encode())
         elif url.path.startswith("/raw/"):
-            f = (RAW / url.path[5:]).resolve()
-            if RAW in f.parents and f.is_file():
+            site, _, rest = url.path[5:].partition("/")
+            f = (site_dir(site) / rest).resolve()
+            if RAW.parent in f.parents and f.is_file():
                 self.reply(f.read_bytes(), "image/*")
             else:
                 self.reply(b"not found", "text/plain", 404)

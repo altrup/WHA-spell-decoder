@@ -21,6 +21,7 @@ wha-spell-decoder = "wha_spell_decoder:main"
 wha-spell-fetch = "wha_spell_decoder.data.fetch:main"
 wha-spell-annotate = "wha_spell_decoder.data.annotate:main"
 wha-spell-review = "wha_spell_decoder.data.review:main"
+wha-spell-synth = "wha_spell_decoder.data.synth:main"
 
 [build-system]
 requires = ["uv_build>=0.13.4,<0.14.0"]
