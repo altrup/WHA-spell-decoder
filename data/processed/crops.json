@@ -13,10 +13,10 @@
  {
   "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
   "box": [
-   964,
-   453,
-   1255,
-   730
+   954,
+   443,
+   1265,
+   740
   ],
   "out": "Volume_12_Extra_Seals_vapor_bubble.png",
   "page": "Vapor Bubble Spell"
@@ -35,10 +35,10 @@
  {
   "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
   "box": [
-   959,
-   972,
-   1255,
-   1258
+   949,
+   962,
+   1265,
+   1268
   ],
   "out": "Volume_12_Extra_Seals_bubble_carriage.png",
   "page": "Bubble Carriage Seal"
@@ -46,10 +46,10 @@
  {
   "src": "telepedia/images/Volume_12_Extra_Seals.jpeg",
   "box": [
-   366,
-   1573,
-   649,
-   1851
+   356,
+   1563,
+   659,
+   1861
   ],
   "out": "Volume_12_Extra_Seals_twinned_bottles.png",
   "page": "Twinned Bottles"
