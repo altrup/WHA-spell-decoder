@@ -1,26 +1,39 @@
-"""Local browser UI to review and edit examples.jsonl / records.jsonl next to their images."""
+"""Local browser UI to review and edit examples.jsonl / records.jsonl next to their images, and to write new records."""
 
 import json
 import webbrowser
-from pathlib import Path
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
+from .annotate import EXAMPLES, RECORDS, SIGILS, load, sign_sections, targets
 from .fetch import RAW
 
-PROCESSED = RAW.parent / "processed"
-FILES = ("examples", "records")
+FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS}  # todo = unannotated targets, saved into records
 HOST, PORT = "127.0.0.1", 8765
 ORIGIN = f"http://{HOST}:{PORT}"
 
 PAGE = Path(__file__).with_name("review.html")
 
 
-def path_for(query: str):
+def file_name(query: str) -> str:
     name = parse_qs(query).get("file", ["records"])[0]
     if name not in FILES:
         raise ValueError(name)
-    return PROCESSED / f"{name}.jsonl"
+    return name
+
+
+def listing(name: str) -> list[dict]:
+    text = {t["id"]: t["text"] for t in targets()}
+    if name == "todo":
+        done = load(EXAMPLES).keys() | load(RECORDS).keys()
+        return [t for t in targets() if t["id"] not in done]
+    return [{**r, "text": text.get(r["id"], "")} for r in load(FILES[name]).values()]
+
+
+def signs() -> list[dict[str, str]]:
+    out = [{"name": f"{n} sigil", "type": "sigil", "image": f"fandom/images/{img}"} for n, img in SIGILS.items()]
+    return out + [{"name": n, "type": s["type"], "image": f"telepedia/images/{s['image']}"} for n, s in sign_sections().items()]
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -45,8 +58,9 @@ class Handler(BaseHTTPRequestHandler):
         if url.path == "/":
             self.reply(PAGE.read_bytes(), "text/html")
         elif url.path == "/records":
-            p = path_for(url.query)
-            self.reply(p.read_bytes().replace(b"\n", b",").rstrip(b",").join((b"[", b"]")) if p.exists() else b"[]")
+            self.reply(json.dumps(listing(file_name(url.query))).encode())
+        elif url.path == "/signs":
+            self.reply(json.dumps(signs()).encode())
         elif url.path.startswith("/raw/"):
             f = (RAW / url.path[5:]).resolve()
             if RAW in f.parents and f.is_file():
@@ -62,10 +76,14 @@ class Handler(BaseHTTPRequestHandler):
         url = urlparse(self.path)
         if url.path != "/save":
             return self.reply(b"not found", "text/plain", 404)
-        p = path_for(url.query)
+        p = FILES[file_name(url.query)]
         new = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
-        rows = [json.loads(line) for line in p.read_text().splitlines()]
-        rows = [new if r["id"] == new["id"] else r for r in rows]
+        new.pop("text", None)
+        rows = list(load(p).values())
+        if any(r["id"] == new["id"] for r in rows):
+            rows = [new if r["id"] == new["id"] else r for r in rows]
+        else:
+            rows.append(new)
         p.write_text("".join(json.dumps(r) + "\n" for r in rows))
         self.reply(b"{}")
 

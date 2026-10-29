@@ -3,19 +3,27 @@
 <title>WHA review</title>
 <style>
   body { font: 15px system-ui; margin: 0; display: grid; grid-template-columns: 1fr 1fr; height: 100vh; }
-  #left { display: flex; flex-direction: column; align-items: center; justify-content: center; background: #222; }
-  img { max-width: 95%; max-height: 85vh; background: #fff; }
-  #meta { color: #ccc; margin-top: 8px; }
+  #left { display: flex; flex-direction: column; align-items: center; background: #222; color: #ccc; overflow: auto; padding: 16px; gap: 8px; }
+  img#img { max-width: 95%; max-height: 60vh; background: #fff; }
+  #text { white-space: pre-wrap; font: 13px monospace; background: #333; padding: 8px; width: 95%; max-height: 30vh; overflow: auto; }
+  #signs { display: flex; flex-wrap: wrap; gap: 6px; width: 95%; }
+  #signs figure { margin: 0; text-align: center; font-size: 11px; width: 72px; }
+  #signs img { width: 56px; height: 56px; object-fit: contain; background: #fff; }
+  details { width: 95%; }
   #right { padding: 16px; overflow: auto; }
   textarea { width: 100%; height: 7em; font: inherit; }
   label { display: block; margin-top: 10px; font-weight: 600; }
   nav { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
 </style>
 
-<div id="left"><img id="img"><div id="meta"></div></div>
+<div id="left">
+  <img id="img"><div id="meta"></div>
+  <pre id="text"></pre>
+  <details><summary>Reference signs</summary><div id="signs"></div></details>
+</div>
 <div id="right">
   <nav>
-    <select id="file"><option>examples</option><option>records</option></select>
+    <select id="file"><option>examples</option><option>records</option><option>todo</option></select>
     <button id="prev">&larr;</button><span id="pos"></span><button id="next">&rarr;</button>
     <button id="save">save</button><span id="status"></span>
   </nav>
@@ -42,6 +50,7 @@
     const r = recs[i] || {};
     $("img").src = r.id ? "/raw/" + r.id : "";
     $("meta").textContent = r.id ? `${r.kind}: ${r.name}  (${r.id})` : "";
+    $("text").textContent = r.text ?? "";
     $("pos").textContent = r.id ? `${i + 1}/${recs.length}` : "empty";
     FIELDS.forEach(f => $(f).value = r[f] ?? "");
     $("status").textContent = "";
@@ -53,6 +62,17 @@
     FIELDS.forEach(f => r[f] = $(f).value);
     const res = await fetch("/save?file=" + $("file").value, { method: "POST", body: JSON.stringify(r) });
     $("status").textContent = res.ok ? "saved" : "error " + res.status;
+    if (res.ok && $("file").value === "todo") { recs.splice(i, 1); i = Math.min(i, recs.length - 1); show(); }
+  }
+
+  async function loadSigns() {
+    for (const s of await (await fetch("/signs")).json()) {
+      const fig = document.createElement("figure"), img = document.createElement("img"), cap = document.createElement("figcaption");
+      img.src = "/raw/" + s.image;
+      cap.append(s.name, document.createElement("br"), s.type);
+      fig.append(img, cap);
+      $("signs").appendChild(fig);
+    }
   }
 
   $("file").onchange = load;
@@ -67,4 +87,5 @@
     if (e.key === "s" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); save(); }
   };
   load();
+  loadSigns();
 </script>
