@@ -86,5 +86,18 @@ class ImageEncoder(nn.Module):
         )
         # TODO remap to same dimension as transformer tokens
     
-    def forward(self):
-        pass # TODO
+    def forward(self, x):
+        x = self.stem(x)
+        x = self.stage1(x)
+        x = self.downsample2(x)
+        x = self.stage2(x)
+        x = self.downsample3(x)
+        x = self.stage3(x)
+        x = self.downsample4(x)
+        x = self.stage4(x)
+        x = self.downsample5(x)
+        x = self.stage5(x)
+        x = self.downsample6(x)
+        x = self.stage6(x)
+        # TODO remap
+        return x
