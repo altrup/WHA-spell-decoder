@@ -1,15 +1,31 @@
-import torch.nn as nn
+import torch
+from torch import nn
 
 
 def make_cnn_block(
     *, in_channels, out_channels, kernel_size, stride, padding, num_groups=8
 ):
     return nn.Sequential(
-        nn.Conv2d(in_channels, out_channels, kernel_size, stride, padding),
+        nn.Conv2d(in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size, stride=stride, padding=padding),
         nn.GroupNorm(num_groups, num_channels=out_channels),
         nn.GELU(),
     )
 
+# Returns [dim, h, w] of sincos positionings
+def sincos_2d(h, w, dim, device=None, dtype=None):
+    assert dim % 4 == 0, "dim must be divisible by 4"
+    n = dim // 4
+    i = torch.arange(n, device=device, dtype=torch.float32)
+    freqs = 1.0 / (100 ** (i / n))
+
+    row_angles = torch.arange(h, device=device, dtype=torch.float32)[None, :] * freqs[:, None]
+    row_positions = torch.stack([torch.sin(row_angles), torch.cos(row_angles)], dim=1).flatten(0, 1)
+
+    col_angles = torch.arange(w, device=device, dtype=torch.float32)[None, :] * freqs[:, None]
+    col_positions = torch.stack([torch.sin(col_angles), torch.cos(col_angles)], dim=1).flatten(0, 1)
+
+    positions = torch.cat([row_positions[:, :, None].expand(-1, h, w), col_positions[:, None, :].expand(-1, h, w)], dim=0)
+    return positions.to(dtype=dtype)
 
 # Forward contains x + block(x) instead of just block(x)
 class ResidualBlock(nn.Module):
@@ -33,7 +49,7 @@ class ResidualBlock(nn.Module):
 
 
 class ImageEncoder(nn.Module):
-    def __init__(self):
+    def __init__(self, *, d_model):
         super().__init__()
 
         # WxH -> W/2xH/2 i.e. 1920x1080 -> 960x540
@@ -84,7 +100,8 @@ class ImageEncoder(nn.Module):
         self.stage6 = nn.Sequential(
             *[ResidualBlock(channels=512, kernel_size=3) for _ in range(3)]
         )
-        # TODO remap to same dimension as transformer tokens
+        # remap to same dimension as transformer tokens
+        self.proj = nn.Conv2d(in_channels=512, out_channels=d_model, kernel_size=1, stride=1, padding=0)
     
     def forward(self, x):
         x = self.stem(x)
@@ -99,5 +116,11 @@ class ImageEncoder(nn.Module):
         x = self.stage5(x)
         x = self.downsample6(x)
         x = self.stage6(x)
-        # TODO remap
+        # Add position embeddings
+        _, C, H, W = x.shape
+        x = x + sincos_2d(H, W, C, device=x.device, dtype=x.dtype)
+        x = self.proj(x)
+        # Flatten x row major, reshape to be Bx(H*W)xC
+        x = x.flatten(2).transpose(1, 2)
+        
         return x
