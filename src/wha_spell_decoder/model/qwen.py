@@ -74,3 +74,18 @@ class Qwen3MLP(nn.Module):
         x = self.gate_activation(self.gate_proj(x)) * self.up_proj(x)
         x = self.down_proj(x)
         return x
+
+
+def rotate_half(x):
+    half = x.shape[-1] // 2
+    return torch.cat([-x[..., half:], x[..., :half]], dim=-1)
+
+
+def apply_rotary(
+    q: torch.Tensor, k: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor
+) -> tuple[torch.Tensor, torch.Tensor]:
+    cos = cos.unsqueeze(1)
+    sin = sin.unsqueeze(1)
+    q_rotated = q * cos + rotate_half(q) * sin
+    k_rotated = k * cos + rotate_half(k) * sin
+    return q_rotated, k_rotated
