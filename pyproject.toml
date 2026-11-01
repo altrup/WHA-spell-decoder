@@ -29,4 +29,5 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "pytest>=9.2.0",
+    "transformers>=5.22.1",
 ]
