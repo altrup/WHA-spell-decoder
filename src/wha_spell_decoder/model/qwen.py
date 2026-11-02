@@ -81,11 +81,33 @@ def rotate_half(x):
     return torch.cat([-x[..., half:], x[..., :half]], dim=-1)
 
 
+# q and k: (B, num_heads, T, head_dim)
+# cos and sin: (B, T, head_dim)
 def apply_rotary(
-    q: torch.Tensor, k: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor
+    q: torch.Tensor, k: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor, *, unsqueeze_dimension = -3
 ) -> tuple[torch.Tensor, torch.Tensor]:
-    cos = cos.unsqueeze(1)
-    sin = sin.unsqueeze(1)
+    cos = cos.unsqueeze(unsqueeze_dimension)
+    sin = sin.unsqueeze(unsqueeze_dimension)
     q_rotated = q * cos + rotate_half(q) * sin
     k_rotated = k * cos + rotate_half(k) * sin
     return q_rotated, k_rotated
+
+
+class Qwen3RotaryEmbedding(nn.Module):
+    def __init__(self, head_dim, theta):
+        super().__init__()
+
+        self.register_buffer(
+            "frequencies",
+            theta ** (-torch.arange(0, head_dim, 2, dtype=torch.float32) / head_dim),
+            persistent=False
+        )
+
+    # Returns cos, sin for apply_rotary
+    def forward(self, position_ids: torch.Tensor, *, dtype: torch.dtype):
+        angles = position_ids[..., None].float() * self.frequencies.float()
+        cos = torch.cos(angles).to(dtype=dtype)
+        sin = torch.sin(angles).to(dtype=dtype)
+        cos = torch.cat([cos, cos], dim=-1)
+        sin = torch.cat([sin, sin], dim=-1)
+        return cos, sin
