@@ -6,11 +6,29 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from .annotate import CROPS, EXAMPLES, NOT_SPELLS, RECORDS, SIGILS, crop_list, cut, load, sign_sections, site_dir, targets
-from .synth import SYNTH, synth_targets
+from .annotate import (
+    CROPS,
+    EXAMPLES,
+    NOT_SPELLS,
+    RECORDS,
+    SIGILS,
+    crop_list,
+    cut,
+    load,
+    sign_sections,
+    site_dir,
+    targets,
+)
 from .fetch import RAW, inside
+from .synth import SYNTH, synth_targets
 
-FILES = {"examples": EXAMPLES, "records": RECORDS, "todo": RECORDS, "synth": SYNTH / "records.jsonl", "synth examples": SYNTH / "examples.jsonl"}  # todo = unannotated targets, saved into records
+FILES = {
+    "examples": EXAMPLES,
+    "records": RECORDS,
+    "todo": RECORDS,
+    "synth": SYNTH / "records.jsonl",
+    "synth examples": SYNTH / "examples.jsonl",
+}  # todo = unannotated targets, saved into records
 HOST, PORT = "127.0.0.1", 8765
 ORIGIN = f"http://{HOST}:{PORT}"
 
@@ -26,7 +44,10 @@ def file_name(query: str) -> str:
 
 
 def listing(name: str) -> list[dict]:
-    text = {t["id"]: t["text"] for t in (synth_targets() if name.startswith("synth") else targets())}
+    text = {
+        t["id"]: t["text"]
+        for t in (synth_targets() if name.startswith("synth") else targets())
+    }
     if name == "todo":
         done = load(EXAMPLES).keys() | load(RECORDS).keys()
         return [t for t in targets() if t["id"] not in done]
@@ -35,8 +56,14 @@ def listing(name: str) -> list[dict]:
 
 def crop_state() -> dict:
     index = json.loads((RAW / "telepedia" / "index.json").read_text())
-    return {"crops": crop_list(), "pages": sorted(set(index) - NOT_SPELLS),
-            "images": sorted(f"telepedia/images/{p.name}" for p in (RAW / "telepedia" / "images").iterdir())}
+    return {
+        "crops": crop_list(),
+        "pages": sorted(set(index) - NOT_SPELLS),
+        "images": sorted(
+            f"telepedia/images/{p.name}"
+            for p in (RAW / "telepedia" / "images").iterdir()
+        ),
+    }
 
 
 def save_crops(crops: list[dict]) -> None:
@@ -53,12 +80,20 @@ def save_crops(crops: list[dict]) -> None:
 
 
 def signs() -> list[dict[str, str]]:
-    out = [{"name": f"{n} sigil", "type": "sigil", "image": f"fandom/images/{img}"} for n, img in SIGILS.items()]
-    return out + [{"name": n, "type": s["type"], "image": f"telepedia/images/{s['image']}"} for n, s in sign_sections().items()]
+    out = [
+        {"name": f"{n} sigil", "type": "sigil", "image": f"fandom/images/{img}"}
+        for n, img in SIGILS.items()
+    ]
+    return out + [
+        {"name": n, "type": s["type"], "image": f"telepedia/images/{s['image']}"}
+        for n, s in sign_sections().items()
+    ]
 
 
 class Handler(BaseHTTPRequestHandler):
-    def reply(self, body: bytes, ctype: str = "application/json", status: int = 200) -> None:
+    def reply(
+        self, body: bytes, ctype: str = "application/json", status: int = 200
+    ) -> None:
         self.send_response(status)
         self.send_header("Content-Type", ctype)
         self.end_headers()

@@ -10,8 +10,16 @@ UA = "wha-spell-decoder/0.1 (https://github.com/altrup/WHA-spell-decoder)"
 RAW = Path(__file__).parents[3] / "data" / "raw"
 assert (RAW.parents[1] / "pyproject.toml").exists(), RAW
 SITES = {
-    "telepedia": ("https://witchhatatelier.telepedia.net/api.php", ["Signs Explained", "Sigils Explained"], "Category:Spells"),
-    "fandom": ("https://witch-hat-atelier.fandom.com/api.php", ["Spells"], "Category:Spells"),
+    "telepedia": (
+        "https://witchhatatelier.telepedia.net/api.php",
+        ["Signs Explained", "Sigils Explained"],
+        "Category:Spells",
+    ),
+    "fandom": (
+        "https://witch-hat-atelier.fandom.com/api.php",
+        ["Spells"],
+        "Category:Spells",
+    ),
 }
 
 
@@ -26,18 +34,32 @@ def api(endpoint: str, **params: str) -> dict:
 
 
 def category_members(endpoint: str, category: str) -> list[str]:
-    q = api(endpoint, action="query", list="categorymembers", cmtitle=category, cmlimit="500", cmnamespace="0")
+    q = api(
+        endpoint,
+        action="query",
+        list="categorymembers",
+        cmtitle=category,
+        cmlimit="500",
+        cmnamespace="0",
+    )
     return [m["title"] for m in q["query"]["categorymembers"]]
 
 
 def image_urls(endpoint: str, names: list[str]) -> dict[str, str]:
     urls = {}
     for i in range(0, len(names), 50):
-        q = api(endpoint, action="query", prop="imageinfo", iiprop="url",
-                titles="|".join(f"File:{n}" for n in names[i:i + 50]))
+        q = api(
+            endpoint,
+            action="query",
+            prop="imageinfo",
+            iiprop="url",
+            titles="|".join(f"File:{n}" for n in names[i : i + 50]),
+        )
         for p in q["query"]["pages"].values():
             if "imageinfo" in p:
-                urls[p["title"].removeprefix("File:").replace(" ", "_")] = p["imageinfo"][0]["url"]
+                urls[p["title"].removeprefix("File:").replace(" ", "_")] = p[
+                    "imageinfo"
+                ][0]["url"]
     return urls
 
 
@@ -55,7 +77,9 @@ def fetch_site(name: str, out: Path) -> None:
     (site_dir / "images").mkdir(parents=True, exist_ok=True)
     index = {}
     for title in pages:
-        parsed = api(endpoint, action="parse", page=title, prop="wikitext|images")["parse"]
+        parsed = api(endpoint, action="parse", page=title, prop="wikitext|images")[
+            "parse"
+        ]
         path = inside(site_dir, f"{title.replace('/', '_')}.wikitext")
         path.write_text(parsed["wikitext"]["*"])
         index[title] = {"wikitext": path.name, "images": parsed["images"]}

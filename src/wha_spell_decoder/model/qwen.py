@@ -1,9 +1,9 @@
-import torch
-from torch import nn
-
 import json
 from dataclasses import dataclass, fields
 from pathlib import Path
+
+import torch
+from torch import nn
 
 
 @dataclass(frozen=True)
@@ -84,7 +84,12 @@ def rotate_half(x):
 # q and k: (B, num_heads, T, head_dim)
 # cos and sin: (B, T, head_dim)
 def apply_rotary(
-    q: torch.Tensor, k: torch.Tensor, cos: torch.Tensor, sin: torch.Tensor, *, unsqueeze_dimension = -3
+    q: torch.Tensor,
+    k: torch.Tensor,
+    cos: torch.Tensor,
+    sin: torch.Tensor,
+    *,
+    unsqueeze_dimension=-3,
 ) -> tuple[torch.Tensor, torch.Tensor]:
     cos = cos.unsqueeze(unsqueeze_dimension)
     sin = sin.unsqueeze(unsqueeze_dimension)
@@ -100,7 +105,7 @@ class Qwen3RotaryEmbedding(nn.Module):
         self.register_buffer(
             "frequencies",
             theta ** (-torch.arange(0, head_dim, 2, dtype=torch.float32) / head_dim),
-            persistent=False
+            persistent=False,
         )
 
     # Returns cos, sin for apply_rotary

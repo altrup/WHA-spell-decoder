@@ -24,7 +24,10 @@ def test_targets_cover_both_sites_and_skip_non_spell_pages():
     names = {t["name"] for t in targets}
     assert "Sand Cage" in names and "Pulling" in names
     assert not names & annotate.NOT_SPELLS
-    assert {t["id"].split("/")[0] for t in targets if t["kind"] == "spell"} == {"telepedia", "fandom"}
+    assert {t["id"].split("/")[0] for t in targets if t["kind"] == "spell"} == {
+        "telepedia",
+        "fandom",
+    }
     assert len({t["id"] for t in targets}) == len(targets)
 
 
@@ -39,8 +42,15 @@ def test_crops_replace_their_source_pages_in_targets():
     targets = {t["id"]: t for t in annotate.targets()}
     crops = {c["out"] for c in annotate.crop_list()}
     assert crops and all(f"telepedia/images/{c}" in targets for c in crops)
-    assert not any(t["id"].endswith(c["src"].split("/")[-1]) for t in targets.values() for c in annotate.crop_list())
-    assert targets["telepedia/images/Archives_Vol_01_Sample6_raincleaver.png"]["name"] == "Raincleaver Spell"
+    assert not any(
+        t["id"].endswith(c["src"].split("/")[-1])
+        for t in targets.values()
+        for c in annotate.crop_list()
+    )
+    assert (
+        targets["telepedia/images/Archives_Vol_01_Sample6_raincleaver.png"]["name"]
+        == "Raincleaver Spell"
+    )
 
 
 def test_cut_writes_box_sized_file(tmp_path, monkeypatch):
@@ -48,7 +58,9 @@ def test_cut_writes_box_sized_file(tmp_path, monkeypatch):
     images.mkdir(parents=True)
     Image.new("RGB", (50, 40)).save(images / "page.png")
     monkeypatch.setattr(annotate, "RAW", tmp_path)
-    annotate.cut({"src": "telepedia/images/page.png", "box": [10, 5, 30, 25], "out": "seal.png"})
+    annotate.cut(
+        {"src": "telepedia/images/page.png", "box": [10, 5, 30, 25], "out": "seal.png"}
+    )
     assert Image.open(images / "seal.png").size == (20, 20)
 
 
@@ -60,5 +72,14 @@ def test_save_crops_rejects_paths_outside_images(tmp_path, monkeypatch):
     monkeypatch.setattr(review, "CROPS", tmp_path / "crops.json")
     monkeypatch.setattr(review, "crop_list", lambda: [])
     with pytest.raises(AssertionError):
-        review.save_crops([{"src": "telepedia/images/a.png", "box": [0, 0, 1, 1], "out": "../../evil.png", "page": "x"}])
+        review.save_crops(
+            [
+                {
+                    "src": "telepedia/images/a.png",
+                    "box": [0, 0, 1, 1],
+                    "out": "../../evil.png",
+                    "page": "x",
+                }
+            ]
+        )
     assert not (tmp_path / "crops.json").exists()
