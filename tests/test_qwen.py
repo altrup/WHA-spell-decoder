@@ -5,6 +5,9 @@ from transformers import Qwen3Config as HFQwen3Config
 from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3Attention as HFAttention,
 )
+from transformers.models.qwen3.modeling_qwen3 import (
+    Qwen3DecoderLayer as HFDecoderLayer,
+)
 from transformers.models.qwen3.modeling_qwen3 import Qwen3MLP as HFMLP
 from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3RotaryEmbedding as HFRotaryEmbedding,
@@ -16,6 +19,7 @@ from transformers.models.qwen3.modeling_qwen3 import (
 from wha_spell_decoder.model.qwen import (
     Qwen3Attention,
     Qwen3Config,
+    Qwen3DecoderLayer,
     Qwen3MLP,
     Qwen3RotaryEmbedding,
     apply_rotary,
@@ -102,6 +106,34 @@ def test_attn_matches_hf():
     torch.testing.assert_close(
         hf_attn(x, (hf_cos, hf_sin), hf_attn_mask)[0],
         my_attn(x, cos=my_cos, sin=my_sin, attn_mask=my_attn_mask),
+    )
+
+
+def test_decoder_matches_hf():
+    torch.manual_seed(0)
+
+    hf_decoder = HFDecoderLayer(hf_cfg, 0)
+    my_decoder = Qwen3DecoderLayer(my_cfg)
+    my_decoder.load_state_dict(hf_decoder.state_dict())
+
+    x = torch.randn(2, 10, TINY["hidden_size"])
+    position_ids = torch.arange(10)[None, :]
+
+    hf_rot = HFRotaryEmbedding(hf_cfg)
+    my_rot = Qwen3RotaryEmbedding(my_cfg.head_dim, my_cfg.rope_theta)
+    hf_cos, hf_sin = hf_rot(x, position_ids)
+    my_cos, my_sin = my_rot(position_ids, dtype=x.dtype)
+
+    my_attn_mask = torch.triu(torch.ones(10, 10, dtype=torch.bool), diagonal=1)
+    hf_attn_mask = torch.zeros_like(my_attn_mask, dtype=torch.float).masked_fill(
+        my_attn_mask, float("-inf")
+    )[None, None, ...]
+
+    torch.testing.assert_close(
+        hf_decoder(
+            x, attention_mask=hf_attn_mask, position_embeddings=(hf_cos, hf_sin)
+        ),
+        my_decoder(x, cos=my_cos, sin=my_sin, attn_mask=my_attn_mask),
     )
 
 

@@ -188,3 +188,30 @@ class Qwen3Attention(nn.Module):
             B, T, self.config.num_attention_heads * self.config.head_dim
         )
         return self.o_proj(attn_out)
+
+
+class Qwen3DecoderLayer(nn.Module):
+    def __init__(self, config: Qwen3Config):
+        super().__init__()
+
+        self.input_layernorm = Qwen3RMSNorm(config.hidden_size, config.rms_norm_eps)
+        self.self_attn = Qwen3Attention(config)
+        self.post_attention_layernorm = Qwen3RMSNorm(
+            config.hidden_size, config.rms_norm_eps
+        )
+        self.mlp = Qwen3MLP(config.hidden_size, config.intermediate_size)
+
+    def forward(
+        self,
+        hidden_states: torch.Tensor,  # (B, T, hidden_size)
+        *,
+        cos: torch.Tensor,  # (T, head_dim) or (B, T, head_dim)
+        sin: torch.Tensor,  # (T, head_dim) or (B, T, head_dim)
+        attn_mask: torch.Tensor,  # (T, T)
+    ) -> torch.Tensor:
+        x = self.input_layernorm(hidden_states)
+        x = self.self_attn(x, cos=cos, sin=sin, attn_mask=attn_mask)
+        hidden_states = hidden_states + x
+        x = self.post_attention_layernorm(hidden_states)
+        x = self.mlp(x)
+        return hidden_states + x
