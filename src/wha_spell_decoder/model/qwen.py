@@ -267,3 +267,25 @@ class Qwen3Model(nn.Module):
             hidden_states = layer(hidden_states, cos=cos, sin=sin, attn_mask=attn_mask)
 
         return self.norm(hidden_states)
+
+
+class Qwen3ForCausalLM(nn.Module):
+    def __init__(self, config: Qwen3Config):
+        super().__init__()
+
+        self.model = Qwen3Model(config)
+        self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
+        if config.tie_word_embeddings:
+            self.lm_head.weight = self.model.embed_tokens.weight
+
+    def forward(
+        self,
+        *,
+        input_ids: torch.Tensor | None = None,
+        inputs_embeds: torch.Tensor | None = None,
+        attn_mask: torch.Tensor | None = None,
+    ) -> torch.Tensor:
+        hidden_state = self.model(
+            input_ids=input_ids, inputs_embeds=inputs_embeds, attn_mask=attn_mask
+        )
+        return self.lm_head(hidden_state)

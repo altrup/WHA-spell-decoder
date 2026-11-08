@@ -8,6 +8,9 @@ from transformers.models.qwen3.modeling_qwen3 import (
 from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3DecoderLayer as HFDecoderLayer,
 )
+from transformers.models.qwen3.modeling_qwen3 import (
+    Qwen3ForCausalLM as HFForCausalLM,
+)
 from transformers.models.qwen3.modeling_qwen3 import Qwen3MLP as HFMLP
 from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3Model as HFModel,
@@ -23,6 +26,7 @@ from wha_spell_decoder.model.qwen import (
     Qwen3Attention,
     Qwen3Config,
     Qwen3DecoderLayer,
+    Qwen3ForCausalLM,
     Qwen3MLP,
     Qwen3Model,
     Qwen3RotaryEmbedding,
@@ -38,6 +42,7 @@ class TinyConfig(TypedDict):
     head_dim: int
     num_hidden_layers: int
     vocab_size: int
+    tie_word_embeddings: bool
 
 
 TINY: TinyConfig = {
@@ -48,6 +53,7 @@ TINY: TinyConfig = {
     "head_dim": 32,
     "num_hidden_layers": 2,
     "vocab_size": 100,
+    "tie_word_embeddings": True,
 }
 ROPE_THETA = 1_000_000.0
 hf_cfg = HFQwen3Config(
@@ -157,6 +163,31 @@ def test_model_matches_hf():
         hf_model(inputs_embeds=hf_inputs_embeds).last_hidden_state,
         my_model(inputs_embeds=my_inputs_embeds),
     )
+
+
+def test_causal_matches_hf():
+    torch.manual_seed(0)
+
+    hf_causal = HFForCausalLM(hf_cfg)
+    my_causal = Qwen3ForCausalLM(my_cfg)
+    my_causal.load_state_dict(hf_causal.state_dict())
+
+    input_ids = torch.randint(0, TINY["vocab_size"], (2, 10))
+    hf_inputs_embeds = hf_causal.model.embed_tokens(input_ids)
+    my_inputs_embeds = my_causal.model.embed_tokens(input_ids)
+
+    torch.testing.assert_close(
+        hf_causal(input_ids=input_ids).logits, my_causal(input_ids=input_ids)
+    )
+    torch.testing.assert_close(
+        hf_causal(inputs_embeds=hf_inputs_embeds).logits,
+        my_causal(inputs_embeds=my_inputs_embeds),
+    )
+
+
+def test_causal_ties_correctly():
+    my_causal = Qwen3ForCausalLM(my_cfg)
+    assert my_causal.lm_head.weight is my_causal.model.embed_tokens.weight
 
 
 def test_from_dict_defaults_head_dim():
