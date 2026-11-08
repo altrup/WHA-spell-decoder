@@ -10,6 +10,9 @@ from transformers.models.qwen3.modeling_qwen3 import (
 )
 from transformers.models.qwen3.modeling_qwen3 import Qwen3MLP as HFMLP
 from transformers.models.qwen3.modeling_qwen3 import (
+    Qwen3Model as HFModel,
+)
+from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3RotaryEmbedding as HFRotaryEmbedding,
 )
 from transformers.models.qwen3.modeling_qwen3 import (
@@ -21,6 +24,7 @@ from wha_spell_decoder.model.qwen import (
     Qwen3Config,
     Qwen3DecoderLayer,
     Qwen3MLP,
+    Qwen3Model,
     Qwen3RotaryEmbedding,
     apply_rotary,
 )
@@ -98,14 +102,14 @@ def test_attn_matches_hf():
     hf_cos, hf_sin = hf_rot(x, position_ids)
     my_cos, my_sin = my_rot(position_ids, dtype=x.dtype)
 
-    my_attn_mask = torch.triu(torch.ones(10, 10, dtype=torch.bool), diagonal=1)
-    hf_attn_mask = torch.zeros_like(my_attn_mask, dtype=torch.float).masked_fill(
-        my_attn_mask, float("-inf")
+    bool_attn_mask = torch.triu(torch.ones(10, 10, dtype=torch.bool), diagonal=1)
+    attn_mask = torch.zeros_like(bool_attn_mask, dtype=torch.float).masked_fill(
+        bool_attn_mask, float("-inf")
     )[None, None, ...]
 
     torch.testing.assert_close(
-        hf_attn(x, (hf_cos, hf_sin), hf_attn_mask)[0],
-        my_attn(x, cos=my_cos, sin=my_sin, attn_mask=my_attn_mask),
+        hf_attn(x, (hf_cos, hf_sin), attn_mask)[0],
+        my_attn(x, cos=my_cos, sin=my_sin, attn_mask=attn_mask),
     )
 
 
@@ -124,16 +128,34 @@ def test_decoder_matches_hf():
     hf_cos, hf_sin = hf_rot(x, position_ids)
     my_cos, my_sin = my_rot(position_ids, dtype=x.dtype)
 
-    my_attn_mask = torch.triu(torch.ones(10, 10, dtype=torch.bool), diagonal=1)
-    hf_attn_mask = torch.zeros_like(my_attn_mask, dtype=torch.float).masked_fill(
-        my_attn_mask, float("-inf")
+    bool_attn_mask = torch.triu(torch.ones(10, 10, dtype=torch.bool), diagonal=1)
+    attn_mask = torch.zeros_like(bool_attn_mask, dtype=torch.float).masked_fill(
+        bool_attn_mask, float("-inf")
     )[None, None, ...]
 
     torch.testing.assert_close(
-        hf_decoder(
-            x, attention_mask=hf_attn_mask, position_embeddings=(hf_cos, hf_sin)
-        ),
-        my_decoder(x, cos=my_cos, sin=my_sin, attn_mask=my_attn_mask),
+        hf_decoder(x, attention_mask=attn_mask, position_embeddings=(hf_cos, hf_sin)),
+        my_decoder(x, cos=my_cos, sin=my_sin, attn_mask=attn_mask),
+    )
+
+
+def test_model_matches_hf():
+    torch.manual_seed(0)
+
+    hf_model = HFModel(hf_cfg)
+    my_model = Qwen3Model(my_cfg)
+    my_model.load_state_dict(hf_model.state_dict())
+
+    input_ids = torch.randint(0, TINY["vocab_size"], (2, 10))
+    hf_inputs_embeds = hf_model.embed_tokens(input_ids)
+    my_inputs_embeds = my_model.embed_tokens(input_ids)
+
+    torch.testing.assert_close(
+        hf_model(input_ids=input_ids).last_hidden_state, my_model(input_ids=input_ids)
+    )
+    torch.testing.assert_close(
+        hf_model(inputs_embeds=hf_inputs_embeds).last_hidden_state,
+        my_model(inputs_embeds=my_inputs_embeds),
     )
 
 

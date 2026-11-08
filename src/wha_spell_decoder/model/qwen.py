@@ -1,3 +1,4 @@
+import configparser
 import json
 from collections.abc import Mapping
 from dataclasses import dataclass, fields
@@ -178,7 +179,7 @@ class Qwen3Attention(nn.Module):
 
         # (B, num_attention_heads, T_q, T_k)
         raw_scores = q @ k.transpose(-2, -1) * (self.config.head_dim**-0.5)
-        raw_scores = raw_scores.masked_fill(attn_mask, float("-inf"))
+        raw_scores = raw_scores + attn_mask
         weights = torch.softmax(raw_scores.float(), -1).to(dtype=hidden_states.dtype)
 
         # (B, num_attention_heads, T_q, head_dim)
@@ -215,3 +216,54 @@ class Qwen3DecoderLayer(nn.Module):
         x = self.post_attention_layernorm(hidden_states)
         x = self.mlp(x)
         return hidden_states + x
+
+
+class Qwen3Model(nn.Module):
+    def __init__(self, config: Qwen3Config):
+        super().__init__()
+
+        self.embed_tokens = nn.Embedding(config.vocab_size, config.hidden_size)
+        self.layers = nn.ModuleList(
+            [Qwen3DecoderLayer(config) for _ in range(config.num_hidden_layers)]
+        )
+        self.norm = Qwen3RMSNorm(config.hidden_size, config.rms_norm_eps)
+
+        self.rope = Qwen3RotaryEmbedding(config.head_dim, config.rope_theta)
+
+    def forward(
+        self,
+        *,
+        input_ids: torch.Tensor | None = None,
+        inputs_embeds: torch.Tensor | None = None,
+        attn_mask: torch.Tensor | None = None,
+    ):
+        """
+        Exactly one of input_ids or inputs_embeds must be provided
+        - attn_mask: additive mask, if not provided, will default to a causal mask
+        """
+        assert (input_ids is None) != (inputs_embeds is None), (
+            "Exactly one of input_ids or inputs_embeds must be provided"
+        )
+
+        if inputs_embeds is None:
+            inputs_embeds = self.embed_tokens(input_ids)
+
+        _, T, _ = inputs_embeds.shape
+        position_ids = torch.arange(T, device=inputs_embeds.device)[None, :]
+        cos, sin = self.rope(position_ids, dtype=inputs_embeds.dtype)
+        if attn_mask is None:
+            bool_attn_mask = torch.triu(
+                torch.ones(T, T, dtype=torch.bool, device=inputs_embeds.device),
+                diagonal=1,
+            )
+            attn_mask = torch.zeros(
+                T, T, dtype=inputs_embeds.dtype, device=inputs_embeds.device
+            ).masked_fill(bool_attn_mask, torch.finfo(inputs_embeds.dtype).min)[
+                None, None, ...
+            ]
+
+        hidden_states = inputs_embeds
+        for layer in self.layers:
+            hidden_states = layer(hidden_states, cos=cos, sin=sin, attn_mask=attn_mask)
+
+        return self.norm(hidden_states)
