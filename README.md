@@ -24,8 +24,7 @@ Not a complete spell. As a modifier it pulls the target toward the seal.
 ```
 
 ## Planned Model
-https://huggingface.co/google/gemma-4-E2B
-https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-gemma-4
+https://huggingface.co/Qwen/Qwen3-1.7B
 
 ## Data
 going to base it off rules at https://witchhatatelier.telepedia.net/wiki/Signs_Explained
