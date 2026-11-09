@@ -144,7 +144,7 @@ class ImageEncoder(nn.Module):
         _, C, H, W = x.shape
         x = x + sincos_2d(H, W, C, device=x.device, dtype=x.dtype)
         x = self.proj(x)
-        # Flatten x row major, reshape to be Bx(H*W)xC
-        x = x.flatten(2).transpose(1, 2)
+        # Flatten x row major, reshape to be Bx(H*W)xD_MODEL
+        x = x.flatten(-2).transpose(-1, -2)
 
         return x
