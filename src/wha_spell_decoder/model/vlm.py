@@ -3,7 +3,6 @@ from pathlib import Path
 import torch
 from huggingface_hub import snapshot_download
 from torch import nn
-from torch.fx.experimental.migrate_gradual_types.z3_types import dim
 
 from wha_spell_decoder.model.encoder import ImageEncoder
 from wha_spell_decoder.model.qwen import Qwen3Config, Qwen3ForCausalLM
