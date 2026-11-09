@@ -1,6 +1,11 @@
+from pathlib import Path
 from typing import TypedDict
 
+import pytest
 import torch
+from accelerate.commands.config.config_args import cache_dir
+from huggingface_hub import snapshot_download
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import Qwen3Config as HFQwen3Config
 from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3Attention as HFAttention,
@@ -32,6 +37,7 @@ from wha_spell_decoder.model.qwen import (
     Qwen3RotaryEmbedding,
     apply_rotary,
 )
+from wha_spell_decoder.paths import get_cache_dir
 
 
 class TinyConfig(TypedDict):
@@ -60,6 +66,12 @@ hf_cfg = HFQwen3Config(
     **TINY, rope_parameters={"rope_type": "default", "rope_theta": ROPE_THETA}
 )
 my_cfg = Qwen3Config.from_dict({**TINY, "rope_theta": ROPE_THETA})
+
+
+def test_from_dict_defaults_head_dim():
+    data = {k: v for k, v in TINY.items() if k != "head_dim"}
+    cfg = Qwen3Config.from_dict(data)
+    assert cfg.head_dim == TINY["hidden_size"] // TINY["num_attention_heads"]
 
 
 def test_mlp_matches_hf():
@@ -190,7 +202,27 @@ def test_causal_ties_correctly():
     assert my_causal.lm_head.weight is my_causal.model.embed_tokens.weight
 
 
-def test_from_dict_defaults_head_dim():
-    data = {k: v for k, v in TINY.items() if k != "head_dim"}
-    cfg = Qwen3Config.from_dict(data)
-    assert cfg.head_dim == TINY["hidden_size"] // TINY["num_attention_heads"]
+@pytest.mark.slow
+@pytest.mark.parametrize("model_name", ["Qwen/Qwen3-0.6B-Base", "Qwen/Qwen3-1.7B-Base"])
+def test_real_weights_match_hf(model_name):
+    TEST_PHRASE = "Hello, how are"
+
+    tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=get_cache_dir())
+    hf_causal = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        dtype=torch.float32,
+        attn_implementation="eager",
+        cache_dir=get_cache_dir(),
+    )
+    my_causal = Qwen3ForCausalLM.from_pretrained(model_name)
+
+    assert tokenizer is not None
+
+    input_ids = torch.tensor(tokenizer.encode(TEST_PHRASE)).reshape(1, -1)
+    with torch.no_grad():
+        torch.testing.assert_close(
+            hf_causal(input_ids=input_ids).logits,
+            my_causal(input_ids=input_ids),
+            atol=1e-4,
+            rtol=1e-4,
+        )

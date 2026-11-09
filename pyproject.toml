@@ -40,3 +40,7 @@ extend-select = ["I"]
 
 [tool.poe.tasks]
 format = { shell = "ruff check --select I --fix . && ruff format ." }
+
+[tool.pytest.ini_options]
+markers = ["slow: downloads real model weights"]
+addopts = "-m 'not slow'"

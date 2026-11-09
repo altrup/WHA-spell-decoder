@@ -6,7 +6,11 @@ from pathlib import Path
 from typing import Any
 
 import torch
+from huggingface_hub import snapshot_download
+from safetensors import safe_open
 from torch import nn
+
+from wha_spell_decoder.paths import get_cache_dir
 
 
 @dataclass(frozen=True)
@@ -270,6 +274,22 @@ class Qwen3Model(nn.Module):
 
 
 class Qwen3ForCausalLM(nn.Module):
+    @classmethod
+    def from_pretrained(cls, model_name):
+        path = Path(snapshot_download(model_name, cache_dir=get_cache_dir()))
+        cfg = Qwen3Config.from_json(path / "config.json")
+        state = {}
+        for p in path.glob("*.safetensors"):
+            with safe_open(p, framework="pt") as f:
+                for k in f.keys():  # noqa: SIM118 (documented method)
+                    state[k] = f.get_tensor(k)
+        if cfg.tie_word_embeddings:
+            state["lm_head.weight"] = state["model.embed_tokens.weight"]
+
+        model = cls(cfg)
+        model.load_state_dict(state)
+        return model
+
     def __init__(self, config: Qwen3Config):
         super().__init__()
 
