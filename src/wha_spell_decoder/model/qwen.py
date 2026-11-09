@@ -181,13 +181,18 @@ class Qwen3Attention(nn.Module):
             self.config.num_attention_heads // self.config.num_key_value_heads, -3
         )
 
-        # (B, num_attention_heads, T_q, T_k)
-        raw_scores = q @ k.transpose(-2, -1) * (self.config.head_dim**-0.5)
-        raw_scores = raw_scores + attn_mask
-        weights = torch.softmax(raw_scores.float(), -1).to(dtype=hidden_states.dtype)
-
         # (B, num_attention_heads, T_q, head_dim)
-        attn_out = weights @ v
+        attn_out = nn.functional.scaled_dot_product_attention(
+            q, k, v, attn_mask=attn_mask
+        )
+
+        # # (B, num_attention_heads, T_q, T_k)
+        # raw_scores = q @ k.transpose(-2, -1) * (self.config.head_dim**-0.5)
+        # raw_scores = raw_scores + attn_mask
+        # weights = torch.softmax(raw_scores.float(), -1).to(dtype=hidden_states.dtype)
+        # (B, num_attention_heads, T_q, head_dim)
+        # attn_out = weights @ v
+
         attn_out = attn_out.transpose(-2, -3)
         attn_out = attn_out.reshape(
             B, T, self.config.num_attention_heads * self.config.head_dim
