@@ -3,8 +3,6 @@ from typing import TypedDict
 
 import pytest
 import torch
-from accelerate.commands.config.config_args import cache_dir
-from huggingface_hub import snapshot_download
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import Qwen3Config as HFQwen3Config
 from transformers.models.qwen3.modeling_qwen3 import (

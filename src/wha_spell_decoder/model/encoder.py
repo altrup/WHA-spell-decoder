@@ -127,7 +127,7 @@ class ImageEncoder(nn.Module):
             in_channels=512, out_channels=d_model, kernel_size=1, stride=1, padding=0
         )
 
-    def forward(self, x: torch.Tensor):
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
         x = self.stem(x)
         x = self.stage1(x)
         x = self.downsample2(x)
