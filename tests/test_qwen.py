@@ -1,10 +1,6 @@
-from pathlib import Path
-from typing import TypedDict
-
 import pytest
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import Qwen3Config as HFQwen3Config
 from transformers.models.qwen3.modeling_qwen3 import (
     Qwen3Attention as HFAttention,
 )
@@ -25,6 +21,7 @@ from transformers.models.qwen3.modeling_qwen3 import (
     apply_rotary_pos_emb as hf_apply_rotary,
 )
 
+from tests.helpers import TINY, hf_cfg, my_cfg
 from wha_spell_decoder.model.qwen import (
     Qwen3Attention,
     Qwen3Config,
@@ -36,34 +33,6 @@ from wha_spell_decoder.model.qwen import (
     apply_rotary,
 )
 from wha_spell_decoder.paths import get_cache_dir
-
-
-class TinyConfig(TypedDict):
-    hidden_size: int
-    intermediate_size: int
-    num_attention_heads: int
-    num_key_value_heads: int
-    head_dim: int
-    num_hidden_layers: int
-    vocab_size: int
-    tie_word_embeddings: bool
-
-
-TINY: TinyConfig = {
-    "hidden_size": 64,
-    "intermediate_size": 128,
-    "num_attention_heads": 4,
-    "num_key_value_heads": 2,
-    "head_dim": 32,
-    "num_hidden_layers": 2,
-    "vocab_size": 100,
-    "tie_word_embeddings": True,
-}
-ROPE_THETA = 1_000_000.0
-hf_cfg = HFQwen3Config(
-    **TINY, rope_parameters={"rope_type": "default", "rope_theta": ROPE_THETA}
-)
-my_cfg = Qwen3Config.from_dict({**TINY, "rope_theta": ROPE_THETA})
 
 
 def test_from_dict_defaults_head_dim():
