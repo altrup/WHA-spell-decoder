@@ -10,7 +10,6 @@ from concurrent.futures import ThreadPoolExecutor
 from typing import Literal
 
 import anthropic
-from dotenv import load_dotenv
 from PIL import Image
 from pydantic import BaseModel
 
@@ -277,7 +276,6 @@ def main() -> None:
         help="annotate data/synth images into data/synth/records.jsonl",
     )
     args = ap.parse_args()
-    load_dotenv(DATA.parent / ".env")
     examples = load(EXAMPLES)
     if args.synth:
         from .synth import SYNTH, synth_targets

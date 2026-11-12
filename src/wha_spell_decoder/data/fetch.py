@@ -6,9 +6,11 @@ from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
+from ..paths import get_data_dir
+
 UA = "wha-spell-decoder/0.1 (https://github.com/altrup/WHA-spell-decoder)"
-DATA = Path(__file__).parents[3] / "data"
-assert (DATA.parent / "pyproject.toml").exists(), DATA
+DATA = get_data_dir()
+assert DATA is not None, "set WHA_DATA_DIR or run from the project"
 RAW = DATA / "raw"
 SITES = {
     "telepedia": (
