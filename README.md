@@ -9,7 +9,7 @@ i.e.
 # Description
 Fire glyph in center, 4 column glyphs facing towards center
 # Justification
-Water sigil sets the element. Bolt signs project it as arrows. Directional signs set the heading.
+Fire glyph sets the element. Directional signs set the heading.
 # Effect
 Shoots fire upwards
 ```
