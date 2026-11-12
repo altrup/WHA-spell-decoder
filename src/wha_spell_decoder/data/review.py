@@ -4,7 +4,7 @@ import json
 import webbrowser
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, unquote, urlparse
 
 from .annotate import (
     CROPS,
@@ -16,10 +16,9 @@ from .annotate import (
     cut,
     load,
     sign_sections,
-    site_dir,
     targets,
 )
-from .fetch import RAW, inside
+from .fetch import DATA, RAW, inside
 from .synth import SYNTH, synth_targets
 
 FILES = {
@@ -45,13 +44,13 @@ def file_name(query: str) -> str:
 
 def listing(name: str) -> list[dict]:
     text = {
-        t["id"]: t["text"]
+        t["image"]: t["text"]
         for t in (synth_targets() if name.startswith("synth") else targets())
     }
     if name == "todo":
         done = load(EXAMPLES).keys() | load(RECORDS).keys()
-        return [t for t in targets() if t["id"] not in done]
-    return [{**r, "text": text.get(r["id"], "")} for r in load(FILES[name]).values()]
+        return [t for t in targets() if t["image"] not in done]
+    return [{**r, "text": text.get(r["image"], "")} for r in load(FILES[name]).values()]
 
 
 def crop_state() -> dict:
@@ -60,7 +59,7 @@ def crop_state() -> dict:
         "crops": crop_list(),
         "pages": sorted(set(index) - NOT_SPELLS),
         "images": sorted(
-            f"telepedia/images/{p.name}"
+            f"raw/telepedia/images/{p.name}"
             for p in (RAW / "telepedia" / "images").iterdir()
         ),
     }
@@ -81,11 +80,11 @@ def save_crops(crops: list[dict]) -> None:
 
 def signs() -> list[dict[str, str]]:
     out = [
-        {"name": f"{n} sigil", "type": "sigil", "image": f"fandom/images/{img}"}
+        {"name": f"{n} sigil", "type": "sigil", "image": f"raw/fandom/images/{img}"}
         for n, img in SIGILS.items()
     ]
     return out + [
-        {"name": n, "type": s["type"], "image": f"telepedia/images/{s['image']}"}
+        {"name": n, "type": s["type"], "image": f"raw/telepedia/images/{s['image']}"}
         for n, s in sign_sections().items()
     ]
 
@@ -121,10 +120,9 @@ class Handler(BaseHTTPRequestHandler):
             self.reply(CROP_PAGE.read_bytes(), "text/html")
         elif url.path == "/crops":
             self.reply(json.dumps(crop_state()).encode())
-        elif url.path.startswith("/raw/"):
-            site, _, rest = url.path[5:].partition("/")
-            f = (site_dir(site) / rest).resolve()
-            if RAW.parent in f.parents and f.is_file():
+        elif url.path.startswith("/data/"):
+            f = (DATA / unquote(url.path[6:])).resolve()
+            if DATA in f.parents and f.is_file():
                 self.reply(f.read_bytes(), "image/*")
             else:
                 self.reply(b"not found", "text/plain", 404)
@@ -145,8 +143,8 @@ class Handler(BaseHTTPRequestHandler):
         new = body
         new.pop("text", None)
         rows = list(load(p).values())
-        if any(r["id"] == new["id"] for r in rows):
-            rows = [new if r["id"] == new["id"] else r for r in rows]
+        if any(r["image"] == new["image"] for r in rows):
+            rows = [new if r["image"] == new["image"] else r for r in rows]
         else:
             rows.append(new)
         p.write_text("".join(json.dumps(r) + "\n" for r in rows))

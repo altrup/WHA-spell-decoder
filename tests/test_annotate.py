@@ -24,11 +24,16 @@ def test_targets_cover_both_sites_and_skip_non_spell_pages():
     names = {t["name"] for t in targets}
     assert "Sand Cage" in names and "Pulling" in names
     assert not names & annotate.NOT_SPELLS
-    assert {t["id"].split("/")[0] for t in targets if t["kind"] == "spell"} == {
+    assert {t["image"].split("/")[1] for t in targets if t["kind"] == "spell"} == {
         "telepedia",
         "fandom",
     }
-    assert len({t["id"] for t in targets}) == len(targets)
+    assert all(
+        (annotate.DATA / t["image"]).is_file()
+        and (annotate.DATA / t["source"].split("#")[0]).is_file()
+        for t in targets
+    )
+    assert len({t["image"] for t in targets}) == len(targets)
 
 
 def test_spell_text_keeps_lead_and_description_only():
@@ -39,16 +44,16 @@ def test_spell_text_keeps_lead_and_description_only():
 
 
 def test_crops_replace_their_source_pages_in_targets():
-    targets = {t["id"]: t for t in annotate.targets()}
+    targets = {t["image"]: t for t in annotate.targets()}
     crops = {c["out"] for c in annotate.crop_list()}
-    assert crops and all(f"telepedia/images/{c}" in targets for c in crops)
+    assert crops and all(f"raw/telepedia/images/{c}" in targets for c in crops)
     assert not any(
-        t["id"].endswith(c["src"].split("/")[-1])
+        t["image"].endswith(c["src"].split("/")[-1])
         for t in targets.values()
         for c in annotate.crop_list()
     )
     assert (
-        targets["telepedia/images/Archives_Vol_01_Sample6_raincleaver.png"]["name"]
+        targets["raw/telepedia/images/Archives_Vol_01_Sample6_raincleaver.png"]["name"]
         == "Raincleaver Spell"
     )
 

@@ -7,8 +7,9 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 UA = "wha-spell-decoder/0.1 (https://github.com/altrup/WHA-spell-decoder)"
-RAW = Path(__file__).parents[3] / "data" / "raw"
-assert (RAW.parents[1] / "pyproject.toml").exists(), RAW
+DATA = Path(__file__).parents[3] / "data"
+assert (DATA.parent / "pyproject.toml").exists(), DATA
+RAW = DATA / "raw"
 SITES = {
     "telepedia": (
         "https://witchhatatelier.telepedia.net/api.php",

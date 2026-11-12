@@ -1,4 +1,4 @@
-"""Turn raw wiki images + wikitext into training records with Claude. Reruns fill only missing ids."""
+"""Turn raw wiki images + wikitext into training records with Claude. Reruns fill only missing images."""
 
 import argparse
 import base64
@@ -7,7 +7,6 @@ import json
 import random
 import re
 from concurrent.futures import ThreadPoolExecutor
-from pathlib import Path
 from typing import Literal
 
 import anthropic
@@ -15,9 +14,9 @@ from dotenv import load_dotenv
 from PIL import Image
 from pydantic import BaseModel
 
-from .fetch import RAW, inside
+from .fetch import DATA, RAW, inside
 
-RECORDS = RAW.parent / "processed" / "records.jsonl"
+RECORDS = DATA / "processed" / "records.jsonl"
 EXAMPLES = RECORDS.with_name("examples.jsonl")
 CROPS = RECORDS.with_name("crops.json")  # seals cut out of multi-seal pages
 SIGNS_PAGE = RAW / "telepedia" / "Signs Explained.wikitext"
@@ -71,13 +70,10 @@ def media_type(data: bytes) -> str:
     raise ValueError("unknown image format")
 
 
-def site_dir(site: str) -> Path:
-    return RAW.parent / site if site == "synth" else RAW / site
-
-
 def image_block(rel: str) -> dict:
-    site, _, name = rel.split("/")
-    data = inside(site_dir(site) / "images", name).read_bytes()
+    path = (DATA / rel).resolve()
+    assert DATA in path.parents, f"unsafe image path: {rel!r}"
+    data = path.read_bytes()
     return {
         "type": "image",
         "source": {
@@ -133,10 +129,10 @@ def crops() -> list[dict[str, str]]:
         page = index[c["page"]]["wikitext"]
         out.append(
             {
-                "id": f"telepedia/images/{c['out']}",
+                "image": f"raw/telepedia/images/{c['out']}",
                 "kind": "spell",
                 "name": c["page"],
-                "source": f"telepedia/{page}",
+                "source": f"raw/telepedia/{page}",
                 "text": spell_text((RAW / "telepedia" / page).read_text()),
             }
         )
@@ -146,10 +142,10 @@ def crops() -> list[dict[str, str]]:
 def targets() -> list[dict[str, str]]:
     out = [
         {
-            "id": f"telepedia/images/{s['image']}",
+            "image": f"raw/telepedia/images/{s['image']}",
             "kind": "sign",
             "name": name,
-            "source": f"telepedia/Signs Explained.wikitext#{name}",
+            "source": f"raw/telepedia/Signs Explained.wikitext#{name}",
             "text": s["text"],
         }
         for name, s in sign_sections().items()
@@ -163,20 +159,20 @@ def targets() -> list[dict[str, str]]:
             text = spell_text((RAW / site / entry["wikitext"]).read_text())
             out += [
                 {
-                    "id": f"{site}/images/{img}",
+                    "image": f"raw/{site}/images/{img}",
                     "kind": "spell",
                     "name": title,
-                    "source": f"{site}/{entry['wikitext']}",
+                    "source": f"raw/{site}/{entry['wikitext']}",
                     "text": text,
                 }
                 for img in entry["images"]
-                if f"{site}/images/{img}" not in cut
+                if f"raw/{site}/images/{img}" not in cut
             ]
     out += crops()
     seen: set[str] = (
         set()
     )  # an image shared by several pages is grounded on the first page that lists it
-    return [t for t in out if not (t["id"] in seen or seen.add(t["id"]))]
+    return [t for t in out if not (t["image"] in seen or seen.add(t["image"]))]
 
 
 def exemplars(n: int = 20) -> dict[str, dict]:
@@ -187,12 +183,12 @@ def exemplars(n: int = 20) -> dict[str, dict]:
         if r["usable"] == "clean" and r["kind"] == "spell"
     ]
     rows = list({r["name"]: r for r in rows}.values())
-    return {r["id"]: r for r in random.Random(0).sample(rows, min(n, len(rows)))}
+    return {r["image"]: r for r in random.Random(0).sample(rows, min(n, len(rows)))}
 
 
 def load(path) -> dict[str, dict]:
     return (
-        {r["id"]: r for r in map(json.loads, path.read_text().splitlines())}
+        {r["image"]: r for r in map(json.loads, path.read_text().splitlines())}
         if path.exists()
         else {}
     )
@@ -202,13 +198,13 @@ def reference_blocks(examples: dict[str, dict]) -> list[dict]:
     blocks = [{"type": "text", "text": "Reference element sigils:"}]
     for name, img in SIGILS.items():
         blocks += [
-            image_block(f"fandom/images/{img}"),
+            image_block(f"raw/fandom/images/{img}"),
             {"type": "text", "text": f"{name} sigil"},
         ]
     blocks.append({"type": "text", "text": "Reference signs (name, type):"})
     for name, s in sign_sections().items():
         blocks += [
-            image_block(f"telepedia/images/{s['image']}"),
+            image_block(f"raw/telepedia/images/{s['image']}"),
             {"type": "text", "text": f"{name} ({s['type'] or 'unknown type'})"},
         ]
     for page in REFERENCE_PAGES:
@@ -240,7 +236,7 @@ def annotate(
             "type": "text",
             "text": f"Target ({t['kind']}: {t['name']}). Wiki text:\n{t['text']}",
         },
-        image_block(t["id"]),
+        image_block(t["image"]),
     ]
     resp = client.beta.messages.parse(
         model="claude-opus-5-5",
@@ -271,7 +267,8 @@ def main() -> None:
         help="stop after this many new records",
     )
     ap.add_argument(
-        "--only", help="annotate only targets whose id or name contains this text"
+        "--only",
+        help="annotate only targets whose image path or name contains this text",
     )
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument(
@@ -280,7 +277,7 @@ def main() -> None:
         help="annotate data/synth images into data/synth/records.jsonl",
     )
     args = ap.parse_args()
-    load_dotenv(RAW.parents[1] / ".env")
+    load_dotenv(DATA.parent / ".env")
     examples = load(EXAMPLES)
     if args.synth:
         from .synth import SYNTH, synth_targets
@@ -299,8 +296,8 @@ def main() -> None:
     todo = [
         t
         for t in pool
-        if t["id"] not in done
-        and not (args.only and args.only not in t["id"] + t["name"])
+        if t["image"] not in done
+        and not (args.only and args.only not in t["image"] + t["name"])
     ]
     todo = todo[: args.limit]
 
@@ -320,12 +317,12 @@ def main() -> None:
         for t, rec, note in (
             itertools.chain([run(todo[0])], pool.map(run, todo[1:])) if todo else []
         ):
-            print(f"{t['id']}: {note}")
+            print(f"{t['image']}: {note}")
             if rec:
                 f.write(
                     json.dumps(
                         {
-                            "id": t["id"],
+                            "image": t["image"],
                             "kind": t["kind"],
                             "name": t["name"],
                             "source": t["source"],

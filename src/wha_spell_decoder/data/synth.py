@@ -9,9 +9,9 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter
 
 from .annotate import SIGILS, sign_sections
-from .fetch import RAW
+from .fetch import DATA, RAW
 
-SYNTH = RAW.parent / "synth"
+SYNTH = DATA / "synth"
 ATOMS = (
     SYNTH / "atoms"
 )  # user-drawn glyphs; atoms.json gives kind and note, else kind is "unknown"
@@ -570,9 +570,9 @@ def synth_targets() -> list[dict[str, str]]:
     return (
         [
             {
-                "id": r["id"],
+                "image": r["image"],
                 "kind": "synth",
-                "name": r["id"].split("/")[-1],
+                "name": r["image"].split("/")[-1],
                 "source": "synth/layouts.jsonl",
                 "text": head + describe(r["layout"], a),
             }
@@ -603,5 +603,7 @@ def main() -> None:
             finish(draw(layout, a, args.size, rng=rng), rng).save(
                 SYNTH / "images" / name
             )
-            f.write(json.dumps({"id": f"synth/images/{name}", "layout": layout}) + "\n")
+            f.write(
+                json.dumps({"image": f"synth/images/{name}", "layout": layout}) + "\n"
+            )
             print(name)

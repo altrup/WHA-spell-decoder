@@ -88,12 +88,13 @@ def test_synth_targets_carry_exact_layout_text(tmp_path, monkeypatch):
         "subseals": [],
     }
     (tmp_path / "layouts.jsonl").write_text(
-        json.dumps({"id": "synth/images/s0_00000.png", "layout": layout}) + "\n"
+        json.dumps({"image": "synth/images/s0_00000.png", "layout": layout}) + "\n"
     )
     monkeypatch.setattr(synth, "LAYOUTS", tmp_path / "layouts.jsonl")
     t = synth.synth_targets()
     assert (
         t[0]["kind"] == "synth"
+        and t[0]["image"] == "synth/images/s0_00000.png"
         and "Columns" in t[0]["text"]
         and "north" in t[0]["text"]
     )

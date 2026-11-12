@@ -48,10 +48,10 @@
 
   function show() {
     const r = recs[i] || {};
-    $("img").src = r.id ? "/raw/" + r.id : "";
-    $("meta").textContent = r.id ? `${r.kind}: ${r.name}  (${r.id})` : "";
+    $("img").src = r.image ? "/data/" + r.image : "";
+    $("meta").textContent = r.image ? `${r.kind}: ${r.name}  (${r.image})` : "";
     $("text").textContent = r.text ?? "";
-    $("pos").textContent = r.id ? `${i + 1}/${recs.length}` : "empty";
+    $("pos").textContent = r.image ? `${i + 1}/${recs.length}` : "empty";
     FIELDS.forEach(f => $(f).value = r[f] ?? "");
     $("status").textContent = "";
   }
@@ -68,7 +68,7 @@
   async function loadSigns() {
     for (const s of await (await fetch("/signs")).json()) {
       const fig = document.createElement("figure"), img = document.createElement("img"), cap = document.createElement("figcaption");
-      img.src = "/raw/" + s.image;
+      img.src = "/data/" + s.image;
       cap.append(s.name, document.createElement("br"), s.type);
       fig.append(img, cap);
       $("signs").appendChild(fig);

@@ -21,7 +21,7 @@
 <div id="left"><div id="stage"><img id="img"></div></div>
 <div id="right">
   <nav>
-    <input id="src" list="images" placeholder="telepedia/images/..." style="flex: 1">
+    <input id="src" list="images" placeholder="raw/telepedia/images/..." style="flex: 1">
     <datalist id="images"></datalist>
     <button id="save">save</button><span id="status"></span>
   </nav>
@@ -44,7 +44,7 @@
   }
 
   function show() {
-    $("img").src = $("src").value ? "/raw/" + $("src").value : "";
+    $("img").src = $("src").value ? "/data/" + $("src").value : "";
     $("stage").querySelectorAll(".box").forEach(b => b.remove());
     $("rows").replaceChildren();
     for (const [c, i] of here()) {
