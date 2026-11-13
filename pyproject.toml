@@ -12,6 +12,7 @@ dependencies = [
     "anthropic>=2.3.0",
     "pillow>=13.0.0",
     "python-dotenv>=1.2.4",
+    "tokenizer>=3.7.0",
     "torch>=2.14.1",
 ]
 
@@ -21,6 +22,7 @@ wha-spell-fetch = "wha_spell_decoder.data.fetch:main"
 wha-spell-annotate = "wha_spell_decoder.data.annotate:main"
 wha-spell-review = "wha_spell_decoder.data.review:main"
 wha-spell-synth = "wha_spell_decoder.data.synth:main"
+wha-spell-train = "wha_spell_decoder.train:main"
 
 [build-system]
 requires = ["uv_build>=0.13.4,<0.14.0"]
