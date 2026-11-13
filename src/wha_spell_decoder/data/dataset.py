@@ -4,10 +4,12 @@ from typing import TypedDict
 
 import numpy as np
 import torch
+import torch.nn.functional as F
 from PIL import Image
 from tokenizers import Tokenizer
 from torch.utils.data import Dataset
 
+from wha_spell_decoder.consts import IGNORE_INDEX
 from wha_spell_decoder.paths import get_data_dir
 
 
@@ -49,7 +51,7 @@ def preprocess_image(path: Path, *, max_pixels=1920 * 1080) -> torch.Tensor:
 
 class SpellDataset(Dataset):
     def __init__(
-        self, records_file: Path, tokenizer: Tokenizer, *, eos_str="<|endoftext|>"
+        self, record_files: list[Path], tokenizer: Tokenizer, *, eos_str="<|endoftext|>"
     ):
         data_dir = get_data_dir()
         assert data_dir is not None, "A data dir must be specified"
@@ -65,13 +67,14 @@ class SpellDataset(Dataset):
         self.prompt_ids = torch.tensor(self.tokenizer.encode(prompt).ids)
 
         self.records: list[Record] = []
-        with open(records_file) as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                record: Record = json.loads(line)
-                self.records.append(record)
+        for record_file in record_files:
+            with open(record_file) as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    record: Record = json.loads(line)
+                    self.records.append(record)
 
     def __len__(self):
         return len(self.records)
@@ -92,8 +95,47 @@ class SpellDataset(Dataset):
         target_ids = self.tokenizer.encode(target).ids + [self.eos_id]
         target_ids_tensor = torch.tensor(target_ids)
 
+        input_ids = torch.cat([self.prompt_ids, target_ids_tensor], dim=-1)
+        labels = input_ids.clone()
+        labels[: len(self.prompt_ids)] = IGNORE_INDEX
+
         return {
-            "image": img_tensor,
-            "prompt_ids": self.prompt_ids,
-            "target_ids": target_ids_tensor,
+            "image": img_tensor,  # (3, H, W)
+            "input_ids": input_ids,  # (L,)
+            "labels": labels,  # (L,)
         }
+
+
+def collate(batch: list[dict], *, pad_id: int) -> dict:
+    max_h = max(item["image"].shape[1] for item in batch)
+    max_w = max(item["image"].shape[2] for item in batch)
+    max_L = max(len(item["input_ids"]) for item in batch)
+
+    img_tensor = torch.stack(
+        [
+            F.pad(
+                item["image"],
+                (0, max_w - item["image"].shape[2], 0, max_h - item["image"].shape[1]),
+                value=1.0,
+            )
+            for item in batch
+        ]
+    )
+    input_ids = torch.stack(
+        [
+            F.pad(item["input_ids"], (0, max_L - len(item["input_ids"])), value=pad_id)
+            for item in batch
+        ]
+    )
+    labels = torch.stack(
+        [
+            F.pad(item["labels"], (0, max_L - len(item["labels"])), value=IGNORE_INDEX)
+            for item in batch
+        ]
+    )
+
+    return {
+        "image": img_tensor,  # (B, 3, H, W)
+        "input_ids": input_ids,  # (B, L)
+        "labels": labels,  # (B, L)
+    }
