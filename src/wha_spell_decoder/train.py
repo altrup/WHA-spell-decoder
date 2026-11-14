@@ -1,15 +1,14 @@
 import argparse
-from collections import defaultdict
 from functools import partial
 from pathlib import Path
 
 import torch
-from huggingface_hub import snapshot_download
 from tokenizers import Tokenizer
-from torch.utils.data import DataLoader, Subset
+from torch.utils.data import DataLoader
 
-from wha_spell_decoder.data.dataset import SpellDataset, collate
-from wha_spell_decoder.paths import get_cache_dir, get_data_dir
+from wha_spell_decoder.data.dataset import SpellDataset, collate, split_by_name
+from wha_spell_decoder.model.checkpoint import load_model, load_tokenizer
+from wha_spell_decoder.paths import get_data_dir
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -61,18 +60,11 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def load_tokenizer(model_name: str) -> Tokenizer:
-    path = Path(snapshot_download(model_name, cache_dir=get_cache_dir()))
-    return Tokenizer.from_file(str(path / "tokenizer.json"))
-
-
-def main() -> None:
+def load_data(
+    tokenizer: Tokenizer, *, eval_fraction, batch_size, seed
+) -> tuple[DataLoader[SpellDataset], DataLoader[SpellDataset]]:
     data_dir = get_data_dir()
     assert data_dir is not None, "Could not find data dir"
-
-    args = build_parser().parse_args()
-    torch.manual_seed(args.seed)
-    tokenizer = load_tokenizer(args.model)
 
     dataset = SpellDataset(
         [
@@ -82,35 +74,50 @@ def main() -> None:
         tokenizer,
     )
 
-    name_to_indices: dict[str, list[int]] = defaultdict(list)
-    for i, record in enumerate(dataset.records):
-        name_to_indices[record["name"]].append(i)
-    names = sorted(name_to_indices)
-    perm = torch.randperm(
-        len(names), generator=torch.Generator().manual_seed(args.seed)
-    )
-    shuffled_names = [names[i] for i in perm.tolist()]
-    n_eval = int(args.eval_fraction * len(names))
-    train_names = shuffled_names[n_eval:]
-    eval_names = shuffled_names[:n_eval]
-    train_set = Subset(
-        dataset, [i for name in train_names for i in name_to_indices[name]]
-    )
-    eval_set = Subset(
-        dataset, [i for name in eval_names for i in name_to_indices[name]]
-    )
+    train_set, eval_set = split_by_name(dataset, eval_fraction=eval_fraction, seed=seed)
 
     train_loader = DataLoader(
         train_set,
-        batch_size=args.batch_size,
+        batch_size=batch_size,
         shuffle=True,
         collate_fn=partial(collate, pad_id=dataset.eos_id),
         num_workers=4,
     )
     eval_loader = DataLoader(
         eval_set,
-        batch_size=args.batch_size,
+        batch_size=batch_size,
         shuffle=True,
         collate_fn=partial(collate, pad_id=dataset.eos_id),
         num_workers=4,
+    )
+    return train_loader, eval_loader
+
+
+def main() -> None:
+    parser = build_parser()
+    args = parser.parse_args()
+    torch.manual_seed(args.seed)
+
+    if (args.model is None) != (args.checkpoint is None):
+        parser.error("Exactly one of --model or --checkpoint must be provided")
+    checkpoint = (
+        torch.load(args.checkpoint, map_location="cpu")
+        if args.checkpoint is not None
+        else None
+    )
+
+    if checkpoint is not None:
+        name: str = checkpoint["model_name"]
+    else:
+        assert args.model is not None
+        name: str = args.model
+
+    tokenizer = load_tokenizer(name)
+    model = load_model(name, checkpoint=checkpoint)
+
+    train_loader, eval_loader = load_data(
+        tokenizer,
+        eval_fraction=args.eval_fraction,
+        batch_size=args.batch_size,
+        seed=args.seed,
     )

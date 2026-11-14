@@ -1,13 +1,14 @@
 import json
+from collections import defaultdict
 from pathlib import Path
-from typing import TypedDict
+from typing import Tuple, TypedDict
 
 import numpy as np
 import torch
 import torch.nn.functional as F
 from PIL import Image
 from tokenizers import Tokenizer
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, Subset
 
 from wha_spell_decoder.consts import IGNORE_INDEX
 from wha_spell_decoder.paths import get_data_dir
@@ -139,3 +140,24 @@ def collate(batch: list[dict], *, pad_id: int) -> dict:
         "input_ids": input_ids,  # (B, L)
         "labels": labels,  # (B, L)
     }
+
+
+def split_by_name(
+    dataset: SpellDataset, *, eval_fraction, seed
+) -> tuple[Subset[SpellDataset], Subset[SpellDataset]]:
+    name_to_indices: dict[str, list[int]] = defaultdict(list)
+    for i, record in enumerate(dataset.records):
+        name_to_indices[record["name"]].append(i)
+    names = sorted(name_to_indices)
+    perm = torch.randperm(len(names), generator=torch.Generator().manual_seed(seed))
+    shuffled_names = [names[i] for i in perm.tolist()]
+    n_eval = int(eval_fraction * len(names))
+    train_names = shuffled_names[n_eval:]
+    eval_names = shuffled_names[:n_eval]
+    train_set = Subset(
+        dataset, [i for name in train_names for i in name_to_indices[name]]
+    )
+    eval_set = Subset(
+        dataset, [i for name in eval_names for i in name_to_indices[name]]
+    )
+    return train_set, eval_set
