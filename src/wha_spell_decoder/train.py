@@ -1,11 +1,12 @@
 import argparse
+from collections import defaultdict
 from functools import partial
 from pathlib import Path
 
 import torch
 from huggingface_hub import snapshot_download
 from tokenizers import Tokenizer
-from torch.utils.data import DataLoader, random_split
+from torch.utils.data import DataLoader, Subset
 
 from wha_spell_decoder.data.dataset import SpellDataset, collate
 from wha_spell_decoder.paths import get_cache_dir, get_data_dir
@@ -18,42 +19,43 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     parser.add_argument(
-        "-c",
         "--checkpoint",
         type=Path,
         default=None,
         help="Load a checkpoint to train from, if not provided will start with initial values",
     )
     parser.add_argument(
-        "-m",
         "--model",
         type=str,
-        default="Qwen/Qwen3-1.7B-Base",
+        default=None,
         help="What model to load as the main decoder",
     )
     parser.add_argument(
-        "-lr",
         "--learning-rate",
         type=float,
         default=3e-4,
         help="Learning rate for optimizer",
     )
     parser.add_argument(
-        "-b",
         "--batch-size",
         type=int,
         default=5,
         help="Size of each batch",
     )
     parser.add_argument(
-        "-e",
         "--epochs",
         type=int,
         default=50,
         help="Number of epochs",
     )
     parser.add_argument(
-        "-s", "--seed", type=int, default=42, help="Seed for pytorch random numbers"
+        "--eval-fraction",
+        type=float,
+        default=0.05,
+        help="Fraction of data to reserve for eval",
+    )
+    parser.add_argument(
+        "--seed", type=int, default=42, help="Seed for pytorch random numbers"
     )
 
     return parser
@@ -79,9 +81,23 @@ def main() -> None:
         ],
         tokenizer,
     )
-    # TODO: Split by name field (prevent same named spells from being in both training and eval)
-    train_set, eval_set = random_split(
-        dataset, [0.95, 0.05], generator=torch.Generator().manual_seed(args.seed)
+
+    name_to_indices: dict[str, list[int]] = defaultdict(list)
+    for i, record in enumerate(dataset.records):
+        name_to_indices[record["name"]].append(i)
+    names = sorted(name_to_indices)
+    perm = torch.randperm(
+        len(names), generator=torch.Generator().manual_seed(args.seed)
+    )
+    shuffled_names = [names[i] for i in perm.tolist()]
+    n_eval = int(args.eval_fraction * len(names))
+    train_names = shuffled_names[n_eval:]
+    eval_names = shuffled_names[:n_eval]
+    train_set = Subset(
+        dataset, [i for name in train_names for i in name_to_indices[name]]
+    )
+    eval_set = Subset(
+        dataset, [i for name in eval_names for i in name_to_indices[name]]
     )
 
     train_loader = DataLoader(
