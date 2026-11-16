@@ -1,3 +1,5 @@
+import argparse
+import json
 from pathlib import Path
 
 import torch
@@ -22,6 +24,14 @@ def load_model(model_name: str, *, checkpoint: dict | None = None) -> SpellVLM:
     return vlm
 
 
+def load_optimizer(
+    optimizer: torch.optim.Optimizer, *, checkpoint: dict | None = None
+) -> torch.optim.Optimizer:
+    if checkpoint is not None:
+        optimizer.load_state_dict(checkpoint["optimizer"])
+    return optimizer
+
+
 def save_checkpoint(
     path: Path,
     *,
@@ -29,7 +39,9 @@ def save_checkpoint(
     model: SpellVLM,
     optimizer: torch.optim.Optimizer,
     epoch: int,
-    args: dict,
+    args: argparse.Namespace,
+    eval_loss: float,
+    best_eval_loss: float,
 ):
     torch.save(
         {
@@ -41,7 +53,9 @@ def save_checkpoint(
             },
             "optimizer": optimizer.state_dict(),
             "epoch": epoch,
-            "args": args,
+            "args": json.loads(json.dumps(vars(args), default=str)),
+            "eval_loss": eval_loss,
+            "best_eval_loss": best_eval_loss,
         },
         path,
     )

@@ -1,7 +1,7 @@
 import json
 from collections import defaultdict
 from pathlib import Path
-from typing import Tuple, TypedDict
+from typing import TypedDict
 
 import numpy as np
 import torch
@@ -24,6 +24,12 @@ class Record(TypedDict):
     description: str
     justification: str
     effect: str
+
+
+class DataPoint(TypedDict):
+    image: torch.Tensor
+    input_ids: torch.Tensor
+    labels: torch.Tensor
 
 
 def preprocess_image(path: Path, *, max_pixels=1920 * 1080) -> torch.Tensor:
@@ -54,9 +60,7 @@ class SpellDataset(Dataset):
     def __init__(
         self, record_files: list[Path], tokenizer: Tokenizer, *, eos_str="<|endoftext|>"
     ):
-        data_dir = get_data_dir()
-        assert data_dir is not None, "A data dir must be specified"
-        self.data_dir = data_dir
+        self.data_dir = get_data_dir()
 
         self.tokenizer = tokenizer
 
@@ -80,7 +84,7 @@ class SpellDataset(Dataset):
     def __len__(self):
         return len(self.records)
 
-    def __getitem__(self, index: int):
+    def __getitem__(self, index: int) -> DataPoint:
         record = self.records[index]
         img_tensor = preprocess_image(self.data_dir / record["image"])
 
@@ -107,7 +111,7 @@ class SpellDataset(Dataset):
         }
 
 
-def collate(batch: list[dict], *, pad_id: int) -> dict:
+def collate(batch: list[DataPoint], *, pad_id: int) -> DataPoint:
     max_h = max(item["image"].shape[1] for item in batch)
     max_w = max(item["image"].shape[2] for item in batch)
     max_L = max(len(item["input_ids"]) for item in batch)

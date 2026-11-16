@@ -13,15 +13,18 @@ def find_project_root() -> Path | None:
     return None
 
 
-def get_checkpoints_dir(*, epoch: int, step: int) -> Path | None:
+def get_checkpoints_dir() -> Path:
     root = find_project_root()
-    if root is None:
-        return None
 
-    load_dotenv(root / ".env")  # no error if the file doesn't exist
+    if root is not None:
+        load_dotenv(root / ".env")  # no error if the file doesn't exist
     if env := os.environ.get("WHA_CHECKPOINTS_DIR"):
-        return Path(env) / f"epoch{epoch}" / f"step{step}"
-    return root / "checkpoints" / f"epoch{epoch}" / f"step{step}"
+        dir = Path(env)
+    else:
+        dir = root / "checkpoints" if root is not None else None
+
+    assert dir is not None, "Could not find checkpoints dir"
+    return dir
 
 
 def get_cache_dir() -> Path | None:
@@ -35,14 +38,21 @@ def get_cache_dir() -> Path | None:
     if root is not None:
         load_dotenv(root / ".env")  # no error if the file doesn't exist
     if env := os.environ.get("WHA_CACHE_DIR"):
-        return Path(env)
-    return root / ".cache" if root is not None else None
+        dir = Path(env)
+    else:
+        dir = root / ".cache" if root is not None else None
+
+    return dir
 
 
-def get_data_dir() -> Path | None:
+def get_data_dir() -> Path:
     root = find_project_root()
     if root is not None:
         load_dotenv(root / ".env")  # no error if the file doesn't exist
     if env := os.environ.get("WHA_DATA_DIR"):
-        return Path(env)
-    return root / "data" if root is not None else None
+        dir = Path(env)
+    else:
+        dir = root / "data" if root is not None else None
+
+    assert dir is not None, "Could not find data dir"
+    return dir

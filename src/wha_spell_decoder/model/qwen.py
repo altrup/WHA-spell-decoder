@@ -309,8 +309,9 @@ class Qwen3ForCausalLM(nn.Module):
         input_ids: torch.Tensor | None = None,
         inputs_embeds: torch.Tensor | None = None,
         attn_mask: torch.Tensor | None = None,
+        logits_start: int = 0,
     ) -> torch.Tensor:
         hidden_state = self.model(
             input_ids=input_ids, inputs_embeds=inputs_embeds, attn_mask=attn_mask
         )
-        return self.lm_head(hidden_state)
+        return self.lm_head(hidden_state[..., logits_start:, :])

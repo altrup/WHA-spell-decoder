@@ -10,7 +10,6 @@ from ..paths import get_data_dir
 
 UA = "wha-spell-decoder/0.1 (https://github.com/altrup/WHA-spell-decoder)"
 DATA = get_data_dir()
-assert DATA is not None, "set WHA_DATA_DIR or run from the project"
 RAW = DATA / "raw"
 SITES = {
     "telepedia": (

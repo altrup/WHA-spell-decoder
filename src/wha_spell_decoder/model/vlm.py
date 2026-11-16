@@ -30,7 +30,7 @@ class SpellVLM(nn.Module):
         image: torch.Tensor,  # (B, 3, H, W)
         input_ids: torch.Tensor | None = None,
         inputs_embeds: torch.Tensor | None = None,
-    ):
+    ) -> torch.Tensor:
         assert input_ids is None or inputs_embeds is None, (
             "Must provide at most 1 of either input_ids or inputs_embeds"
         )
@@ -45,4 +45,6 @@ class SpellVLM(nn.Module):
         else:
             inputs_embeds = torch.cat([image_embeds, inputs_embeds], dim=-2)
 
-        return self.decoder(inputs_embeds=inputs_embeds)
+        return self.decoder(
+            inputs_embeds=inputs_embeds, logits_start=image_embeds.shape[-2] - 1
+        )
